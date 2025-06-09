@@ -1,0 +1,58 @@
+﻿function orderConfiguration() {
+    var configpg = Aliases.browser.page00300505XmlECon;
+    var nav = Aliases.browser.pageAllSalesOrdersFinanceAndOper;
+
+    // Clicks buttons to open the configuration page
+    nav.buttonSalestable22SalesorderButt.ClickButton();
+    nav.formSalesOrder.buttonSalestable22Econconfigure.ClickButton();
+    nav.buttonConfigureinnewwindowbutton.ClickButton();
+
+    // Wait for the new window to load
+    Delay(30000);
+
+    // Click on configuration link
+    configpg.textnodeOrderConfigurator.textnodeOrderConfigurator2.linkConfiguration1.textnodeConfiguration1.Click();
+
+    Delay(5000);
+
+    // Enter 'Type'
+    configpg.textboxType.SetText("Setchip");
+     Delay(2000);
+    //configpg.textboxType.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'Gaming Classification'
+    configpg.textboxGamingClassification.SetText("Class III");
+    configpg.textboxGamingClassification.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'Platform'
+    configpg.textboxPlatformPfm.SetText("MK6");
+    Delay(2000);
+    configpg.textboxPlatformPfm.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'SetChip'
+    configpg.textboxSetChipEpg.SetText("SET CHIP 7.02.40-G8");
+    Delay(2000);
+    configpg.textboxSetChipEpg.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'OS'
+    configpg.textboxOsLnx.SetText("LNX X.42.1-G8");
+    Delay(2000);
+    configpg.textboxOsLnx.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'Bootloader'
+    configpg.textboxBootloaderBtl.SetText("BOOTLOADER 4.7 GEN 7 AND VERVE");
+    Delay(2000);
+    configpg.textboxBootloaderBtl.Keys("[Enter]");
+
+    // Finalize configuration
+    configpg.textnodeOrderConfigurator.textnodeOrderConfigurator2.linkOrderConfigurator.textnodeOrderConfigurator3.Click();
+    Delay(2000);
+    configpg.textnodeComplianceCheck.textnode6.buttonProcessExit.ClickButton();
+    Delay(2000);
+    configpg.buttonYes.ClickButton();
+}

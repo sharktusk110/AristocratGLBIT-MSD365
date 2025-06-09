@@ -1,0 +1,41 @@
+﻿//USEUNIT ReadExcel
+//USEUNIT SO_CreateAndConfig
+// Requirement : 
+// Creator : Shariq Abbas
+// Date: 10th of May'25
+//*************************************************************************************************************************************
+
+function SO_OBC_Test(){
+
+Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+Sheet="OBC";
+
+var excelFile = Excel.Open(Path); //Path of the Datasheet
+var excelSheet = excelFile.SheetByTitle(Sheet);
+var rows = excelSheet.RowCount;
+var cols = excelSheet.ColumnCount;
+
+var Config = new Array(rows).fill(0).map(() => new Array(cols).fill(0));
+Config=ReadExcel["readOBCConfigDataFromExcel"]();
+
+for(let i=3;i<=3;i++){
+
+ConfigFilter1=[Config[i][0],Config[i][1],Config[i][2]];
+ConfigFilter2=[Config[i][3],Config[i][4],Config[i][5],Config[i][6],Config[i][7],Config[i][8],Config[i][9]];
+
+
+SO_CreateAndConfig["OrderCreation"](ConfigFilter1);
+SO_CreateAndConfig["OrderConfigurationNavigation"]();
+SO_CreateAndConfig["OBCOrderConfiguration"](ConfigFilter2);
+SO_CreateAndConfig["OrderConfiguration"]();
+Delay(5000);
+
+if(aqObject.CheckProperty(Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxProductName, "Text", cmpContains, Config[i][4].split("|")[0], false)){
+  Log.Message("Test Passed for the data row: "+i);
+}else{
+  Log.Message("Test Failed for the data row: "+i);
+}
+
+}
+
+}

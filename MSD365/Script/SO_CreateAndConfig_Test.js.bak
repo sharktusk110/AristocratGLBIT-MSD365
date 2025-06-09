@@ -1,0 +1,22 @@
+﻿//USEUNIT ReadExcel
+//USEUNIT SO_CreateAndConfig
+// Requirement : 
+// Creator : Shariq Abbas
+// Date: 10th of May'25
+//*************************************************************************************************************************************
+
+function SO_Setchip_Test(){
+  
+var ConfigFilter=[];
+  
+ConfigFilter=ReadExcel["readFilterConfigDataFromExcel"]();
+  
+//SO_Creation["orderCreation"](ConfigFilter);
+//SO_Configuration_Setchip["orderConfiguration"]();
+
+SO_CreateAndConfig["OrderCreation"](ConfigFilter);
+SO_Creation_Configuration["OrderConfigurationNavigation"]();
+SO_Creation_Configuration["SetchipOrderConfiguration"](ConfigFilter);
+SO_Creation_Configuration["OrderConfiguration"](ConfigFilter);
+
+}

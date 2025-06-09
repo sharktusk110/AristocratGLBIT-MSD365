@@ -1,0 +1,143 @@
+﻿ // Requirement : Setchip configuration is being done on created sales order through below mentioned script .
+// Creator : Shariq Abbas
+// Date: 11th of May'25
+//*************************************************************************************************************************************
+//module.exports.getObject
+//USEUNIT ReadExcel
+
+function orderConfigurationnavigation() {
+    var navconfig = Aliases.browser.Page_SOConfig.Config_Navigation;
+
+    // Navigating to the configuration page
+    navconfig.SalesOrder_Button;
+    navconfig.Configure_Button; 
+    navconfig.SwitchtoEcon_Button;
+   
+    // Wait for the new window to load
+    Delay(30000);
+
+    // Click on configuration link
+    navconfig.Configuration_Link.Click();
+    Delay(5000);
+
+}
+
+function SetchipOrderConfiguration() {
+    var navconfig = Aliases.browser.Page_SOConfig.Config_Navigation;
+    var navconfigexit=Aliases.browser.Page_SOConfig.ConfigExit;
+    var navsetchip= Aliases.browser.Page_SOConfig.SetChip_Config;
+    var nav = Aliases.browser.pageAllSalesOrdersFinanceAndOper;
+
+    // Navigating to the configuration page
+    navconfig.SalesOrder_Button;
+    navconfig.Configure_Button; 
+    navconfig.SwitchtoEcon_Button;
+   
+    // Wait for the new window to load
+    Delay(30000);
+
+    // Click on configuration link
+    navconfig.Configuration_Link.Click();
+    Delay(5000);
+
+    // Enter 'Type'
+    navsetchip.Type_Selectlist.SetText("Setchip");
+    Delay(2000);
+    navsetchip.Type_Selectlist.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'Gaming Classification'
+    navsetchip.GamingClassification_Selectlist.SetText("Class III");
+    navsetchip.GamingClassification_Selectlist.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'Platform'
+    navsetchip.Platform_Selectlist.SetText("MK6");
+    Delay(2000);
+    navsetchip.Platform_Selectlist.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'SetChip'
+    navsetchip.Setchip_Selectlist.SetText("SET CHIP 7.02.40-G8");
+    Delay(2000);
+    navsetchip.Setchip_Selectlist.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'OS'
+    navsetchip.OS_Selectlist.SetText("LNX X.42.1-G8");
+    Delay(2000);
+    navsetchip.OS_Selectlist.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'Bootloader'
+    navsetchip.Bootloader_Selectlist.SetText("BOOTLOADER 4.7 GEN 7 AND VERVE");
+    Delay(2000);
+    navsetchip.Bootloader_Selectlist.Keys("[Enter]");
+
+    // Finalize configuration
+    navconfigexit.OrderConfigurator_Link.Click();
+    Delay(2000);
+    navconfigexit.ProcessExit_Button.ClickButton();
+    Delay(2000);
+    navconfigexit.Yes_Button.ClickButton();
+}
+
+function orderConfiguration() {
+    var navconfig = Aliases.browser.Page_SOConfig.Config_Navigation;
+    var navconfigexit=Aliases.browser.Page_SOConfig.ConfigExit;
+    var navsetchip= Aliases.browser.Page_SOConfig.SetChip_Config;
+    var nav = Aliases.browser.pageAllSalesOrdersFinanceAndOper;
+
+    // Navigating to the configuration page
+    navconfig.SalesOrder_Button;
+    navconfig.Configure_Button; 
+    navconfig.SwitchtoEcon_Button;
+   
+    // Wait for the new window to load
+    Delay(30000);
+
+    // Click on configuration link
+    navconfig.Configuration_Link.Click();
+    Delay(5000);
+
+    // Enter 'Type'
+    navsetchip.Type_Selectlist.SetText("Setchip");
+    Delay(2000);
+    navsetchip.Type_Selectlist.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'Gaming Classification'
+    navsetchip.GamingClassification_Selectlist.SetText("Class III");
+    navsetchip.GamingClassification_Selectlist.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'Platform'
+    navsetchip.Platform_Selectlist.SetText("MK6");
+    Delay(2000);
+    navsetchip.Platform_Selectlist.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'SetChip'
+    navsetchip.Setchip_Selectlist.SetText("SET CHIP 7.02.40-G8");
+    Delay(2000);
+    navsetchip.Setchip_Selectlist.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'OS'
+    navsetchip.OS_Selectlist.SetText("LNX X.42.1-G8");
+    Delay(2000);
+    navsetchip.OS_Selectlist.Keys("[Enter]");
+    Delay(5000);
+
+    // Enter 'Bootloader'
+    navsetchip.Bootloader_Selectlist.SetText("BOOTLOADER 4.7 GEN 7 AND VERVE");
+    Delay(2000);
+    navsetchip.Bootloader_Selectlist.Keys("[Enter]");
+
+    // Finalize configuration
+    navconfigexit.OrderConfigurator_Link.Click();
+    Delay(2000);
+    navconfigexit.ProcessExit_Button.ClickButton();
+    Delay(2000);
+    navconfigexit.Yes_Button.ClickButton();
+}

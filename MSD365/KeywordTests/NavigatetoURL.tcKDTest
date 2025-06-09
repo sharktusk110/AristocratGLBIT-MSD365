@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{BAFA3F78-21DB-43CD-8FDC-8D75B5264703}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
+				<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="current">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_mode=form_post&amp;response_type=code+id_token&amp;scope=openid+profile&amp;state=OpenIdConnect.AuthenticationProperties%3dAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAAIIoueD9M80iE6CS3D3D3aQAAAAACAAAAAAAQZgAAAAEAACAAAADiRv4vtSbvPpnn66BC6kDS-GV7w4iZP094OY6a9lxMUgAAAAAOgAAAAAIAACAAAAB46JoURTwDdeQ288a92g9-nvDvXrtgTpJAjrKCFI8NTmAAAABdtM58n8F6M9VAC5aUSnyQ_RAutkat27FUzkHLS86F8EjoNqRqjs5ER5e8yULcA6AnoPNFugYC3ekmjiOZveTG8flqENPa4DImkKrSX5oH9QDcvKzJPvYR96pS6bvaAnpAAAAAB0B3P7VK71PRznldLKTXIAZOVm5R0NKYJKDDVXqbtaWLZ21Uek5d5aKvutiyfFG38fV2CdvgYYU8dgzoVr8jqQ%26RedirectTo%3dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;nonce=638808364749678395.YmYzODZmYmQtMWE5ZS00NzM3LWI3MzQtY2IzZmI5ZWUwNTE3OTJiN2RkY2EtNTlkOS00M2QwLTk3MzUtZjFjZjJmZDkyNmQz&amp;redirect_uri=https%3a%2f%2fqa1.sandbox.operations.dynamics.com%2f&amp;max_age=86400" />
+						<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{697D2829-8A4E-47E4-AC8F-8BDC96C12194}" />
+</Root>

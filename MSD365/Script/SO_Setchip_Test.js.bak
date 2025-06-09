@@ -1,0 +1,18 @@
+﻿// Requirement : 
+// Creator : Shariq Abbas
+// Date: 10th of May'25
+//*************************************************************************************************************************************
+//USEUNIT SO_Creation
+//USEUNIT SO_Configuration_Setchip
+//USEUNIT ReadExcel
+
+function SO_Setchip_Test(){
+  
+var ConfigFilter=[];
+  
+ConfigFilter=ReadExcel["readFilterConfigDataFromExcel"]();
+  
+SO_Creation["orderCreation"](ConfigFilter);
+SO_Configuration_Setchip["orderConfiguration"]();
+
+}

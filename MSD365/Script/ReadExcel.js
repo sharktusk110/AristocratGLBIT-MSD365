@@ -1,0 +1,152 @@
+﻿//module.exports.getObject
+
+
+function readFilterConfigDataFromExcel() {
+  
+ Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Sheet="SetChip";
+ var excelFile = Excel.Open(Path); //Path of the Datasheet
+ var excelSheet = excelFile.SheetByTitle(Sheet);
+ var RowIndex;
+ var rows = excelSheet.RowCount;
+ var cols = excelSheet.ColumnCount;
+ let config = new Array(rows);
+    
+  for (RowIndex = 1; RowIndex <= rows; RowIndex++){
+      config[RowIndex] = new Array(cols)
+      config[RowIndex][0]=String(excelSheet.Cell("A", RowIndex).Value);
+      config[RowIndex][1]=String(excelSheet.Cell("B", RowIndex).Value);
+      config[RowIndex][2]=String(excelSheet.Cell("C", RowIndex).Value);
+      config[RowIndex][3]=String(excelSheet.Cell("D", RowIndex).Value);
+      config[RowIndex][4]=String(excelSheet.Cell("E", RowIndex).Value);
+      config[RowIndex][5]=String(excelSheet.Cell("F", RowIndex).Value);
+      config[RowIndex][6]=String(excelSheet.Cell("G", RowIndex).Value);
+      config[RowIndex][7]=String(excelSheet.Cell("H", RowIndex).Value);
+      config[RowIndex][8]=String(excelSheet.Cell("I", RowIndex).Value);
+   }
+  return config;
+}
+
+function readGPKConfigDataFromExcel() {
+  
+ Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Sheet="GameProgramKit";
+ var excelFile = Excel.Open(Path); //Path of the Datasheet
+ var excelSheet = excelFile.SheetByTitle(Sheet);
+ var RowIndex;
+ var rows = excelSheet.RowCount;
+ var cols = excelSheet.ColumnCount;
+ let config = new Array(rows);
+    
+  for (RowIndex = 1; RowIndex <= rows; RowIndex++){
+      config[RowIndex] = new Array(cols)
+      config[RowIndex][0]=String(excelSheet.Cell("A", RowIndex).Value);
+      config[RowIndex][1]=String(excelSheet.Cell("B", RowIndex).Value);
+      config[RowIndex][2]=String(excelSheet.Cell("C", RowIndex).Value);
+      config[RowIndex][3]=String(excelSheet.Cell("D", RowIndex).Value);
+      config[RowIndex][4]=String(excelSheet.Cell("E", RowIndex).Value);
+      config[RowIndex][5]=String(excelSheet.Cell("G", RowIndex).Value);
+      config[RowIndex][6]=String(excelSheet.Cell("H", RowIndex).Value);
+      config[RowIndex][7]=String(excelSheet.Cell("I", RowIndex).Value);
+      config[RowIndex][8]=String(excelSheet.Cell("J", RowIndex).Value);
+   }
+  return config;
+}
+
+function readSPConfigDataFromExcel() {
+  
+ Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Sheet="SpareParts";
+ var excelFile = Excel.Open(Path); //Path of the Datasheet
+ var excelSheet = excelFile.SheetByTitle(Sheet);
+ var RowIndex;
+ var rows = excelSheet.RowCount;
+ var cols = excelSheet.ColumnCount;
+ let config = new Array(rows);
+    
+  for (RowIndex = 1; RowIndex <= rows; RowIndex++){
+      config[RowIndex] = new Array(cols)
+      config[RowIndex][0]=String(excelSheet.Cell("A", RowIndex).Value);
+      config[RowIndex][1]=String(excelSheet.Cell("B", RowIndex).Value);
+      config[RowIndex][2]=String(excelSheet.Cell("C", RowIndex).Value);
+      config[RowIndex][3]=String(excelSheet.Cell("E", RowIndex).Value);
+      config[RowIndex][4]=String(excelSheet.Cell("F", RowIndex).Value);
+   }
+  return config;
+}
+
+function readVCConfigDataFromExcel() {
+  
+ Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Sheet="VertexController";
+ var excelFile = Excel.Open(Path); //Path of the Datasheet
+ var excelSheet = excelFile.SheetByTitle(Sheet);
+ var RowIndex;
+ var rows = excelSheet.RowCount;
+ var cols = excelSheet.ColumnCount;
+ let config = new Array(rows);
+    
+  for (RowIndex = 1; RowIndex <= rows; RowIndex++){
+      config[RowIndex] = new Array(cols)
+      config[RowIndex][0]=String(excelSheet.Cell("A", RowIndex).Value);
+      config[RowIndex][1]=String(excelSheet.Cell("B", RowIndex).Value);
+      config[RowIndex][2]=String(excelSheet.Cell("C", RowIndex).Value);
+      config[RowIndex][3]=String(excelSheet.Cell("E", RowIndex).Value);
+      config[RowIndex][4]=String(excelSheet.Cell("F", RowIndex).Value);
+      config[RowIndex][5]=String(excelSheet.Cell("G", RowIndex).Value);
+      config[RowIndex][6]=String(excelSheet.Cell("H", RowIndex).Value);
+      config[RowIndex][7]=String(excelSheet.Cell("I", RowIndex).Value);
+   }
+  return config;
+}
+function readVHDConfigDataFromExcel() {
+  
+ Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Sheet="VertexHardDrive";
+ var excelFile = Excel.Open(Path); //Path of the Datasheet
+ var excelSheet = excelFile.SheetByTitle(Sheet);
+ var RowIndex;
+ var rows = excelSheet.RowCount;
+ var cols = excelSheet.ColumnCount;
+ let config = new Array(rows);
+    
+  for (RowIndex = 1; RowIndex <= rows; RowIndex++){
+      config[RowIndex] = new Array(cols)
+      config[RowIndex][0]=String(excelSheet.Cell("A", RowIndex).Value);
+      config[RowIndex][1]=String(excelSheet.Cell("B", RowIndex).Value);
+      config[RowIndex][2]=String(excelSheet.Cell("C", RowIndex).Value);
+      config[RowIndex][3]=String(excelSheet.Cell("E", RowIndex).Value);
+      config[RowIndex][4]=String(excelSheet.Cell("F", RowIndex).Value);
+      config[RowIndex][5]=String(excelSheet.Cell("G", RowIndex).Value);
+      config[RowIndex][6]=String(excelSheet.Cell("H", RowIndex).Value);
+      config[RowIndex][7]=String(excelSheet.Cell("I", RowIndex).Value);
+   }
+  return config;
+}
+
+function readOBCConfigDataFromExcel() {
+  
+ Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Sheet="OBC";
+ var excelFile = Excel.Open(Path); //Path of the Datasheet
+ var excelSheet = excelFile.SheetByTitle(Sheet);
+ var RowIndex;
+ var rows = excelSheet.RowCount;
+ var cols = excelSheet.ColumnCount;
+ let config = new Array(rows);
+    
+  for (RowIndex = 1; RowIndex <= rows; RowIndex++){
+      config[RowIndex] = new Array(cols)
+      config[RowIndex][0]=String(excelSheet.Cell("A", RowIndex).Value);
+      config[RowIndex][1]=String(excelSheet.Cell("B", RowIndex).Value);
+      config[RowIndex][2]=String(excelSheet.Cell("C", RowIndex).Value);
+      config[RowIndex][3]=String(excelSheet.Cell("E", RowIndex).Value);
+      config[RowIndex][4]=String(excelSheet.Cell("F", RowIndex).Value);
+      config[RowIndex][5]=String(excelSheet.Cell("H", RowIndex).Value);
+      config[RowIndex][6]=String(excelSheet.Cell("I", RowIndex).Value);
+      config[RowIndex][7]=String(excelSheet.Cell("J", RowIndex).Value);
+      config[RowIndex][8]=String(excelSheet.Cell("K", RowIndex).Value);
+      config[RowIndex][9]=String(excelSheet.Cell("L", RowIndex).Value);
+   }
+  return config;
+}

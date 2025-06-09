@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Browser Utilities" />
+		<folder name="CommonUtilities">
+			<folder name="ReadExcel">
+				<child name="ReadExcel" key="{5A6B48CB-4C67-4D5C-9D44-D4237D05814C}" path="ReadExcel.js" />
+			</folder>
+		</folder>
+		<folder name="Pages">
+			<folder name="SO Creation &amp; Configuration">
+				<child name="SO_CreateAndConfig" key="{A45D2BC7-A690-4C7C-A3C2-EAD5627E39AB}" path="SO_CreateAndConfig.js" />
+			</folder>
+		</folder>
+		<folder name="Tests">
+			<folder name="SO Creation &amp; Configuration Test">
+				<child name="SO_CreateAndConfig_Setchip_Test" key="{E8796B24-10E2-47D1-8395-A0D250577602}" path="SO_CreateAndConfig_Setchip_Test.js" />
+				<child name="SO_CreateAndConfig_GK_Test" key="{7BE5CAD1-B495-43DA-B104-2AB510DA5DE1}" path="SO_CreateAndConfig_GK_Test.js" />
+				<child name="SO_CreateAndConfig_SP_Test" key="{058DBF5B-8C7F-49F3-9A3F-50888D4E971D}" path="SO_CreateAndConfig_SP_Test.js" />
+				<child name="SO_CreateAndConfig_VC_Test" key="{CFD62039-2B7F-40B1-9C72-01166EC03A10}" path="SO_CreateAndConfig_VC_Test.js" />
+				<child name="SO_CreateAndConfig_VHD_Test" key="{E034DA71-4D4D-4676-96B9-573408B974CF}" path="SO_CreateAndConfig_VHD_Test.js" />
+				<child name="SO_CreateAndConfig_OBC_Test" key="{B9914FFE-DB6C-4A62-9E79-A3A7647218C4}" path="SO_CreateAndConfig_OBC_Test.js" />
+			</folder>
+		</folder>
+	</children>
+</Root>

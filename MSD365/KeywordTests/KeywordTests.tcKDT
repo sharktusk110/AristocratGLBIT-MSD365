@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="CommonUtility" />
+		<folder name="Pages">
+			<folder name="Login">
+				<child name="Login" key="{A11D0A3C-5331-4F81-B798-124C7EDE0E3E}" path="Login.tcKDTest" />
+				<child name="Test1" key="{E72EE694-39F6-4581-84FF-55D6C81EAFF4}" path="Test1.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="BrowserUtilities">
+			<child name="Start_Browser" key="{7ED64B42-3E95-441B-A9B0-07C2EFA84039}" path="Start_Browser.tcKDTest" />
+			<child name="Stop_Browser" key="{67CD98E5-C676-4DAF-A647-278591CE6D29}" path="Stop_Browser.tcKDTest" />
+			<child name="NavigatetoURL" key="{740ACBB6-F40A-4C2B-94E6-A5E249DA5006}" path="NavigatetoURL.tcKDTest" />
+		</folder>
+		<folder name="Tests">
+			<folder name="Login_Test">
+				<child name="LoginTest" key="{6603BB1A-F7C7-40CB-9028-C91A54C10C31}" path="LoginTest.tcKDTest" />
+			</folder>
+		</folder>
+	</children>
+</Root>

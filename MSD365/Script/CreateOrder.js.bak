@@ -1,0 +1,21 @@
+﻿function orderCreation() {
+    var nav = Aliases.browser.pageAllSalesOrdersFinanceAndOper;
+
+    // Opens the specified URL in a running instance of the specified browser.
+    Browsers.Item(btEdge).Navigate("https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage");
+
+    // Clicks the 'New' button.
+    nav.buttonNewAltN.ClickButton();
+
+    // Waits until the browser loads the page and is ready to accept user input.
+    nav.Wait();
+
+    // Enters the account number into the Ship-To Customer Account field.
+    nav.buttonCustomer2.textboxShipToCustomerAccount.SetText("23232323");
+
+    // Waits again to ensure the page is ready.
+    nav.Wait();
+
+    // Clicks the OK button.
+    nav.buttonOkAltEnter.ClickButton();
+}

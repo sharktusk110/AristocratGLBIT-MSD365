@@ -1,0 +1,44 @@
+﻿//USEUNIT ReadExcel
+//USEUNIT SO_CreateAndConfig
+// Requirement : 
+// Creator : Shariq Abbas
+// Date: 10th of May'25
+//*************************************************************************************************************************************
+
+
+function SO_SpareParts_Test(){
+
+verify=Aliases.browser.Page_SOConfig.ConfigCheckpoint.Test_TextBox;
+Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+Sheet="SpareParts";
+
+var excelFile = Excel.Open(Path); //Path of the Datasheet
+var excelSheet = excelFile.SheetByTitle(Sheet);
+var rows = excelSheet.RowCount;
+var cols = excelSheet.ColumnCount;
+
+var Config = new Array(rows).fill(0).map(() => new Array(cols).fill(0));
+Config=ReadExcel["readSPConfigDataFromExcel"]();
+
+for(let i=2;i<=2;i++){
+
+ConfigFilter1=[Config[i][0],Config[i][1],Config[i][2]];
+ConfigFilter2=[Config[i][3],Config[i][4]];
+
+SO_CreateAndConfig["OrderCreation"](ConfigFilter1);
+SO_CreateAndConfig["OrderConfigurationNavigation"]();
+SO_CreateAndConfig["SPOrderConfiguration"](ConfigFilter2);
+SO_CreateAndConfig["OrderConfiguration"]();
+
+Delay(50000);
+
+if(aqObject.CheckProperty(verify, "Title", cmpContains, Config[i][3], false)){
+  Log.Message("Test Passed for the data row: "+i);
+}else{
+  Log.Message("Test Failed for the data row: "+i);
+}
+
+}
+
+}
+
