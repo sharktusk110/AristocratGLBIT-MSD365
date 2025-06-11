@@ -1883,6 +1883,558 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageHomeSalesforce" Key="{CE14D242-8055-4381-A89C-71B2704158EA}">
+								<Image FileName="2142861435" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{12D95278-6336-4595-B3F0-4CC9A48132DF}">
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAppLauncher" Key="{F19E6F21-EC49-406B-8374-681DDE0CEA80}">
+										<Image FileName="2142861435" Left="53" Top="273" Right="101" Bottom="321" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;App Launcher&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;App Launcher&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-launcher-header/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//one-app-launcher-header/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchboxSearchAppsAndItems" Key="{7EEC0A1E-7E53-4BF9-A661-E70F066295AA}">
+										<Image FileName="-761085064" Left="66" Top="404" Right="510" Bottom="452" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Search apps and items...&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@aria-describedby=&apos;help-message-162&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//one-app-launcher-menu//one-app-launcher-search-bar/lightning-input/lightning-primitive-input-simple//input[@type=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//one-app-launcher-menu//one-app-launcher-search-bar/lightning-input/lightning-primitive-input-simple//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRecentlyViewedAccountsSalesf" Key="{A052618C-A9F3-43A4-A9A8-8D1511E2104A}">
+								<Image FileName="1570144655" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Account/list*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{7D5217CC-FADB-45A6-BF4C-2F5CC4C43C1D}">
+										<Image FileName="1570144655" Left="17" Top="329" Right="1925" Bottom="1073" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchboxSearchThisList" Key="{4DF76F06-560E-434F-A7B1-7CDA2ED8B46C}">
+										<Image FileName="1570144655" Left="1166" Top="443" Right="1526" Bottom="491" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Search this list...&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Account-search-input&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//force-list-view-manager-search-bar//lightning-input/lightning-primitive-input-simple//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBellagioLasVegas" Key="{57B47A0C-F9AC-498A-AECC-021BB089E666}">
+										<Image FileName="912327725" Left="174" Top="571" Right="361" Bottom="600" />
+										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;BELLAGIO LAS VEGAS&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;BELLAGIO LAS VEGAS&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[@role=&apos;rowheader&apos;]//lightning-primitive-custom-cell/lst-output-lookup/force-lookup//a[contains(@class, &apos;slds-truncate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_1&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//lightning-primitive-custom-cell/lst-output-lookup/force-lookup/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBellagioLasVegas" Key="{52B32F14-6C44-4242-9A10-4D5B46FCFC2C}">
+										<Image FileName="912327725" Left="174" Top="572" Right="361" Bottom="598" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;r&apos;)]//slot/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//slot/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBellagioLasVegasAccountSales" Key="{D047CA9D-2D65-4FD8-8CED-78AB766F8A2B}">
+								<Image FileName="332924834" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{F27ABDD9-6378-4768-ACB9-4F46527CC4A0}">
+										<Image FileName="332924834" Left="17" Top="329" Right="1902" Bottom="1073" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAccountNewoppqa" Key="{2806EFF6-6B66-44E2-B117-5EE8B30ACF36}">
+										<Image FileName="332924834" Left="936" Top="369" Right="1136" Bottom="416" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;Account.NewOppQA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;New Opportunity&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-executor-page-reference/slot/slot/lightning-button/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-executor-page-reference/slot/slot/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//li//slot/slot/lightning-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-executor-page-reference/slot/slot/lightning-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageNewOpportunitySalesforce" Key="{632919DF-3FE8-41CA-8C57-50391BAB54A5}">
+								<Image FileName="-55616244" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Account.NewOppQA*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionOpportunityName" Key="{08DE6F30-D53B-4AAD-9122-B5186B4A1DB5}">
+										<Image FileName="-55616244" Left="365" Top="79" Right="1554" Bottom="1664" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Opportunity Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;form-block-section&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="fieldsetOpportunityName" Key="{76A8F6E0-0A66-4EBA-B057-DA51539EB279}">
+										<Image FileName="-55616244" Left="365" Top="79" Right="1554" Bottom="1664" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//fieldset[contains(., &apos;Opportunity Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset[contains(@class, &apos;test-id__section&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//fieldset" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNone" Key="{E288B785-E2D0-49BB-ADA9-3A427ED2E77E}">
+										<Image FileName="-55616244" Left="389" Top="495" Right="1530" Bottom="575" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//div[5]//div[contains(@class, &apos;uiMenu&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNone2" Key="{1F71BD9F-3F36-44B5-AEEE-9E1EB2592C85}">
+										<Image FileName="-848616870" Left="389" Top="625" Right="1530" Bottom="705" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;--None--&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//div[6]//div[contains(@class, &apos;uiMenu&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNone3" Key="{6711FF80-75C6-4912-81A4-63DE7762F5BB}">
+										<Image FileName="-1047088032" Left="389" Top="511" Right="1530" Bottom="591" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//div[11]//div[contains(@class, &apos;uiMenu&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNone4" Key="{DD9ECA62-A667-418D-ACC8-D0516D8B2429}">
+										<Image FileName="-1573417105" Left="389" Top="609" Right="1530" Bottom="689" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//div[12]//div[contains(@class, &apos;uiMenu&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="footerCancel" Key="{B80F7821-3560-4B59-B48A-106AE50F4FFD}">
+										<Image FileName="-2110624266" Left="341" Top="927" Right="1601" Bottom="1013" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//footer[contains(., &apos;Cancel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer[contains(@class, &apos;slds-modal__footer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]/footer" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/footer" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave" Key="{907B9E27-E967-4B26-8612-1C3128CF18D0}">
+										<Image FileName="-2110624266" Left="1487" Top="948" Right="1577" Bottom="995" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//footer/button[contains(@class, &apos;slds-button_brand&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxOpportunityName" Key="{487FB560-1E58-4601-BA0B-3C7C5344AF55}">
+										<Image FileName="-1792321511" Left="389" Top="342" Right="1530" Bottom="396" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Opportunity Name*&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRecentlyViewedOpportunitiesS" Key="{C367F00C-1E7E-4040-A5D8-E190C46C85EC}">
+								<Image FileName="-295216206" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Opportunity/list*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{E759F152-0758-418D-887A-CC2A892C3F61}">
+										<Image FileName="-295216206" Left="17" Top="329" Right="1925" Bottom="1073" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchboxSearchThisList" Key="{A7BB625E-F2C1-49E8-803F-9B47E223BCD1}">
+										<Image FileName="-295216206" Left="1166" Top="443" Right="1526" Bottom="491" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Search this list...&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Opportunity-search-input&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//force-list-view-manager-search-bar//lightning-input/lightning-primitive-input-simple//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBellagioLasVegas2188845291" Key="{D1776382-35C2-4F6E-9FF8-776628768297}">
+										<Image FileName="451432257" Left="126" Top="571" Right="544" Bottom="600" />
+										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;BELLAGIO LAS VEGAS -2188845291- 06/10/2025&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;BELLAGIO LAS VEGAS -2188845291- 06/10/2025&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[@role=&apos;rowheader&apos;]//lightning-primitive-custom-cell/lst-output-lookup/force-lookup//a[contains(@class, &apos;slds-truncate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_1&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//lightning-primitive-custom-cell/lst-output-lookup/force-lookup/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBellagioLasVegas21888452" Key="{189DDDE1-0AED-47C0-8842-A059183108BA}">
+										<Image FileName="451432257" Left="126" Top="572" Right="544" Bottom="598" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;r&apos;)]//slot/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//slot/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBellagioLasVegas218884529106" Key="{74578B6C-9827-48C7-B97D-F84BF17B447F}">
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Opportunity/0069r00000H5Z09AAF/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{6BA22C54-A166-41D6-9B1C-974E70DB99D5}">
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOpportunityNewQuoteFlow" Key="{3D28C889-457A-4C33-95A3-D6DBD0A79AA6}">
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-page-reference/slot//button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageNewEconQuoteSalesforce" Key="{4082A629-0EAC-49A3-B6AF-684237C66B00}">
+								<Image FileName="1936323510" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/action/quick/Opportunity.New_Quote_Flow*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="article" Key="{D42C19D1-AB85-44FF-8D03-C24FA80FCA2E}">
+										<Image FileName="1936323510" Left="341" Top="324" Right="1601" Bottom="990" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Quote Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[contains(@class, &apos;slds-is-relative&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxQuoteName" Key="{87A747D1-53E2-4C03-9CA0-321CBC4B465B}">
+										<Image FileName="1936323510" Left="389" Top="402" Right="1530" Bottom="450" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@aria-labelledby=(//lightning-formatted-rich-text[.=&apos;*Quote Name&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Quote_Name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flowruntime-flow-screen-input/flowruntime-input-wrapper2//lightning-input/lightning-primitive-input-simple//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectQuoteRecordType" Key="{F438FD74-CDEA-4043-8A9C-E93F8FD86496}">
+										<Image FileName="-1959680640" Left="389" Top="498" Right="1530" Bottom="546" />
+										<TypeInfo Item0="{3D0ADE22-B65A-4C57-B00D-950AE496D5F7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@aria-labelledby=(//lightning-formatted-rich-text[.=&apos;Quote Record Type&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="footerNext" Key="{76D68651-5575-4A9B-AABD-27047049A263}">
+										<Image FileName="-246862635" Left="365" Top="923" Right="1577" Bottom="972" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//footer[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer[contains(@class, &apos;slds-scope&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//footer" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//article/flowruntime-flow/flowruntime-navigation-bar/footer" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNext" Key="{96A27FE0-BE55-4A9E-A76E-E4B695D2F1D3}">
+										<Image FileName="-246862635" Left="1486" Top="924" Right="1576" Bottom="971" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//flowruntime-navigation-bar/footer/div/lightning-button/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//flowruntime-navigation-bar/footer/div/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//flowruntime-navigation-bar/footer/div/lightning-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBellagioLasVegas837397089206" Key="{8852619D-620E-42AC-9D98-DEF35B9FD948}">
+								<Image FileName="-738374846" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Opportunity/0069r00000H5Y8vAAF/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{A70C5EA2-2BA7-4FB8-A716-5EE7329D43A8}">
+										<Image FileName="-738374846" Left="17" Top="329" Right="1902" Bottom="1073" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOpportunityNewQuoteFlow" Key="{F4702F37-BBC6-4347-92FE-C39878FF46A8}">
+										<Image FileName="-738374846" Left="1345" Top="369" Right="1543" Bottom="416" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;New eCon Quote&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//*[@id=&quot;brandBand_2&quot;]/div/div/div/div/div/one-record-home-flexipage2/forcegenerated-flexipage_opportunity_record_page_opportunity__view_js___lmt___1747685226000/record_flexipage-desktop-record-page-decorator/div[1]/records-record-layout-event-broker/slot/slot/flexipage-record-home-with-subheader-template-desktop2/div/div[1]/slot/flexipage-component2/slot/records-lwc-highlights-panel/records-lwc-record-layout/forcegenerated-highlightspanel_opportunity___0127f000000hsqbqaa___compact___view___recordlayout2/records-highlights2/div[1]/div[1]/div[3]/div/div/runtime_platform_actions-actions-ribbon/ul/li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-page-reference/slot/slot/lightning-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="SnippingTool" Key="{849F84DF-7D21-4077-87D7-F340283377F8}">
@@ -2133,6 +2685,40 @@
 			</Child>
 			<Child Name="wndChrome_WidgetWin_0" Owner="{920DA44A-3CB9-499A-9F77-431DC9F94972}">
 				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{CC430C95-3BCE-45E2-9887-CA4817AB66BC}" />
+			</Child>
+			<Child Name="Page_SFAppSearch_AccountSearch" Owner="{CE14D242-8055-4381-A89C-71B2704158EA}">
+				<Child Name="AccountSearch" Owner="{12D95278-6336-4595-B3F0-4CC9A48132DF}">
+					<Child Name="SearchThisList_SearchField" Owner="{4DF76F06-560E-434F-A7B1-7CDA2ED8B46C}" />
+					<Child Name="Account_Node" Owner="{52B32F14-6C44-4242-9A10-4D5B46FCFC2C}" />
+					<Child Name="NewOpportunity_Button" Owner="{2806EFF6-6B66-44E2-B117-5EE8B30ACF36}" />
+				</Child>
+				<Child Name="SearchAppsAndItems_SearchField" Owner="{7EEC0A1E-7E53-4BF9-A661-E70F066295AA}" />
+				<Child Name="AppLauncher_Button" Owner="{F19E6F21-EC49-406B-8374-681DDE0CEA80}" />
+			</Child>
+			<Child Name="Page_NewOpportunityCreation" Owner="{632919DF-3FE8-41CA-8C57-50391BAB54A5}">
+				<Child Name="GamingClassification_Field" Owner="{E288B785-E2D0-49BB-ADA9-3A427ED2E77E}" />
+				<Child Name="Type_Field" Owner="{1F71BD9F-3F36-44B5-AEEE-9E1EB2592C85}" />
+				<Child Name="MarketSegment_Field" Owner="{6711FF80-75C6-4912-81A4-63DE7762F5BB}" />
+				<Child Name="LeadSource_Field" Owner="{DD9ECA62-A667-418D-ACC8-D0516D8B2429}" />
+				<Child Name="OpportunityName_Field" Owner="{487FB560-1E58-4601-BA0B-3C7C5344AF55}" />
+				<Child Name="Save_Button" Owner="{907B9E27-E967-4B26-8612-1C3128CF18D0}" />
+			</Child>
+			<Child Name="Page_SearchOpportunity" Owner="{C367F00C-1E7E-4040-A5D8-E190C46C85EC}">
+				<Child Name="Opportunity_Node" Owner="{189DDDE1-0AED-47C0-8842-A059183108BA}" />
+				<Child Name="SearchThisList_SearchField" Owner="{A7BB625E-F2C1-49E8-803F-9B47E223BCD1}" />
+			</Child>
+			<Child Name="Page_EconfigurationCreation" Owner="{74578B6C-9827-48C7-B97D-F84BF17B447F}" />
+			<Child Name="page_EconCreation" Owner="{4082A629-0EAC-49A3-B6AF-684237C66B00}">
+				<Child Name="article" Owner="{D42C19D1-AB85-44FF-8D03-C24FA80FCA2E}">
+					<Child Name="textboxQuoteName" Owner="{87A747D1-53E2-4C03-9CA0-321CBC4B465B}" />
+					<Child Name="selectQuoteRecordType" Owner="{F438FD74-CDEA-4043-8A9C-E93F8FD86496}" />
+					<Child Name="footerNext" Owner="{76D68651-5575-4A9B-AABD-27047049A263}" />
+					<Child Name="Econ_Button" Owner="{F4702F37-BBC6-4347-92FE-C39878FF46A8}" />
+					<Child Name="buttonNext" Owner="{96A27FE0-BE55-4A9E-A76E-E4B695D2F1D3}" />
+				</Child>
+			</Child>
+			<Child Name="pageBellagioLasVegas837397089206" Owner="{8852619D-620E-42AC-9D98-DEF35B9FD948}">
+				<Child Name="sectionSkipToNavigation" Owner="{A70C5EA2-2BA7-4FB8-A716-5EE7329D43A8}" />
 			</Child>
 		</Child>
 		<Child Name="SnippingTool" Owner="{849F84DF-7D21-4077-87D7-F340283377F8}">

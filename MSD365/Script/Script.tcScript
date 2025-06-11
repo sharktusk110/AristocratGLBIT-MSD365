@@ -8,12 +8,15 @@
 			</folder>
 		</folder>
 		<folder name="Pages">
-			<folder name="SO Creation &amp; Configuration">
+			<folder name="CPSO Creation &amp; Configuration">
 				<child name="SO_CreateAndConfig" key="{A45D2BC7-A690-4C7C-A3C2-EAD5627E39AB}" path="SO_CreateAndConfig.js" />
+			</folder>
+			<folder name="RecurringRevenue">
+				<child name="RecurringRevenue" key="{84DCAD69-8F5F-4C3C-AD74-672DBAC2E154}" path="RecurringRevenue.js" />
 			</folder>
 		</folder>
 		<folder name="Tests">
-			<folder name="SO Creation &amp; Configuration Test">
+			<folder name="CPSO Creation &amp; Configuration Test">
 				<child name="SO_CreateAndConfig_Setchip_Test" key="{E8796B24-10E2-47D1-8395-A0D250577602}" path="SO_CreateAndConfig_Setchip_Test.js" />
 				<child name="SO_CreateAndConfig_GK_Test" key="{7BE5CAD1-B495-43DA-B104-2AB510DA5DE1}" path="SO_CreateAndConfig_GK_Test.js" />
 				<child name="SO_CreateAndConfig_SP_Test" key="{058DBF5B-8C7F-49F3-9A3F-50888D4E971D}" path="SO_CreateAndConfig_SP_Test.js" />

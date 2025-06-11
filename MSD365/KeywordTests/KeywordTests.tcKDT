@@ -7,6 +7,7 @@
 				<child name="Login" key="{A11D0A3C-5331-4F81-B798-124C7EDE0E3E}" path="Login.tcKDTest" />
 				<child name="Test1" key="{E72EE694-39F6-4581-84FF-55D6C81EAFF4}" path="Test1.tcKDTest" />
 			</folder>
+			<child name="Trial" key="{293B0AE0-EDFA-42FE-B9B2-DD55EC0F94DB}" path="Trial.tcKDTest" />
 		</folder>
 		<folder name="BrowserUtilities">
 			<child name="Start_Browser" key="{7ED64B42-3E95-441B-A9B0-07C2EFA84039}" path="Start_Browser.tcKDTest" />
