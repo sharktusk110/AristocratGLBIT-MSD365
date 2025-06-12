@@ -11,7 +11,15 @@
 	<testItems key="{D2E08988-4B7E-4F86-805E-CF46EB6B613A}" version="14">
 		<children />
 	</testItems>
-	<variables key="{64F3A746-AD7F-4419-B9DA-616F168DF9FF}" />
+	<variables key="{64F3A746-AD7F-4419-B9DA-616F168DF9FF}">
+		<data Version="4">
+			<Items>
+				<Variable Name="quoteurl" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{F6ABEF2A-16FE-4132-827F-E2F45C462377}">
 		<settingsVersion value="15.73" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />

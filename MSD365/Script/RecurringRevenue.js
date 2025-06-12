@@ -5,7 +5,9 @@
 //module.exports.getObject
 //USEUNIT ReadExcel
 
-var opportunity_name="BELLAGIO LAS VEGAS -8373970892- 06/10/2025";
+var opportunity_name="BELLAGIO LAS VEGAS - CHANGEME - 06/09/2025";
+var quotename="ECON GREEN VALLEY RANCH RESORT SPA CASINO_Smoke_01_05/06/2025" ;
+
 
 //function Opportunity_Creation() {
 //  
@@ -79,37 +81,77 @@ var opportunity_name="BELLAGIO LAS VEGAS -8373970892- 06/10/2025";
 // opportunity.Save_Button.Click();
 //}
 
-function econ_generation(){
+//function econ_generation(){
+//  
+//var search_opportunity=Aliases.browser.Page_SearchOpportunity;
+//var econ=Aliases.browser.page_EconCreation.econ;
+//var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning"+
+//         "/o/Opportunity/list?filterName=__Recent" ;
+//
+//Browsers.Item(btEdge).Navigate(url) ;
+//
+//search_opportunity.SearchThisList_SearchField.SetText(opportunity_name);
+//Delay(2000);
+//search_opportunity.SearchThisList_SearchField.Keys("[Enter]");
+//Delay(2000);
+//search_opportunity.Opportunity_Node.Click();
+//Delay(5000);
+//econ.econ_Button.Click();
+//Delay(2000);
+//
+//quotename=econ.QuoteName_TextField.Text;
+//
+//econ.QuoteRecordType_Selectlist.Keys("Gaming Ops");
+//Delay(2000);
+//econ.Next_Button.Click();
+//Delay(2000);
+//econ.Next_Button.Click();
+//Delay(2000);
+//econ.QuoteRecordType_Selectlist.Click();
+//Delay(2000);
+//econ.QuoteRecordType_Selectlist.Keys("Class III - Delivery Address - ATTN: SLOT DEPARTMENT3600 LAS VEGAS BLVD S, LAS VEGAS, Nevada  89109-4303, USA");
+//Delay(2000);
+//econ.QuoteRecordType_Selectlist.Keys("[Enter]");
+//Delay(2000);
+//econ.Next_Button.Click();;
+//Delay(2000);
+//econ.Next_Button.Click();;
+//Delay(2000);
+//
+//}
+
+function econ_configuration_navigation(){
   
-Browsers.Item(btEdge).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Opportunity/list?filterName=__Recent") ;
+var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
+         "Quote/list?filterName=__Recent";  
+        
+Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";         
+         
+Browsers.Item(btEdge).Navigate(url);
 
-Aliases.browser.Page_SearchOpportunity.SearchThisList_SearchField.SetText(opportunity_name);
-Delay(2000);
-Aliases.browser.Page_SearchOpportunity.SearchThisList_SearchField.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.Page_SearchOpportunity.Opportunity_Node.Click();
-Delay(5000);
-Aliases.browser.pageBellagioLasVegas837397089206.sectionSkipToNavigation.buttonOpportunityNewQuoteFlow.Click();
+Aliases.browser.pageRecentlyViewedQuotesSalesfor.sectionSkipToNavigation.searchboxSearchThisList.SetText(quotename);
+
 Delay(2000);
 
-var quotename=Aliases.browser.pageNewEconQuoteSalesforce.article.textboxQuoteName.Text;
-Log.Message(quotename);
+Aliases.browser.pageRecentlyViewedQuotesSalesfor.sectionSkipToNavigation.searchboxSearchThisList.Keys("[Enter]");
 
-Aliases.browser.pageNewEconQuoteSalesforce.article.selectQuoteRecordType.Keys("Gaming Ops");
 Delay(2000);
-Aliases.browser.pageNewEconQuoteSalesforce.article.footerNext.buttonNext.Click();
+
+Aliases.browser.pageRecentlyViewedQuotesSalesfor.sectionSkipToNavigation.linkEconBellagioLasVegas.textnodeEconBellagioLasVegas.Click();
+
 Delay(2000);
-Aliases.browser.pageNewEconQuoteSalesforce.article.footerNext.buttonNext.Click();
-Delay(2000);
-Aliases.browser.pageNewEconQuoteSalesforce.article.selectQuoteRecordType.Click();
-Delay(2000);
-Aliases.browser.pageNewEconQuoteSalesforce.article.selectQuoteRecordType.Keys("Class III - Delivery Address - ATTN: SLOT DEPARTMENT3600 LAS VEGAS BLVD S, LAS VEGAS, Nevada  89109-4303, USA");
-Delay(2000);
-Aliases.browser.pageNewEconQuoteSalesforce.article.selectQuoteRecordType.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageNewEconQuoteSalesforce.article.footerNext.buttonNext.Click();
-Delay(2000);
-Aliases.browser.pageNewEconQuoteSalesforce.article.footerNext.buttonNext.Click();
+
+Project.Variables.quoteurl=Sys.Browser().Page("*").URL;
+
+Aliases.browser.pageEconBellagioLasVegasChangeme4.linkCustomtabItem.Click();
+
 Delay(10000);
+
+Aliases.browser.pageEconWheelingIslandRacetrackA.sectionSkipToNavigation.textnodeTabs.article.frame.textnodeQuote.textnodeQuote2.linkConfiguration1.textnodeConfiguration1.Click();
+
+
+
+
+
 
 }

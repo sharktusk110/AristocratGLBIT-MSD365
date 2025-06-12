@@ -24,7 +24,17 @@
 				<Prp name="key" type="S" value="{DA608BAA-1A55-4AE6-ADE8-3AA762E1F1D2}"/>
 				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
-			<Node name="variables"/>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="680074007400700073003A002F002F00610072006900730074006F0063007200610074002D0067006C006F00620061006C002D002D007100610031002E00730061006E00640062006F0078002E006C0069006700680074006E0069006E0067002E0066006F007200630065002E0063006F006D002F006C0069006700680074006E0069006E0067002F0072002F00510075006F00740065002F00300051003000390072003000300030003000300030005A004F0056006800430041004F002F007600690065007700"/>
+						</Node>
+						<Prp name="name" type="S" value="quoteurl"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
 	</Node>

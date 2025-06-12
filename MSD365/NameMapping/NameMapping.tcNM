@@ -2435,6 +2435,1026 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageBellagioLasVegasChangeme0609" Key="{B964CD87-37F6-4F10-A9DA-96590BA8434E}">
+								<Image FileName="-1528173833" Left="6" Top="111" Right="1914" Bottom="1122" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Opportunity/0069r00000H5TxFAAV/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{258141DC-4E2F-42EC-ABFC-14589F277B2E}">
+										<Image FileName="-1528173833" Left="6" Top="318" Right="1891" Bottom="1062" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOpportunityNewQuoteFlow" Key="{C82B206A-C9C5-4296-B711-D8E0CB865963}">
+										<Image FileName="-1528173833" Left="1334" Top="358" Right="1532" Bottom="405" />
+										<TypeInfo Item0="{65D455AC-BB17-49F2-B6D1-CC2FFF3E1DBF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;Opportunity.New_Quote_Flow&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;New eCon Quote&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-page-reference/slot//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-page-reference/slot//button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//li[3]//slot/slot/lightning-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-page-reference/slot//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRecentlyViewedQuotesSalesfor" Key="{C562931A-B9AD-480B-BA1E-1C391932FD64}">
+								<Image FileName="-1519392604" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Quote/list*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{39BDE9F8-2E5C-4AFC-A4DC-CC4C14B113B2}">
+										<Image FileName="-1519392604" Left="17" Top="329" Right="1925" Bottom="1073" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchboxSearchThisList" Key="{226ACF61-EB57-4472-9913-7058004FA1F1}">
+										<Image FileName="-1519392604" Left="1166" Top="443" Right="1526" Bottom="491" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Search this list...&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Quote-search-input&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//force-list-view-manager-search-bar//lightning-input/lightning-primitive-input-simple//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkEconBellagioLasVegas" Key="{4D343A04-4EC5-42CB-B9DB-107CA9C6831F}">
+										<Image FileName="-1247439211" Left="126" Top="572" Right="609" Bottom="601" />
+										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;ECON&#32;&#32;BELLAGIO LAS VEGAS - CHANGEME - 06/09/2025&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//lightning-primitive-custom-cell/lst-output-lookup/force-lookup/div/a[@title=&apos;ECON&#32;&#32;BELLAGIO LAS VEGAS - CHANGEME - 06/09/2025&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/th[@role=&apos;rowheader&apos;]//lightning-primitive-custom-cell/lst-output-lookup/force-lookup//a[contains(@class, &apos;slds-truncate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_1&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//lightning-primitive-custom-cell/lst-output-lookup/force-lookup/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEconBellagioLasVegas" Key="{5E55B507-8608-4568-A8CE-27A14222DDB5}">
+										<Image FileName="-1247439211" Left="126" Top="573" Right="609" Bottom="599" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;ECON&#32;&#32;BELLAGIO LAS VEGAS - CHANGEME - 06/09/2025&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;r&apos;)]//slot/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//slot/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEconBellagioLasVegasChangeme" Key="{DA2716AC-FA89-41F7-A9E1-47F13C157371}">
+								<Image FileName="1139324334" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZYlBCAW/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeTabs" Key="{5E4FF0C0-4D49-4689-920B-71C9BDD27DD2}">
+										<Image FileName="1139324334" Left="60" Top="693" Right="1859" Bottom="753" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Configure Quote&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-event-broker/slot/slot/flexipage-record-home-single-col-template-desktop2/div//ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-event-broker/slot/slot/flexipage-record-home-single-col-template-desktop2/div//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-event-broker/slot/slot/flexipage-record-home-single-col-template-desktop2/div//ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div[2]/div/slot/flexipage-component2//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/slot/flexipage-component2/slot//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCustomtabItem" Key="{385AB616-AC6F-4163-B70D-299BF2EBA8C4}">
+										<Image FileName="1139324334" Left="678" Top="693" Right="855" Bottom="753" />
+										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#customTab__item" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Configure Quote&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a[contains(@class, &apos;slds-tabs_default__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul/li[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frame" Key="{310F2E8A-79A1-462B-90BA-1B62FD9D9203}">
+										<Image FileName="-1799321233" Left="49" Top="404" Right="1848" Bottom="1904" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//*[@id=&quot;oTree&quot;]/div[2]/ul/li/ul/li/div/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="article" Key="{51378E8B-F993-4F94-A1BE-FDD06BB64A6D}">
+										<Image FileName="-1799321233" Left="49" Top="386" Right="1848" Bottom="1995" />
+										<Selectors>
+											<Selector>
+												<Value Value="//slot/flexipage-tab2/slot/flexipage-component2/slot//article[contains(@class, &apos;slds-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-17&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tabset//flexipage-component2/slot/flexipage-aura-wrapper/div/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frame2" Key="{E33A8A7A-5C8E-4F91-82C6-E0EB86D17746}">
+										<Image FileName="696304030" Left="439" Top="122" Right="1859" Bottom="1622" />
+										<TypeInfo Item0="{5A92A37E-8D2E-42A5-A21A-49D978456E6C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-17&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="textnodeConfiguration1" Key="{F8A17BAF-B2BD-4DD9-A73B-BBD605F631AA}">
+												<Image FileName="-614580808" Left="110" Top="670" Right="248" Bottom="692" />
+												<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;Configuration[1]&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a/span[contains(@class, &apos;eConTreeNodeLabel&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTree&apos;]//a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//ul/li/ul/li//a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeQuote" Key="{294C3072-1DAE-4681-B0A2-B89B1B03590E}">
+												<Image FileName="-614580808" Left="50" Top="600" Right="290" Bottom="1944" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oTreeContainer&apos;]//ul[contains(@class, &apos;ui-helper-reset&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeQuote2" Key="{663957EB-6A08-4AA8-BB89-A8363CCF237D}">
+												<Image FileName="-614580808" Left="50" Top="600" Right="290" Bottom="705" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[contains(@class, &apos;collapsable&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkConfiguration1" Key="{1131D51E-1703-4BD1-84AC-0D43BD917FBE}">
+												<Image FileName="-614580808" Left="110" Top="669" Right="290" Bottom="694" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[.=&apos;Configuration[1]&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[contains(@class, &apos;eConTreeNodeLink&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTree&apos;]//a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTreeContainer&apos;]/div[@id=&apos;oTree&apos;]//ul/li/ul/li//a" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEconTreasureChestCasinoChang" Key="{954C9E39-B294-4E7A-9048-A32800A22771}">
+								<Image FileName="1644952432" Left="6" Top="111" Right="1914" Bottom="1122" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZUXtCAO/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frame" Key="{1A11EE50-AB09-4AB8-A0E4-7382DB41D07B}">
+										<Image FileName="1644952432" Left="49" Top="529" Right="1848" Bottom="2029" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-8&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionSkipToNavigation" Key="{9677DF98-1E1D-4DD9-944E-CB55262059C3}">
+										<Image FileName="1644952432" Left="6" Top="68" Right="1891" Bottom="812" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTabs" Key="{25E8FC71-625B-4330-9A7B-60E32CADD1C2}">
+										<Image FileName="1644952432" Left="49" Top="433" Right="1848" Bottom="493" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="article" Key="{B9C96402-4C2D-49AF-A89B-6D6036FF2E5D}">
+										<Image FileName="1644952432" Left="49" Top="511" Right="1848" Bottom="2120" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//flexipage-component2/slot/flexipage-aura-wrapper/div/article[contains(@class, &apos;slds-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-8&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//flexipage-component2/slot/flexipage-aura-wrapper/div/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="article2" Key="{AAC55BEC-FCE4-4DB2-89E6-2357F82E0D4E}">
+										<Image FileName="-1214065040" Left="60" Top="193" Right="1859" Bottom="1802" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]//flexipage-component2/slot/flexipage-aura-wrapper/div/article[contains(@class, &apos;slds-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-18&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//flexipage-component2/slot/flexipage-aura-wrapper/div/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frame2" Key="{9C71A983-3F5A-4DE1-8F75-44B2ACE871BB}">
+										<Image FileName="-1214065040" Left="60" Top="211" Right="1859" Bottom="1711" />
+										<TypeInfo Item0="{5A92A37E-8D2E-42A5-A21A-49D978456E6C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]//div/article/div/p/iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-18&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//div/article/div/p/iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="textnodeQuote" Key="{9692F5F2-77D8-4C01-B8C0-B55CFF4AF1CA}">
+												<Image FileName="-1214065040" Left="61" Top="294" Right="301" Bottom="1638" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oTreeContainer&apos;]//ul[contains(@class, &apos;ui-helper-reset&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeQuote2" Key="{9281B5C3-E180-4678-8024-4464ED88CC00}">
+												<Image FileName="-1214065040" Left="61" Top="294" Right="301" Bottom="399" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[contains(@class, &apos;collapsable&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkConfiguration1" Key="{80876C80-1C44-476A-A3E3-AC1D7D5E3932}">
+												<Image FileName="-1214065040" Left="121" Top="364" Right="301" Bottom="389" />
+												<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[.=&apos;Configuration[1]&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[contains(@class, &apos;eConTreeNodeLink&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTree&apos;]//a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTreeContainer&apos;]/div[@id=&apos;oTree&apos;]//ul/li/ul/li//a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeConfiguration1" Key="{20858523-2638-4AC0-9512-1278E105BED0}">
+												<Image FileName="-1214065040" Left="121" Top="365" Right="259" Bottom="387" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=/html/body/div[1]/div/div/div[2]/div/div[1]/div/div[2]/ul/li/ul/li/div/a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEconBellagioLasVegasChangeme2" Key="{7C19A629-8AF0-46AA-BF2D-415C4BB7B228}">
+								<Image FileName="567848091" Left="6" Top="178" Right="1914" Bottom="1121" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZU5SCAW/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{403391CC-FCF3-450D-A72B-2A17B35CC5AE}">
+										<Image FileName="567848091" Left="6" Top="112" Right="1891" Bottom="789" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTabs" Key="{0C7F5445-F2CF-4DF2-96A8-4CF4B6119023}">
+										<Image FileName="567848091" Left="6" Top="178" Right="6" Bottom="178" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div//lightning-tabset/div/lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="article" Key="{1A0A71C0-38ED-4D35-8912-B43B18AD8C98}">
+										<Image FileName="567848091" Left="49" Top="553" Right="1848" Bottom="2162" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//article[contains(@class, &apos;econEconStub&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-13&apos;]//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frame" Key="{94DBBAA0-36AA-4F69-8F07-6E902874D578}">
+										<Image FileName="567848091" Left="49" Top="571" Right="1848" Bottom="2071" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-13&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="textnodeQuote" Key="{FC7DB6A0-9BA3-47E6-8CF8-653688EA6D92}">
+												<Image FileName="567848091" Left="50" Top="654" Right="290" Bottom="1998" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oTreeContainer&apos;]//ul[contains(@class, &apos;ui-helper-reset&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeQuote2" Key="{77F7DF97-0999-4B10-9603-ECF29E970EBF}">
+												<Image FileName="567848091" Left="50" Top="654" Right="290" Bottom="759" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[contains(@class, &apos;collapsable&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkConfiguration1" Key="{0BA478E8-AAA7-4F5F-AB13-3E613C61C131}">
+												<Image FileName="567848091" Left="110" Top="723" Right="290" Bottom="748" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[.=&apos;Configuration[1]&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[contains(@class, &apos;eConTreeNodeLink&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTree&apos;]//a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTreeContainer&apos;]/div[@id=&apos;oTree&apos;]//ul/li/ul/li//a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeConfiguration1" Key="{A5755362-A14E-49EA-AA67-576E6904DBBF}">
+												<Image FileName="567848091" Left="110" Top="724" Right="248" Bottom="746" />
+												<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;Configuration[1]&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a/span[contains(@class, &apos;eConTreeNodeLabel&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTree&apos;]//a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//ul/li/ul/li//a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEconBellagioLasVegasChangeme3" Key="{76F1B02F-E907-4DED-A4E1-6255258DB8D1}">
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{B88F9A18-5941-4D60-A637-2F6E85ED2762}">
+										<Image FileName="-485060680" Left="17" Top="132" Right="1902" Bottom="809" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTabs" Key="{0A457D49-0B82-4329-A3C6-F6F6F9AB5FB8}">
+										<Image FileName="-485060680" Left="17" Top="189" Right="17" Bottom="189" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div//lightning-tabset/div/lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="article" Key="{254C5607-DD9B-49C9-AFD9-93A1CFED0B18}">
+										<Image FileName="-485060680" Left="60" Top="573" Right="1859" Bottom="2182" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]//flexipage-component2/slot/flexipage-aura-wrapper/div/article[contains(@class, &apos;slds-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-28&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//flexipage-component2/slot/flexipage-aura-wrapper/div/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frame" Key="{E6D42A04-6D41-4F64-8063-05BDF6499A81}">
+										<Image FileName="-485060680" Left="60" Top="591" Right="1859" Bottom="2091" />
+										<TypeInfo Item0="{5A92A37E-8D2E-42A5-A21A-49D978456E6C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]//div/article/div/p/iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-28&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//div/article/div/p/iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="textnodeQuote" Key="{61E6DDDE-8561-4898-A5C0-BDB512DFD1EF}">
+												<Image FileName="-485060680" Left="61" Top="674" Right="304" Bottom="2018" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oTreeContainer&apos;]//ul[contains(@class, &apos;ui-helper-reset&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeQuote2" Key="{ED99C72B-EA8B-4916-9442-A301B10D6120}">
+												<Image FileName="-485060680" Left="61" Top="674" Right="304" Bottom="779" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[contains(@class, &apos;collapsable&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkConfiguration1" Key="{3C8B3CB2-7AF1-44B3-AF3E-E72FBF09BA96}">
+												<Image FileName="-485060680" Left="121" Top="743" Right="304" Bottom="768" />
+												<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[.=&apos;Configuration[1]&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[contains(@class, &apos;eConTreeNodeLink&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTree&apos;]//a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTreeContainer&apos;]/div[@id=&apos;oTree&apos;]//ul/li/ul/li//a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeConfiguration1" Key="{C5DAC07D-6E7B-4C38-A171-EBA380C63289}">
+												<Image FileName="-485060680" Left="121" Top="744" Right="259" Bottom="766" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;Configuration[1]&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a/span[contains(@class, &apos;eConTreeNodeLabel&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTree&apos;]//a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//ul/li/ul/li//a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="article2" Key="{E45F67AA-6877-4281-9AC9-69A2E0C42824}">
+										<Image FileName="348517272" Left="60" Top="192" Right="1859" Bottom="1801" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//flexipage-component2/slot/flexipage-aura-wrapper/div/article[contains(@class, &apos;slds-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-7&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//flexipage-component2/slot/flexipage-aura-wrapper/div/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frame2" Key="{77EAF1B5-46DD-4B51-9CAB-D052008AA0DE}">
+										<Image FileName="348517272" Left="60" Top="210" Right="1859" Bottom="1710" />
+										<TypeInfo Item0="{5A92A37E-8D2E-42A5-A21A-49D978456E6C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-7&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="textnodeQuote" Key="{F7D4AB5E-FF54-4529-9331-CE620F629817}">
+												<Image FileName="348517272" Left="61" Top="293" Right="301" Bottom="1637" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oTreeContainer&apos;]//ul[contains(@class, &apos;ui-helper-reset&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeQuote2" Key="{F7E2066E-0978-4695-84CE-FCF109C4B3AF}">
+												<Image FileName="348517272" Left="61" Top="293" Right="301" Bottom="398" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[contains(@class, &apos;collapsable&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkConfiguration1" Key="{E9A41474-EF39-48E7-ADBC-3D0A8001A36B}">
+												<Image FileName="348517272" Left="121" Top="362" Right="301" Bottom="387" />
+												<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[.=&apos;Configuration[1]&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[contains(@class, &apos;eConTreeNodeLink&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTree&apos;]//a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTreeContainer&apos;]/div[@id=&apos;oTree&apos;]//ul/li/ul/li//a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeConfiguration1" Key="{704340BD-6751-4503-82B2-40CD7EFE8CB2}">
+												<Image FileName="348517272" Left="121" Top="363" Right="259" Bottom="385" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;Configuration[1]&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a/span[contains(@class, &apos;eConTreeNodeLabel&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTree&apos;]//a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//ul/li/ul/li//a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEconWheelingIslandRacetrackA" Key="{C1028916-A62F-4124-B849-3D6181B48EF1}">
+								<Image FileName="1578186731" Left="17" Top="189" Right="1925" Bottom="1132" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="1" LocalVariable="quoteurl" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{A976377E-A536-42D5-AFEF-178F1C3EF858}">
+										<Image FileName="1578186731" Left="17" Top="128" Right="1902" Bottom="805" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTabs" Key="{AED73083-8AC7-4441-8D5E-E8C9E3A3E32C}">
+										<Image FileName="1578186731" Left="60" Top="492" Right="1859" Bottom="552" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="article" Key="{CDEDA5CF-6B13-4436-ADF5-63A887FF3920}">
+										<Image FileName="1578186731" Left="60" Top="569" Right="1859" Bottom="2178" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//flexipage-component2/slot/flexipage-aura-wrapper/div/article[contains(@class, &apos;slds-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-7&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//flexipage-component2/slot/flexipage-aura-wrapper/div/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frame" Key="{F18CBFFF-D6B7-4628-B1C8-EAC02B88DC94}">
+										<Image FileName="1578186731" Left="60" Top="587" Right="1859" Bottom="2087" />
+										<TypeInfo Item0="{5A92A37E-8D2E-42A5-A21A-49D978456E6C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-7&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="textnodeQuote" Key="{CD1348A8-11AC-4722-A1A5-7163E58CFB3F}">
+												<Image FileName="1578186731" Left="61" Top="669" Right="301" Bottom="2013" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oTreeContainer&apos;]//ul[contains(@class, &apos;ui-helper-reset&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeQuote2" Key="{5A2BC0BC-45A5-4042-8AE0-6C160EBE1845}">
+												<Image FileName="1578186731" Left="61" Top="669" Right="301" Bottom="774" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[contains(., &apos;Quote&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[contains(@class, &apos;collapsable&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkConfiguration1" Key="{1B8C6CB3-8F37-4FF0-9165-84D78A6EF382}">
+												<Image FileName="1578186731" Left="121" Top="739" Right="301" Bottom="764" />
+												<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[.=&apos;Configuration[1]&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a[contains(@class, &apos;eConTreeNodeLink&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTree&apos;]//a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTreeContainer&apos;]/div[@id=&apos;oTree&apos;]//ul/li/ul/li//a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeConfiguration1" Key="{14353839-1DF2-48FF-ADB1-484057CD6029}">
+												<Image FileName="1578186731" Left="121" Top="740" Right="259" Bottom="762" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;Configuration[1]&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//a/span[contains(@class, &apos;eConTreeNodeLabel&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oTree&apos;]//a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//ul/li/ul/li//a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEconBellagioLasVegasChangeme4" Key="{1EA9D4E3-B526-4E03-A8DC-9DC5195A945A}">
+								<Image FileName="356815426" Left="6" Top="178" Right="1914" Bottom="1121" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="1" LocalVariable="quoteurl" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkCustomtabItem" Key="{467B9092-6A60-4D0B-81D5-AAF034903281}">
+										<Image FileName="356815426" Left="667" Top="749" Right="844" Bottom="809" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#customTab__item" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Configure Quote&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a[contains(@class, &apos;slds-tabs_default__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul/li[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionSkipToNavigation" Key="{92C9427E-6C04-40BC-903C-80E2E8D0491C}">
+										<Image FileName="356815426" Left="6" Top="385" Right="1891" Bottom="1062" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTabs" Key="{A0924166-4942-4087-B250-2ED73699E88C}">
+										<Image FileName="356815426" Left="49" Top="749" Right="1848" Bottom="809" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="SnippingTool" Key="{849F84DF-7D21-4077-87D7-F340283377F8}">
@@ -2709,16 +3729,56 @@
 			</Child>
 			<Child Name="Page_EconfigurationCreation" Owner="{74578B6C-9827-48C7-B97D-F84BF17B447F}" />
 			<Child Name="page_EconCreation" Owner="{4082A629-0EAC-49A3-B6AF-684237C66B00}">
-				<Child Name="article" Owner="{D42C19D1-AB85-44FF-8D03-C24FA80FCA2E}">
-					<Child Name="textboxQuoteName" Owner="{87A747D1-53E2-4C03-9CA0-321CBC4B465B}" />
-					<Child Name="selectQuoteRecordType" Owner="{F438FD74-CDEA-4043-8A9C-E93F8FD86496}" />
-					<Child Name="footerNext" Owner="{76D68651-5575-4A9B-AABD-27047049A263}" />
-					<Child Name="Econ_Button" Owner="{F4702F37-BBC6-4347-92FE-C39878FF46A8}" />
-					<Child Name="buttonNext" Owner="{96A27FE0-BE55-4A9E-A76E-E4B695D2F1D3}" />
+				<Child Name="econ" Owner="{D42C19D1-AB85-44FF-8D03-C24FA80FCA2E}">
+					<Child Name="QuoteName_TextField" Owner="{87A747D1-53E2-4C03-9CA0-321CBC4B465B}" />
+					<Child Name="QuoteRecordType_Selectlist" Owner="{F438FD74-CDEA-4043-8A9C-E93F8FD86496}" />
+					<Child Name="Next_Button" Owner="{96A27FE0-BE55-4A9E-A76E-E4B695D2F1D3}" />
+					<Child Name="econ_Button" Owner="{C82B206A-C9C5-4296-B711-D8E0CB865963}" />
 				</Child>
 			</Child>
-			<Child Name="pageBellagioLasVegas837397089206" Owner="{8852619D-620E-42AC-9D98-DEF35B9FD948}">
-				<Child Name="sectionSkipToNavigation" Owner="{A70C5EA2-2BA7-4FB8-A716-5EE7329D43A8}" />
+			<Child Name="pageRecentlyViewedQuotesSalesfor" Owner="{C562931A-B9AD-480B-BA1E-1C391932FD64}">
+				<Child Name="sectionSkipToNavigation" Owner="{39BDE9F8-2E5C-4AFC-A4DC-CC4C14B113B2}">
+					<Child Name="searchboxSearchThisList" Owner="{226ACF61-EB57-4472-9913-7058004FA1F1}" />
+					<Child Name="linkEconBellagioLasVegas" Owner="{4D343A04-4EC5-42CB-B9DB-107CA9C6831F}">
+						<Child Name="textnodeEconBellagioLasVegas" Owner="{5E55B507-8608-4568-A8CE-27A14222DDB5}" />
+					</Child>
+					<Child Name="textnodeTabs" Owner="{5E4FF0C0-4D49-4689-920B-71C9BDD27DD2}">
+						<Child Name="linkCustomtabItem" Owner="{385AB616-AC6F-4163-B70D-299BF2EBA8C4}" />
+						<Child Name="article" Owner="{51378E8B-F993-4F94-A1BE-FDD06BB64A6D}">
+							<Child Name="frame2" Owner="{E33A8A7A-5C8E-4F91-82C6-E0EB86D17746}">
+								<Child Name="textnodeConfiguration1" Owner="{F8A17BAF-B2BD-4DD9-A73B-BBD605F631AA}" />
+								<Child Name="textnodeQuote" Owner="{294C3072-1DAE-4681-B0A2-B89B1B03590E}">
+									<Child Name="textnodeQuote2" Owner="{663957EB-6A08-4AA8-BB89-A8363CCF237D}">
+										<Child Name="linkConfiguration1" Owner="{1131D51E-1703-4BD1-84AC-0D43BD917FBE}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageEconWheelingIslandRacetrackA" Owner="{C1028916-A62F-4124-B849-3D6181B48EF1}">
+				<Child Name="sectionSkipToNavigation" Owner="{A976377E-A536-42D5-AFEF-178F1C3EF858}">
+					<Child Name="textnodeTabs" Owner="{AED73083-8AC7-4441-8D5E-E8C9E3A3E32C}">
+						<Child Name="article" Owner="{CDEDA5CF-6B13-4436-ADF5-63A887FF3920}">
+							<Child Name="frame" Owner="{F18CBFFF-D6B7-4628-B1C8-EAC02B88DC94}">
+								<Child Name="textnodeQuote" Owner="{CD1348A8-11AC-4722-A1A5-7163E58CFB3F}">
+									<Child Name="textnodeQuote2" Owner="{5A2BC0BC-45A5-4042-8AE0-6C160EBE1845}">
+										<Child Name="linkConfiguration1" Owner="{1B8C6CB3-8F37-4FF0-9165-84D78A6EF382}">
+											<Child Name="textnodeConfiguration1" Owner="{14353839-1DF2-48FF-ADB1-484057CD6029}" />
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageEconBellagioLasVegasChangeme4" Owner="{1EA9D4E3-B526-4E03-A8DC-9DC5195A945A}">
+				<Child Name="linkCustomtabItem" Owner="{467B9092-6A60-4D0B-81D5-AAF034903281}" />
+				<Child Name="sectionSkipToNavigation" Owner="{92C9427E-6C04-40BC-903C-80E2E8D0491C}">
+					<Child Name="textnodeTabs" Owner="{A0924166-4942-4087-B250-2ED73699E88C}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="SnippingTool" Owner="{849F84DF-7D21-4077-87D7-F340283377F8}">

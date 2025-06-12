@@ -23,11 +23,11 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45818.7263925463"/>
+				<Prp name="datetime" type="D" value="45820.7716896991"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{D9DC6487-1DC3-4617-8681-143D8CD1DB54}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [RecurringRevenue\opportunity_configuration]"/>
-				<Prp name="relpath" type="S" value="6_10_2025_5_26 PM_00_316\Description.tcLog"/>
+				<Prp name="key" type="S" value="{CD41820D-4C9E-4B1C-A43D-C0922B77A098}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [RecurringRevenue\econ_configuration]"/>
+				<Prp name="relpath" type="S" value="6_12_2025_6_31 PM_13_990\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>
