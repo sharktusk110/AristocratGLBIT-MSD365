@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{293B0AE0-EDFA-42FE-B9B2-DD55EC0F94DB}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45820.3881134259" objectName="Aliases.browser.pageEconBellagioLasVegasChangeme4.linkCustomtabItem" objectLeft="667" objectTop="749" objectRight="844" objectBottom="809" clickPointX="762" clickPointY="775" imageFileName="tcvi351321656427601.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45820.3881134259" objectName="Aliases.browser.pageEconBellagioLasVegasChangeme4.linkCustomtabItem" objectLeft="667" objectTop="749" objectRight="844" objectBottom="809" clickPointX="762" clickPointY="775" imageFileName="tcvi351321671352801.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45821.4000810185" objectName="Aliases.browser.Page_EconConfiguration.SellingModel_Field.textboxId0eib" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi438751531335441.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45821.4001157407" objectName="Aliases.browser.Page_EconConfiguration.SellingModel_Field.textboxId0eib" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi4387515313354411.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>

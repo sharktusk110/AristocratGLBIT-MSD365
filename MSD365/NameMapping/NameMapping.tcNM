@@ -2568,7 +2568,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZYlBCAW/view" />
+										<Value PropertyType="1" LocalVariable="quoteurl" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2712,6 +2712,120 @@
 													</Selector>
 													<Selector>
 														<Value Value="//div[@id=&apos;oTreeContainer&apos;]/div[@id=&apos;oTree&apos;]//ul/li/ul/li//a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0eu" Key="{2ABF1958-371F-4D6E-931B-D0526BE27B65}">
+												<Image FileName="1982783179" Left="549" Top="723" Right="1074" Bottom="759" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@id=(//label[.=&apos;SellingModel&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#ID0EU" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//tr/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0ekf" Key="{844F8099-3883-4570-B14A-FCF3D70F1133}">
+												<Image FileName="-939896989" Left="550" Top="575" Right="634" Bottom="620" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@id=(//label[.=&apos;Quantity*&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#ID0EKF" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//tr/td//input[@type=&apos;text&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[8]/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0ebbac" Key="{B8D54916-EB33-47F1-ABF0-D42EB47165D3}">
+												<Image FileName="946032713" Left="549" Top="547" Right="1065" Bottom="583" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@value=&apos;RECURRING REVENUE&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[12]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[12]/td//tr/td//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[12]/td//tr/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0ebdac" Key="{E6457D0B-9644-43A5-81C3-09358E214320}">
+												<Image FileName="-1199321529" Left="549" Top="787" Right="1065" Bottom="823" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@value=&apos;PI-SSP - Single-Site Progressive&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[13]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[13]/td//tr/td//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[13]/td//tr/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0ecfac" Key="{B4440AC1-733B-465D-A67B-B417FC643397}">
+												<Image FileName="-1990829360" Left="549" Top="716" Right="1065" Bottom="752" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//tr[14]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[14]/td//tr/td//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[14]/td//tr/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0eojac" Key="{C16F7F0B-1F0A-4A34-9DF4-B7F7F2050D2E}">
+												<Image FileName="-1891549026" Left="549" Top="672" Right="1065" Bottom="708" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//tr[17]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[17]/td//tr/td//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[17]/td//tr/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0eylac" Key="{C132D21C-45B1-4050-97E3-3738A7B1A686}">
+												<Image FileName="782114804" Left="549" Top="653" Right="1065" Bottom="689" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//tr[19]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[19]/td//tr/td//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[19]/td//tr/td//input" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3455,6 +3569,157 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageEconBellagioLasVegas21888452" Key="{881F118D-459D-4371-BBC6-5F30165B3632}">
+								<Image FileName="-1719996207" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZOVhCAO/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{39A5D48D-CC16-4CD4-98ED-071A5093490D}">
+										<Image FileName="-1719996207" Left="17" Top="109" Right="1902" Bottom="853" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTabs" Key="{741C3F42-5955-4DCF-B2AE-F5F87618446E}">
+										<Image FileName="-1719996207" Left="17" Top="122" Right="17" Bottom="122" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div//lightning-tabset/div/lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="article" Key="{F64FEE39-90AA-40FD-8A92-97B3D8F10269}">
+										<Image FileName="-1719996207" Left="60" Top="550" Right="1859" Bottom="2159" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//article[contains(@class, &apos;econEconStub&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-13&apos;]//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frame" Key="{75ADC588-0E07-480F-A809-7BED8662114F}">
+										<Image FileName="-1719996207" Left="60" Top="568" Right="1859" Bottom="2068" />
+										<TypeInfo Item0="{5A92A37E-8D2E-42A5-A21A-49D978456E6C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-13&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="textboxId0ehb" Key="{B88391C1-4A31-4237-8EEC-FC28FA1C62AF}">
+												<Image FileName="-1719996207" Left="549" Top="708" Right="1074" Bottom="744" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@id=(//label[.=&apos;Type&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#ID0EHB" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//tr[2]/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="article2" Key="{D7875DA0-DD3D-4467-AEB8-3306FCB63717}">
+										<Image FileName="-2037118943" Left="49" Top="619" Right="1848" Bottom="2228" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//flexipage-component2/slot/flexipage-aura-wrapper/div/article[contains(@class, &apos;slds-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-7&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//flexipage-component2/slot/flexipage-aura-wrapper/div/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frame2" Key="{A721D30B-AD1D-4638-B2DD-B96457E31CE8}">
+										<Image FileName="-2037118943" Left="49" Top="637" Right="1848" Bottom="2137" />
+										<Selectors>
+											<Selector>
+												<Value Value="//iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-7&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="textboxId0eu" Key="{3606E142-859C-49F5-9A5A-39A1DD2BB54A}">
+												<Image FileName="-2037118943" Left="538" Top="733" Right="1063" Bottom="769" />
+												<TypeInfo Item0="{1C8EF5F1-727E-44B6-B5B0-426127098976}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@id=(//label[.=&apos;SellingModel&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#ID0EU" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//tr/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0eib" Key="{AAF98770-A686-486B-90C7-07B2565844F8}">
+												<Image FileName="387875580" Left="538" Top="742" Right="1063" Bottom="778" />
+												<TypeInfo Item0="{1C8EF5F1-727E-44B6-B5B0-426127098976}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@id=(//label[.=&apos;Type&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//tr[2]/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="SnippingTool" Key="{849F84DF-7D21-4077-87D7-F340283377F8}">
@@ -3703,9 +3968,6 @@
 				<Child Name="GamingClassificationApply_Button" Owner="{48D296FC-7066-4417-8B6A-421258B75D61}" />
 				<Child Name="Filter_Select" Owner="{9CB4AE18-6357-44F8-A52D-2EFC3614E659}" />
 			</Child>
-			<Child Name="wndChrome_WidgetWin_0" Owner="{920DA44A-3CB9-499A-9F77-431DC9F94972}">
-				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{CC430C95-3BCE-45E2-9887-CA4817AB66BC}" />
-			</Child>
 			<Child Name="Page_SFAppSearch_AccountSearch" Owner="{CE14D242-8055-4381-A89C-71B2704158EA}">
 				<Child Name="AccountSearch" Owner="{12D95278-6336-4595-B3F0-4CC9A48132DF}">
 					<Child Name="SearchThisList_SearchField" Owner="{4DF76F06-560E-434F-A7B1-7CDA2ED8B46C}" />
@@ -3727,7 +3989,6 @@
 				<Child Name="Opportunity_Node" Owner="{189DDDE1-0AED-47C0-8842-A059183108BA}" />
 				<Child Name="SearchThisList_SearchField" Owner="{A7BB625E-F2C1-49E8-803F-9B47E223BCD1}" />
 			</Child>
-			<Child Name="Page_EconfigurationCreation" Owner="{74578B6C-9827-48C7-B97D-F84BF17B447F}" />
 			<Child Name="page_EconCreation" Owner="{4082A629-0EAC-49A3-B6AF-684237C66B00}">
 				<Child Name="econ" Owner="{D42C19D1-AB85-44FF-8D03-C24FA80FCA2E}">
 					<Child Name="QuoteName_TextField" Owner="{87A747D1-53E2-4C03-9CA0-321CBC4B465B}" />
@@ -3736,70 +3997,28 @@
 					<Child Name="econ_Button" Owner="{C82B206A-C9C5-4296-B711-D8E0CB865963}" />
 				</Child>
 			</Child>
-			<Child Name="pageRecentlyViewedQuotesSalesfor" Owner="{C562931A-B9AD-480B-BA1E-1C391932FD64}">
-				<Child Name="sectionSkipToNavigation" Owner="{39BDE9F8-2E5C-4AFC-A4DC-CC4C14B113B2}">
-					<Child Name="searchboxSearchThisList" Owner="{226ACF61-EB57-4472-9913-7058004FA1F1}" />
-					<Child Name="linkEconBellagioLasVegas" Owner="{4D343A04-4EC5-42CB-B9DB-107CA9C6831F}">
-						<Child Name="textnodeEconBellagioLasVegas" Owner="{5E55B507-8608-4568-A8CE-27A14222DDB5}" />
-					</Child>
-					<Child Name="textnodeTabs" Owner="{5E4FF0C0-4D49-4689-920B-71C9BDD27DD2}">
-						<Child Name="linkCustomtabItem" Owner="{385AB616-AC6F-4163-B70D-299BF2EBA8C4}" />
-						<Child Name="article" Owner="{51378E8B-F993-4F94-A1BE-FDD06BB64A6D}">
-							<Child Name="frame2" Owner="{E33A8A7A-5C8E-4F91-82C6-E0EB86D17746}">
-								<Child Name="textnodeConfiguration1" Owner="{F8A17BAF-B2BD-4DD9-A73B-BBD605F631AA}" />
-								<Child Name="textnodeQuote" Owner="{294C3072-1DAE-4681-B0A2-B89B1B03590E}">
-									<Child Name="textnodeQuote2" Owner="{663957EB-6A08-4AA8-BB89-A8363CCF237D}">
-										<Child Name="linkConfiguration1" Owner="{1131D51E-1703-4BD1-84AC-0D43BD917FBE}" />
-									</Child>
-								</Child>
-							</Child>
-						</Child>
-					</Child>
-				</Child>
+			<Child Name="Page_EconNavigation" Owner="{C562931A-B9AD-480B-BA1E-1C391932FD64}">
+				<Child Name="SearchThisList_SearchField" Owner="{226ACF61-EB57-4472-9913-7058004FA1F1}" />
+				<Child Name="SearchedEcon_Node" Owner="{5E55B507-8608-4568-A8CE-27A14222DDB5}" />
 			</Child>
-			<Child Name="pageEconWheelingIslandRacetrackA" Owner="{C1028916-A62F-4124-B849-3D6181B48EF1}">
-				<Child Name="sectionSkipToNavigation" Owner="{A976377E-A536-42D5-AFEF-178F1C3EF858}">
-					<Child Name="textnodeTabs" Owner="{AED73083-8AC7-4441-8D5E-E8C9E3A3E32C}">
-						<Child Name="article" Owner="{CDEDA5CF-6B13-4436-ADF5-63A887FF3920}">
-							<Child Name="frame" Owner="{F18CBFFF-D6B7-4628-B1C8-EAC02B88DC94}">
-								<Child Name="textnodeQuote" Owner="{CD1348A8-11AC-4722-A1A5-7163E58CFB3F}">
-									<Child Name="textnodeQuote2" Owner="{5A2BC0BC-45A5-4042-8AE0-6C160EBE1845}">
-										<Child Name="linkConfiguration1" Owner="{1B8C6CB3-8F37-4FF0-9165-84D78A6EF382}">
-											<Child Name="textnodeConfiguration1" Owner="{14353839-1DF2-48FF-ADB1-484057CD6029}" />
-										</Child>
-									</Child>
-								</Child>
-							</Child>
-						</Child>
-					</Child>
+			<Child Name="Page_EconConfiguration" Owner="{DA2716AC-FA89-41F7-A9E1-47F13C157371}">
+				<Child Name="ConfigureQuote_Link" Owner="{385AB616-AC6F-4163-B70D-299BF2EBA8C4}" />
+				<Child Name="Configuration_Link" Owner="{F8A17BAF-B2BD-4DD9-A73B-BBD605F631AA}" />
+				<Child Name="SellingModel_Field" Owner="{2ABF1958-371F-4D6E-931B-D0526BE27B65}">
+					<Child Name="textboxId0eib" Owner="{AAF98770-A686-486B-90C7-07B2565844F8}" />
 				</Child>
+				<Child Name="textboxId0ekf" Owner="{844F8099-3883-4570-B14A-FCF3D70F1133}" />
+				<Child Name="textboxId0ebbac" Owner="{B8D54916-EB33-47F1-ABF0-D42EB47165D3}" />
+				<Child Name="textboxId0ebdac" Owner="{E6457D0B-9644-43A5-81C3-09358E214320}" />
+				<Child Name="textboxId0ecfac" Owner="{B4440AC1-733B-465D-A67B-B417FC643397}" />
+				<Child Name="textboxId0eojac" Owner="{C16F7F0B-1F0A-4A34-9DF4-B7F7F2050D2E}" />
+				<Child Name="textboxId0eylac" Owner="{C132D21C-45B1-4050-97E3-3738A7B1A686}" />
 			</Child>
-			<Child Name="pageEconBellagioLasVegasChangeme4" Owner="{1EA9D4E3-B526-4E03-A8DC-9DC5195A945A}">
-				<Child Name="linkCustomtabItem" Owner="{467B9092-6A60-4D0B-81D5-AAF034903281}" />
-				<Child Name="sectionSkipToNavigation" Owner="{92C9427E-6C04-40BC-903C-80E2E8D0491C}">
-					<Child Name="textnodeTabs" Owner="{A0924166-4942-4087-B250-2ED73699E88C}" />
-				</Child>
+			<Child Name="pageEconBellagioLasVegas21888452" Owner="{881F118D-459D-4371-BBC6-5F30165B3632}">
+				<Child Name="textboxId0eu" Owner="{3606E142-859C-49F5-9A5A-39A1DD2BB54A}" />
+				<Child Name="textboxId0ehb" Owner="{B88391C1-4A31-4237-8EEC-FC28FA1C62AF}" />
 			</Child>
 		</Child>
-		<Child Name="SnippingTool" Owner="{849F84DF-7D21-4077-87D7-F340283377F8}">
-			<Child Name="wndXamlWindow" Owner="{AF496AD6-1582-44F4-A683-CB11A8C16FD3}" />
-		</Child>
-		<Child Name="explorer" Owner="{54A8C89A-F972-4B15-8558-398DB71549EF}">
-			<Child Name="wndShell_TrayWnd" Owner="{DDD88C28-75DD-42EF-9201-EED867E84126}">
-				<Child Name="ReBarWindow32" Owner="{5EA9E628-F9DB-4FD0-8209-93F08FFA2A24}">
-					<Child Name="MSTaskSwWClass" Owner="{686A7A69-6759-4CA3-8347-B200A90E5A98}" />
-				</Child>
-				<Child Name="DesktopWindowXamlSource" Owner="{34365154-C0D6-437E-89DE-B6376C4E81DB}" />
-			</Child>
-		</Child>
-		<Child Name="Microsoft_Windows_ShellExperienceHost" Owner="{44821E4E-C699-41FD-AB61-3B0909062068}">
-			<Child Name="New_notification" Owner="{D136D13D-31BA-4F03-AA88-AA832C5E2B07}">
-				<Child Name="ToastCenterScrollViewer" Owner="{F42F7B67-1703-42D8-98A7-33D61013C7C4}">
-					<Child Name="New_notification_from_WhatsApp_Naddo_Awww_mere_gudda_mere_babu_Text_Input_1_of_1" Owner="{F1D9E09A-463F-4ED2-A88B-782C58CF9A97}">
-						<Child Name="SenderName" Owner="{98F4051D-62B1-4C0C-BF18-0AA23F414F73}" />
-					</Child>
-				</Child>
-			</Child>
-		</Child>
+		<Child Name="explorer" Owner="{54A8C89A-F972-4B15-8558-398DB71549EF}" />
 	</LogicalNodes>
 </Root>

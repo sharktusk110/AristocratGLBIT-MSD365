@@ -120,34 +120,97 @@ var quotename="ECON GREEN VALLEY RANCH RESORT SPA CASINO_Smoke_01_05/06/2025" ;
 //
 //}
 
-function econ_configuration_navigation(){
+//function econ_configuration_navigation(){
+//  
+//var econ_nav=Aliases.browser.Page_EconNavigation;
+//var econ_config=Aliases.browser.Page_EconConfiguration;
+//  
+//var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
+//         "Quote/list?filterName=__Recent";  
+//        
+//Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
+//                                   "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";         
+//         
+//Browsers.Item(btEdge).Navigate(url);
+//
+//econ_nav.SearchThisList_SearchField.SetText(quotename);
+//
+//Delay(2000);
+//
+//econ_nav.SearchThisList_SearchField.Keys("[Enter]");
+//
+//Delay(2000);
+//
+//econ_nav.SearchedEcon_Node.Click();
+//
+//Delay(2000);
+//
+//Project.Variables.quoteurl=Sys.Browser().Page("*").URL;
+//
+//econ_config.ConfigureQuote_Link.Click();
+//
+//Delay(10000);
+//
+//econ_config.Configuration_Link.Click();
+//
+//}
+
+function econ_configuration(){
   
-var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
-         "Quote/list?filterName=__Recent";  
-        
-Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";         
-         
-Browsers.Item(btEdge).Navigate(url);
-
-Aliases.browser.pageRecentlyViewedQuotesSalesfor.sectionSkipToNavigation.searchboxSearchThisList.SetText(quotename);
-
 Delay(2000);
+  
+//Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZOVhCAO/view";
+//
+//Aliases.browser.Page_EconConfiguration.SellingModel_Field.SetText("GOps SSP Fixed Fee Non Jackpot Funded");
+//Delay(2000);
+//
+//Aliases.browser.Page_EconConfiguration.SellingModel_Field.Keys("[Enter]");
+//
+//Aliases.browser.Page_EconConfiguration.SellingModel_Field.textboxId0eib.Keys("EGM");
+//Delay(2000);
+//Aliases.browser.Page_EconConfiguration.SellingModel_Field.textboxId0eib.Keys("[Enter]");
+//Delay(5000);
 
-Aliases.browser.pageRecentlyViewedQuotesSalesfor.sectionSkipToNavigation.searchboxSearchThisList.Keys("[Enter]");
+//Aliases.browser.Page_EconConfiguration.textboxId0ekf.SetText("2");
+//Delay(2000);
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0ekf.Keys("[Enter]");
+//Delay(2000);
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0ebbac.SetText("RECURRING REVENUE");
+//Delay(2000);
+//Aliases.browser.Page_EconConfiguration.textboxId0ebbac.Keys("[Enter]");
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0ebdac.SetText("PI-SSP - Single-Site Progressive");
+//Delay(2000);
+//Aliases.browser.Page_EconConfiguration.textboxId0ebdac.Keys("[Enter]");
+//Delay(2000);
 
+Aliases.browser.Page_EconConfiguration.textboxId0ecfac.SetText("GPP-0582|01 - BUFFALO LINK");
 Delay(2000);
-
-Aliases.browser.pageRecentlyViewedQuotesSalesfor.sectionSkipToNavigation.linkEconBellagioLasVegas.textnodeEconBellagioLasVegas.Click();
-
-Delay(2000);
-
-Project.Variables.quoteurl=Sys.Browser().Page("*").URL;
-
-Aliases.browser.pageEconBellagioLasVegasChangeme4.linkCustomtabItem.Click();
-
+Aliases.browser.Page_EconConfiguration.textboxId0ecfac.Keys("[Enter]");
 Delay(10000);
 
-Aliases.browser.pageEconWheelingIslandRacetrackA.sectionSkipToNavigation.textnodeTabs.article.frame.textnodeQuote.textnodeQuote2.linkConfiguration1.textnodeConfiguration1.Click();
+Aliases.browser.Page_EconConfiguration.textboxId0eojac.SetText("1.02-67396|01 - BUFFALO LINK");
+Delay(2000);
+Aliases.browser.Page_EconConfiguration.textboxId0eojac.Keys("[Enter]");
+Delay(2000);
+
+Aliases.browser.Page_EconConfiguration.textboxId0eylac.SetText("0.01");
+Delay(2000);
+Aliases.browser.Page_EconConfiguration.textboxId0eylac.Keys("[Enter]");
+Delay(2000);
+
+Aliases.browser.Page_EconConfiguration.textboxId0e6cae.SetText("BTN000027|01 - NO BUTTON PANEL");
+Delay(2000);
+Aliases.browser.Page_EconConfiguration.textboxId0e6cae.Keys("[Enter]");
+Delay(2000);
+
+
+
+
+
+
 
 
 
