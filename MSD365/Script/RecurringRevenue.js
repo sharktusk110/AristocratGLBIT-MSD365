@@ -156,35 +156,34 @@ var quotename="ECON GREEN VALLEY RANCH RESORT SPA CASINO_Smoke_01_05/06/2025" ;
 //}
 
 function econ_configuration(){
-  
-Delay(2000);
-  
-//Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZOVhCAO/view";
-//
-//Aliases.browser.Page_EconConfiguration.SellingModel_Field.SetText("GOps SSP Fixed Fee Non Jackpot Funded");
-//Delay(2000);
-//
-//Aliases.browser.Page_EconConfiguration.SellingModel_Field.Keys("[Enter]");
-//
-//Aliases.browser.Page_EconConfiguration.SellingModel_Field.textboxId0eib.Keys("EGM");
-//Delay(2000);
-//Aliases.browser.Page_EconConfiguration.SellingModel_Field.textboxId0eib.Keys("[Enter]");
-//Delay(5000);
 
-//Aliases.browser.Page_EconConfiguration.textboxId0ekf.SetText("2");
-//Delay(2000);
-//
-//Aliases.browser.Page_EconConfiguration.textboxId0ekf.Keys("[Enter]");
-//Delay(2000);
-//
-//Aliases.browser.Page_EconConfiguration.textboxId0ebbac.SetText("RECURRING REVENUE");
-//Delay(2000);
-//Aliases.browser.Page_EconConfiguration.textboxId0ebbac.Keys("[Enter]");
-//
-//Aliases.browser.Page_EconConfiguration.textboxId0ebdac.SetText("PI-SSP - Single-Site Progressive");
-//Delay(2000);
-//Aliases.browser.Page_EconConfiguration.textboxId0ebdac.Keys("[Enter]");
-//Delay(2000);
+  
+Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZfxxCAC/view";
+
+Aliases.browser.Page_EconConfiguration.SellingModel_Field.SetText("GOps SSP Fixed Fee Non Jackpot Funded");
+Delay(2000);
+
+Aliases.browser.Page_EconConfiguration.SellingModel_Field.Keys("[Enter]");
+
+Aliases.browser.Page_EconConfiguration.textboxId0eib.Keys("EGM");
+Delay(2000);
+Aliases.browser.Page_EconConfiguration.textboxId0eib.Keys("[Enter]");
+Delay(5000);
+
+Aliases.browser.Page_EconConfiguration.textboxId0ekf.SetText("2");
+Delay(2000);
+
+Aliases.browser.Page_EconConfiguration.textboxId0ekf.Keys("[Enter]");
+Delay(2000);
+
+Aliases.browser.Page_EconConfiguration.textboxId0ebbac.SetText("RECURRING REVENUE");
+Delay(2000);
+Aliases.browser.Page_EconConfiguration.textboxId0ebbac.Keys("[Enter]");
+
+Aliases.browser.Page_EconConfiguration.textboxId0ebdac.SetText("PI-SSP - Single-Site Progressive");
+Delay(2000);
+Aliases.browser.Page_EconConfiguration.textboxId0ebdac.Keys("[Enter]");
+Delay(2000);
 
 Aliases.browser.Page_EconConfiguration.textboxId0ecfac.SetText("GPP-0582|01 - BUFFALO LINK");
 Delay(2000);
@@ -196,9 +195,15 @@ Delay(2000);
 Aliases.browser.Page_EconConfiguration.textboxId0eojac.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0eylac.SetText("0.01");
+Aliases.browser.Page_EconConfiguration.textboxId0eylac.SetText(".01");
 Delay(2000);
 Aliases.browser.Page_EconConfiguration.textboxId0eylac.Keys("[Enter]");
+Delay(2000);
+
+
+Aliases.browser.Page_EconConfiguration.textboxId0e2oac.SetText("TPP000146|01 - TOPPER MARSX STATIC");
+Delay(5000);
+Aliases.browser.Page_EconConfiguration.textboxId0e2oac.Keys("[Enter]");;
 Delay(2000);
 
 Aliases.browser.Page_EconConfiguration.textboxId0e6cae.SetText("BTN000027|01 - NO BUTTON PANEL");
@@ -206,15 +211,8 @@ Delay(2000);
 Aliases.browser.Page_EconConfiguration.textboxId0e6cae.Keys("[Enter]");
 Delay(2000);
 
-
-
-
-
-
-
-
-
-
-
+Aliases.browser.Page_EconConfiguration.textboxId0eckae.SetText("NONE");
+Delay(2000);
+Aliases.browser.Page_EconConfiguration.textboxId0eckae.Keys("[Enter]");
 
 }

@@ -2829,6 +2829,69 @@
 													</Selector>
 												</Selectors>
 											</Child>
+											<Child Name="textboxId0e6cae" Key="{F01EB671-442F-446D-BAF5-09A2CA1D8360}">
+												<Image FileName="-157944722" Left="549" Top="555" Right="1065" Bottom="591" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//tr[23]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[23]/td//tr/td//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[23]/td//tr/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0e2oac" Key="{1463FF4E-7363-4BA6-81F7-5F6DE219F4C5}">
+												<Image FileName="2109691133" Left="549" Top="672" Right="1065" Bottom="708" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//tr[21]/td//tr/td//input[@role=&apos;textbox&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[21]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[21]/td//tr/td//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[21]/td//tr/td//input" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=/html/body/div[1]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[2]/div/div[1]/div[1]/div/div[2]/div[1]/table/tbody/tr[22]/td[2]/div[1]/table/tbody/tr/td[1]/div/span/input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0eckae" Key="{38003950-BF1F-4156-B912-94108667EE2B}">
+												<Image FileName="-1692150566" Left="549" Top="796" Right="1074" Bottom="832" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@id=(//label[.=&apos;Bills Accepted&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#ID0ECKAE" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[28]/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0eib" Key="{AAF98770-A686-486B-90C7-07B2565844F8}">
+												<Image FileName="387875580" Left="538" Top="742" Right="1063" Bottom="778" />
+												<TypeInfo Item0="{1C8EF5F1-727E-44B6-B5B0-426127098976}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@id=(//label[.=&apos;Type&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain1Container&apos;]//tr[2]/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
 										</Children>
 									</Child>
 								</Children>
@@ -3704,15 +3767,106 @@
 													</Selector>
 												</Selectors>
 											</Child>
-											<Child Name="textboxId0eib" Key="{AAF98770-A686-486B-90C7-07B2565844F8}">
-												<Image FileName="387875580" Left="538" Top="742" Right="1063" Bottom="778" />
-												<TypeInfo Item0="{1C8EF5F1-727E-44B6-B5B0-426127098976}" />
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEconWheelingIslandRacetrackA2" Key="{DC0A32F8-B72B-4554-A7E1-2A2C59BB459A}">
+								<Image FileName="988762199" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZfxxCAC/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{5B600767-4891-491C-B6D0-1B11C6B75138}">
+										<Image FileName="988762199" Left="17" Top="-41" Right="1902" Bottom="703" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTabs" Key="{473BF55A-3156-4FDD-B743-CF4B3BA6AD9D}">
+										<Image FileName="988762199" Left="17" Top="122" Right="17" Bottom="122" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="article" Key="{5C999BBF-E456-4B57-BC88-323C474652D0}">
+										<Image FileName="988762199" Left="60" Top="400" Right="1859" Bottom="2009" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//slot/flexipage-tab2/slot/flexipage-component2/slot//article[contains(@class, &apos;slds-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-24&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tabset//flexipage-component2/slot/flexipage-aura-wrapper/div/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frame" Key="{91C766B9-8D77-486B-8EF3-26E5E99763B5}">
+										<Image FileName="988762199" Left="60" Top="418" Right="1859" Bottom="1918" />
+										<TypeInfo Item0="{5A92A37E-8D2E-42A5-A21A-49D978456E6C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-24&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="textboxId0edbae" Key="{FBA76B0B-7C56-4E9E-B8A6-0A0C399869FB}">
+												<Image FileName="988762199" Left="549" Top="828" Right="1065" Bottom="864" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//input[@id=(//label[.=&apos;Type&apos;]/@for)]" />
+														<Value Value="#ID0EDBAE" />
 													</Selector>
 													<Selector>
-														<Value Value="//div[@id=&apos;oMain1Container&apos;]//tr[2]/td//input" />
+														<Value Value="//input[@value=&apos;TPP000146|01 - TOPPER MARSX STATIC&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[22]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[22]/td//tr/td//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[22]/td//tr/td//input" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -4004,19 +4158,30 @@
 			<Child Name="Page_EconConfiguration" Owner="{DA2716AC-FA89-41F7-A9E1-47F13C157371}">
 				<Child Name="ConfigureQuote_Link" Owner="{385AB616-AC6F-4163-B70D-299BF2EBA8C4}" />
 				<Child Name="Configuration_Link" Owner="{F8A17BAF-B2BD-4DD9-A73B-BBD605F631AA}" />
-				<Child Name="SellingModel_Field" Owner="{2ABF1958-371F-4D6E-931B-D0526BE27B65}">
-					<Child Name="textboxId0eib" Owner="{AAF98770-A686-486B-90C7-07B2565844F8}" />
-				</Child>
+				<Child Name="SellingModel_Field" Owner="{2ABF1958-371F-4D6E-931B-D0526BE27B65}" />
 				<Child Name="textboxId0ekf" Owner="{844F8099-3883-4570-B14A-FCF3D70F1133}" />
 				<Child Name="textboxId0ebbac" Owner="{B8D54916-EB33-47F1-ABF0-D42EB47165D3}" />
 				<Child Name="textboxId0ebdac" Owner="{E6457D0B-9644-43A5-81C3-09358E214320}" />
 				<Child Name="textboxId0ecfac" Owner="{B4440AC1-733B-465D-A67B-B417FC643397}" />
 				<Child Name="textboxId0eojac" Owner="{C16F7F0B-1F0A-4A34-9DF4-B7F7F2050D2E}" />
 				<Child Name="textboxId0eylac" Owner="{C132D21C-45B1-4050-97E3-3738A7B1A686}" />
+				<Child Name="textboxId0e6cae" Owner="{F01EB671-442F-446D-BAF5-09A2CA1D8360}" />
+				<Child Name="textboxId0e2oac" Owner="{1463FF4E-7363-4BA6-81F7-5F6DE219F4C5}" />
+				<Child Name="textboxId0eckae" Owner="{38003950-BF1F-4156-B912-94108667EE2B}" />
+				<Child Name="textboxId0eib" Owner="{AAF98770-A686-486B-90C7-07B2565844F8}" />
 			</Child>
 			<Child Name="pageEconBellagioLasVegas21888452" Owner="{881F118D-459D-4371-BBC6-5F30165B3632}">
 				<Child Name="textboxId0eu" Owner="{3606E142-859C-49F5-9A5A-39A1DD2BB54A}" />
 				<Child Name="textboxId0ehb" Owner="{B88391C1-4A31-4237-8EEC-FC28FA1C62AF}" />
+			</Child>
+			<Child Name="pageEconWheelingIslandRacetrackA2" Owner="{DC0A32F8-B72B-4554-A7E1-2A2C59BB459A}">
+				<Child Name="sectionSkipToNavigation" Owner="{5B600767-4891-491C-B6D0-1B11C6B75138}">
+					<Child Name="textnodeTabs" Owner="{473BF55A-3156-4FDD-B743-CF4B3BA6AD9D}">
+						<Child Name="article" Owner="{5C999BBF-E456-4B57-BC88-323C474652D0}">
+							<Child Name="frame" Owner="{91C766B9-8D77-486B-8EF3-26E5E99763B5}" />
+						</Child>
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{54A8C89A-F972-4B15-8558-398DB71549EF}" />
