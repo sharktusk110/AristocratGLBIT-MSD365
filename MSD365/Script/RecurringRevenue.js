@@ -155,64 +155,170 @@ var quotename="ECON GREEN VALLEY RANCH RESORT SPA CASINO_Smoke_01_05/06/2025" ;
 //
 //}
 
-function econ_configuration(){
+//function econ_mainconfiguration(){
 
   
-Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZfxxCAC/view";
+//Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view";
+//
+//Aliases.browser.Page_EconConfiguration.SellingModel_Field.SetText("GOps SSP Fixed Fee Non Jackpot Funded");
+//Delay(2000);
+//
+//Aliases.browser.Page_EconConfiguration.SellingModel_Field.Keys("[Enter]");
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0eib.Keys("EGM");
+//Delay(2000);
+//Aliases.browser.Page_EconConfiguration.textboxId0eib.Keys("[Enter]");
+//Delay(5000);
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0ekf.SetText("2");
+//Delay(2000);
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0ekf.Keys("[Enter]");
+//Delay(2000);
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0ebbac.SetText("RECURRING REVENUE");
+//Delay(2000);
+//Aliases.browser.Page_EconConfiguration.textboxId0ebbac.Keys("[Enter]");
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0ebdac.SetText("PI-SSP - Single-Site Progressive");
+//Delay(2000);
+//Aliases.browser.Page_EconConfiguration.textboxId0ebdac.Keys("[Enter]");
+//Delay(2000);
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0ecfac.SetText("GPP-0582|01 - BUFFALO LINK");
+//Delay(2000);
+//Aliases.browser.Page_EconConfiguration.textboxId0ecfac.Keys("[Enter]");
+//Delay(10000);
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0eojac.SetText("1.02-67396|01 - BUFFALO LINK");
+//Delay(2000);
+//Aliases.browser.Page_EconConfiguration.textboxId0eojac.Keys("[Enter]");
+//Delay(2000);
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0eylac.SetText(".01");
+//Delay(2000);
+//Aliases.browser.Page_EconConfiguration.textboxId0eylac.Keys("[Enter]");
+//Delay(2000);
+//
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0e2oac.SetText("TPP000146|01 - TOPPER MARSX STATIC");
+//Delay(5000);
+//Aliases.browser.Page_EconConfiguration.textboxId0e2oac.Keys("[Enter]");;
+//Delay(2000);
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0e6cae.SetText("BTN000027|01 - NO BUTTON PANEL");
+//Delay(2000);
+//Aliases.browser.Page_EconConfiguration.textboxId0e6cae.Keys("[Enter]");
+//Delay(2000);
+//
+//Aliases.browser.Page_EconConfiguration.textboxId0eckae.SetText("NONE");
+//Delay(2000);
+//Aliases.browser.Page_EconConfiguration.textboxId0eckae.Keys("[Enter]");
+//
+//Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.SellingModel_Field.SetText("GOps SSP Fixed Fee Non Jackpot Funded");
+//Aliases.browser.pageEconBellagioLasVegas21888452.buttonId0eub.Click();
+//
+//}
+
+function econ_advancedconfiguration(){
+  
+
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.Click();
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.SellingModel_Field.Keys("[Enter]");
-
-Aliases.browser.Page_EconConfiguration.textboxId0eib.Keys("EGM");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ersae.SetText("MARS UPRIGHT G9 CTO RFRB");
 Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0eib.Keys("[Enter]");
-Delay(5000);
-
-Aliases.browser.Page_EconConfiguration.textboxId0ekf.SetText("2");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ersae.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0ekf.Keys("[Enter]");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eotae.SetText("CAB000149-PT|01");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eotae.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0ebbac.SetText("RECURRING REVENUE");
-Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0ebbac.Keys("[Enter]");
+Aliases.browser.pageEconBellagioLasVegas21888452.label.Click();
 
-Aliases.browser.Page_EconConfiguration.textboxId0ebdac.SetText("PI-SSP - Single-Site Progressive");
-Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0ebdac.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0ecfac.SetText("GPP-0582|01 - BUFFALO LINK");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eguae.SetText("TBX NONE OPTION");
 Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0ecfac.Keys("[Enter]");
-Delay(10000);
-
-Aliases.browser.Page_EconConfiguration.textboxId0eojac.SetText("1.02-67396|01 - BUFFALO LINK");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eguae.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0eojac.Keys("[Enter]");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0euuae.SetText("None");
 Delay(2000);
-
-Aliases.browser.Page_EconConfiguration.textboxId0eylac.SetText(".01");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0euuae.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0eylac.Keys("[Enter]");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ecvae.SetText("MAINBOARD OPTION NOT APPLICABLE WHEN MAINBOARD IS IN OTHER OPTION");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ecvae.Keys("[Enter]");
 Delay(2000);
 
+//Aliases.browser.pageEconBellagioLasVegas21888452.label2.Click();
 
-Aliases.browser.Page_EconConfiguration.textboxId0e2oac.SetText("TPP000146|01 - TOPPER MARSX STATIC");
-Delay(5000);
-Aliases.browser.Page_EconConfiguration.textboxId0e2oac.Keys("[Enter]");;
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eiwae.SetText("TOPPER MARSX STATIC");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eiwae.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ewwae.SetText("TBD MARSX FIT NONE WITH BLANK");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ewwae.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eexae.SetText("FILM CANDLE LIGHT TOWER 4 WHITE-WHITE");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eexae.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eayae.SetText("CONDITIONAL NONE OPTION ALL");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eayae.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eoyae.SetText("MAIN VIDEO DISPLAY NONE");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eoyae.Keys("[Enter]");
+
+//Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0esxae.SetText("Button Panel");
+//Delay(2000);
+//Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0esxae.Keys("[Enter]");
+//Delay(2000);
+
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0exzae.SetText("JCM GEN5 MARS");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0exzae.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0ef1ae.SetText("TICKET VALIDATION TITO ENABLED G7 G8 G9");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0ef1ae.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0et1ae.SetText("JCM IVZ 600 66 STD BZL USB MARSX 2CB");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0et1ae.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0e6cae.SetText("BTN000027|01 - NO BUTTON PANEL");
-Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0e6cae.Keys("[Enter]");
-Delay(2000);
+//Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.labelYes.Click();
 
-Aliases.browser.Page_EconConfiguration.textboxId0eckae.SetText("NONE");
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0ekdag.SetText("SYSTEM BASE 6.13.0-1.00.4");
 Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0eckae.Keys("[Enter]");
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0ekdag.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0eydag.SetText("LINUX X.6A.1");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0eydag.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0egeag.SetText("BOOTLOADER 5.0 GEN 7 GEN 8 GEN 9 AND VERVE");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0egeag.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0eueag.SetText("SET CHIP 7.02.71.01-WV");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0eueag.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0ecfag.SetText("BUFFALO LINK, VAR 99,03,06,09");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0ecfag.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0eqfag.SetText("GEN9");
+Delay(2000);
+Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.textboxId0eqfag.Keys("[Enter]");
+
 
 }

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 5">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eotae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Cabinet']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7331617708"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="236"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eoyae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Main Monitor Display']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7336229977"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'MAIN VIDEO DISPLAY NONE' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="274"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 17">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eexae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Candle']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7335075694"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'FILM CANDLE LIGHT TOWER 4 WHITE-WHITE' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="266"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eguae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Top Box']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7332503125"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="245"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0euuae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='SPC']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7332794792"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'None' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="247"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eoyae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Main Monitor Display']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7336833102"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="276"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eayae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Conditional']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7335640741"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'CONDITIONAL NONE OPTION ALL' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="270"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ersae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Model']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7330964699"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="231"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;There are several browsers running in the system. The executed test commands do not specify the web browser to be used (this can happen, for example, when you are running part of your test).&lt;/p&gt;&lt;p style=&quot;margin-top : 12px;&quot;&gt;&lt;b&gt;&lt;u&gt;Launched browsers:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;div style=&quot;margin-left: 24px;&quot;&gt;Sys.Browser(&quot;chrome&quot;)&lt;br&gt;Sys.Browser(&quot;edge&quot;)&lt;/div&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Please close the browsers you do not want to use and run the test again. Alternatively, you can run the test from the Run Browser or Navigate command that specifies the desired browser (IExplore, Firefox, Chrome).&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://4297&quot;&gt;See Help for more information&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="date" type="D" value="45822.7330217708"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Ambiguous browser recognition."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="226"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="remarks" type="S" value="A click at point (9, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.label&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//div[@id='Advanced-scroll']//div/label&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7331927199"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="239"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0esxae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Button Panel']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7336925579"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'Button Panel' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="278"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ewwae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Top Box Display']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7334800463"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="264"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eiwae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Topper']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7333936806"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'TOPPER MARSX STATIC' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="258"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ersae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Model']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7330677431"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'MARS UPRIGHT G9 CTO RFRB' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="229"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{84DCAD69-8F5F-4C3C-AD74-672DBAC2E154}"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 10">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0euuae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='SPC']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7333083218"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="249"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ecvae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Mainboard']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7333364583"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'MAINBOARD OPTION NOT APPLICABLE WHEN MAINBOARD IS IN OTHER OPTION' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="251"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eiwae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Topper']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7334225579"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="260"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eotae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Cabinet']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7331248148"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'CAB000149-PT|01' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="234"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="remarks" type="S" value="A click at point (51, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//a[.='Advanced']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7330394907"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="226"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ecvae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Mainboard']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7333656829"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="253"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0esxae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Button Panel']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7337241782"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="280"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ewwae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Top Box Display']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7334506481"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'TBD MARSX FIT NONE WITH BLANK' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="262"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eguae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Top Box']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7332210532"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'TBX NONE OPTION' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="243"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eayae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Conditional']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7335927778"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="272"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eexae&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZkxdCAC/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Candle']/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="45822.7335364931"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="268"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>
