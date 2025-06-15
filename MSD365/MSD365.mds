@@ -17,6 +17,12 @@
 				<Variable Name="quoteurl" Type="String" Local="True">
 					<DefValue />
 				</Variable>
+				<Variable Name="accounturl" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="econurl" Type="String" Local="True">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>

@@ -2026,7 +2026,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Account/0017F00001Mzc75QAB/view" />
+										<Value PropertyType="1" LocalVariable="accounturl" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2442,7 +2442,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Opportunity/0069r00000H5TxFAAV/view" />
+										<Value PropertyType="1" LocalVariable="econurl" />
 									</Property>
 								</Properties>
 								<Children>
@@ -4134,7 +4134,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZOVhCAO/view" />
+										<Value PropertyType="1" LocalVariable="quoteurl" />
 									</Property>
 								</Properties>
 								<Children>
@@ -4667,18 +4667,7 @@
 				<Child Name="textboxId0eib" Owner="{AAF98770-A686-486B-90C7-07B2565844F8}" />
 			</Child>
 			<Child Name="pageEconBellagioLasVegas21888452" Owner="{881F118D-459D-4371-BBC6-5F30165B3632}">
-				<Child Name="linkAdvanced" Owner="{5797B608-7C90-4EA2-ACE3-CE62B6DF02A2}">
-					<Child Name="textboxId0exzae" Owner="{65259BA0-926D-47FF-AF3F-8DEEF66A4E77}" />
-					<Child Name="textboxId0ef1ae" Owner="{F439D67E-BD11-462B-A5A5-5DAD60544D73}" />
-					<Child Name="textboxId0et1ae" Owner="{60136C26-D91B-430B-BB5E-C0737A5A3795}" />
-					<Child Name="textboxId0ekdag" Owner="{7B3AE559-EA03-4767-A7B1-606A1B5ABE7E}" />
-					<Child Name="textboxId0eydag" Owner="{FCB53613-6B5C-44E4-AECE-86D4B59EA209}" />
-					<Child Name="textboxId0egeag" Owner="{8C3EE4C1-DA99-43EA-97EF-5EA9C4EA9C94}" />
-					<Child Name="textboxId0eueag" Owner="{26739F1D-C576-4D7C-BF59-154CA261E575}" />
-					<Child Name="textboxId0ecfag" Owner="{4946BF20-59A2-425E-95E6-A0FCD06F4E49}" />
-					<Child Name="textboxId0eqfag" Owner="{96FCA2B0-0C34-4ECA-954A-013D90C2B4D2}" />
-					<Child Name="labelYes" Owner="{65C5A06D-1EDE-47A4-8F19-210B4287E2C2}" />
-				</Child>
+				<Child Name="linkAdvanced" Owner="{5797B608-7C90-4EA2-ACE3-CE62B6DF02A2}" />
 				<Child Name="textboxId0ersae" Owner="{3A0A758A-D97E-472C-B649-10C504FE0B62}" />
 				<Child Name="textboxId0eotae" Owner="{774A083F-BDDC-4761-BF64-8A190DF0AAAD}" />
 				<Child Name="label" Owner="{602E1FC0-DB3E-4DB3-8FF9-D39F1E3AB527}" />
@@ -4694,23 +4683,17 @@
 				<Child Name="textboxId0eoyae" Owner="{4E5412F3-057F-4846-8CCB-6C804380C18C}" />
 				<Child Name="buttonId0eub" Owner="{12EC2C84-F524-4D93-A89D-3CC4410EA6D3}" />
 			</Child>
-			<Child Name="pageEconWheelingIslandRacetrackA2" Owner="{DC0A32F8-B72B-4554-A7E1-2A2C59BB459A}">
-				<Child Name="sectionSkipToNavigation" Owner="{5B600767-4891-491C-B6D0-1B11C6B75138}">
-					<Child Name="textnodeTabs" Owner="{473BF55A-3156-4FDD-B743-CF4B3BA6AD9D}">
-						<Child Name="article" Owner="{5C999BBF-E456-4B57-BC88-323C474652D0}">
-							<Child Name="frame" Owner="{91C766B9-8D77-486B-8EF3-26E5E99763B5}" />
-						</Child>
-					</Child>
-				</Child>
-			</Child>
 			<Child Name="pageEconBellagioLasVegas218884522" Owner="{84C3E356-95D9-474E-8685-3D96B8C9AFF8}">
-				<Child Name="sectionSkipToNavigation" Owner="{EEC4A9CC-E9CB-42F2-BC31-02EFF7674760}">
-					<Child Name="textnodeTabs" Owner="{9BE7E13C-6541-4920-971E-4C55C3A24734}">
-						<Child Name="article" Owner="{B1D498A8-4099-4907-BC81-1497343417B3}">
-							<Child Name="frame" Owner="{AC91FD02-A611-4E72-B955-1A0B521552E8}" />
-						</Child>
-					</Child>
-				</Child>
+				<Child Name="textboxId0exzae" Owner="{65259BA0-926D-47FF-AF3F-8DEEF66A4E77}" />
+				<Child Name="labelYes" Owner="{65C5A06D-1EDE-47A4-8F19-210B4287E2C2}" />
+				<Child Name="textboxId0ecfag" Owner="{4946BF20-59A2-425E-95E6-A0FCD06F4E49}" />
+				<Child Name="textboxId0ef1ae" Owner="{F439D67E-BD11-462B-A5A5-5DAD60544D73}" />
+				<Child Name="textboxId0egeag" Owner="{8C3EE4C1-DA99-43EA-97EF-5EA9C4EA9C94}" />
+				<Child Name="textboxId0ekdag" Owner="{7B3AE559-EA03-4767-A7B1-606A1B5ABE7E}" />
+				<Child Name="textboxId0eueag" Owner="{26739F1D-C576-4D7C-BF59-154CA261E575}" />
+				<Child Name="textboxId0eqfag" Owner="{96FCA2B0-0C34-4ECA-954A-013D90C2B4D2}" />
+				<Child Name="textboxId0et1ae" Owner="{60136C26-D91B-430B-BB5E-C0737A5A3795}" />
+				<Child Name="textboxId0eydag" Owner="{FCB53613-6B5C-44E4-AECE-86D4B59EA209}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{54A8C89A-F972-4B15-8558-398DB71549EF}" />

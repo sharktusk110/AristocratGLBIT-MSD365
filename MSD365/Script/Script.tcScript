@@ -24,6 +24,9 @@
 				<child name="SO_CreateAndConfig_VHD_Test" key="{E034DA71-4D4D-4676-96B9-573408B974CF}" path="SO_CreateAndConfig_VHD_Test.js" />
 				<child name="SO_CreateAndConfig_OBC_Test" key="{B9914FFE-DB6C-4A62-9E79-A3A7647218C4}" path="SO_CreateAndConfig_OBC_Test.js" />
 			</folder>
+			<folder name="RecurringRevenue Test">
+				<child name="RR" key="{1C637C46-00E7-496C-B28C-D279CC6EF50A}" path="RR.js" />
+			</folder>
 		</folder>
 	</children>
 </Root>
