@@ -24,7 +24,7 @@ var opportunity=Aliases.browser.Page_NewOpportunityCreation;
 Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";
 
- Browsers.Item(btEdge).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home");
+ Browsers.Item(btEdge).Run("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home");
  Delay(7000);
  app.AppLauncher_Button.Click();
  app.SearchAppsAndItems_SearchField.SetText("Aristocrat");
@@ -165,75 +165,65 @@ econ_config.Configuration_Link.Click();
 
 function econ_mainconfiguration(Config){
   
-//var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
-//         "Quote/list?filterName=__Recent";  
-//        
-//Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
-//                                   "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";         
-//         
-//Browsers.Item(btEdge).Run(url);
+var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
 
-  
-//Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000Zs5ZCAS/view";
-
-Aliases.browser.Page_EconConfiguration.SellingModel_Field.SetText(Config[0]);
+MainConfiguration.SellingModel_Field.SetText(Config[0]);
+Delay(2000);
+MainConfiguration.SellingModel_Field.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.SellingModel_Field.Keys("[Enter]");
-
-Aliases.browser.Page_EconConfiguration.textboxId0eib.Keys(Config[1]);
+MainConfiguration.Type_Field.Keys(Config[1]);
 Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0eib.Keys("[Enter]");
+MainConfiguration.Type_Field.Keys("[Enter]");
 Delay(5000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0ekf.SetText(Config[2]);
+MainConfiguration.Quantity_Field.SetText(Config[2]);
+Delay(2000);
+MainConfiguration.Quantity_Field.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0ekf.Keys("[Enter]");
+MainConfiguration.LicenseType_Field.SetText(Config[3]);
+Delay(2000);
+MainConfiguration.LicenseType_Field.Keys("[Enter]");
+
+MainConfiguration.ProgressiveType_Field.SetText(Config[4]);
+Delay(2000);
+MainConfiguration.ProgressiveType_Field.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0ebbac.SetText(Config[3]);
+MainConfiguration.GameTheme_Field.SetText(Config[5]);
 Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0ebbac.Keys("[Enter]");
-
-Aliases.browser.Page_EconConfiguration.textboxId0ebdac.SetText(Config[4]);
-Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0ebdac.Keys("[Enter]");
-Delay(2000);
-
-Aliases.browser.Page_EconConfiguration.textboxId0ecfac.SetText(Config[5]);
-Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0ecfac.Keys("[Enter]");
+MainConfiguration.GameTheme_Field.Keys("[Enter]");
 Delay(10000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0eojac.SetText(Config[6]);
+MainConfiguration.GameTitle_Field.SetText(Config[6]);
 Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0eojac.Keys("[Enter]");
-Delay(2000);
-
-Aliases.browser.Page_EconConfiguration.textboxId0eylac.SetText(Config[7]);
-Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0eylac.Keys("[Enter]");
+MainConfiguration.GameTitle_Field.Keys("[Enter]");
 Delay(2000);
 
+MainConfiguration.Denom_Field.SetText(Config[7]);
+Delay(2000);
+MainConfiguration.Denom_Field.Keys("[Enter]");
+Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0e2oac.SetText(Config[8]);
+
+MainConfiguration.Topper_Field.SetText(Config[8]);
 Delay(5000);
-Aliases.browser.Page_EconConfiguration.textboxId0e2oac.Keys("[Enter]");;
+MainConfiguration.Topper_Field.Keys("[Enter]");;
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0e6cae.SetText(Config[9]);
+MainConfiguration.ButtonPanel_Field.SetText(Config[9]);
 Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0e6cae.Keys("[Enter]");
-Delay(2000);
-
-Aliases.browser.Page_EconConfiguration.textboxId0eckae.SetText(Config[10]);
-Delay(2000);
-Aliases.browser.Page_EconConfiguration.textboxId0eckae.Keys("[Enter]");
-
+MainConfiguration.ButtonPanel_Field.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.pageEconBellagioLasVegas21888452.buttonId0eub.Click();
+MainConfiguration.BillsAccepted_Field.SetText(Config[10]);
+Delay(2000);
+MainConfiguration.BillsAccepted_Field.Keys("[Enter]");
+
+Delay(2000);
+
+Aliases.browser.Page_EconAdvancedConfiguration_I.CompleteEdit_Button.Click();
 
 }
 
@@ -241,106 +231,115 @@ function econ_advancedconfiguration(Config){
   
 // Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000Znc9CAC/view";
 
-Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.Click();
+var AdvancedConfiguration=Aliases.browser.Page_EconAdvancedConfiguration_I;
+var AdvancedConfigurationPluz=Aliases.browser.Page_EconAdvancedConfiguration_II;
+
+AdvancedConfiguration.linkAdvanced.Click();
 Delay(2000);
 
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ersae.SetText(Config[0]);
+AdvancedConfiguration.Model_Field.SetText(Config[0]);
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ersae.Keys("[Enter]");
+AdvancedConfiguration.Model_Field.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eotae.SetText(Config[1]);
+AdvancedConfiguration.Cabinet_Field.SetText(Config[1]);
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eotae.Keys("[Enter]");
+AdvancedConfiguration.Cabinet_Field.Keys("[Enter]");
 Delay(2000);
 
 if(Config[2]=="No" || Config[2]=="NO"||Config[2]=="no"){
-Aliases.browser.pageEconBellagioLasVegas21888452.label.Click();
+AdvancedConfiguration.TBXLineItem_Checkbox.Click();
 }
 
 Delay(2000);
 
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eguae.SetText(Config[3]);
+AdvancedConfiguration.TopBox_Field.SetText(Config[3]);
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eguae.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0euuae.SetText(Config[4]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0euuae.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ecvae.SetText(Config[5]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ecvae.Keys("[Enter]");
+AdvancedConfiguration.TopBox_Field.Keys("[Enter]");
 Delay(2000);
 
-//Config[6]
-//Aliases.browser.pageEconBellagioLasVegas21888452.label2.Click();
-
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eiwae.SetText(Config[7]);
+AdvancedConfiguration.SPC_Field.SetText(Config[4]);
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eiwae.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ewwae.SetText(Config[8]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ewwae.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eexae.SetText(Config[9]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eexae.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eayae.SetText(Config[10]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eayae.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eoyae.SetText(Config[11]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eoyae.Keys("[Enter]");
+AdvancedConfiguration.SPC_Field.Keys("[Enter]");
 Delay(2000);
 
-//Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0esxae.SetText("Button Panel");
-//Delay(2000);
-//Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0esxae.Keys("[Enter]");
-//Delay(2000);
-
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0exzae.SetText(Config[12]);
+AdvancedConfiguration.Mainboard_Field.SetText(Config[5]);
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0exzae.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ef1ae.SetText(Config[13]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ef1ae.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0et1ae.SetText(Config[14]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0et1ae.Keys("[Enter]");
+AdvancedConfiguration.Mainboard_Field.Keys("[Enter]");
 Delay(2000);
 
-//Config[15]
-//Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.labelYes.Click();
+if(Config[6]!="No" || Config[6]!="NO"||Config[6]!="no"){
+AdvancedConfiguration.TPPLineItem_Checkbox.Click();
+}
 
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ekdag.SetText(Config[16]);
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ekdag.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eydag.SetText(Config[17]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eydag.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0egeag.SetText(Config[18]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0egeag.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eueag.SetText(Config[19]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eueag.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ecfag.SetText(Config[20]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ecfag.Keys("[Enter]");
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eqfag.SetText(Config[21]);
-Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eqfag.Keys("[Enter]");
 
+AdvancedConfiguration.Topper_Field.SetText(Config[7]);
+Delay(2000);
+AdvancedConfiguration.Topper_Field.Keys("[Enter]");
+Delay(2000);
+
+AdvancedConfiguration.TopBoxDisplay_Field.SetText(Config[8]);
+Delay(2000);
+AdvancedConfiguration.TopBoxDisplay_Field.Keys("[Enter]");
+Delay(2000);
+
+AdvancedConfiguration.Candle_Field.SetText(Config[9]);
+Delay(2000);
+AdvancedConfiguration.Candle_Field.Keys("[Enter]");
+Delay(2000);
+
+AdvancedConfiguration.Conditional_Field.SetText(Config[10]);
+Delay(2000);
+AdvancedConfiguration.Conditional_Field.Keys("[Enter]");
+Delay(2000);
+
+AdvancedConfiguration.MainMonitorDisplay_Field.SetText(Config[11]);
+Delay(2000);
+AdvancedConfiguration.MainMonitorDisplay_Field.Keys("[Enter]");
+Delay(2000);
+
+AdvancedConfigurationPluz.Printer_FieldSetText(Config[12]);
+Delay(2000);
+AdvancedConfigurationPluz.Printer_Field.Keys("[Enter]");
+Delay(2000);
+AdvancedConfigurationPluz.TicketValidation_Field.SetText(Config[13]);
+Delay(2000);
+AdvancedConfigurationPluz.TicketValidation_Field.Keys("[Enter]");
+Delay(2000);
+AdvancedConfigurationPluz.BillAcceptor_Field.SetText(Config[14]);
+Delay(2000);
+AdvancedConfigurationPluz.BillAcceptor_Field.Keys("[Enter]");
+Delay(2000);
+
+if(Config[15]!="No" || Config[15]!="NO"||Config[15]!="no"){
+  
+AdvancedConfigurationPluz.RunCP_Checkbox.Click();
+
+}
+
+AdvancedConfigurationPluz.Base_Field.SetText(Config[16]);
+Delay(2000);
+AdvancedConfigurationPluz.Base_Field.Keys("[Enter]");
+Delay(2000);
+AdvancedConfigurationPluz.OS_Field.SetText(Config[17]);
+Delay(2000);
+AdvancedConfigurationPluz.OS_Field.Keys("[Enter]");
+Delay(2000);
+AdvancedConfigurationPluz.Bootloader_Field.SetText(Config[18]);
+Delay(2000);
+AdvancedConfigurationPluz.Bootloader_Field.Keys("[Enter]");
+Delay(2000);
+AdvancedConfigurationPluz.Setchip_Field.SetText(Config[19]);
+Delay(2000);
+AdvancedConfigurationPluz.Setchip_Field.Keys("[Enter]");
+Delay(2000);
+AdvancedConfigurationPluz.ProgressiveTrigger_Field.SetText(Config[20]);
+Delay(2000);
+AdvancedConfigurationPluz.ProgressiveTrigger_Field.Keys("[Enter]");
+Delay(2000);
+AdvancedConfigurationPluz.Platform_Field.SetText(Config[21]);
+Delay(2000);
+AdvancedConfigurationPluz.Platform_Field.Keys("[Enter]");
 
 }

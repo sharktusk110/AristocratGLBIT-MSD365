@@ -4651,49 +4651,49 @@
 				<Child Name="SearchThisList_SearchField" Owner="{226ACF61-EB57-4472-9913-7058004FA1F1}" />
 				<Child Name="SearchedEcon_Node" Owner="{5E55B507-8608-4568-A8CE-27A14222DDB5}" />
 			</Child>
-			<Child Name="Page_EconConfiguration" Owner="{DA2716AC-FA89-41F7-A9E1-47F13C157371}">
+			<Child Name="Page_EconMainConfiguration" Owner="{DA2716AC-FA89-41F7-A9E1-47F13C157371}">
 				<Child Name="ConfigureQuote_Link" Owner="{385AB616-AC6F-4163-B70D-299BF2EBA8C4}" />
 				<Child Name="Configuration_Link" Owner="{F8A17BAF-B2BD-4DD9-A73B-BBD605F631AA}" />
 				<Child Name="SellingModel_Field" Owner="{2ABF1958-371F-4D6E-931B-D0526BE27B65}" />
-				<Child Name="textboxId0ekf" Owner="{844F8099-3883-4570-B14A-FCF3D70F1133}" />
-				<Child Name="textboxId0ebbac" Owner="{B8D54916-EB33-47F1-ABF0-D42EB47165D3}" />
-				<Child Name="textboxId0ebdac" Owner="{E6457D0B-9644-43A5-81C3-09358E214320}" />
-				<Child Name="textboxId0ecfac" Owner="{B4440AC1-733B-465D-A67B-B417FC643397}" />
-				<Child Name="textboxId0eojac" Owner="{C16F7F0B-1F0A-4A34-9DF4-B7F7F2050D2E}" />
-				<Child Name="textboxId0eylac" Owner="{C132D21C-45B1-4050-97E3-3738A7B1A686}" />
-				<Child Name="textboxId0e6cae" Owner="{F01EB671-442F-446D-BAF5-09A2CA1D8360}" />
-				<Child Name="textboxId0e2oac" Owner="{1463FF4E-7363-4BA6-81F7-5F6DE219F4C5}" />
-				<Child Name="textboxId0eckae" Owner="{38003950-BF1F-4156-B912-94108667EE2B}" />
-				<Child Name="textboxId0eib" Owner="{AAF98770-A686-486B-90C7-07B2565844F8}" />
+				<Child Name="Quantity_Field" Owner="{844F8099-3883-4570-B14A-FCF3D70F1133}" />
+				<Child Name="LicenseType_Field" Owner="{B8D54916-EB33-47F1-ABF0-D42EB47165D3}" />
+				<Child Name="ProgressiveType_Field" Owner="{E6457D0B-9644-43A5-81C3-09358E214320}" />
+				<Child Name="GameTheme_Field" Owner="{B4440AC1-733B-465D-A67B-B417FC643397}" />
+				<Child Name="GameTitle_Field" Owner="{C16F7F0B-1F0A-4A34-9DF4-B7F7F2050D2E}" />
+				<Child Name="Denom_Field" Owner="{C132D21C-45B1-4050-97E3-3738A7B1A686}" />
+				<Child Name="ButtonPanel_Field" Owner="{F01EB671-442F-446D-BAF5-09A2CA1D8360}" />
+				<Child Name="Topper_Field" Owner="{1463FF4E-7363-4BA6-81F7-5F6DE219F4C5}" />
+				<Child Name="BillsAccepted_Field" Owner="{38003950-BF1F-4156-B912-94108667EE2B}" />
+				<Child Name="Type_Field" Owner="{AAF98770-A686-486B-90C7-07B2565844F8}" />
 			</Child>
-			<Child Name="pageEconBellagioLasVegas21888452" Owner="{881F118D-459D-4371-BBC6-5F30165B3632}">
+			<Child Name="Page_EconAdvancedConfiguration_I" Owner="{881F118D-459D-4371-BBC6-5F30165B3632}">
 				<Child Name="linkAdvanced" Owner="{5797B608-7C90-4EA2-ACE3-CE62B6DF02A2}" />
-				<Child Name="textboxId0ersae" Owner="{3A0A758A-D97E-472C-B649-10C504FE0B62}" />
-				<Child Name="textboxId0eotae" Owner="{774A083F-BDDC-4761-BF64-8A190DF0AAAD}" />
-				<Child Name="label" Owner="{602E1FC0-DB3E-4DB3-8FF9-D39F1E3AB527}" />
-				<Child Name="textboxId0eguae" Owner="{F04BCC10-7B75-4713-9D69-4012A906E528}" />
-				<Child Name="textboxId0euuae" Owner="{97D7E719-87C3-4FDA-A74C-B57D5D36B6AD}" />
-				<Child Name="textboxId0ecvae" Owner="{CA8692DB-2AA6-439A-A114-EE982F2EAA32}" />
-				<Child Name="label2" Owner="{F4B41E21-934A-46E8-B9BF-AFCC93584C4D}" />
-				<Child Name="textboxId0eiwae" Owner="{86C4FE4B-9458-4B33-8E13-E5A3F2403AEB}" />
-				<Child Name="textboxId0ewwae" Owner="{478A606B-9BA8-48D6-826C-03A8307DB836}" />
-				<Child Name="textboxId0eexae" Owner="{83980664-8CE5-4DBD-AB47-E5F14213AE90}" />
-				<Child Name="textboxId0esxae" Owner="{C70DE0A3-AF72-4BAE-9844-5392BAEE9D67}" />
-				<Child Name="textboxId0eayae" Owner="{CB866F09-0AC4-4A2C-9C79-0EEECF174EC7}" />
-				<Child Name="textboxId0eoyae" Owner="{4E5412F3-057F-4846-8CCB-6C804380C18C}" />
-				<Child Name="buttonId0eub" Owner="{12EC2C84-F524-4D93-A89D-3CC4410EA6D3}" />
+				<Child Name="Model_Field" Owner="{3A0A758A-D97E-472C-B649-10C504FE0B62}" />
+				<Child Name="Cabinet_Field" Owner="{774A083F-BDDC-4761-BF64-8A190DF0AAAD}" />
+				<Child Name="TBXLineItem_Checkbox" Owner="{602E1FC0-DB3E-4DB3-8FF9-D39F1E3AB527}" />
+				<Child Name="TopBox_Field" Owner="{F04BCC10-7B75-4713-9D69-4012A906E528}" />
+				<Child Name="SPC_Field" Owner="{97D7E719-87C3-4FDA-A74C-B57D5D36B6AD}" />
+				<Child Name="Mainboard_Field" Owner="{CA8692DB-2AA6-439A-A114-EE982F2EAA32}" />
+				<Child Name="TPPLineItem_Checkbox" Owner="{F4B41E21-934A-46E8-B9BF-AFCC93584C4D}" />
+				<Child Name="Topper_Field" Owner="{86C4FE4B-9458-4B33-8E13-E5A3F2403AEB}" />
+				<Child Name="TopBoxDisplay_Field" Owner="{478A606B-9BA8-48D6-826C-03A8307DB836}" />
+				<Child Name="Candle_Field" Owner="{83980664-8CE5-4DBD-AB47-E5F14213AE90}" />
+				<Child Name="ButtonPanel_Field" Owner="{C70DE0A3-AF72-4BAE-9844-5392BAEE9D67}" />
+				<Child Name="Conditional_Field" Owner="{CB866F09-0AC4-4A2C-9C79-0EEECF174EC7}" />
+				<Child Name="MainMonitorDisplay_Field" Owner="{4E5412F3-057F-4846-8CCB-6C804380C18C}" />
+				<Child Name="CompleteEdit_Button" Owner="{12EC2C84-F524-4D93-A89D-3CC4410EA6D3}" />
 			</Child>
-			<Child Name="pageEconBellagioLasVegas218884522" Owner="{84C3E356-95D9-474E-8685-3D96B8C9AFF8}">
-				<Child Name="textboxId0exzae" Owner="{65259BA0-926D-47FF-AF3F-8DEEF66A4E77}" />
-				<Child Name="labelYes" Owner="{65C5A06D-1EDE-47A4-8F19-210B4287E2C2}" />
-				<Child Name="textboxId0ecfag" Owner="{4946BF20-59A2-425E-95E6-A0FCD06F4E49}" />
-				<Child Name="textboxId0ef1ae" Owner="{F439D67E-BD11-462B-A5A5-5DAD60544D73}" />
-				<Child Name="textboxId0egeag" Owner="{8C3EE4C1-DA99-43EA-97EF-5EA9C4EA9C94}" />
-				<Child Name="textboxId0ekdag" Owner="{7B3AE559-EA03-4767-A7B1-606A1B5ABE7E}" />
-				<Child Name="textboxId0eueag" Owner="{26739F1D-C576-4D7C-BF59-154CA261E575}" />
-				<Child Name="textboxId0eqfag" Owner="{96FCA2B0-0C34-4ECA-954A-013D90C2B4D2}" />
-				<Child Name="textboxId0et1ae" Owner="{60136C26-D91B-430B-BB5E-C0737A5A3795}" />
-				<Child Name="textboxId0eydag" Owner="{FCB53613-6B5C-44E4-AECE-86D4B59EA209}" />
+			<Child Name="Page_EconAdvancedConfiguration_II" Owner="{84C3E356-95D9-474E-8685-3D96B8C9AFF8}">
+				<Child Name="Printer_Field" Owner="{65259BA0-926D-47FF-AF3F-8DEEF66A4E77}" />
+				<Child Name="RunCP_Checkbox" Owner="{65C5A06D-1EDE-47A4-8F19-210B4287E2C2}" />
+				<Child Name="ProgressiveTrigger_Field" Owner="{4946BF20-59A2-425E-95E6-A0FCD06F4E49}" />
+				<Child Name="TicketValidation_Field" Owner="{F439D67E-BD11-462B-A5A5-5DAD60544D73}" />
+				<Child Name="Bootloader_Field" Owner="{8C3EE4C1-DA99-43EA-97EF-5EA9C4EA9C94}" />
+				<Child Name="Base_Field" Owner="{7B3AE559-EA03-4767-A7B1-606A1B5ABE7E}" />
+				<Child Name="Setchip_Field" Owner="{26739F1D-C576-4D7C-BF59-154CA261E575}" />
+				<Child Name="Platform_Field" Owner="{96FCA2B0-0C34-4ECA-954A-013D90C2B4D2}" />
+				<Child Name="BillAcceptor_Field" Owner="{60136C26-D91B-430B-BB5E-C0737A5A3795}" />
+				<Child Name="OS_Field" Owner="{FCB53613-6B5C-44E4-AECE-86D4B59EA209}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{54A8C89A-F972-4B15-8558-398DB71549EF}" />
