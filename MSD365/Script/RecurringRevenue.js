@@ -12,7 +12,7 @@
 //                                  "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";
 
 
-function Opportunity_Creation() {
+function Opportunity_Creation(Config) {
   
 var app=Aliases.browser.Page_SFAppSearch_AccountSearch;
 var account=Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch;
@@ -36,7 +36,7 @@ Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\
  
  // Searching account for opportunity creation
  
- account.SearchThisList_SearchField.SetText("WHEELING ISLAND RACETRACK AND GAMING CENTER");
+ account.SearchThisList_SearchField.SetText(Config[0]);
  account.SearchThisList_SearchField.Keys("[Enter]");
  account.Account_Node.Click();
  Delay(2000);
@@ -55,7 +55,7 @@ Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\
  
  opportunity.GamingClassification_Field.Click();
  Delay(2000);
- opportunity.GamingClassification_Field.Keys("Class III");
+ opportunity.GamingClassification_Field.Keys(Config[1]);
  Delay(2000);
  opportunity.GamingClassification_Field.Keys("[Enter]");
  Delay(2000);
@@ -64,7 +64,7 @@ Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\
  
  opportunity.Type_Field.Click();
  Delay(2000);
- opportunity.Type_Field.Keys("Regular");
+ opportunity.Type_Field.Keys(Config[2]);
  Delay(2000);
  opportunity.Type_Field.Keys("[Enter]");
  
@@ -72,7 +72,7 @@ Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\
  
  opportunity.MarketSegment_Field.Click();
  Delay(2000);
- opportunity.MarketSegment_Field.Keys("Class III");
+ opportunity.MarketSegment_Field.Keys(Config[3]);
  Delay(2000);
  opportunity.MarketSegment_Field.Keys("[Enter]");
 
@@ -80,7 +80,7 @@ Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\
  
  opportunity.LeadSource_Field.Click();
  Delay(2000);
- opportunity.LeadSource_Field.Keys("Customer");
+ opportunity.LeadSource_Field.Keys(Config[4]);
  Delay(2000);
  opportunity.LeadSource_Field.Keys("[Enter]");
  Delay(2000);
@@ -90,8 +90,9 @@ Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\
  opportunity.Save_Button.Click();
 }
 
-function econ_generation(){
+function econ_generation(Config){
   
+//opportunity_name="WHEELING ISLAND RACETRACK AND GAMING CENTER -3587299014- 06/15/2025";  
 var search_opportunity=Aliases.browser.Page_SearchOpportunity;
 var econ=Aliases.browser.page_EconCreation.econ;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning"+
@@ -111,7 +112,7 @@ Delay(2000);
 
 quotename=econ.QuoteName_TextField.Text;
 
-econ.QuoteRecordType_Selectlist.Keys("Gaming Ops");
+econ.QuoteRecordType_Selectlist.Keys(Config[0]);
 Delay(2000);
 econ.Next_Button.Click();
 Delay(2000);
@@ -119,7 +120,7 @@ econ.Next_Button.Click();
 Delay(2000);
 econ.QuoteRecordType_Selectlist.Click();
 Delay(2000);
-econ.QuoteRecordType_Selectlist.Keys("Class III - Delivery Address - ATTN: SLOT DEPARTMENT3600 LAS VEGAS BLVD S, LAS VEGAS, Nevada  89109-4303, USA");
+econ.QuoteRecordType_Selectlist.Keys("Class III - Delivery Address - "+Config[1]+", USA");
 Delay(2000);
 econ.QuoteRecordType_Selectlist.Keys("[Enter]");
 Delay(2000);
@@ -162,7 +163,7 @@ econ_config.Configuration_Link.Click();
 
 }
 
-function econ_mainconfiguration(){
+function econ_mainconfiguration(Config){
   
 //var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
 //         "Quote/list?filterName=__Recent";  
@@ -173,60 +174,60 @@ function econ_mainconfiguration(){
 //Browsers.Item(btEdge).Run(url);
 
   
-//Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000Znc9CAC/view";
+//Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000Zs5ZCAS/view";
 
-Aliases.browser.Page_EconConfiguration.SellingModel_Field.SetText("GOps SSP Fixed Fee Non Jackpot Funded");
+Aliases.browser.Page_EconConfiguration.SellingModel_Field.SetText(Config[0]);
 Delay(2000);
 
 Aliases.browser.Page_EconConfiguration.SellingModel_Field.Keys("[Enter]");
 
-Aliases.browser.Page_EconConfiguration.textboxId0eib.Keys("EGM");
+Aliases.browser.Page_EconConfiguration.textboxId0eib.Keys(Config[1]);
 Delay(2000);
 Aliases.browser.Page_EconConfiguration.textboxId0eib.Keys("[Enter]");
 Delay(5000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0ekf.SetText("2");
+Aliases.browser.Page_EconConfiguration.textboxId0ekf.SetText(Config[2]);
 Delay(2000);
 
 Aliases.browser.Page_EconConfiguration.textboxId0ekf.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0ebbac.SetText("RECURRING REVENUE");
+Aliases.browser.Page_EconConfiguration.textboxId0ebbac.SetText(Config[3]);
 Delay(2000);
 Aliases.browser.Page_EconConfiguration.textboxId0ebbac.Keys("[Enter]");
 
-Aliases.browser.Page_EconConfiguration.textboxId0ebdac.SetText("PI-SSP - Single-Site Progressive");
+Aliases.browser.Page_EconConfiguration.textboxId0ebdac.SetText(Config[4]);
 Delay(2000);
 Aliases.browser.Page_EconConfiguration.textboxId0ebdac.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0ecfac.SetText("GPP-0582|01 - BUFFALO LINK");
+Aliases.browser.Page_EconConfiguration.textboxId0ecfac.SetText(Config[5]);
 Delay(2000);
 Aliases.browser.Page_EconConfiguration.textboxId0ecfac.Keys("[Enter]");
 Delay(10000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0eojac.SetText("1.02-67396|01 - BUFFALO LINK");
+Aliases.browser.Page_EconConfiguration.textboxId0eojac.SetText(Config[6]);
 Delay(2000);
 Aliases.browser.Page_EconConfiguration.textboxId0eojac.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0eylac.SetText(".01");
+Aliases.browser.Page_EconConfiguration.textboxId0eylac.SetText(Config[7]);
 Delay(2000);
 Aliases.browser.Page_EconConfiguration.textboxId0eylac.Keys("[Enter]");
 Delay(2000);
 
 
-Aliases.browser.Page_EconConfiguration.textboxId0e2oac.SetText("TPP000146|01 - TOPPER MARSX STATIC");
+Aliases.browser.Page_EconConfiguration.textboxId0e2oac.SetText(Config[8]);
 Delay(5000);
 Aliases.browser.Page_EconConfiguration.textboxId0e2oac.Keys("[Enter]");;
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0e6cae.SetText("BTN000027|01 - NO BUTTON PANEL");
+Aliases.browser.Page_EconConfiguration.textboxId0e6cae.SetText(Config[9]);
 Delay(2000);
 Aliases.browser.Page_EconConfiguration.textboxId0e6cae.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconConfiguration.textboxId0eckae.SetText("NONE");
+Aliases.browser.Page_EconConfiguration.textboxId0eckae.SetText(Config[10]);
 Delay(2000);
 Aliases.browser.Page_EconConfiguration.textboxId0eckae.Keys("[Enter]");
 
@@ -236,59 +237,62 @@ Aliases.browser.pageEconBellagioLasVegas21888452.buttonId0eub.Click();
 
 }
 
-function econ_advancedconfiguration(){
+function econ_advancedconfiguration(Config){
   
 // Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000Znc9CAC/view";
 
 Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.Click();
 Delay(2000);
 
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ersae.SetText("MARS UPRIGHT G9 CTO RFRB");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ersae.SetText(Config[0]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ersae.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eotae.SetText("CAB000149-PT|01");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eotae.SetText(Config[1]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eotae.Keys("[Enter]");
 Delay(2000);
 
+if(Config[2]=="No" || Config[2]=="NO"||Config[2]=="no"){
 Aliases.browser.pageEconBellagioLasVegas21888452.label.Click();
+}
 
 Delay(2000);
 
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eguae.SetText("TBX NONE OPTION");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eguae.SetText(Config[3]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eguae.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0euuae.SetText("None");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0euuae.SetText(Config[4]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0euuae.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ecvae.SetText("MAINBOARD OPTION NOT APPLICABLE WHEN MAINBOARD IS IN OTHER OPTION");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ecvae.SetText(Config[5]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ecvae.Keys("[Enter]");
 Delay(2000);
 
+//Config[6]
 //Aliases.browser.pageEconBellagioLasVegas21888452.label2.Click();
 
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eiwae.SetText("TOPPER MARSX STATIC");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eiwae.SetText(Config[7]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eiwae.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ewwae.SetText("TBD MARSX FIT NONE WITH BLANK");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ewwae.SetText(Config[8]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0ewwae.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eexae.SetText("FILM CANDLE LIGHT TOWER 4 WHITE-WHITE");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eexae.SetText(Config[9]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eexae.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eayae.SetText("CONDITIONAL NONE OPTION ALL");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eayae.SetText(Config[10]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eayae.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eoyae.SetText("MAIN VIDEO DISPLAY NONE");
+Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eoyae.SetText(Config[11]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0eoyae.Keys("[Enter]");
 Delay(2000);
@@ -298,42 +302,43 @@ Delay(2000);
 //Aliases.browser.pageEconBellagioLasVegas21888452.textboxId0esxae.Keys("[Enter]");
 //Delay(2000);
 
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0exzae.SetText("JCM GEN5 MARS");
+Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0exzae.SetText(Config[12]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0exzae.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ef1ae.SetText("TICKET VALIDATION TITO ENABLED G7 G8 G9");
+Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ef1ae.SetText(Config[13]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ef1ae.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0et1ae.SetText("JCM IVZ 600 66 STD BZL USB MARSX 2CB");
+Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0et1ae.SetText(Config[14]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0et1ae.Keys("[Enter]");
 Delay(2000);
 
+//Config[15]
 //Aliases.browser.pageEconBellagioLasVegas21888452.linkAdvanced.labelYes.Click();
 
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ekdag.SetText("SYSTEM BASE 6.13.0-1.00.4");
+Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ekdag.SetText(Config[16]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ekdag.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eydag.SetText("LINUX X.6A.1");
+Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eydag.SetText(Config[17]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eydag.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0egeag.SetText("BOOTLOADER 5.0 GEN 7 GEN 8 GEN 9 AND VERVE");
+Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0egeag.SetText(Config[18]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0egeag.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eueag.SetText("SET CHIP 7.02.71.01-WV");
+Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eueag.SetText(Config[19]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eueag.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ecfag.SetText("BUFFALO LINK, VAR 99,03,06,09");
+Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ecfag.SetText(Config[20]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0ecfag.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eqfag.SetText("GEN9");
+Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eqfag.SetText(Config[21]);
 Delay(2000);
 Aliases.browser.pageEconBellagioLasVegas218884522.textboxId0eqfag.Keys("[Enter]");
 
