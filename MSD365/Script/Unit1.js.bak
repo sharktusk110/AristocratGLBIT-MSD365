@@ -1,0 +1,28 @@
+﻿
+function split_break() {
+  
+//Delay(5000);
+//Aliases.browser.Page_EconMainConfiguration.textnodeQuote3.Click();
+//Delay(2000);
+//Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeComplianceCheck.buttonComplianceCheck.Click();
+//Delay(20000);
+//var msg=Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]").contentText;
+//if(msg)
+//Log.Message(msg);
+
+aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Passed");
+
+}
+
+//function Trial()
+//{
+//  //Opens the specified URL in a running instance of the specified browser.
+//  Browsers.Item(btEdge).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000aZvJCAU/view");
+//  Aliases.browser.BrowserWindow.Maximize();
+//  //Clicks the 'textnode00141697Pass' object with the right mouse button.
+//  Aliases.browser.Page_EconAdvancedConfiguration_II.textnode00141697Pass.ClickR(79, 6);
+//  //Clicks the 'panel00141697Pass' control.
+//  Aliases.browser.Page_EconAdvancedConfiguration_II.panel00141697Pass.Click();
+//  //Checks whether the 'contentText' property of the Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]").FindElement("#alert-dialog-1750667422444") object equals '00141697 Pass'.
+//  aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass");
+//}

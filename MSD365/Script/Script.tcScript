@@ -13,6 +13,7 @@
 			</folder>
 			<folder name="RecurringRevenue">
 				<child name="RecurringRevenue" key="{84DCAD69-8F5F-4C3C-AD74-672DBAC2E154}" path="RecurringRevenue.js" />
+				<child name="Unit1" key="{4F71A839-6E2D-4483-A3F2-C4F1569856B2}" path="Unit1.js" />
 			</folder>
 		</folder>
 		<folder name="Tests">

@@ -23,6 +23,9 @@
 				<Variable Name="econurl" Type="String" Local="True">
 					<DefValue />
 				</Variable>
+				<Variable Name="caseurl" Type="String" Local="True">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>

@@ -5,26 +5,32 @@
 //module.exports.getObject
 //USEUNIT ReadExcel
 
-//var opportunity_name="BELLAGIO LAS VEGAS - CHANGEME - 06/09/2025";
-//var quotename="ECON GREEN VALLEY RANCH RESORT SPA CASINO_Smoke_01_05/06/2025" ;
+var opportunity_name;
+var quotename;
 
 //Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
 //                                  "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";
 
 
+function login_halt(){
+  
+  Browsers.Item(btEdge).Run("https://aristocrat-global--qa1.sandbox.lightning.force.com/");  
+  Delay(30000);                               
+}
+
 function Opportunity_Creation(Config) {
   
-var app=Aliases.browser.Page_SFAppSearch_AccountSearch;
-var account=Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch;
-var opportunity=Aliases.browser.Page_NewOpportunityCreation;
+ var app=Aliases.browser.Page_SFAppSearch_AccountSearch;
+ var account=Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch;
+ var opportunity=Aliases.browser.Page_NewOpportunityCreation;
 
    
-// Navigating for SF Home and selecting Aristocrat app for account related opportunity creation
+ // Navigating for SF Home and selecting Aristocrat app for account related opportunity creation
 
-Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
-                                   "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";
+// Browsers.Item(btEdge).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
+//                                   "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";
 
- Browsers.Item(btEdge).Run("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home");
+ Browsers.Item(btEdge).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home");
  Delay(7000);
  app.AppLauncher_Button.Click();
  app.SearchAppsAndItems_SearchField.SetText("Aristocrat");
@@ -129,17 +135,25 @@ Delay(2000);
 econ.Next_Button.Click();;
 Delay(2000);
 
+Sys.Browser("edge").Close();
+
 }
 
 function econ_configuration_navigation(){
   
 var econ_nav=Aliases.browser.Page_EconNavigation;
-var econ_config=Aliases.browser.Page_EconConfiguration;
-  
+var econ_config=Aliases.browser.Page_EconMainConfiguration;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
-         "Quote/list?filterName=__Recent";           
+         "Quote/list?filterName=__Recent";
          
-Browsers.Item(btEdge).Navigate(url);
+//quotename="ECON WHEELING ISLAND RACETRACK AND GAMING CENTER -2140301833- 06/22/2025";         
+
+Browsers.Item(btEdge).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
+                                   "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";           
+         
+Browsers.Item(btEdge).Run(url);
+
+Delay(20000);
 
 econ_nav.SearchThisList_SearchField.SetText(quotename);
 
@@ -157,18 +171,20 @@ Project.Variables.quoteurl=Sys.Browser().Page("*").URL;
 
 econ_config.ConfigureQuote_Link.Click();
 
-Delay(25000);
+Delay(50000);
 
 econ_config.Configuration_Link.Click();
 
 }
 
 function econ_mainconfiguration(Config){
+
+//Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000aZk1CAE/view";
   
 var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
 
 MainConfiguration.SellingModel_Field.SetText(Config[0]);
-Delay(2000);
+Delay(10000);
 MainConfiguration.SellingModel_Field.Keys("[Enter]");
 Delay(2000);
 
@@ -201,7 +217,7 @@ Delay(2000);
 MainConfiguration.GameTitle_Field.Keys("[Enter]");
 Delay(2000);
 
-MainConfiguration.Denom_Field.SetText(Config[7]);
+MainConfiguration.Denom_Field.SetText("."+Config[7].split(".")[1]);
 Delay(2000);
 MainConfiguration.Denom_Field.Keys("[Enter]");
 Delay(2000);
@@ -299,7 +315,7 @@ Delay(2000);
 AdvancedConfiguration.MainMonitorDisplay_Field.Keys("[Enter]");
 Delay(2000);
 
-AdvancedConfigurationPluz.Printer_FieldSetText(Config[12]);
+AdvancedConfigurationPluz.Printer_Field.SetText(Config[12]);
 Delay(2000);
 AdvancedConfigurationPluz.Printer_Field.Keys("[Enter]");
 Delay(2000);
@@ -312,7 +328,7 @@ Delay(2000);
 AdvancedConfigurationPluz.BillAcceptor_Field.Keys("[Enter]");
 Delay(2000);
 
-if(Config[15]!="No" || Config[15]!="NO"||Config[15]!="no"){
+if(Config[15]=="Yes" || Config[15]=="YES"||Config[15]=="yes"){
   
 AdvancedConfigurationPluz.RunCP_Checkbox.Click();
 
@@ -341,5 +357,53 @@ Delay(2000);
 AdvancedConfigurationPluz.Platform_Field.SetText(Config[21]);
 Delay(2000);
 AdvancedConfigurationPluz.Platform_Field.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.Page_EconMainConfiguration.textnodeQuote3.Click();
+Delay(2000);
+Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeComplianceCheck.buttonComplianceCheck.Click();
+Delay(20000);
+if(aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass")){
+Aliases.browser.Page_EconMainConfiguration.buttonOk.Click();
+Delay(2000);
+Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeSaveAndExit2.buttonSaveAndExit.Click();
+}else{
+  Aliases.browser.Page_EconMainConfiguration.buttonOk.Click();
+}
+
+}
+
+function econ_approval(){
+  
+Aliases.browser.Page_EconMainConfiguration.buttonSubmit.Click();
+Delay(2000);
+Aliases.browser.Page_EconMainConfiguration.labelComments.textareaComments.Keys("Please approve");
+Delay(2000);
+Aliases.browser.Page_EconMainConfiguration.buttonSubmit2.Click();
+Delay(2000);
+Aliases.browser.Page_EconMainConfiguration.linkRelatedliststabItem.Click();
+Delay(2000);
+Aliases.browser.Page_EconMainConfiguration.textnodeApprove.linkApprove.Click();
+Delay(2000);
+Aliases.browser.Page_EconMainConfiguration.labelComments.textareaComments.Keys("Please approve");
+Delay(2000);
+Aliases.browser.Page_EconMainConfiguration.buttonSubmit2.Click();
+Delay(10000);
+Aliases.browser.Page_EconMainConfiguration.link00185996.textnode00185996.Click();
+Delay(2000);
+Project.Variables.caseurl=Sys.Browser().Page("*").URL;
+Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.linkDetailtabItem.buttonEditStatus.Click();
+Delay(2000);
+Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.textnode.buttonStatus.Click();
+Delay(2000);
+Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.textnode.buttonStatus.Keys("QC - Complete");
+Delay(2000);
+Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.textnode.buttonStatus.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.linkDetailtabItem.buttonSaveedit.Click();
+Delay(2000);
+Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.linkWindow.textnode2.Click();
+Delay(2000);
+Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link.Click();
+Delay(50000);
 
 }
