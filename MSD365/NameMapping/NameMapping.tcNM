@@ -1250,6 +1250,183 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonGridOptions" Key="{AF76F00B-78DB-4BF5-82C3-6846CB64EF1E}">
+										<Image FileName="-647896379" Left="1796" Top="685" Right="1823" Bottom="732" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Grid_3_0_optionsCell_menuButtonButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Grid options&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;dyn-button-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Grid_3_0_optionsCell&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form/div[@role=&apos;region&apos;]//div[2]/div[@id=&apos;salestablelistpage_1_Grid&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonFormcontrolfieldselector2O" Key="{BAAB4CCA-E655-425D-864F-22E32725F61A}">
+										<Image FileName="-972640802" Left="1684" Top="1043" Right="1786" Bottom="1088" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#FormControlFieldSelector_2_OK" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@name=&apos;OK&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[5]//div[@id=&apos;FormControlFieldSelector_2_SubmitSection&apos;]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[@id=&apos;FormControlFieldSelector_2_SubmitSection&apos;]//button[contains(@class, &apos;Auto&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mainPane&apos;]//div[@role=&apos;dialog&apos;]//div[5]//div[@id=&apos;FormControlFieldSelector_2_SubmitSection&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[5]//div[@id=&apos;FormControlFieldSelector_2_SubmitSection&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAllFields" Key="{959E86FB-D784-4B4A-A398-82F5E61970E1}">
+										<Image FileName="-341138037" Left="995" Top="254" Right="1895" Bottom="294" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;All fields&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;pivot-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;FormControlFieldSelector_2_FormGroupControl1&apos;]//div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{F396F65E-CF92-4286-8FF7-416FE0487A9D}">
+										<Image FileName="-341138037" Left="1053" Top="504" Right="1077" Bottom="528" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;rect&apos;][contains(@class, &apos;_jpa94h&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;GridCell-0-FormControlFieldSelector_Grid_Selected&apos;]//*[name()=&apos;rect&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//*[name()=&apos;svg&apos;]/*[name()=&apos;rect&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQuoteNumber" Key="{4686C922-9145-4248-BA17-9BC350F462F4}">
+										<Image FileName="888193799" Left="1539" Top="744" Right="1767" Bottom="768" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Quote Number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@title=&apos;Quote Number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[26]//div[contains(@class, &apos;dyn-headerCellLabel&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{ACD1D8FC-32E8-4010-9DA2-BA26DFCA500D}">
+										<Image FileName="243093635" Left="1547" Top="994" Right="1877" Bottom="1039" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=/html/body/div[21]/div[3]/div/div[3]/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGrid30OptionscellMenubut" Key="{A151F504-5BA8-43E2-9B50-DD3BD9DA0A5C}">
+										<Image FileName="-1803109568" Left="1668" Top="594" Right="1822" Bottom="684" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Grid_3_0_optionsCell_menuButtonList" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Insert columns...&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;_1fsm0y1&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonInsertColumns" Key="{7719ECD6-02E3-4739-9287-8D119DDADC5A}">
+										<Image FileName="-1803109568" Left="1668" Top="594" Right="1822" Bottom="639" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Grid_3_0_AddNewColumnId" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Insert columns...&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Insert columns...&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/button[contains(@class, &apos;dyn-button-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCustomerName" Key="{C42A549E-85BB-4984-A812-29366586D23B}">
+										<Image FileName="370139865" Left="673" Top="542" Right="1315" Bottom="587" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//*[@id=&quot;SalesTable_SalesName_3_0_0_input&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{45985CAC-C0D7-4FE3-9F1F-46CB588AC5F9}">
+										<Image FileName="-2042023439" Left="980" Top="309" Right="1865" Bottom="369" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[contains(@class, &apos;group_content&apos;)]//div[contains(@class, &apos;group_content&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonApplyFilter" Key="{7A71033B-414F-446F-928A-D54401CF52CE}">
+										<Image FileName="-460324208" Left="998" Top="327" Right="1028" Bottom="366" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//button[@title=&apos;Apply filter&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[5]//div[@id=&apos;FormControlFieldSelector_3_AllFields_panel&apos;]//button[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;FormControlFieldSelector_3_QuickFilterControl&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[5]//div[@id=&apos;FormControlFieldSelector_3_AllFields_panel&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="page00300505XmlECon" Key="{E67A00D3-D138-4DBA-9421-074767B4836D}">
@@ -2218,6 +2395,84 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeClassIi" Key="{EABB7055-1816-45E1-B136-09BBD8F8BDAE}">
+										<Image FileName="-793147102" Left="379" Top="699" Right="1518" Bottom="750" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//*[@title=&quot;Class III&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelOpportunityName" Key="{4139C702-FDBB-48E8-9878-ADBA81682F99}">
+										<Image FileName="3935515" Left="330" Top="272" Right="1590" Bottom="917" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;quick-actions-panel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNewOpportunity" Key="{274F174E-622C-4B76-95CC-A560E958538E}">
+										<Image FileName="3935515" Left="6" Top="111" Right="1914" Bottom="1122" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;slds-fade-in-open&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEstimatedRevMonth" Key="{64DFAF7C-2A71-442F-8012-00670F4AECA1}">
+										<Image FileName="1391458113" Left="354" Top="403" Right="1543" Bottom="512" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//section//section//fieldset//div[2]/div[contains(@class, &apos;slds-col&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeClassIii" Key="{DD133645-34E5-4831-BDBE-309C6807E723}">
+										<Image FileName="564353651" Left="379" Top="596" Right="1518" Bottom="647" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Class III&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRegular" Key="{EC82A8A0-6808-4429-BAC0-A35BB4B55659}">
+										<Image FileName="115488768" Left="379" Top="732" Right="1495" Bottom="783" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Regular&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeClassIii2" Key="{44003A91-6CC5-4487-9F9F-852A7E0E74F5}">
+										<Image FileName="1871057202" Left="390" Top="707" Right="1506" Bottom="758" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//li)[103]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCustomer" Key="{7A35FCD1-1816-4C40-ABC1-A95023E542BD}">
+										<Image FileName="-2127882319" Left="379" Top="618" Right="1495" Bottom="669" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Customer&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageRecentlyViewedOpportunitiesS" Key="{C367F00C-1E7E-4040-A5D8-E190C46C85EC}">
@@ -2995,11 +3250,11 @@
 												</Selectors>
 											</Child>
 											<Child Name="buttonOk" Key="{D9A52668-B5EA-4D25-9197-B51A1FFF3D5D}">
-												<Image FileName="1042089818" Left="1066" Top="736" Right="1144" Bottom="767" />
+												<Image FileName="-1636291993" Left="1066" Top="1011" Right="1144" Bottom="1042" />
 												<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
 												<Selectors>
 													<Selector>
-														<Value Value="(//button)[37]" />
+														<Value Value="(//button)[35]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3030,6 +3285,36 @@
 													</Selector>
 													<Selector>
 														<Value Value="//li/button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeSendToD365Operations" Key="{10851447-CC6B-4372-B7FC-7ECC25F4D2D4}">
+												<Image FileName="-113414542" Left="1404" Top="641" Right="1675" Bottom="716" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[.=&apos;Send To D365 Operations&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonSendToD365Operations" Key="{FAC923C8-470B-428C-8080-3D6D2427B411}">
+												<Image FileName="-113414542" Left="1404" Top="641" Right="1675" Bottom="716" />
+												<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[.=&apos;Send To D365 Operations&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[7]/button[@role=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[7]/button[contains(@class, &apos;ui-ribbon-button&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oButtonsContainer&apos;]//li[7]/button" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[7]/button" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -4712,6 +4997,125 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="textnodeTabs2" Key="{966F67E1-7E1B-4313-BC00-AF1124059284}">
+										<Image FileName="82332867" Left="60" Top="693" Right="1859" Bottom="753" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRelatedliststabItem" Key="{CB299A96-FF87-4D9D-B12C-E5E43C8FB6BC}">
+										<Image FileName="82332867" Left="227" Top="693" Right="306" Bottom="753" />
+										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//*[@id=&quot;relatedListsTab__item&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeApprove" Key="{F13064A7-E2B2-4482-B858-BD072E51849C}">
+										<Image FileName="-1532484714" Left="1561" Top="638" Right="1686" Bottom="686" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//li)[121]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkApprove" Key="{7F24A30A-ACCE-4982-A184-DBD467C13E66}">
+										<Image FileName="-1532484714" Left="1562" Top="640" Right="1683" Bottom="685" />
+										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//a[@title=&apos;Approve&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-28&apos;]//div[5]//div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTabs3" Key="{DCB74250-E476-4CEF-BA84-DD8E522A3F86}">
+										<Image FileName="924453049" Left="49" Top="682" Right="1848" Bottom="742" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]//div/lightning-tabset/div/lightning-tab-bar/ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//div/lightning-tabset/div/lightning-tab-bar/ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//div/lightning-tabset/div/lightning-tab-bar/ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div[3]//lightning-tabset/div/lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//div/lightning-tabset/div/lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRelatedliststabItem2" Key="{B4454AF5-B1F4-478D-A55F-71B787E46D68}">
+										<Image FileName="924453049" Left="216" Top="682" Right="295" Bottom="742" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]//div/lightning-tab-bar/ul/li[2]/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//div/lightning-tab-bar/ul/li[2]/a[contains(@class, &apos;slds-tabs_default__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div[3]//lightning-tab-bar/ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//div/lightning-tab-bar/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDetailtabItem" Key="{A36E9B3F-39CD-4573-9A59-07F267C6A27B}">
+										<Image FileName="5135783" Left="78" Top="630" Right="155" Bottom="690" />
+										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#detailTab__item" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;slds-tabs_default__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode00141756" Key="{2F204E0C-E5E2-4236-810E-FBA7B9D5FBF1}">
+										<Image FileName="5135783" Left="111" Top="1357" Right="202" Bottom="1385" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;sectionContent-864&apos;]//records-record-layout-row/slot/records-record-layout-item//slot/lightning-formatted-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqqqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//lightning-formatted-text" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="page00185996CaseSalesforce" Key="{B79AFDA6-3297-4FB1-AA9B-94276C35D416}">
@@ -4898,6 +5302,116 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="page00186018CaseSalesforce" Key="{D9267DA8-43D3-4E44-9715-D30B3B71F77C}">
+								<Image FileName="-491380355" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Case/5009r00000KkCdlAAF/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{78920FE9-A1C8-41F3-A49B-C9BB2827CCA8}">
+										<Image FileName="-491380355" Left="17" Top="329" Right="1902" Bottom="1073" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTabs" Key="{DD62171B-5CCF-4EC2-91F8-0FABADBAD6C5}">
+										<Image FileName="-491380355" Left="17" Top="122" Right="17" Bottom="122" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDetailtabItem" Key="{48316AD5-76FD-4F11-984D-1FEE7CD78350}">
+										<Image FileName="-491380355" Left="17" Top="122" Right="17" Bottom="122" />
+										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#detailTab__item" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a[contains(@class, &apos;slds-tabs_default__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEditStatus" Key="{5BA654F6-76C8-43A0-927E-7FEF0F7529D7}">
+										<Image FileName="-491380355" Left="1202" Top="756" Right="1225" Bottom="779" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_case___0127f000000hsqsqaq___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section//button[@title=&apos;Edit Status&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_case___0127f000000hsqsqaq___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section//button[contains(@class, &apos;test-id__inline-edit-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-22&apos;]//records-record-layout-row/slot/records-record-layout-item[2]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonStatus" Key="{BD34AA05-BCBF-4229-9A39-7DF7B4394F6C}">
+										<Image FileName="222131048" Left="678" Top="570" Right="1212" Bottom="618" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-label=&apos;Status&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_case___0127f000000hsqsqaq___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section//button[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_case___0127f000000hsqsqaq___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section//button[contains(@class, &apos;slds-combobox__input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-51&apos;]//lightning-picklist/lightning-combobox//lightning-base-combobox//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-combobox//lightning-base-combobox//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="SnippingTool" Key="{849F84DF-7D21-4077-87D7-F340283377F8}">
@@ -4964,6 +5478,34 @@
 									</Child>
 									<Child Name="DesktopWindowXamlSource" Key="{34365154-C0D6-437E-89DE-B6376C4E81DB}">
 										<TypeInfo Item0="{05CB5137-396B-45CC-843D-EDCA95F323B9}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndXamlExplorerHostIslandWindow" Key="{481C636A-F652-4E50-856D-03A190BFBD3D}">
+								<Image FileName="794282684" Left="0" Top="0" Right="1920" Bottom="1200" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XamlExplorerHostIslandWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{9EC3A160-1001-4637-A4FC-78848B7B4DAA}">
+										<Image FileName="794282684" Left="0" Top="0" Right="1920" Bottom="1200" />
+										<TypeInfo Item0="{C535DDF2-8EB1-489C-A524-F0905518C09E}" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
@@ -5086,6 +5628,21 @@
 				</Child>
 				<Child Name="buttonNavbardashboard" Owner="{F87E5614-282A-46E9-BA83-9C518C0221F0}" />
 				<Child Name="panelStatus2" Owner="{5DE00812-9C8F-44C8-8CEC-5C5F628384AB}" />
+				<Child Name="buttonGridOptions" Owner="{AF76F00B-78DB-4BF5-82C3-6846CB64EF1E}" />
+				<Child Name="textboxShipToCustomerAccount" Owner="{8E3FB7DC-5718-4375-B2AD-B635E94489B2}" />
+				<Child Name="buttonFormcontrolfieldselector2O" Owner="{BAAB4CCA-E655-425D-864F-22E32725F61A}" />
+				<Child Name="textnodeAllFields" Owner="{959E86FB-D784-4B4A-A398-82F5E61970E1}">
+					<Child Name="textnode" Owner="{F396F65E-CF92-4286-8FF7-416FE0487A9D}" />
+					<Child Name="panel2" Owner="{45985CAC-C0D7-4FE3-9F1F-46CB588AC5F9}" />
+					<Child Name="buttonApplyFilter" Owner="{7A71033B-414F-446F-928A-D54401CF52CE}" />
+				</Child>
+				<Child Name="panelQuoteNumber" Owner="{4686C922-9145-4248-BA17-9BC350F462F4}" />
+				<Child Name="textbox" Owner="{ACD1D8FC-32E8-4010-9DA2-BA26DFCA500D}" />
+				<Child Name="buttonLogisticspostaladdressStre" Owner="{44603A16-9D41-4957-9202-62727F9AE844}" />
+				<Child Name="textnodeGrid30OptionscellMenubut" Owner="{A151F504-5BA8-43E2-9B50-DD3BD9DA0A5C}">
+					<Child Name="buttonInsertColumns" Owner="{7719ECD6-02E3-4739-9287-8D119DDADC5A}" />
+				</Child>
+				<Child Name="textboxCustomerName" Owner="{C42A549E-85BB-4984-A812-29366586D23B}" />
 			</Child>
 			<Child Name="Page_SOConfig" Owner="{E67A00D3-D138-4DBA-9421-074767B4836D}">
 				<Child Name="SetChip_Config" Owner="{6AED7B26-D806-484F-8FF3-B24414EF69FE}">
@@ -5156,12 +5713,24 @@
 				<Child Name="AppLauncher_Button" Owner="{F19E6F21-EC49-406B-8374-681DDE0CEA80}" />
 			</Child>
 			<Child Name="Page_NewOpportunityCreation" Owner="{632919DF-3FE8-41CA-8C57-50391BAB54A5}">
-				<Child Name="MarketSegment_Field" Owner="{DD9ECA62-A667-418D-ACC8-D0516D8B2429}" />
+				<Child Name="MarketSegment_Field" Owner="{DD9ECA62-A667-418D-ACC8-D0516D8B2429}">
+					<Child Name="textnodeClassIii2" Owner="{44003A91-6CC5-4487-9F9F-852A7E0E74F5}" />
+				</Child>
 				<Child Name="OpportunityName_Field" Owner="{487FB560-1E58-4601-BA0B-3C7C5344AF55}" />
 				<Child Name="Save_Button" Owner="{907B9E27-E967-4B26-8612-1C3128CF18D0}" />
-				<Child Name="GamingClassification_Field" Owner="{D66A3AD4-4802-4CEF-B7A8-C1FC9C15E2C6}" />
-				<Child Name="Type_Field" Owner="{40117C34-90E3-4963-99AE-2716159158B7}" />
-				<Child Name="LeadSource_Field" Owner="{8F9A90F5-E429-4227-ACC6-8CB6A9D8989F}" />
+				<Child Name="GamingClassification_Field" Owner="{D66A3AD4-4802-4CEF-B7A8-C1FC9C15E2C6}">
+					<Child Name="textnodeClassIi" Owner="{EABB7055-1816-45E1-B136-09BBD8F8BDAE}" />
+					<Child Name="textnodeClassIii" Owner="{DD133645-34E5-4831-BDBE-309C6807E723}" />
+				</Child>
+				<Child Name="Type_Field" Owner="{40117C34-90E3-4963-99AE-2716159158B7}">
+					<Child Name="textnodeRegular" Owner="{EC82A8A0-6808-4429-BAC0-A35BB4B55659}" />
+				</Child>
+				<Child Name="LeadSource_Field" Owner="{8F9A90F5-E429-4227-ACC6-8CB6A9D8989F}">
+					<Child Name="textnodeCustomer" Owner="{7A35FCD1-1816-4C40-ABC1-A95023E542BD}" />
+				</Child>
+				<Child Name="panelOpportunityName" Owner="{4139C702-FDBB-48E8-9878-ADBA81682F99}" />
+				<Child Name="panelNewOpportunity" Owner="{274F174E-622C-4B76-95CC-A560E958538E}" />
+				<Child Name="panelEstimatedRevMonth" Owner="{64DFAF7C-2A71-442F-8012-00670F4AECA1}" />
 			</Child>
 			<Child Name="Page_SearchOpportunity" Owner="{C367F00C-1E7E-4040-A5D8-E190C46C85EC}">
 				<Child Name="Opportunity_Node" Owner="{189DDDE1-0AED-47C0-8842-A059183108BA}" />
@@ -5199,6 +5768,9 @@
 					</Child>
 					<Child Name="textnodeSaveAndExit2" Owner="{A4AED975-D55F-46BF-A58F-A511CD689E1E}">
 						<Child Name="buttonSaveAndExit" Owner="{31082BA4-2D7D-47FA-A729-0ACEBC8C19D2}" />
+					</Child>
+					<Child Name="textnodeSendToD365Operations" Owner="{10851447-CC6B-4372-B7FC-7ECC25F4D2D4}">
+						<Child Name="buttonSendToD365Operations" Owner="{FAC923C8-470B-428C-8080-3D6D2427B411}" />
 					</Child>
 				</Child>
 				<Child Name="textnodeQuote3" Owner="{09ACB532-EEA3-436E-8E57-58A4C6D2C498}" />
@@ -5250,6 +5822,12 @@
 				<Child Name="OS_Field" Owner="{FCB53613-6B5C-44E4-AECE-86D4B59EA209}" />
 				<Child Name="textnode00141697Pass" Owner="{92894D89-E134-4365-B573-0766F9CD04C7}" />
 				<Child Name="panel00141697Pass" Owner="{F06C1D22-0A21-4234-9BF1-F43F30537B3E}" />
+				<Child Name="textnodeApprove" Owner="{F13064A7-E2B2-4482-B858-BD072E51849C}">
+					<Child Name="linkApprove" Owner="{7F24A30A-ACCE-4982-A184-DBD467C13E66}" />
+				</Child>
+				<Child Name="linkDetailtabItem" Owner="{A36E9B3F-39CD-4573-9A59-07F267C6A27B}">
+					<Child Name="textnode00141756" Owner="{2F204E0C-E5E2-4236-810E-FBA7B9D5FBF1}" />
+				</Child>
 			</Child>
 			<Child Name="page00185996CaseSalesforce" Owner="{B79AFDA6-3297-4FB1-AA9B-94276C35D416}">
 				<Child Name="sectionSkipToNavigation" Owner="{CC46BDCD-BDFE-456C-89C9-14F989DE58AB}">
@@ -5260,6 +5838,7 @@
 						</Child>
 						<Child Name="textnode" Owner="{AEB55FAD-FB98-4F57-879E-C7E8C8C4B614}">
 							<Child Name="buttonStatus" Owner="{3DA9C525-2BC8-4B1C-A149-CE28D45F2E91}" />
+							<Child Name="buttonStatus2" Owner="{BD34AA05-BCBF-4229-9A39-7DF7B4394F6C}" />
 						</Child>
 						<Child Name="linkWindow" Owner="{7BFF2BA7-C6FD-4F8E-98F3-8114920EB3F4}">
 							<Child Name="textnode2" Owner="{5317AC66-2881-48A6-A4FF-BFDE9C456DEB}" />
@@ -5268,7 +5847,20 @@
 					<Child Name="panel" Owner="{DC93ED9B-CC55-44FA-ADF7-955DF1B5CA84}" />
 				</Child>
 			</Child>
+			<Child Name="page00186018CaseSalesforce" Owner="{D9267DA8-43D3-4E44-9715-D30B3B71F77C}">
+				<Child Name="sectionSkipToNavigation" Owner="{78920FE9-A1C8-41F3-A49B-C9BB2827CCA8}">
+					<Child Name="textnodeTabs" Owner="{DD62171B-5CCF-4EC2-91F8-0FABADBAD6C5}">
+						<Child Name="linkDetailtabItem" Owner="{48316AD5-76FD-4F11-984D-1FEE7CD78350}">
+							<Child Name="buttonEditStatus" Owner="{5BA654F6-76C8-43A0-927E-7FEF0F7529D7}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
 		</Child>
-		<Child Name="explorer" Owner="{54A8C89A-F972-4B15-8558-398DB71549EF}" />
+		<Child Name="explorer" Owner="{54A8C89A-F972-4B15-8558-398DB71549EF}">
+			<Child Name="wndXamlExplorerHostIslandWindow" Owner="{481C636A-F652-4E50-856D-03A190BFBD3D}">
+				<Child Name="DesktopWindowXamlSource" Owner="{9EC3A160-1001-4637-A4FC-78848B7B4DAA}" />
+			</Child>
+		</Child>
 	</LogicalNodes>
 </Root>
