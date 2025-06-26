@@ -6,6 +6,9 @@
 			<folder name="ReadExcel">
 				<child name="ReadExcel" key="{5A6B48CB-4C67-4D5C-9D44-D4237D05814C}" path="ReadExcel.js" />
 			</folder>
+			<folder name="Login">
+				<child name="Login" key="{479BA5E3-E06D-4360-847C-C60DDC53EA34}" path="Login.js" />
+			</folder>
 		</folder>
 		<folder name="Pages">
 			<folder name="CPSO Creation &amp; Configuration">

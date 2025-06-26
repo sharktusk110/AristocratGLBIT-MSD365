@@ -26,6 +26,21 @@
 				<Variable Name="caseurl" Type="String" Local="True">
 					<DefValue />
 				</Variable>
+				<Variable Name="SF_Username" Type="String" Local="True">
+					<DefValue StrValue="crmtest.4@aristocrat.com.usprod.qa1" />
+				</Variable>
+				<Variable Name="SF_Password" Type="String" Local="True">
+					<DefValue StrValue="LifeisGood5" />
+				</Variable>
+				<Variable Name="SF_Login" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="D65_Username" Type="String" Local="True">
+					<DefValue StrValue="crmtest.4@aristocrat.com" />
+				</Variable>
+				<Variable Name="D65_Password" Type="String" Local="True">
+					<DefValue StrValue="Te$tU$er16" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>

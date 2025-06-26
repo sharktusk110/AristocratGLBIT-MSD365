@@ -4,9 +4,9 @@
 //*************************************************************************************************************************************
 //module.exports.getObject
 
-function split_break(Config) {
-  
-Log.Message(Aliases.browser.Page_EconAdvancedConfiguration_II.linkDetailtabItem.textnode00141756.textContent);
+function split_break() {
+
+aqObject.CheckProperty(Aliases.browser.pageRecentlyViewedOpportunitiesS2.sectionSkipToNavigation.linkView.textnode, "title", cmpContains, "WHEELING ISLAND RACETRACK AND GAMING CENTER");
 
 //Delay(5000);
 //Aliases.browser.Page_EconMainConfiguration.textnodeQuote3.Click();

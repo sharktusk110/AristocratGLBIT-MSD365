@@ -1,0 +1,33 @@
+﻿function SF_login(username,password){
+  
+  Aliases.browser.pageLoginSalesforce.formLoginForm.emailinputUsername.SetText(username);
+  Delay(2000); 
+  Aliases.browser.pageLoginSalesforce.formLoginForm.passwordboxPassword.SetText(password);
+  Delay(2000);
+  Aliases.browser.pageLoginSalesforce.formLoginForm.submitbuttonLogInToSandbox.Click();
+                                 
+}
+
+function D65_login(username,password){
+  
+  if(Aliases.browser.Page_OutlookLogin.formF1.imageImages.Exists){
+  
+  Aliases.browser.Page_OutlookLogin.formF1.imageImages.Click();
+  }
+  
+  //Enters 'crmtest.4@aristocrat.com' in the 'Email_Field' object.
+  Aliases.browser.Page_OutlookLogin.Email_Field.Keys(username);
+  //Clicks the 'Signin_Text' control.
+  Aliases.browser.Page_OutlookLogin.Signin_Text.Click();
+  //Simulates a left-button single click in a window or control as specified (relative position, shift keys).
+  Aliases.browser.Page_OutlookLogin.Next_Button.Click();
+  //Clicks the 'Next_Button' button.
+  Aliases.browser.Page_AristocratLogin_Passive.Next_Button.ClickButton();
+  //Clicks the 'panelSigninContainer' control.
+  //Aliases.browser.pagePassive.panelSigninContainer.Click();
+  //Enters text in the text box.
+  Aliases.browser.Page_AristocratLogin_Active.Password_Field.SetText(password);
+  //Clicks the 'Verify_Button' button.
+  Aliases.browser.Page_AristocratLogin_Active.Verify_Button.ClickButton();
+                                 
+}

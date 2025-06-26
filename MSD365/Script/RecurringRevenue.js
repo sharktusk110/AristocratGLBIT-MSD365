@@ -4,21 +4,13 @@
 //*************************************************************************************************************************************
 //module.exports.getObject
 //USEUNIT ReadExcel
+//USEUNIT Login
 
 var opportunity_name;
 var quotename;
 var urc;
 var quote_number;
 
-//Browsers.Item("edge").RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
-//                                  "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";
-
-
-function login_halt(){
-  
-  Browsers.Item(btEdge).Run("https://aristocrat-global--qa1.sandbox.lightning.force.com/");  
-  Delay(30000);                               
-}
 
 function Opportunity_Creation(Config) {
   
@@ -26,8 +18,10 @@ function Opportunity_Creation(Config) {
  var account=Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch;
  var opportunity=Aliases.browser.Page_NewOpportunityCreation;
 
- Browsers.Item(btEdge).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home");
- Delay(7000);
+ Browsers.Item(btEdge).Run("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home");
+ Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
+ Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
+ Delay(2000);
  app.AppLauncher_Button.Click();
  app.SearchAppsAndItems_SearchField.SetText("Aristocrat");
  app.SearchAppsAndItems_SearchField.Keys("[Enter]");
@@ -148,7 +142,8 @@ Browsers.Item(btEdge).RunOptions = "--disable-web-security --user-data-dir=\"C:\
          
 Browsers.Item(btEdge).Run(url);
 
-Delay(20000);
+Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
+Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
 
 econ_nav.SearchThisList_SearchField.SetText(quotename);
 
@@ -365,22 +360,29 @@ Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeSaveAndEx
   Aliases.browser.Page_EconMainConfiguration.buttonOk.Click();
 }
 
+Sys.Browser("edge").Close();
+
 }
 
 function econ_approval(){
   
-urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000Zs3xCAC/view";
-Project.Variables.quoteurl=urc;           
+//urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZngzCAC/view";
+//Project.Variables.quoteurl=urc; 
+          
 Browsers.Item(btEdge).Run(urc);
-Delay(7000);
+
+Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
+Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
+ 
 quote_number=Aliases.browser.Page_EconAdvancedConfiguration_II.linkDetailtabItem.textnode00141756.textContent;
+
 Aliases.browser.Page_EconMainConfiguration.buttonSubmit.Click();
 Delay(2000);
 Aliases.browser.Page_EconMainConfiguration.labelComments.textareaComments.Keys("Please approve");
 Delay(2000);
 Aliases.browser.Page_EconMainConfiguration.buttonSubmit2.Click();
 
-Browsers.Item(btEdge).Navigate(urc);
+Browsers.Item(btEdge).Navigate(Sys.Browser().Page("*").URL);
 Delay(2000);
 
 Aliases.browser.Page_EconMainConfiguration.linkRelatedliststabItem.Click();
@@ -417,12 +419,17 @@ Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.
 Delay(2000);
 Sys.Browser("edge").Close();
 
+}
+
+function econ_D65migration(){
+
 Browsers.Item(btEdge).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";           
          
 Browsers.Item(btEdge).Run(urc);
 
-Delay(7000);
+Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
+Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
 
 Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link.Click();
 Delay(50000);
@@ -431,26 +438,13 @@ Delay(20000);
 Sys.Browser("edge").Close();
 }
 
-function Login()
+function D65_MigrationCheck(Config)
 {
   var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
   Browsers.Item(btEdge).Run(durl);
-  
-  //Enters 'crmtest.4@aristocrat.com' in the 'Email_Field' object.
-  Aliases.browser.Page_OutlookLogin.Email_Field.Keys("crmtest.4@aristocrat.com");
-  //Clicks the 'Signin_Text' control.
-  Aliases.browser.Page_OutlookLogin.Signin_Text.Click();
-  //Simulates a left-button single click in a window or control as specified (relative position, shift keys).
-  Aliases.browser.Page_OutlookLogin.Next_Button.Click();
-  //Clicks the 'Next_Button' button.
-  Aliases.browser.Page_AristocratLogin_Passive.Next_Button.ClickButton();
-  //Clicks the 'panelSigninContainer' control.
-  //Aliases.browser.pagePassive.panelSigninContainer.Click();
-  //Enters text in the text box.
-  Aliases.browser.Page_AristocratLogin_Active.Password_Field.SetText("Te$tU$er16");
-  //Clicks the 'Verify_Button' button.
-  Aliases.browser.Page_AristocratLogin_Active.Verify_Button.ClickButton();
-  Delay(5000);
+ // quote_number="00141620";
+  Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
+  Delay(2000);
   Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonGridOptions.Click();
   Delay(2000);
   Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeGrid30OptionscellMenubut.buttonInsertColumns.Click();
@@ -470,10 +464,6 @@ function Login()
   Delay(2000);
   Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonLogisticspostaladdressStre.Click();
   Delay(2000);
-  var cussi=Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxCustomerName.getAttribute("title")
-  Log.Message(cussi);
-  
-  
-  
+  aqObject.CheckProperty(Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxCustomerName, "title", cmpContains, Config[0]);
   
 }

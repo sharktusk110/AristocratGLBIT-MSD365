@@ -87,6 +87,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="formF1" Key="{6B4AA660-B277-4A2D-8849-65CE9FA434C1}">
+										<Image FileName="-176459596" Left="17" Top="122" Right="1925" Bottom="124" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;f1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Pick an account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;provide-min-height&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageImages" Key="{D924A791-0DB8-4246-BB63-933D9766FFF4}">
+										<Image FileName="-176459596" Left="707" Top="666" Right="779" Bottom="738" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;otherTile&apos;]//img" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pagePassive" Key="{9B75FE8E-9C94-4BDB-8EA6-29D4A6F0EADA}">
@@ -2544,6 +2571,21 @@
 											</Selector>
 											<Selector>
 												<Value Value="//slot/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{D93A3A60-BAB4-4EAA-9F5C-7C7896F8BFA9}">
+										<Image FileName="-1895852108" Left="126" Top="569" Right="936" Bottom="601" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[@role=&apos;rowheader&apos;]/span[contains(@class, &apos;slds-grid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_1&apos;]//th[@role=&apos;rowheader&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[@role=&apos;rowheader&apos;]/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5412,6 +5454,151 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageLoginSalesforce" Key="{4444C046-ECA7-469A-AB3A-CA76A271E704}">
+								<Image FileName="595485158" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="1" LocalVariable="SF_Login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLoginForm" Key="{0AD27077-4191-4F00-8A38-F351DA18796B}">
+										<Image FileName="595485158" Left="234" Top="449" Right="742" Bottom="829" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login_form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Username&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;aristocrat-global--qa1.sandbox.my.salesforce.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;theloginform&apos;]/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputUsername" Key="{6F914E09-2327-4FEA-A0BD-50A9050A8B8F}">
+										<Image FileName="595485158" Left="234" Top="484" Right="742" Bottom="547" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Username&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;usernamegroup&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{390D3461-8298-4440-B8C0-9A7FCDC7EEA5}">
+										<Image FileName="232072538" Left="234" Top="606" Right="742" Bottom="669" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;pw&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogInToSandbox" Key="{42452A0D-873D-4CE1-917E-4AA0E0E4FDAC}">
+										<Image FileName="2023555624" Left="234" Top="693" Right="742" Bottom="756" />
+										<TypeInfo Item0="{60AD172F-2049-4C66-B26D-A8522BF80F1A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Login" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Log In to Sandbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRecentlyViewedOpportunitiesS2" Key="{904ABF67-D3F7-42B9-9987-99861F196EAD}">
+								<Image FileName="74998298" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Opportunity/list*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{0ABFDBE7-DA98-416F-8D05-64E54EC77143}">
+										<Image FileName="74998298" Left="17" Top="329" Right="1925" Bottom="1073" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkView" Key="{DB3279A2-CF31-4B71-BBB8-3BB85DA024D1}">
+										<Image FileName="74998298" Left="126" Top="571" Right="822" Bottom="600" />
+										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@title=&apos;WHEELING ISLAND RACETRACK AND GAMING CENTER -690533905- 06/26/2025&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[@role=&apos;rowheader&apos;]//lightning-primitive-custom-cell/lst-output-lookup/force-lookup//a[contains(@class, &apos;slds-truncate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_1&apos;]//div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//lightning-primitive-custom-cell/lst-output-lookup/force-lookup/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{E62136AE-41B2-49CF-AF6B-A77CE7D501C6}">
+										<Image FileName="74998298" Left="126" Top="572" Right="822" Bottom="598" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;r&apos;)]//slot/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//slot/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="SnippingTool" Key="{849F84DF-7D21-4077-87D7-F340283377F8}">
@@ -5612,6 +5799,9 @@
 				<Child Name="Email_Field" Owner="{C8724983-6A18-400A-A980-41C33806AB27}" />
 				<Child Name="Next_Button" Owner="{6B51D6E6-31D7-47CF-B773-656B1740759B}" />
 				<Child Name="Signin_Text" Owner="{6D58A2EC-61B9-4F55-87C5-048E9533D81F}" />
+				<Child Name="formF1" Owner="{6B4AA660-B277-4A2D-8849-65CE9FA434C1}">
+					<Child Name="imageImages" Owner="{D924A791-0DB8-4246-BB63-933D9766FFF4}" />
+				</Child>
 			</Child>
 			<Child Name="pageAllSalesOrdersFinanceAndOper" Owner="{7C250A4F-ADF9-46B7-BA19-4D95D6489986}">
 				<Child Name="textnodeLines" Owner="{97D257CC-D683-4D21-886B-06F503D87F1B}">
@@ -5735,6 +5925,7 @@
 			<Child Name="Page_SearchOpportunity" Owner="{C367F00C-1E7E-4040-A5D8-E190C46C85EC}">
 				<Child Name="Opportunity_Node" Owner="{189DDDE1-0AED-47C0-8842-A059183108BA}" />
 				<Child Name="SearchThisList_SearchField" Owner="{A7BB625E-F2C1-49E8-803F-9B47E223BCD1}" />
+				<Child Name="textnode" Owner="{D93A3A60-BAB4-4EAA-9F5C-7C7896F8BFA9}" />
 			</Child>
 			<Child Name="page_EconCreation" Owner="{4082A629-0EAC-49A3-B6AF-684237C66B00}">
 				<Child Name="econ" Owner="{D42C19D1-AB85-44FF-8D03-C24FA80FCA2E}">
@@ -5853,6 +6044,20 @@
 						<Child Name="linkDetailtabItem" Owner="{48316AD5-76FD-4F11-984D-1FEE7CD78350}">
 							<Child Name="buttonEditStatus" Owner="{5BA654F6-76C8-43A0-927E-7FEF0F7529D7}" />
 						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLoginSalesforce" Owner="{4444C046-ECA7-469A-AB3A-CA76A271E704}">
+				<Child Name="formLoginForm" Owner="{0AD27077-4191-4F00-8A38-F351DA18796B}">
+					<Child Name="emailinputUsername" Owner="{6F914E09-2327-4FEA-A0BD-50A9050A8B8F}" />
+					<Child Name="passwordboxPassword" Owner="{390D3461-8298-4440-B8C0-9A7FCDC7EEA5}" />
+					<Child Name="submitbuttonLogInToSandbox" Owner="{42452A0D-873D-4CE1-917E-4AA0E0E4FDAC}" />
+				</Child>
+			</Child>
+			<Child Name="pageRecentlyViewedOpportunitiesS2" Owner="{904ABF67-D3F7-42B9-9987-99861F196EAD}">
+				<Child Name="sectionSkipToNavigation" Owner="{0ABFDBE7-DA98-416F-8D05-64E54EC77143}">
+					<Child Name="linkView" Owner="{DB3279A2-CF31-4B71-BBB8-3BB85DA024D1}">
+						<Child Name="textnode" Owner="{E62136AE-41B2-49CF-AF6B-A77CE7D501C6}" />
 					</Child>
 				</Child>
 			</Child>

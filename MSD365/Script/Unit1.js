@@ -5,8 +5,8 @@
 //module.exports.getObject
 
 function split_break() {
-  
-Log.Message(Aliases.browser.Page_EconAdvancedConfiguration_II.linkDetailtabItem.textnode00141756.textContent);
+
+aqObject.CheckProperty(Aliases.browser.Page_SearchOpportunity.textnode, "title", cmpContains, "WHEELING ISLAND RACETRACK AND GAMING CENTER");
 
 //Delay(5000);
 //Aliases.browser.Page_EconMainConfiguration.textnodeQuote3.Click();
