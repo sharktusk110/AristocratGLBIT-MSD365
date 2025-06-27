@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{293B0AE0-EDFA-42FE-B9B2-DD55EC0F94DB}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45832.7253703704" objectName="Aliases.browser.Page_EconAdvancedConfiguration_II.textnodeTabs3.linkRelatedliststabItem2" objectLeft="216" objectTop="682" objectRight="295" objectBottom="742" clickPointX="254" clickPointY="703" imageFileName="tcvi725071062205122.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45834.693275463" objectName="Aliases.browser.Page_EconAdvancedConfiguration_II.textnode" objectLeft="1013" objectTop="712" objectRight="1049" objectBottom="748" clickPointX="1030" clickPointY="730" imageFileName="tcvi9112796220320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45834.6934143519" objectName="Aliases.browser.Page_EconAdvancedConfiguration_II.EZPay_Field" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi9125218220321.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45834.6934490741" objectName="Aliases.browser.Page_EconAdvancedConfiguration_II.EZPay_Field" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi9128609220322.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45834.6935185185" objectName="Aliases.browser.Page_EconAdvancedConfiguration_II.EZPay_Field" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi9133796220323.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>

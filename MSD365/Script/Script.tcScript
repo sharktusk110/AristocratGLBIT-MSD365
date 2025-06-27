@@ -29,7 +29,7 @@
 				<child name="SO_CreateAndConfig_OBC_Test" key="{B9914FFE-DB6C-4A62-9E79-A3A7647218C4}" path="SO_CreateAndConfig_OBC_Test.js" />
 			</folder>
 			<folder name="RecurringRevenue Test">
-				<child name="RR" key="{1C637C46-00E7-496C-B28C-D279CC6EF50A}" path="RR.js" />
+				<child name="RecurringRevenue_Test" key="{1C637C46-00E7-496C-B28C-D279CC6EF50A}" path="RecurringRevenue_Test.js" />
 			</folder>
 		</folder>
 	</children>

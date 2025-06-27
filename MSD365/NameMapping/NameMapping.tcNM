@@ -1454,6 +1454,252 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textboxSalesOrder" Key="{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}">
+										<Image FileName="-1313044681" Left="190" Top="782" Right="428" Bottom="827" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;salestablelistpage_14_Grid&apos;]//div[@id=&apos;GridCell-0-SalesTable_SalesIdAdvanced&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;GridCell-0-SalesTable_SalesIdAdvanced&apos;]//input[contains(@class, &apos;dyn-field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;GridCell-0-SalesTable_SalesIdAdvanced&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;salestablelistpage_14_Grid&apos;]//div[@id=&apos;GridCell-0-SalesTable_SalesIdAdvanced&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSalesOrderLines4" Key="{698D1F02-98DD-4F14-81A1-1B782729A18E}">
+										<Image FileName="-839113172" Left="128" Top="792" Right="1703" Bottom="858" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesTable_17_LineViewLines_caption" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Sales order lines&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;SalesTable_17_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_17_LineView_panel&apos;]//div[@id=&apos;SalesTable_17_LineViewLines&apos;]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[3]//div[@id=&apos;SalesTable_17_LineViewLines&apos;]//button[contains(@class, &apos;section-page-caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_17_LineViewLines_header&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;SalesTable_17_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_17_LineView_panel&apos;]//div[@id=&apos;SalesTable_17_LineViewLines&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{178313CB-91BE-446D-8371-791D1BEAFA96}">
+										<Image FileName="-839113172" Left="150" Top="957" Right="197" Bottom="1007" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[2098]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSalesOrderLines5" Key="{2C4B5B22-1CCA-4DE5-8D44-559C7C1CBC8A}">
+										<Image FileName="1319806054" Left="128" Top="792" Right="1703" Bottom="858" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesTable_17_LineViewLines_caption" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Sales order lines&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;SalesTable_17_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_17_LineView_panel&apos;]//div[@id=&apos;SalesTable_17_LineViewLines&apos;]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[3]//div[@id=&apos;SalesTable_17_LineViewLines&apos;]//button[contains(@class, &apos;section-page-caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_17_LineViewLines_header&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;SalesTable_17_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_17_LineView_panel&apos;]//div[@id=&apos;SalesTable_17_LineViewLines&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonProductAndSupply" Key="{15AF377F-ABD8-4A4C-8BB4-1B1B33AD2B6E}">
+										<Image FileName="1319806054" Left="1314" Top="861" Right="1544" Bottom="906" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(.,&apos;Product and supply&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Product and supply&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_17_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_17_LineView_panel&apos;]//div[@id=&apos;SalesTable_17_LineViewLines&apos;]/div[@role=&apos;group&apos;]//div[3]/div[5]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonRequirementsExplosion" Key="{BB6B0A00-5455-4EAB-9B12-065BCD3CFF19}">
+										<Image FileName="627376367" Left="1314" Top="685" Right="1565" Bottom="729" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesTable_17_buttonLineExplosion" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@name=&apos;buttonLineExplosion&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Explosion&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonButtonreqpo" Key="{F7E06D12-C416-4E11-B7D1-EC947804F46B}">
+										<Image FileName="-1423425295" Left="758" Top="209" Right="930" Bottom="269" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;ButtonReqPo&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Planned orders&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelReference" Key="{C82B00D2-61A4-4FBD-9CAC-0717D09983C3}">
+										<Image FileName="1746088385" Left="485" Top="725" Right="804" Bottom="749" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[4943]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxAfterTheLookupIsOpenYou7" Key="{F6E86BB8-B91E-4FC0-800D-BE2A2B8DE004}">
+										<Image FileName="719518569" Left="495" Top="976" Right="823" Bottom="1018" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__FilterField_ReqTrans_RefType_RefType_Input_0_0_input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;FilterField_ReqTrans_RefType_RefType_Input_0&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@aria-describedby=&apos;__FilterField_ReqTrans_RefType_RefType_Input_0_0_helptext&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__FilterField_ReqTrans_RefType_RefType_Input_0_0&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonReqtransReftypeApplyfilter" Key="{B34788E0-66B3-4484-89BD-58E4787EC81F}">
+										<Image FileName="-520793947" Left="494" Top="1034" Right="584" Bottom="1079" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__ReqTrans_RefType_ApplyFilters" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@name=&apos;ReqTrans_RefType_ApplyFilters&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg2" Key="{95E389CC-D7D9-4541-9E06-DED541DECAB8}">
+										<Image FileName="-2035396594" Left="145" Top="723" Right="172" Bottom="750" />
+										<TypeInfo Item0="{5A92A37E-8D2E-42A5-A21A-49D978456E6C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//*[@id=&quot;GridReqPo_2939_0_grid&quot;]/div[1]/div[2]/div/div[1]/div[1]/div/div[1]/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonButtonreqtranspomarkfirm" Key="{D33B9545-E898-4289-868F-0FB28CFC336A}">
+										<Image FileName="-2035396594" Left="495" Top="209" Right="598" Bottom="269" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;ButtonReqTransPoMarkFirm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Firm&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReqTransPo_19_PromotedButtons&apos;]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReqTransPo_19_PromotedButtons&apos;]/button[contains(@class, &apos;Auto&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReqTransPo_19_PromotedButtons&apos;]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel4" Key="{2CC6BBD5-2DA8-489E-A7AF-540136D23B49}">
+										<Image FileName="555644133" Left="1194" Top="1085" Right="1808" Bottom="1108" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;salestabledetails_1_TabPageGrid_panel&apos;]//div[contains(@class, &apos;ScrollbarLayout_face&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5" Key="{D14A5A07-9A7F-49FB-A497-0BB45E46B87C}">
+										<Image FileName="-1121177895" Left="118" Top="1085" Right="1815" Bottom="1108" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;salestabledetails_1_TabPageGrid_panel&apos;]//div[contains(@class, &apos;ScrollbarLayout_main&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSalesOrderLines6" Key="{EB912684-7FFD-40EB-97D5-20E71A738228}">
+										<Image FileName="2024655993" Left="128" Top="792" Right="1703" Bottom="858" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#salestabledetails_1_LineViewLines_caption" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Sales order lines&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;salestabledetails_1_TabPageDetails_panel&apos;]//div[@id=&apos;salestabledetails_1_LineView_panel&apos;]//div[@id=&apos;salestabledetails_1_LineViewLines&apos;]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[3]//div[@id=&apos;salestabledetails_1_LineViewLines&apos;]//button[contains(@class, &apos;section-page-caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;salestabledetails_1_LineViewLines_header&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;salestabledetails_1_TabPageDetails_panel&apos;]//div[@id=&apos;salestabledetails_1_LineView_panel&apos;]//div[@id=&apos;salestabledetails_1_LineViewLines&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxProductNumber3" Key="{6A7AF130-921E-453F-97C5-252AB5E520D2}">
+										<Image FileName="2024655993" Left="594" Top="958" Right="922" Bottom="1003" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesLineGrid_3_0-row-0&apos;]//div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelReference2" Key="{2DC87C8C-9C28-4594-ABF8-00505D9F6F6C}">
+										<Image FileName="58474201" Left="474" Top="714" Right="793" Bottom="738" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[6175]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="page00300505XmlECon" Key="{E67A00D3-D138-4DBA-9421-074767B4836D}">
@@ -3360,6 +3606,42 @@
 													</Selector>
 												</Selectors>
 											</Child>
+											<Child Name="textboxId0eo2ae" Key="{EAFDA007-B5CC-4645-9BFF-2F1BC1E99A76}">
+												<Image FileName="-865587284" Left="1218" Top="599" Right="1743" Bottom="635" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@id=(//label[.=&apos;Trim Finish*&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#ID0EO2AE" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;Advanced&apos;]//tr[13]/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0eduae" Key="{C24F93BB-528E-4695-822B-89B63296BFC5}">
+												<Image FileName="1971326723" Left="549" Top="726" Right="1065" Bottom="762" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#ID0EDUAE" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[37]/td//tr/td//input[@role=&apos;textbox&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[37]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[37]/td//tr/td//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[37]/td//tr/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="frame3" Key="{EACFC117-C32C-4842-AB47-3DEEC8B206C8}">
@@ -5037,6 +5319,30 @@
 													</Selector>
 												</Selectors>
 											</Child>
+											<Child Name="textnode" Key="{C0AB8134-FC21-4EC8-B544-FAE59DA6EDF7}">
+												<Image FileName="-1323720433" Left="1013" Top="712" Right="1049" Bottom="748" />
+												<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMain3Container&apos;]//tr[35]/td//tr/td//a/span[contains(@class, &apos;ui-button-icon-primary&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[35]/td//tr/td//a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[35]/td//tr/td//a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0eupae" Key="{4CAE37D9-B217-4372-B509-B6739715D586}">
+												<Image FileName="877928455" Left="538" Top="712" Right="1054" Bottom="748" />
+												<TypeInfo Item0="{1C8EF5F1-727E-44B6-B5B0-426127098976}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.ezp.ez_pay&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="textnodeTabs2" Key="{966F67E1-7E1B-4313-BC00-AF1124059284}">
@@ -5815,6 +6121,15 @@
 					<Child Name="buttonSalesOrderLines3" Owner="{8A2B4BE3-9EA8-4C60-AB77-B0DD4AFBE913}">
 						<Child Name="textboxProductNumber2" Owner="{01404102-30CA-4FAE-8BAC-4143E381DE5C}" />
 					</Child>
+					<Child Name="buttonSalesOrderLines4" Owner="{698D1F02-98DD-4F14-81A1-1B782729A18E}">
+						<Child Name="panel3" Owner="{178313CB-91BE-446D-8371-791D1BEAFA96}" />
+					</Child>
+					<Child Name="buttonSalesOrderLines5" Owner="{2C4B5B22-1CCA-4DE5-8D44-559C7C1CBC8A}">
+						<Child Name="buttonProductAndSupply" Owner="{15AF377F-ABD8-4A4C-8BB4-1B1B33AD2B6E}" />
+					</Child>
+					<Child Name="buttonSalesOrderLines6" Owner="{EB912684-7FFD-40EB-97D5-20E71A738228}">
+						<Child Name="textboxProductNumber3" Owner="{6A7AF130-921E-453F-97C5-252AB5E520D2}" />
+					</Child>
 				</Child>
 				<Child Name="buttonNavbardashboard" Owner="{F87E5614-282A-46E9-BA83-9C518C0221F0}" />
 				<Child Name="panelStatus2" Owner="{5DE00812-9C8F-44C8-8CEC-5C5F628384AB}" />
@@ -5833,6 +6148,17 @@
 					<Child Name="buttonInsertColumns" Owner="{7719ECD6-02E3-4739-9287-8D119DDADC5A}" />
 				</Child>
 				<Child Name="textboxCustomerName" Owner="{C42A549E-85BB-4984-A812-29366586D23B}" />
+				<Child Name="textboxSalesOrder" Owner="{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}" />
+				<Child Name="buttonRequirementsExplosion" Owner="{BB6B0A00-5455-4EAB-9B12-065BCD3CFF19}" />
+				<Child Name="buttonButtonreqpo" Owner="{F7E06D12-C416-4E11-B7D1-EC947804F46B}" />
+				<Child Name="panelReference" Owner="{C82B00D2-61A4-4FBD-9CAC-0717D09983C3}" />
+				<Child Name="textboxAfterTheLookupIsOpenYou7" Owner="{F6E86BB8-B91E-4FC0-800D-BE2A2B8DE004}" />
+				<Child Name="buttonReqtransReftypeApplyfilter" Owner="{B34788E0-66B3-4484-89BD-58E4787EC81F}" />
+				<Child Name="vg2" Owner="{95E389CC-D7D9-4541-9E06-DED541DECAB8}" />
+				<Child Name="buttonButtonreqtranspomarkfirm" Owner="{D33B9545-E898-4289-868F-0FB28CFC336A}" />
+				<Child Name="panel4" Owner="{2CC6BBD5-2DA8-489E-A7AF-540136D23B49}" />
+				<Child Name="panel5" Owner="{D14A5A07-9A7F-49FB-A497-0BB45E46B87C}" />
+				<Child Name="panelReference2" Owner="{2DC87C8C-9C28-4594-ABF8-00505D9F6F6C}" />
 			</Child>
 			<Child Name="Page_SOConfig" Owner="{E67A00D3-D138-4DBA-9421-074767B4836D}">
 				<Child Name="SetChip_Config" Owner="{6AED7B26-D806-484F-8FF3-B24414EF69FE}">
@@ -6019,6 +6345,10 @@
 				<Child Name="linkDetailtabItem" Owner="{A36E9B3F-39CD-4573-9A59-07F267C6A27B}">
 					<Child Name="textnode00141756" Owner="{2F204E0C-E5E2-4236-810E-FBA7B9D5FBF1}" />
 				</Child>
+				<Child Name="TrimFinish_Field" Owner="{EAFDA007-B5CC-4645-9BFF-2F1BC1E99A76}" />
+				<Child Name="textboxId0eduae" Owner="{C24F93BB-528E-4695-822B-89B63296BFC5}" />
+				<Child Name="textnode" Owner="{C0AB8134-FC21-4EC8-B544-FAE59DA6EDF7}" />
+				<Child Name="EZPay_Field" Owner="{4CAE37D9-B217-4372-B509-B6739715D586}" />
 			</Child>
 			<Child Name="page00185996CaseSalesforce" Owner="{B79AFDA6-3297-4FB1-AA9B-94276C35D416}">
 				<Child Name="sectionSkipToNavigation" Owner="{CC46BDCD-BDFE-456C-89C9-14F989DE58AB}">

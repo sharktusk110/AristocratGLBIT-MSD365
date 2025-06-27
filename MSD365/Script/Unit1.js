@@ -6,73 +6,41 @@
 
 function split_break() {
 
-aqObject.CheckProperty(Aliases.browser.Page_SearchOpportunity.textnode, "title", cmpContains, "WHEELING ISLAND RACETRACK AND GAMING CENTER");
-
-//Delay(5000);
-//Aliases.browser.Page_EconMainConfiguration.textnodeQuote3.Click();
+//Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel5.Keys("[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]");
+//Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxSalesOrder.Click();
 //Delay(2000);
-//Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeComplianceCheck.buttonComplianceCheck.Click();
-//Delay(20000);
-//var msg=Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]").contentText;
-//if(msg)
-//Log.Message(msg);
-
-//aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Passed");
-
-//Aliases.browser.Page_EconMainConfiguration.link00185996.textnode00185996.Click();
-
- 
-//var opportunity=Aliases.browser.Page_NewOpportunityCreation;
-//opportunity.MarketSegment_Field.Click();
-// Delay(2000);
-// var Clr="Class II";
-// opportunity.FindElement('//*[@title="'+Clr+'"]').Click();
-//
-//opportunity.GamingClassification_Field.Click();
-//opportunity.GamingClassification_Field.Keys("Class II");
-// Delay(2000);
-// opportunity.GamingClassification_Field.Keys("[Enter]");
-//opportunity.FindElement('//*[@title="'+Config[1]+'"]').Click();
-// Delay(2000);
-// // Filling opportunity creation mandatory field including type
-// 
-// Aliases.browser.Page_NewOpportunityCreation.panelOpportunityName.Drag(831, 140, 12, 118);
-//// 
-// opportunity.Type_Field.Click();
-// Delay(2000);
-// opportunity.FindElement('//*[@title="'+Config[2]+'"]').Click();
-// Delay(2000);
-//// Aliases.browser.Page_NewOpportunityCreation.panelOpportunityName.Drag(833, 179, 20, 215);
-// Delay(5000);
-// opportunity.LeadSource_Field.Click();
-// Delay(2000);
-// opportunity.FindElement('//*[@title="'+Config[4]+'"]').Click();
-
-
- 
- 
- 
-// Filling opportunity creation mandatory field including market segment.
- 
-
-////Aliases.browser.Page_NewOpportunityCreation.panelOpportunityName.Drag(831, 26, 20, 350);
+//Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonSalesOrderLines6.textboxProductNumber3.Click();
 //Delay(2000);
-//opportunity.MarketSegment_Field.Click();
-// Delay(2000);
-// var vbc="Oregon VLT";
-// opportunity.FindElement('//*[@title="'+Config[3]+'"]').Click();
-
-//if(aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass")){
-//Aliases.browser.Page_EconMainConfiguration.buttonOk.Click();
+//Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonSalesOrderLines5.buttonProductAndSupply.Click();
 //Delay(2000);
-//Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeSaveAndExit2.buttonSaveAndExit.Click();
-//}else{
-//  Aliases.browser.Page_EconMainConfiguration.buttonOk.Click();
+//Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonRequirementsExplosion.Click();
+//Delay(2000);
+//Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonButtonreqpo.Click();
+//Delay(2000);
+//Aliases.browser.pageAllSalesOrdersFinanceAndOper.panelReference2.Click();
+//Delay(2000);
+//Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxAfterTheLookupIsOpenYou7.Keys("Planned Production");
+//Delay(2000);
+//Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxAfterTheLookupIsOpenYou7.Keys("[Enter]");
+//Delay(2000);
+//Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonReqtransReftypeApplyfilter.Click();
+Delay(2000);
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.vg2.Click();
+Delay(2000);
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonButtonreqtranspomarkfirm.Click();
+Delay(2000);
+Aliases.browser.Page_SOCreation.Ok_Button.Click();
+
+
+
+
 }
+
+
+ 
  
  
 
-//}
 
 //function Trial()
 //{
@@ -167,4 +135,15 @@ function Opp_creaa()
   Aliases.browser.Page_NewOpportunityCreation.LeadSource_Field.Click();
   //Clicks the 'textnodeCustomer' control.
   Aliases.browser.Page_NewOpportunityCreation.LeadSource_Field.textnodeCustomer.Click();
+}
+
+function Scrollleft()
+{
+  //Opens the specified URL in a running instance of the specified browser.
+  Browsers.Item(btEdge).Navigate("https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableDetails");
+  Aliases.browser.BrowserWindow.Maximize();
+  //Clicks the 'panel4' control.
+  Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel4.Click();
+  //Enters '[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]' in the 'panel5' object.
+  Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel5.Keys("[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]");
 }
