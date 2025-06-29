@@ -5,27 +5,50 @@
 //module.exports.getObject
 
 function split_break() {
-
-//Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel5.Keys("[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]");
-//Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxSalesOrder.Click();
+//  var quote_number="00141774";
+//Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonGridOptions.Click();
+//  Delay(2000);
+//  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeGrid30OptionscellMenubut.buttonInsertColumns.Click();
+//  Delay(5000);
+//  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxShipToCustomerAccount.SetText("quote number");
+//  Delay(2000);
+//  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeAllFields.buttonApplyFilter.Click();
+//  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeAllFields.buttonApplyFilter.Click();
+//  Delay(2000);
+//  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeAllFields.textnode.Click();
+//  Delay(2000);
+//  Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonFormcontrolfieldselector2O.Click();
+//  Delay(2000);
+//  Aliases.browser.pageAllSalesOrdersFinanceAndOper.panelQuoteNumber.Click();
+//  Delay(2000);
+//  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textbox.SetText(quote_number);
+//  Delay(2000);
+//  Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonLogisticspostaladdressStre.Click();
+//  Delay(2000);
+Delay(2000);
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7.Click();  
+for(i=0;i<=96;i++){
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7.Keys("[Left]");
+}
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxSalesOrder.Click();
 //Delay(2000);
 //Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonSalesOrderLines6.textboxProductNumber3.Click();
-//Delay(2000);
-//Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonSalesOrderLines5.buttonProductAndSupply.Click();
-//Delay(2000);
-//Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonRequirementsExplosion.Click();
-//Delay(2000);
-//Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonButtonreqpo.Click();
-//Delay(2000);
-//Aliases.browser.pageAllSalesOrdersFinanceAndOper.panelReference2.Click();
-//Delay(2000);
-//Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxAfterTheLookupIsOpenYou7.Keys("Planned Production");
-//Delay(2000);
-//Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxAfterTheLookupIsOpenYou7.Keys("[Enter]");
-//Delay(2000);
-//Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonReqtransReftypeApplyfilter.Click();
 Delay(2000);
-Aliases.browser.pageAllSalesOrdersFinanceAndOper.vg2.Click();
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonSalesOrderLines5.buttonProductAndSupply.Click();
+Delay(2000);
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonRequirementsExplosion.Click();
+Delay(2000);
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonButtonreqpo.Click();
+Delay(2000);
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.panelReference.Click();
+Delay(2000);
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxAfterTheLookupIsOpenYou7.Keys("Planned Production");
+Delay(2000);
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxAfterTheLookupIsOpenYou7.Keys("[Enter]");
+Delay(2000);
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonReqtransReftypeApplyfilter.Click();
+Delay(2000);
+Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel10.Click();
 Delay(2000);
 Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonButtonreqtranspomarkfirm.Click();
 Delay(2000);

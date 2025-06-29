@@ -1576,7 +1576,7 @@
 										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
 										<Selectors>
 											<Selector>
-												<Value Value="(//div)[4943]" />
+												<Value Value="xpath=//*[@title=&quot;Reference&quot;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -1615,7 +1615,7 @@
 										<TypeInfo Item0="{5A92A37E-8D2E-42A5-A21A-49D978456E6C}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//*[@id=&quot;GridReqPo_2939_0_grid&quot;]/div[1]/div[2]/div/div[1]/div[1]/div/div[1]/div/div/div/div/div" />
+												<Value Value="xpath=//*[@id=&quot;GridReqPo_*_0_grid&quot;]/div[1]/div[2]/div/div[1]/div[1]/div/div[1]/div/div/div/div/div/svg/path" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -1645,7 +1645,7 @@
 										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;salestabledetails_1_TabPageGrid_panel&apos;]//div[contains(@class, &apos;ScrollbarLayout_face&apos;)]" />
+												<Value Value="xpath=//*[@id=&quot;Grid_3_0_grid&quot;]/div[2]/div/div/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -1687,7 +1687,13 @@
 										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[@id=&apos;SalesLineGrid_3_0-row-0&apos;]//div[3]//input" />
+												<Value Value="css=#SalesLineGrid_5784_0-row-0 &gt; div.fixedDataTableRowLayout_body &gt; div:nth-child(1) &gt; div &gt; div &gt; div &gt; div &gt; div &gt; div" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//*[@id=&quot;SalesLineGrid_5784_0-row-0&quot;]/div[1]/div[1]/div/div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=/html/body/div[2]/div/div[6]/div/form[3]/div[5]/div/div[3]/div[2]/div[1]/div[3]/div/div[2]/div[3]/div/div/div[2]/div[2]/div[2]/div/div/div/div[1]/div[3]/div[1]/div/div[1]/div[1]/div/div/div/div/div/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -1696,7 +1702,85 @@
 										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
 										<Selectors>
 											<Selector>
-												<Value Value="(//div)[6175]" />
+												<Value Value="css=#ReqTrans_RefType_6637_0_header &gt; div" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//*[@id=&quot;ReqTrans_RefType_6637_0_header&quot;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=/html/body/div[2]/div/div[6]/div/form[5]/div[5]/div/div[3]/div[2]/div[1]/div[4]/div/div[2]/div/div/div/div[1]/div[2]/div/div[1]/div[2]/div/div[2]/div[3]/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel6" Key="{762428B8-8845-4708-989F-2CF0C5A94F49}">
+										<Image FileName="867550429" Left="129" Top="474" Right="188" Bottom="521" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;dyn-container&apos;)]//div[contains(@class, &apos;dyn-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel7" Key="{63B28441-47BA-4337-8342-0CF55A2986C0}">
+										<Image FileName="-1601131646" Left="1440" Top="1096" Right="1820" Bottom="1119" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ScrollbarLayout_face&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel8" Key="{A06AB661-3318-46ED-BC41-787B80A177B1}">
+										<Image FileName="1665756043" Left="1543" Top="722" Right="1561" Bottom="770" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[21]/div[contains(@class, &apos;fixedDataTableCellLayout_columnReorderContainer&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelReference3" Key="{CA506FFA-EBC1-4E91-AECA-2C266E4251B7}">
+										<Image FileName="-1014792287" Left="485" Top="725" Right="804" Bottom="749" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[4206]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel9" Key="{8FA6B629-349C-48FB-9915-9A0347A85972}">
+										<Image FileName="719302309" Left="129" Top="714" Right="188" Bottom="761" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[@role=&apos;main&apos;]/form[*]//div[contains(@class, &apos;dyn-container&apos;)]//div[contains(@class, &apos;dyn-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg3" Key="{0A119F55-C4C0-40B3-AD84-81B59B19A674}">
+										<Image FileName="1207569094" Left="145" Top="723" Right="172" Bottom="750" />
+										<TypeInfo Item0="{5A92A37E-8D2E-42A5-A21A-49D978456E6C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[4]//*[name()=&apos;svg&apos;][contains(@class, &apos;_de71e5&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReqTransPo_15_GridReqPo&apos;]//div//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[4]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel10" Key="{9E93F1A6-D985-4BEC-B935-0B8A9D8AE2D4}">
+										<Image FileName="960253657" Left="129" Top="474" Right="188" Bottom="521" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[@role=&apos;main&apos;]/form[4]//div[contains(@class, &apos;dyn-container&apos;)]//div[contains(@class, &apos;dyn-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@role=&apos;main&apos;]/form[5]//div[contains(@class, &apos;dyn-container&apos;)]//div[contains(@class, &apos;dyn-container&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6159,6 +6243,13 @@
 				<Child Name="panel4" Owner="{2CC6BBD5-2DA8-489E-A7AF-540136D23B49}" />
 				<Child Name="panel5" Owner="{D14A5A07-9A7F-49FB-A497-0BB45E46B87C}" />
 				<Child Name="panelReference2" Owner="{2DC87C8C-9C28-4594-ABF8-00505D9F6F6C}" />
+				<Child Name="panel6" Owner="{762428B8-8845-4708-989F-2CF0C5A94F49}" />
+				<Child Name="panel7" Owner="{63B28441-47BA-4337-8342-0CF55A2986C0}" />
+				<Child Name="panel8" Owner="{A06AB661-3318-46ED-BC41-787B80A177B1}" />
+				<Child Name="panelReference3" Owner="{CA506FFA-EBC1-4E91-AECA-2C266E4251B7}" />
+				<Child Name="panel9" Owner="{8FA6B629-349C-48FB-9915-9A0347A85972}" />
+				<Child Name="vg3" Owner="{0A119F55-C4C0-40B3-AD84-81B59B19A674}" />
+				<Child Name="panel10" Owner="{9E93F1A6-D985-4BEC-B935-0B8A9D8AE2D4}" />
 			</Child>
 			<Child Name="Page_SOConfig" Owner="{E67A00D3-D138-4DBA-9421-074767B4836D}">
 				<Child Name="SetChip_Config" Owner="{6AED7B26-D806-484F-8FF3-B24414EF69FE}">
