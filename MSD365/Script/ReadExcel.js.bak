@@ -188,7 +188,6 @@ function readRRConfigDataFromExcel() {
       //config[RowIndex][18]=String(excelSheet.Cell("W", RowIndex).Value);
       
       config[RowIndex][19]=String(excelSheet.Cell("X", RowIndex).Value);
-      // config[RowIndex][20]=String(excelSheet.Cell("Y", RowIndex).Value);
       config[RowIndex][20]=String(excelSheet.Cell("Z", RowIndex).Value);
       config[RowIndex][21]=String(excelSheet.Cell("AA", RowIndex).Value);
       config[RowIndex][22]=String(excelSheet.Cell("AB", RowIndex).Value);

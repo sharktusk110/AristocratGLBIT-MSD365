@@ -33,7 +33,6 @@ RecurringRevenue["econ_configuration_navigation"]();
 RecurringRevenue["econ_mainconfiguration"](ConfigFilter3);
 RecurringRevenue["econ_advancedconfiguration"](ConfigFilter4);
 RecurringRevenue["econ_approval"]();
-RecurringRevenue["caseQC"]();
 RecurringRevenue["econ_D65migration"]();
 RecurringRevenue["D65_MigrationCheck"](ConfigFilter1);
 
