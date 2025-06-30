@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 25">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.GameTheme_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Game Theme']&quot;))"/>
+			<Prp name="line no" type="I" value="218"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5286645023"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'GPP-0292|01 - DIAMOND STORM' was entered in the text editor."/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 80">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.Bootloader_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Bootloader']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="358"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5304263426"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="80"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'BOOTLOADER 7.0' was entered in the text editor."/>
+		</Node>
+		<Node name="message 81">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.Bootloader_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Bootloader']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="360"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5304523032"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="81"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 41">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.ButtonPanel_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Button Panel']&quot;))"/>
+			<Prp name="line no" type="I" value="244"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5294424074"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'BTN000027|01 - NO BUTTON PANEL' was entered in the text editor."/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Microsoft Edge ver.138.0.3351.55 (x64)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;--disable-web-security --user-data-dir=&quot;C:\Users\PS118692\Desktop\path&quot; --disable-site-isolation-trials&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Quote/list?filterName=__Recent&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PID:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;372&lt;/td&gt;&lt;/tr&gt;											  &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="156"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5271277778"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Microsoft Edge was launched."/>
+		</Node>
+		<Node name="message 90">
+			<Prp name="remarks" type="S" value="A click at point (26, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.buttonOk&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;(//button)[35]&quot;))"/>
+			<Prp name="line no" type="I" value="383"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.530872338"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="90"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegasChangeme.&amp;#8203;frame2.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{C132D21C-45B1-4050-97E3-3738A7B1A686}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0eylac&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@data-label='Denominations']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAkAcHJvcGNvdW50AAAAAAQAbW9kZQAAAgAGAGNvbmZpZwEAFQBEZWZh&#xA;dWx0IENvbmZpZ3VyYXRpb24CAG5tAQAkAEMxMzJEMjFDeDQ1QjF4NDA1MHg5N0UzeDM3MzhBN0Ix&#xA;QTY4NgQAdHlwZQEACwBSZWNvZ25pdGlvbgcAcHJvamVjdAEAJAA5QzRFRjJCN3gyOEVFeDRDQTl4&#xA;QkYyMng2NjhCNzgyNENGMjkEAAUAbmFtZXMAAAAABgB2YWx1ZXMBAAEAMAEAwqkAQDc4MDA3MDAw&#xA;NjEwMDc0MDA2ODAwM0QwMDJGMDAyRjAwNjkwMDZFMDA3MDAwNzUwMDc0MDA1QjAwNDAwMDY0MDA2&#xA;MTAwNzQwMDYxMDAyRDAwNkMwMDYxMDA2MjAwNjUwMDZDMDAzRDAwMjcwMDQ0MDA2NTAwNkUwMDZG&#xA;MDA2RDAwNjkwMDZFMDA2MTAwNzQwMDY5MDA2RjAwNkUwMDczMDAyNzAwNUQwMAAABwBtYXRjaGVk&#xA;AAAAAAsAZm91bmR2YWx1ZXMCAAEAMAEAMAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMDABADEBAMKpAEA3ODAwNzAwMDYxMDA3NDAwNjgwMDNEMDAyRjAwMkYw&#xA;MDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDQwMDA2NDAwNjEwMDc0MDA2MTAwMkQwMDZDMDA2MTAw&#xA;NjIwMDY1MDA2QzAwM0QwMDI3MDA0NDAwNjUwMDZFMDA2RjAwNkQwMDY5MDA2RTAwNjEwMDc0MDA2&#xA;OTAwNkYwMDZFMDA3MzAwMjcwMDVEMDAAAA==&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="233"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5292685764"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegasChangeme.&amp;#8203;frame2.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{B8D54916-EB33-47F1-ABF0-D42EB47165D3}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0ebbac&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@data-label='License Type']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAQAbW9kZQAAAgACAG5tAQAkAEI4RDU0OTE2eEVCMzN4NDdGMXhBQkYw&#xA;eEQ0MkVCNDcxNjVEMwcAcHJvamVjdAEAJAA5QzRFRjJCN3gyOEVFeDRDQTl4QkYyMng2NjhCNzgy&#xA;NENGMjkJAHByb3Bjb3VudAAAAAAGAGNvbmZpZwEAFQBEZWZhdWx0IENvbmZpZ3VyYXRpb24EAHR5&#xA;cGUBAAsAUmVjb2duaXRpb24EAAcAbWF0Y2hlZAAAAAAGAHZhbHVlcwIAAQAwAQDCpQBANzgwMDcw&#xA;MDA2MTAwNzQwMDY4MDAzRDAwMkYwMDJGMDA2OTAwNkUwMDcwMDA3NTAwNzQwMDVCMDA0MDAwNjQw&#xA;MDYxMDA3NDAwNjEwMDJEMDA2QzAwNjEwMDYyMDA2NTAwNkMwMDNEMDAyNzAwNEMwMDY5MDA2MzAw&#xA;NjUwMDZFMDA3MzAwNjUwMDIwMDA1NDAwNzkwMDcwMDA2NTAwMjcwMDVEMDABADEBAMWNAEA3ODAw&#xA;NzAwMDYxMDA3NDAwNjgwMDNEMDAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDYzMDA2&#xA;RjAwNkUwMDc0MDA2MTAwNjkwMDZFMDA3MzAwMjgwMDQwMDA2RTAwNjEwMDZEMDA2NTAwMkMwMDIw&#xA;MDAyNzAwNzAwMDc0MDA3OTAwNzAwMDY5MDA2NDAwMkUwMDZDMDA2OTAwNjMwMDY1MDA2RTAwNzMw&#xA;MDY1MDA3NDAwNzkwMDcwMDA2NTAwMjcwMDI5MDAyMDAwNjEwMDZFMDA2NDAwMjAwMDQwMDA2NDAw&#xA;NjEwMDc0MDA2MTAwMkQwMDZDMDA2MTAwNjIwMDY1MDA2QzAwM0QwMDI3MDA0QzAwNjkwMDYzMDA2&#xA;NTAwNkUwMDczMDA2NTAwMjAwMDU0MDA3OTAwNzAwMDY1MDAyNzAwNUQwMAAABQBuYW1lcwAAAAAL&#xA;AGZvdW5kdmFsdWVzAwABADEBAMKlAEA3ODAwNzAwMDYxMDA3NDAwNjgwMDNEMDAyRjAwMkYwMDY5&#xA;MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDQwMDA2NDAwNjEwMDc0MDA2MTAwMkQwMDZDMDA2MTAwNjIw&#xA;MDY1MDA2QzAwM0QwMDI3MDA0QzAwNjkwMDYzMDA2NTAwNkUwMDczMDA2NTAwMjAwMDU0MDA3OTAw&#xA;NzAwMDY1MDAyNzAwNUQwMAEAMAEAMAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDABADIBAMWNAEA3ODAwNzAwMDYxMDA3NDAwNjgwMDNEMDAyRjAwMkYwMDY5&#xA;MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDYzMDA2RjAwNkUwMDc0MDA2MTAwNjkwMDZFMDA3MzAwMjgw&#xA;MDQwMDA2RTAwNjEwMDZEMDA2NTAwMkMwMDIwMDAyNzAwNzAwMDc0MDA3OTAwNzAwMDY5MDA2NDAw&#xA;MkUwMDZDMDA2OTAwNjMwMDY1MDA2RTAwNzMwMDY1MDA3NDAwNzkwMDcwMDA2NTAwMjcwMDI5MDAy&#xA;MDAwNjEwMDZFMDA2NDAwMjAwMDQwMDA2NDAwNjEwMDc0MDA2MTAwMkQwMDZDMDA2MTAwNjIwMDY1&#xA;MDA2QzAwM0QwMDI3MDA0QzAwNjkwMDYzMDA2NTAwNkUwMDczMDA2NTAwMjAwMDU0MDA3OTAwNzAw&#xA;MDY1MDAyNzAwNUQwMAAA&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="209"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5285841088"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.SellingModel_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='SellingModel']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="194"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.528300706"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'Outright - Sale New' was entered in the text editor."/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="GSBAU_econ_approval"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="397"/>
+		</Node>
+		<Node name="message 77">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.Base_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Base']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="352"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5303498264"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="77"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.GameTitle_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Game Name']&quot;))"/>
+			<Prp name="line no" type="I" value="230"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5291520486"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 72">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegas218884522.&amp;#8203;frame.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{60136C26-D91B-430B-BB5E-C0737A5A3795}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0et1ae&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@data-label='Bill Acceptor Firmware']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAQAbW9kZQAAAgAJAHByb3Bjb3VudAAAAAACAG5tAQAkADYwMTM2QzI2&#xA;eEQ5MUJ4NDMwQnhCQjVFeEMwNzM3QTVBMzc5NQcAcHJvamVjdAEAJAA5QzRFRjJCN3gyOEVFeDRD&#xA;QTl4QkYyMng2NjhCNzgyNENGMjkGAGNvbmZpZwEAFQBEZWZhdWx0IENvbmZpZ3VyYXRpb24EAHR5&#xA;cGUBAAsAUmVjb2duaXRpb24EAAYAdmFsdWVzAQABADABAMONAEA3ODAwNzAwMDYxMDA3NDAwNjgw&#xA;MDNEMDAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDQwMDA2NDAwNjEwMDc0MDA2MTAw&#xA;MkQwMDZDMDA2MTAwNjIwMDY1MDA2QzAwM0QwMDI3MDA0MjAwNjkwMDZDMDA2QzAwMjAwMDQxMDA2&#xA;MzAwNjMwMDY1MDA3MDAwNzQwMDZGMDA3MjAwMjAwMDQ2MDA2OTAwNzIwMDZEMDA3NzAwNjEwMDcy&#xA;MDA2NTAwMjcwMDVEMDAAAAUAbmFtZXMAAAAACwBmb3VuZHZhbHVlcwIAAQAwAQAwADAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAEAMQEAw40AQDc4MDA3MDAw&#xA;NjEwMDc0MDA2ODAwM0QwMDJGMDAyRjAwNjkwMDZFMDA3MDAwNzUwMDc0MDA1QjAwNDAwMDY0MDA2&#xA;MTAwNzQwMDYxMDAyRDAwNkMwMDYxMDA2MjAwNjUwMDZDMDAzRDAwMjcwMDQyMDA2OTAwNkMwMDZD&#xA;MDAyMDAwNDEwMDYzMDA2MzAwNjUwMDcwMDA3NDAwNkYwMDcyMDAyMDAwNDYwMDY5MDA3MjAwNkQw&#xA;MDc3MDA2MTAwNzIwMDY1MDAyNzAwNUQwMAAABwBtYXRjaGVkAAAAAA==&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="339"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5302506597"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="72"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 71">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.TicketValidation_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Ticket Validation']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="337"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5302266088"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="71"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegasChangeme.&amp;#8203;frame2.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{C16F7F0B-1F0A-4A34-9DF4-B7F7F2050D2E}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0eojac&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@data-label='Game Name']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAcAcHJvamVjdAEAJAA5QzRFRjJCN3gyOEVFeDRDQTl4QkYyMng2NjhC&#xA;NzgyNENGMjkEAG1vZGUAAAIABgBjb25maWcBABUARGVmYXVsdCBDb25maWd1cmF0aW9uAgBubQEA&#xA;JABDMTZGN0YwQngxRjBBeDRBMzR4OURGNHhCN0Y3RjIwNTBEMkUEAHR5cGUBAAsAUmVjb2duaXRp&#xA;b24JAHByb3Bjb3VudAAAAAAEAAYAdmFsdWVzAQABADABAMKZAEA3ODAwNzAwMDYxMDA3NDAwNjgw&#xA;MDNEMDAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDQwMDA2NDAwNjEwMDc0MDA2MTAw&#xA;MkQwMDZDMDA2MTAwNjIwMDY1MDA2QzAwM0QwMDI3MDA0NzAwNjEwMDZEMDA2NTAwMjAwMDRFMDA2&#xA;MTAwNkQwMDY1MDAyNzAwNUQwMAAABQBuYW1lcwAAAAAHAG1hdGNoZWQAAAAACwBmb3VuZHZhbHVl&#xA;cwIAAQAwAQAwADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw&#xA;MAEAMQEAwpkAQDc4MDA3MDAwNjEwMDc0MDA2ODAwM0QwMDJGMDAyRjAwNjkwMDZFMDA3MDAwNzUw&#xA;MDc0MDA1QjAwNDAwMDY0MDA2MTAwNzQwMDYxMDAyRDAwNkMwMDYxMDA2MjAwNjUwMDZDMDAzRDAw&#xA;MjcwMDQ3MDA2MTAwNkQwMDY1MDAyMDAwNEUwMDYxMDA2RDAwNjUwMDI3MDA1RDAwAAA=&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="230"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5291501157"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 49">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Cabinet_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Cabinet']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="276"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5296604977"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.GameTheme_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Game Theme']&quot;))"/>
+			<Prp name="line no" type="I" value="220"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5286898843"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 45">
+			<Prp name="remarks" type="S" value="A click at point (52, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.linkAdvanced&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//a[.='Advanced']&quot;))"/>
+			<Prp name="line no" type="I" value="266"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5295585185"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.ProgressiveType_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Progressive Type']&quot;))"/>
+			<Prp name="line no" type="I" value="215"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5286389931"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="397"/>
+		</Node>
+		<Node name="message 60">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.TopBoxDisplay_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Top Box Display']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="313"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5299703819"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{C171380D-CC2C-440D-B2AD-49C8461177EB}"/>
+			<Prp name="unit 1" type="S" value="{479BA5E3-E06D-4360-847C-C60DDC53EA34}"/>
+			<Prp name="unit 2" type="S" value="{AF1ABAAB-27FF-4F0F-8C39-B4082A64732A}"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.LicenseType_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='License Type']&quot;))"/>
+			<Prp name="line no" type="I" value="211"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5286109606"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 91">
+			<Prp name="remarks" type="S" value="A click at point (80, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeSaveAndExit2.buttonSaveAndExit&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//button[.='Save and Exit']&quot;))"/>
+			<Prp name="line no" type="I" value="385"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.530899456"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="91"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.Denom_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Denominations']&quot;))"/>
+			<Prp name="line no" type="I" value="233"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5292700926"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '.01' was entered in the text editor."/>
+		</Node>
+		<Node name="message 68">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.Printer_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Printer Firmware']&quot;))"/>
+			<Prp name="line no" type="I" value="331"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5301496644"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'JCM GEN5 5R001A729' was entered in the text editor."/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="remarks" type="S" value="A click at point (59, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;xpath=//a[@id='customTab__item']&quot;))"/>
+			<Prp name="line no" type="I" value="180"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5277128356"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 21">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.ProgressiveType_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Progressive Type']&quot;))"/>
+			<Prp name="line no" type="I" value="213"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5286128009"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'PI-NONE - None' was entered in the text editor."/>
+		</Node>
+		<Node name="message 76">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.Base_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Base']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="350"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5303086806"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="76"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'SYSTEM BASE 6.13.0-1.00.4' was entered in the text editor."/>
+		</Node>
+		<Node name="message 55">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Mainboard_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Mainboard']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="295"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5298187731"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'MAINBOARD OPTION NOT APPLICABLE WHEN MAINBOARD IS IN OTHER OPTION' was entered in the text editor."/>
+		</Node>
+		<Node name="message 53">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.SPC_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='SPC']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="290"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5297667477"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'SPC NONE' was entered in the text editor."/>
+		</Node>
+		<Node name="message 70">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.TicketValidation_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Ticket Validation']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="335"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5302009143"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="70"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'TICKET VALIDATION TITO ENABLED G7 G8 G9' was entered in the text editor."/>
+		</Node>
+		<Node name="message 73">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.BillAcceptor_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Bill Acceptor Firmware']&quot;))"/>
+			<Prp name="line no" type="I" value="339"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5302515278"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="73"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'JCM IVZ 2.92-43' was entered in the text editor."/>
+		</Node>
+		<Node name="message 83">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.Setchip_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Set Chip']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="364"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5305035764"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="83"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.Model_PGD&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//tr[14]/td//tr/td//input[@role='textbox']&quot;))"/>
+			<Prp name="line no" type="I" value="223"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5288661227"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'PGD-0217|01 - HELIX PLUS UPRIGHT' was entered in the text editor."/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Model_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Model']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="269"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5295837847"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'HELIX PLUS UPRIGHT' was entered in the text editor."/>
+		</Node>
+		<Node name="message 63">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Conditional_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Conditional']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="321"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5300466782"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'CONDITIONAL NONE OPTION ALL' was entered in the text editor."/>
+		</Node>
+		<Node name="message 44">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.BillsAccepted_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Bills Accepted']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="251"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.529519294"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="remarks" type="S" value="A click at point (226, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconNavigation.SearchedEcon_Node&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Quote/list?filterName=__Recent&quot;).FindElement(&quot;//a[contains(@href, 'r')]//slot/span&quot;))"/>
+			<Prp name="line no" type="I" value="171"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5276447454"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 78">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.OS_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='OS']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="354"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5303755671"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="78"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'LINUX X.6A.1' was entered in the text editor."/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.ButtonPanel_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Button Panel']&quot;))"/>
+			<Prp name="line no" type="I" value="246"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5294680208"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 94">
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="line no" type="I" value="397"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="date" type="D" value="45838.5314925"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="id" type="I" value="94"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="message" type="S" value="The script execution was interrupted."/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.LicenseType_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='License Type']&quot;))"/>
+			<Prp name="line no" type="I" value="209"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5285850231"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'PREMIUM PLUS' was entered in the text editor."/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.Denom_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Denominations']&quot;))"/>
+			<Prp name="line no" type="I" value="235"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5292958218"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 75">
+			<Prp name="remarks" type="S" value="A click at point (33, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.RunCP_Checkbox&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//div[@id='Advanced']//tr/td//div/label[contains(@class, 'eConRadioLabel')]&quot;))"/>
+			<Prp name="line no" type="I" value="346"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5303065046"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="75"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 89">
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Sys.Browser(&quot;edge&quot;).Page...ConEngineHtml.aspx')]&quot;).contentText&lt;b&gt; contains the substring (case-sensitive) &lt;/b&gt;&quot;Pass&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;contentText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;contains the substring (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Q067072 - e-Con↴Save and Exit↴Temporary Save↴Cancel↴Compliance Check↴Missing Item(s) Check↴HowWhy↴Get SOC Lines↴Quote↴HELIX PLUS UPRIGHT - DIAMOND STORM (Qty= 2)↴Main↴Other Items↴Additional Items↴Config Check↴Main Pane1↴Jurisdiction[1]↴D365 Jurisdiction↴name↴M2K Legacy ID↴JUR000090↴Nevada↴28↴Admin Tools↴Jurisdiction↴JUR000090↴name↴ECON GREEN VALLEY RANCH RESORT SPA CASINO - CHANGEME - 06/27/2025↴Job Number↴Opportunity ID↴0069r00000HJda9AAD↴Status↴Draft↴Syncing ?↴No↴RequiredSelections↴0↴# Of PreSale Products↴0↴SalesCompany↴AM01↴AM02↴AM04↴AM05↴AM80↴Last Compliance Check↴1/1/0001↴Compliance Status↴ManufacturingCompany↴AM01↴Apply Pricing to Quote?↴Yes↴No↴TempProcessTrigger2↴Yes↴No↴Allow D365 Submit↴Yes↴No↴Use Caching↴Yes↴No↴Debug↴Yes↴No↴D365 Customer Group↴10↴RFC↴I↴D↴Get SOC Lines↴Messages↴var eConActiveMemberId = 'Configuration[1].Egm.Edit'; //Configuration[1].Egm.Edit↴Configuration name:↴qa2s_0e59cbd8-8711-40dc-951c-853ab7b21948↴function CallClientScript() { }↴function Load() { window.status = 'active'; enterAsTab = true; suspendImageEditorUpdates = false; econ.trace.level = econ.trace.severity.Error; InitPosting(GetKey(), 'eConEngineHtml.aspx', 'html5', 'immediate', 'SalesForce-Lightning', false); InitUI('',250,500,'alert','xmlWhatIf','false',''); InitCustom(); CallClientScript(); }↴Invalid fields:↴Are you sure you want to exit?↴Are you sure you want to restart?↴Please wait while e-Con prepares the document.↴Enter the name of the configuration↴Enter the name of the configuration↴0↴←↴CE↴C↴7↴8↴9↴/↴√↴4↴5↴6↴*↴%↴1↴2↴3↴-↴1/x↴.↴0↴+/-↴+↴=↴Feet↴Inches↴Fraction↴Result↴mm↴Result↴&amp;lt;root&amp;gt;&amp;lt;label id=&quot;dialogbuttonaccept&quot; value=&quot;Accept&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;dialogbuttonreject&quot; value=&quot;Reject&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;dialogbuttonyes&quot; value=&quot;Yes&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;dialogbuttonno&quot; value=&quot;No&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;dialogbuttonok&quot; value=&quot;OK&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;dialogbuttoncancel&quot; value=&quot;Cancel&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;documentnotready&quot; value=&quot;The document has not been prepared within a reasonable amount of time.&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;documentready&quot; value=&quot;The document is ready.&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;uploadedit&quot; value=&quot;Select file&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;uploadfilesizeerror&quot; value=&quot;The file is too big. The maximum size is {0}&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;uploadfiletypeerror&quot; value=&quot;The file type is not allowed. The allowed file types are: {0}&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;uploaddelete&quot; value=&quot;Delete file&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;open&quot; value=&quot;Open&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;dialogclose&quot; value=&quot;Close&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;maximize&quot; value=&quot;Maximize window&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;refresh&quot; value=&quot;Refresh&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;restore&quot; value=&quot;Restore down&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;showlesscolumns&quot; value=&quot;Show less columns&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;label id=&quot;showmorecolumns&quot; value=&quot;Show more columns&quot;&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;/root&amp;gt;↴$.uiBackCompat = false; var gstrLocalPath = ''; var _uiTheme = 'SalesForce-Lightning';↴$(function() { Globalize.culture(&quot;en-US&quot;); });↴Processing...↴Description↴name↴Outright - Sale New↴GSBAU↴Showing 1 to 1 of 1 entries (filtered from 15 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴License Type↴Description↴Desc↴PPL↴PPL - PREMIUM PLUS↴PREMIUM PLUS↴PPP↴PPP - PREMIUM PLUS PLUS↴PREMIUM PLUS PLUS↴Showing 1 to 2 of 2 entries (filtered from 16 total entries)↴Processing...↴Progressive Type↴Description↴NONE↴PI-NONE - None↴Showing 1 to 1 of 1 entries (filtered from 3 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴Progressive Type↴Description↴NONE↴PI-NONE - None↴Showing 1 to 1 of 1 entries (filtered from 3 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Description↴License Type↴Progressive Type↴Series↴GPP-0292|01↴GPP-0292|01 - DIAMOND STORM↴J↴Showing 1 to 1 of 1 entries (filtered from 178 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Description↴GDID↴GD Code↴PGD-0217|01↴PGD-0217|01 - HELIX PLUS UPRIGHT↴HPU↴Showing 1 to 1 of 1 entries (filtered from 9 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Version↴Description↴Gaming Classification↴1.01-63246|01↴01↴1.01-63246|01 - FLAMIN HITS - DIAMOND STORM↴1.01-63247|01↴01↴1.01-63247|01 - LIBERTY STRIPES - DIAMOND STORM↴Showing 1 to 2 of 2 entries↴Processing...↴ItemNbr↴Version↴Description↴Gaming Classification↴1.01-63246|01↴01↴1.01-63246|01 - FLAMIN HITS - DIAMOND STORM↴1.01-63247|01↴01↴1.01-63247|01 - LIBERTY STRIPES - DIAMOND STORM↴Showing 1 to 2 of 2 entries↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴Denom↴Currency↴.01↴.01 DOLLAR↴Showing 1 to 1 of 1 entries (filtered from 10 total entries)↴Processing...↴ItemNbr↴Desc↴Finish↴TopperArtType↴TPP000027|01↴TPP000027|01 - TPP NONE OPTION↴Showing 1 to 1 of 1 entries (filtered from 12 total entries)↴Processing...↴ItemNbr↴Desc↴Finish↴Button Type↴BTN000027|01↴BTN000027|01 - NO BUTTON PANEL↴Showing 1 to 1 of 1 entries (filtered from 8 total entries)↴Processing...↴ItemNbr↴Desc↴BIL000010|01↴NONE↴Showing 1 to 1 of 1 entries (filtered from 16 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Desc↴GDcode1↴SaleType↴HXPU.R1|01↴HELIX PLUS UPRIGHT↴HU8↴NEW↴Showing 1 to 1 of 1 entries↴Processing...↴ItemNbr↴Desc↴CAB000105-RSA|01↴HELIX PLUS UPRIGHT CASINO TOP RSA L5↴Showing 1 to 1 of 1 entries (filtered from 21 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Desc↴Line Item↴TBX000000|01↴TBX NONE OPTION↴Showing 1 to 1 of 1 entries (filtered from 3 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Desc↴SPC000000|01↴SPC NONE↴Showing 1 to 1 of 1 entries (filtered from 5 total entries)↴Processing...↴ItemNbr↴Desc↴SPC000000|01↴SPC NONE↴Showing 1 to 1 of 1 entries (filtered from 5 total entries)↴Processing...↴ItemNbr↴Desc↴MAN000000|01↴MAINBOARD OPTION NOT APPLICABLE WHEN MAINBOARD IS IN OTHER OPTION↴Showing 1 to 1 of 1 entries (filtered from 15 total entries)↴Processing...↴ItemNbr↴Desc↴Line Item↴Qty↴TPP000027|01↴TPP NONE OPTION↴Showing 1 to 1 of 1 entries (filtered from 8 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Desc↴Line Item↴TBD000000|01↴TOP BOX DISPLAY NONE↴Showing 1 to 1 of 1 entries (filtered from 13 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Desc↴07-48347-03|01↴FILM CANDLE LIGHT TOWER 4 WHITE-WHITE↴Showing 1 to 1 of 1 entries (filtered from 28 total entries)↴Processing...↴ItemNbr↴Desc↴CON000001|01↴CONDITIONAL NONE OPTION ALL↴Showing 1 to 1 of 1 entries (filtered from 6 total entries)↴Processing...↴ItemNbr↴Desc↴Line Item↴MVD000000|01↴MAIN VIDEO DISPLAY NONE↴Showing 1 to 1 of 1 entries (filtered from 6 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Desc↴PRF000093-USB|01↴JCM GEN5 5R001A729↴PRF000093|01↴JCM GEN5 5R001A729 ARC BEH EDGEX HLX MARS RELM VERVE VII VIR↴Showing 1 to 2 of 2 entries (filtered from 6 total entries)↴Processing...↴ItemNbr↴Desc↴TKV000008|01↴TICKET VALIDATION TITO ENABLED G7 G8 G9↴Showing 1 to 1 of 1 entries (filtered from 3 total entries)↴Processing...↴ItemNbr↴Desc↴Used↴BAF000708|01↴JCM IVZ 2.92-43↴Showing 1 to 1 of 1 entries↴Processing...↴ItemNbr↴Desc↴Used↴SB61301004|01↴SYSTEM BASE 6.13.0-1.00.4↴Showing 1 to 1 of 1 entries (filtered from 45 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Desc↴Used↴LNXX.6A.1|01↴LINUX X.6A.1↴Showing 1 to 1 of 1 entries (filtered from 38 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Desc↴Used↴BTLDR70|01↴BOOTLOADER 7.0↴Showing 1 to 1 of 1 entries (filtered from 9 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Desc↴Used↴SC7027101|01↴SET CHIP 7.02.71.01↴Showing 1 to 1 of 1 entries (filtered from 33 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Processing...↴ItemNbr↴Desc↴No matching records found↴Showing 0 to 0 of 0 entries (filtered from 1 total entries)↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴e-Con Configure Input↴Close↴collapse↴maximize↴restore↴minimize↴OK↴Cancel↴.ui-dialog .ui-dialog-titlebar-buttonpane&amp;gt;a { float: right; }.ui-dialog .ui-dialog-titlebar-restore { width: 19px; height: 18px; }.ui-dialog .ui-dialog-titlebar-restore span { display: block; margin: 1px; }.ui-dialog .ui-dialog-titlebar-restore:hover,.ui-dialog .ui-dialog-titlebar-restore:focus { padding: 0; }.ui-dialog .ui-dialog-titlebar ::selection { background-color: transparent; }↴.ui-dialog .ui-dialog-titlebar-collapse { width: 19px; height: 18px; }.ui-dialog .ui-dialog-titlebar-collapse span { display: block; margin: 1px; }.ui-dialog .ui-dialog-titlebar-collapse:hover,.ui-dialog .ui-dialog-titlebar-collapse:focus { padding: 0; }↴.ui-dialog .ui-dialog-titlebar-maximize { width: 19px; height: 18px; }.ui-dialog .ui-dialog-titlebar-maximize span { display: block; margin: 1px; }.ui-dialog .ui-dialog-titlebar-maximize:hover,.ui-dialog .ui-dialog-titlebar-maximize:focus { padding: 0; }↴.ui-dialog .ui-dialog-titlebar-minimize { width: 19px; height: 18px; }.ui-dialog .ui-dialog-titlebar-minimize span { display: block; margin: 1px; }.ui-dialog .ui-dialog-titlebar-minimize:hover,.ui-dialog .ui-dialog-titlebar-minimize:focus { padding: 0; }↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}↴Message↴Close↴Passed↴OK↴@-webkit-keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}@keyframes econ-progressbar-block-move-70 {0% { left: -50px; opacity: 1;}11% { left: -36.42857500000001px; opacity: 1;}45% { left: 106.42857500000001px; opacity: 1;}57% { left: 70px; opacity: 1;}60% { left: 70px; opacity: 0;}100% { left: -50px; opacity: 0;}}&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Pass&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="line no" type="I" value="382"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5308692245"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="id" type="I" value="89"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: contentText contains the substring (case-sensitive) &quot;Pass&quot;."/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.SellingModel_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='SellingModel']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="196"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5284190394"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="remarks" type="S" value="A click at point (9, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.TBXLineItem_Checkbox&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//div[@id='Advanced-scroll']//div/label&quot;))"/>
+			<Prp name="line no" type="I" value="280"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5296899537"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 69">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.Printer_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Printer Firmware']&quot;))"/>
+			<Prp name="line no" type="I" value="333"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5301757407"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="69"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegasChangeme.&amp;#8203;frame2.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{C16F7F0B-1F0A-4A34-9DF4-B7F7F2050D2E}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0eojac&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@data-label='Game Name']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAIAbm0BACQAQzE2RjdGMEJ4MUYwQXg0QTM0eDlERjR4QjdGN0YyMDUw&#xA;RDJFBwBwcm9qZWN0AQAkADlDNEVGMkI3eDI4RUV4NENBOXhCRjIyeDY2OEI3ODI0Q0YyOQYAY29u&#xA;ZmlnAQAVAERlZmF1bHQgQ29uZmlndXJhdGlvbgQAbW9kZQAAAgAEAHR5cGUBAAsAUmVjb2duaXRp&#xA;b24JAHByb3Bjb3VudAAAAAAEAAsAZm91bmR2YWx1ZXMCAAEAMAEAMAAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDABADEBAMKZAEA3ODAwNzAwMDYxMDA3NDAw&#xA;NjgwMDNEMDAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDQwMDA2NDAwNjEwMDc0MDA2&#xA;MTAwMkQwMDZDMDA2MTAwNjIwMDY1MDA2QzAwM0QwMDI3MDA0NzAwNjEwMDZEMDA2NTAwMjAwMDRF&#xA;MDA2MTAwNkQwMDY1MDAyNzAwNUQwMAAABgB2YWx1ZXMBAAEAMAEAwpkAQDc4MDA3MDAwNjEwMDc0&#xA;MDA2ODAwM0QwMDJGMDAyRjAwNjkwMDZFMDA3MDAwNzUwMDc0MDA1QjAwNDAwMDY0MDA2MTAwNzQw&#xA;MDYxMDAyRDAwNkMwMDYxMDA2MjAwNjUwMDZDMDAzRDAwMjcwMDQ3MDA2MTAwNkQwMDY1MDAyMDAw&#xA;NEUwMDYxMDA2RDAwNjUwMDI3MDA1RDAwAAAHAG1hdGNoZWQAAAAABQBuYW1lcwAAAAA=&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="228"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5291242014"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 47">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Model_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Model']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="271"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.529609294"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 61">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Candle_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Candle']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="316"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5299956366"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'FILM CANDLE LIGHT TOWER 4 WHITE-WHITE' was entered in the text editor."/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="remarks" type="S" value="URL: https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Quote/list?filterName=__Recent&#xA;&#xA;Aliases.browser"/>
+			<Prp name="line no" type="I" value="156"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5271845718"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Navigating to the https://aristocrat-global--qa1.sandbox.lightning.force.com/l... page."/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Topper_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Topper']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="308"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.529919213"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegasChangeme.&amp;#8203;frame2.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{E6457D0B-9644-43A5-81C3-09358E214320}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0ebdac&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@data-label='Progressive Type']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAkAcHJvcGNvdW50AAAAAAIAbm0BACQARTY0NTdEMEJ4OTY0NHg0M0E1&#xA;eDgxQzN4MDkzNThFMjE0MzIwBwBwcm9qZWN0AQAkADlDNEVGMkI3eDI4RUV4NENBOXhCRjIyeDY2&#xA;OEI3ODI0Q0YyOQYAY29uZmlnAQAVAERlZmF1bHQgQ29uZmlndXJhdGlvbgQAdHlwZQEACwBSZWNv&#xA;Z25pdGlvbgQAbW9kZQAAAgAEAAcAbWF0Y2hlZAAAAAAFAG5hbWVzAAAAAAsAZm91bmR2YWx1ZXMD&#xA;AAEAMQEAwrUAQDc4MDA3MDAwNjEwMDc0MDA2ODAwM0QwMDJGMDAyRjAwNjkwMDZFMDA3MDAwNzUw&#xA;MDc0MDA1QjAwNDAwMDY0MDA2MTAwNzQwMDYxMDAyRDAwNkMwMDYxMDA2MjAwNjUwMDZDMDAzRDAw&#xA;MjcwMDUwMDA3MjAwNkYwMDY3MDA3MjAwNjUwMDczMDA3MzAwNjkwMDc2MDA2NTAwMjAwMDU0MDA3&#xA;OTAwNzAwMDY1MDAyNzAwNUQwMAEAMAEAMAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMDABADIBAMWpAEA3ODAwNzAwMDYxMDA3NDAwNjgwMDNEMDAyRjAwMkYw&#xA;MDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDQwMDA2NDAwNjEwMDc0MDA2MTAwMkQwMDZDMDA2MTAw&#xA;NjIwMDY1MDA2QzAwM0QwMDI3MDA1MDAwNzIwMDZGMDA2NzAwNzIwMDY1MDA3MzAwNzMwMDY5MDA3&#xA;NjAwNjUwMDIwMDA1NDAwNzkwMDcwMDA2NTAwMjcwMDIwMDA2MTAwNkUwMDY0MDAyMDAwNjMwMDZG&#xA;MDA2RTAwNzQwMDYxMDA2OTAwNkUwMDczMDAyODAwNDAwMDZFMDA2MTAwNkQwMDY1MDAyQzAwMjAw&#xA;MDI3MDA3MDAwNzIwMDY3MDA2OTAwNjQwMDJFMDA3MDAwNzIwMDZGMDA2NzAwNzIwMDY1MDA3MzAw&#xA;NzMwMDY5MDA3NjAwNjUwMDc0MDA3OTAwNzAwMDY1MDAyNzAwMjkwMDVEMDAAAAYAdmFsdWVzAgAB&#xA;ADABAMK1AEA3ODAwNzAwMDYxMDA3NDAwNjgwMDNEMDAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3&#xA;NDAwNUIwMDQwMDA2NDAwNjEwMDc0MDA2MTAwMkQwMDZDMDA2MTAwNjIwMDY1MDA2QzAwM0QwMDI3&#xA;MDA1MDAwNzIwMDZGMDA2NzAwNzIwMDY1MDA3MzAwNzMwMDY5MDA3NjAwNjUwMDIwMDA1NDAwNzkw&#xA;MDcwMDA2NTAwMjcwMDVEMDABADEBAMWpAEA3ODAwNzAwMDYxMDA3NDAwNjgwMDNEMDAyRjAwMkYw&#xA;MDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDQwMDA2NDAwNjEwMDc0MDA2MTAwMkQwMDZDMDA2MTAw&#xA;NjIwMDY1MDA2QzAwM0QwMDI3MDA1MDAwNzIwMDZGMDA2NzAwNzIwMDY1MDA3MzAwNzMwMDY5MDA3&#xA;NjAwNjUwMDIwMDA1NDAwNzkwMDcwMDA2NTAwMjcwMDIwMDA2MTAwNkUwMDY0MDAyMDAwNjMwMDZG&#xA;MDA2RTAwNzQwMDYxMDA2OTAwNkUwMDczMDAyODAwNDAwMDZFMDA2MTAwNkQwMDY1MDAyQzAwMjAw&#xA;MDI3MDA3MDAwNzIwMDY3MDA2OTAwNjQwMDJFMDA3MDAwNzIwMDZGMDA2NzAwNzIwMDY1MDA3MzAw&#xA;NzMwMDY5MDA3NjAwNjUwMDc0MDA3OTAwNzAwMDY1MDAyNzAwMjkwMDVEMDAAAA==&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="213"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5286120139"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 92">
+			<Prp name="remarks" type="S" value="The test engine does not have access to internal objects, methods, and properties of the page open in Edge. Check whether SmartBear Test Extension is installed and enabled. To install or enable the extension, you can open the following page in Edge:&#xA;https://chrome.google.com/webstore/detail/smartbear-test-extension/phbpiacnjjgjkdnemiaakobckdigehbp"/>
+			<Prp name="line no" type="I" value="397"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.531253669"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="id" type="I" value="92"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="SmartBear Test Extension is not Installed or is Disabled"/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.TopBox_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Top Box']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="285"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5297155324"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'TBX NONE OPTION' was entered in the text editor."/>
+		</Node>
+		<Node name="message 67">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegas218884522.&amp;#8203;frame.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{65259BA0-926D-47FF-AF3F-8DEEF66A4E77}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0exzae&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@data-label='Printer Firmware']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAQAbW9kZQAAAgAHAHByb2plY3QBACQAOUM0RUYyQjd4MjhFRXg0Q0E5&#xA;eEJGMjJ4NjY4Qjc4MjRDRjI5BAB0eXBlAQALAFJlY29nbml0aW9uAgBubQEAJAA2NTI1OUJBMHg5&#xA;MjZEeDQ3RkZ4QUYzRng4REVFRjY2QTRFNzcGAGNvbmZpZwEAFQBEZWZhdWx0IENvbmZpZ3VyYXRp&#xA;b24JAHByb3Bjb3VudAAAAAAEAAcAbWF0Y2hlZAAAAAAFAG5hbWVzAAAAAAsAZm91bmR2YWx1ZXMC&#xA;AAEAMAEAMAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAB&#xA;ADEBAMK1AEA3ODAwNzAwMDYxMDA3NDAwNjgwMDNEMDAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3&#xA;NDAwNUIwMDQwMDA2NDAwNjEwMDc0MDA2MTAwMkQwMDZDMDA2MTAwNjIwMDY1MDA2QzAwM0QwMDI3&#xA;MDA1MDAwNzIwMDY5MDA2RTAwNzQwMDY1MDA3MjAwMjAwMDQ2MDA2OTAwNzIwMDZEMDA3NzAwNjEw&#xA;MDcyMDA2NTAwMjcwMDVEMDAAAAYAdmFsdWVzAQABADABAMK1AEA3ODAwNzAwMDYxMDA3NDAwNjgw&#xA;MDNEMDAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDQwMDA2NDAwNjEwMDc0MDA2MTAw&#xA;MkQwMDZDMDA2MTAwNjIwMDY1MDA2QzAwM0QwMDI3MDA1MDAwNzIwMDY5MDA2RTAwNzQwMDY1MDA3&#xA;MjAwMjAwMDQ2MDA2OTAwNzIwMDZEMDA3NzAwNjEwMDcyMDA2NTAwMjcwMDVEMDAAAA==&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="331"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5301486574"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegasChangeme.&amp;#8203;frame2.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{6EBA15A6-D26A-4B7A-B280-55F90C0FD954}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0emgac&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//tr[14]/td//tr/td//input[@role='textbox']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{1DC85779-D4CC-4A23-B0D8-4A231EA21051}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="223"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5288649769"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 64">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Conditional_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Conditional']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="323"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5300731713"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 93">
+			<Prp name="remarks" type="S" value="JavaScript runtime error.&#xA;&#xA;An internal error occurred while running the Microsoft Edge browser.&#xA;Details: The test engine does not have access to internal objects, methods, and properties of the page open in Edge. Check whether SmartBear Test Extension is installed and enabled. To install or enable the extension, you can open the following page in Edge:&#xA;https://chrome.google.com/webstore/detail/smartbear-test-extension/phbpiacnjjgjkdnemiaakobckdigehbp&#xA;&#xA;Error location:&#xA;Unit: &quot;AristocratGLBIT\MSD365\Script\GSBAU_RTM&quot;&#xA;Line: 398 Column: 23."/>
+			<Prp name="line no" type="I" value="397"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="date" type="D" value="45838.5314909606"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="id" type="I" value="93"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="message" type="S" value="An internal error occurred while running the Microsoft Edge browser."/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.Type_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Type']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="201"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5284731713"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 52">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.TopBox_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Top Box']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="287"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5297413889"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.SPC_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='SPC']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="292"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.529793588"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 85">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.Platform_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Platform']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="372"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5305548727"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="85"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 86">
+			<Prp name="remarks" type="S" value="A click at point (58, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.CompleteEdit_Button&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;#ID0EUB&quot;))"/>
+			<Prp name="line no" type="I" value="375"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5305822454"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="86"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Cabinet_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Cabinet']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="274"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5296345602"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'HELIX PLUS UPRIGHT CASINO TOP RSA L5' was entered in the text editor."/>
+		</Node>
+		<Node name="message 65">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.MainMonitorDisplay_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Main Monitor Display']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="326"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5300984259"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'MAIN VIDEO DISPLAY NONE' was entered in the text editor."/>
+		</Node>
+		<Node name="message 62">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Candle_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Candle']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="318"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5300213426"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 79">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.OS_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='OS']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="356"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5304011921"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="79"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 59">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.TopBoxDisplay_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Top Box Display']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="311"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5299444444"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'TOP BOX DISPLAY NONE' was entered in the text editor."/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegasChangeme.&amp;#8203;frame2.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{E6457D0B-9644-43A5-81C3-09358E214320}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0ebdac&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@data-label='Progressive Type']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAYAY29uZmlnAQAVAERlZmF1bHQgQ29uZmlndXJhdGlvbgQAbW9kZQAA&#xA;AgAJAHByb3Bjb3VudAAAAAACAG5tAQAkAEU2NDU3RDBCeDk2NDR4NDNBNXg4MUMzeDA5MzU4RTIx&#xA;NDMyMAQAdHlwZQEACwBSZWNvZ25pdGlvbgcAcHJvamVjdAEAJAA5QzRFRjJCN3gyOEVFeDRDQTl4&#xA;QkYyMng2NjhCNzgyNENGMjkEAAcAbWF0Y2hlZAAAAAALAGZvdW5kdmFsdWVzAwABADEBAMK1AEA3&#xA;ODAwNzAwMDYxMDA3NDAwNjgwMDNEMDAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDQw&#xA;MDA2NDAwNjEwMDc0MDA2MTAwMkQwMDZDMDA2MTAwNjIwMDY1MDA2QzAwM0QwMDI3MDA1MDAwNzIw&#xA;MDZGMDA2NzAwNzIwMDY1MDA3MzAwNzMwMDY5MDA3NjAwNjUwMDIwMDA1NDAwNzkwMDcwMDA2NTAw&#xA;MjcwMDVEMDABADABADAAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwAQAyAQDFqQBANzgwMDcwMDA2MTAwNzQwMDY4MDAzRDAwMkYwMDJGMDA2OTAwNkUwMDcw&#xA;MDA3NTAwNzQwMDVCMDA0MDAwNjQwMDYxMDA3NDAwNjEwMDJEMDA2QzAwNjEwMDYyMDA2NTAwNkMw&#xA;MDNEMDAyNzAwNTAwMDcyMDA2RjAwNjcwMDcyMDA2NTAwNzMwMDczMDA2OTAwNzYwMDY1MDAyMDAw&#xA;NTQwMDc5MDA3MDAwNjUwMDI3MDAyMDAwNjEwMDZFMDA2NDAwMjAwMDYzMDA2RjAwNkUwMDc0MDA2&#xA;MTAwNjkwMDZFMDA3MzAwMjgwMDQwMDA2RTAwNjEwMDZEMDA2NTAwMkMwMDIwMDAyNzAwNzAwMDcy&#xA;MDA2NzAwNjkwMDY0MDAyRTAwNzAwMDcyMDA2RjAwNjcwMDcyMDA2NTAwNzMwMDczMDA2OTAwNzYw&#xA;MDY1MDA3NDAwNzkwMDcwMDA2NTAwMjcwMDI5MDA1RDAwAAAGAHZhbHVlcwIAAQAwAQDCtQBANzgw&#xA;MDcwMDA2MTAwNzQwMDY4MDAzRDAwMkYwMDJGMDA2OTAwNkUwMDcwMDA3NTAwNzQwMDVCMDA0MDAw&#xA;NjQwMDYxMDA3NDAwNjEwMDJEMDA2QzAwNjEwMDYyMDA2NTAwNkMwMDNEMDAyNzAwNTAwMDcyMDA2&#xA;RjAwNjcwMDcyMDA2NTAwNzMwMDczMDA2OTAwNzYwMDY1MDAyMDAwNTQwMDc5MDA3MDAwNjUwMDI3&#xA;MDA1RDAwAQAxAQDFqQBANzgwMDcwMDA2MTAwNzQwMDY4MDAzRDAwMkYwMDJGMDA2OTAwNkUwMDcw&#xA;MDA3NTAwNzQwMDVCMDA0MDAwNjQwMDYxMDA3NDAwNjEwMDJEMDA2QzAwNjEwMDYyMDA2NTAwNkMw&#xA;MDNEMDAyNzAwNTAwMDcyMDA2RjAwNjcwMDcyMDA2NTAwNzMwMDczMDA2OTAwNzYwMDY1MDAyMDAw&#xA;NTQwMDc5MDA3MDAwNjUwMDI3MDAyMDAwNjEwMDZFMDA2NDAwMjAwMDYzMDA2RjAwNkUwMDc0MDA2&#xA;MTAwNjkwMDZFMDA3MzAwMjgwMDQwMDA2RTAwNjEwMDZEMDA2NTAwMkMwMDIwMDAyNzAwNzAwMDcy&#xA;MDA2NzAwNjkwMDY0MDAyRTAwNzAwMDcyMDA2RjAwNjcwMDcyMDA2NTAwNzMwMDczMDA2OTAwNzYw&#xA;MDY1MDA3NDAwNzkwMDcwMDA2NTAwMjcwMDI5MDA1RDAwAAAFAG5hbWVzAAAAAA==&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="215"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5286372917"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.Quantity_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Quantity*']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="204"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5285330093"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '2' was entered in the text editor."/>
+		</Node>
+		<Node name="message 88">
+			<Prp name="remarks" type="S" value="A click at point (72, 25) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeComplianceCheck.buttonComplianceCheck&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//button[.='Compliance Check']&quot;))"/>
+			<Prp name="line no" type="I" value="380"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5306359838"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="88"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 87">
+			<Prp name="remarks" type="S" value="A click at point (19, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.textnodeQuote3&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//span[text()='Quote']&quot;))"/>
+			<Prp name="line no" type="I" value="377"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.530608993"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="87"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="remarks" type="S" value="'EGM' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.Type_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Type']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="199"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5284479051"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageRecentlyViewedQuotesSalesfor.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{5E55B507-8608-4568-A8CE-27A14222DDB5}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textnodeEconBellagioLasVegas&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//a[contains(@href, 'r')]//slot/span&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAcAcHJvamVjdAEAJAA5QzRFRjJCN3gyOEVFeDRDQTl4QkYyMng2NjhC&#xA;NzgyNENGMjkCAG5tAQAkADVFNTVCNTA3eDg2MDh4NDU2OHhBOENFeDI3QTE0MjIyRERCNQYAY29u&#xA;ZmlnAQAVAERlZmF1bHQgQ29uZmlndXJhdGlvbgkAcHJvcGNvdW50AAAAAAQAbW9kZQAAAgAEAHR5&#xA;cGUBAAsAUmVjb2duaXRpb24EAAYAdmFsdWVzAwABADEBAMKRAEAyRjAwMkYwMDYxMDA1QjAwNjMw&#xA;MDZGMDA2RTAwNzQwMDYxMDA2OTAwNkUwMDczMDAyODAwNDAwMDY4MDA3MjAwNjUwMDY2MDAyQzAw&#xA;MjAwMDI3MDA3MjAwMjcwMDI5MDA1RDAwMkYwMDJGMDA3MzAwNkMwMDZGMDA3NDAwMkYwMDczMDA3&#xA;MDAwNjEwMDZFMDABADABAMSFAEAyRjAwMkYwMDczMDA3MDAwNjEwMDZFMDA1QjAwNzQwMDY1MDA3&#xA;ODAwNzQwMDI4MDAyOTAwM0QwMDI3MDA0NTAwNDMwMDRGMDA0RTAwMjAwMDIwMDA0MjAwNDUwMDRD&#xA;MDA0QzAwNDEwMDQ3MDA0OTAwNEYwMDIwMDA0QzAwNDEwMDUzMDAyMDAwNTYwMDQ1MDA0NzAwNDEw&#xA;MDUzMDAyMDAwMkQwMDIwMDA0MzAwNDgwMDQxMDA0RTAwNDcwMDQ1MDA0RDAwNDUwMDIwMDAyRDAw&#xA;MjAwMDMwMDAzNjAwMkYwMDMwMDAzOTAwMkYwMDMyMDAzMDAwMzIwMDM1MDAyNzAwNUQwMAEAMgEA&#xA;LQBAMkYwMDJGMDA3MzAwNkMwMDZGMDA3NDAwMkYwMDczMDA3MDAwNjEwMDZFMDAAAAsAZm91bmR2&#xA;YWx1ZXMDAAEAMQEAxIUAQDJGMDAyRjAwNzMwMDcwMDA2MTAwNkUwMDVCMDA3NDAwNjUwMDc4MDA3&#xA;NDAwMjgwMDI5MDAzRDAwMjcwMDQ1MDA0MzAwNEYwMDRFMDAyMDAwMjAwMDQyMDA0NTAwNEMwMDRD&#xA;MDA0MTAwNDcwMDQ5MDA0RjAwMjAwMDRDMDA0MTAwNTMwMDIwMDA1NjAwNDUwMDQ3MDA0MTAwNTMw&#xA;MDIwMDAyRDAwMjAwMDQzMDA0ODAwNDEwMDRFMDA0NzAwNDUwMDREMDA0NTAwMjAwMDJEMDAyMDAw&#xA;MzAwMDM2MDAyRjAwMzAwMDM5MDAyRjAwMzIwMDMwMDAzMjAwMzUwMDI3MDA1RDAwAQAwAQDCkQBA&#xA;MkYwMDJGMDA2MTAwNUIwMDYzMDA2RjAwNkUwMDc0MDA2MTAwNjkwMDZFMDA3MzAwMjgwMDQwMDA2&#xA;ODAwNzIwMDY1MDA2NjAwMkMwMDIwMDAyNzAwNzIwMDI3MDAyOTAwNUQwMDJGMDAyRjAwNzMwMDZD&#xA;MDA2RjAwNzQwMDJGMDA3MzAwNzAwMDYxMDA2RTAwAQAyAQAtAEAyRjAwMkYwMDczMDA2QzAwNkYw&#xA;MDc0MDAyRjAwNzMwMDcwMDA2MTAwNkUwMAAABQBuYW1lcwAAAAAHAG1hdGNoZWQAAAAA&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="171"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5276418866"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 84">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.Platform_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Platform']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="370"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5305287616"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="84"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'GEN8 RELM' was entered in the text editor."/>
+		</Node>
+		<Node name="message 66">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.MainMonitorDisplay_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Main Monitor Display']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="328"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5301242477"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 82">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.Setchip_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Set Chip']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="362"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5304777083"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="82"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'SET CHIP 7.02.71.01' was entered in the text editor."/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="remarks" type="S" value="A click at point (169, 21) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageLoginSalesforce.formLoginForm.submitbuttonLogInToSandbox&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.my.salesforce.com/?ec=302&amp;startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Faristocrat-global--qa1.sandbox.lightning.force.com%252Flightning%252Fo%252FQuote%252Flist%253FfilterName%253D__Recent&quot;).FindElement(&quot;#Login&quot;))"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5272419444"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="CreateOpportunities"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="28"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLoginSalesforce.formLoginForm.passwordboxPassword&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.my.salesforce.com/?ec=302&amp;startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Faristocrat-global--qa1.sandbox.lightning.force.com%252Flightning%252Fo%252FQuote%252Flist%253FfilterName%253D__Recent&quot;).FindElement(&quot;//input[@id=(//label[.='Password']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5272151273"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'LifeisGood5' was entered in the text editor."/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegasChangeme.&amp;#8203;frame2.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{F01EB671-442F-446D-BAF5-09A2CA1D8360}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0e6cae&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@data-label='Button Panel']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAIAbm0BACQARjAxRUI2NzF4NDQyRng0NDZEeEJBRjV4MDlBMkNBMUQ4&#xA;MzYwCQBwcm9wY291bnQAAAAABwBwcm9qZWN0AQAkADlDNEVGMkI3eDI4RUV4NENBOXhCRjIyeDY2&#xA;OEI3ODI0Q0YyOQQAdHlwZQEACwBSZWNvZ25pdGlvbgYAY29uZmlnAQAVAERlZmF1bHQgQ29uZmln&#xA;dXJhdGlvbgQAbW9kZQAAAgAEAAUAbmFtZXMAAAAACwBmb3VuZHZhbHVlcwIAAQAwAQAwADAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAEAMQEAwqUAQDc4MDA3&#xA;MDAwNjEwMDc0MDA2ODAwM0QwMDJGMDAyRjAwNjkwMDZFMDA3MDAwNzUwMDc0MDA1QjAwNDAwMDY0&#xA;MDA2MTAwNzQwMDYxMDAyRDAwNkMwMDYxMDA2MjAwNjUwMDZDMDAzRDAwMjcwMDQyMDA3NTAwNzQw&#xA;MDc0MDA2RjAwNkUwMDIwMDA1MDAwNjEwMDZFMDA2NTAwNkMwMDI3MDA1RDAwAAAGAHZhbHVlcwEA&#xA;AQAwAQDCpQBANzgwMDcwMDA2MTAwNzQwMDY4MDAzRDAwMkYwMDJGMDA2OTAwNkUwMDcwMDA3NTAw&#xA;NzQwMDVCMDA0MDAwNjQwMDYxMDA3NDAwNjEwMDJEMDA2QzAwNjEwMDYyMDA2NTAwNkMwMDNEMDAy&#xA;NzAwNDIwMDc1MDA3NDAwNzQwMDZGMDA2RTAwMjAwMDUwMDA2MTAwNkUwMDY1MDA2QzAwMjcwMDVE&#xA;MDAAAAcAbWF0Y2hlZAAAAAA=&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="244"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5294416319"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLoginSalesforce.formLoginForm.emailinputUsername&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.my.salesforce.com/?ec=302&amp;startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Faristocrat-global--qa1.sandbox.lightning.force.com%252Flightning%252Fo%252FQuote%252Flist%253FfilterName%253D__Recent&quot;).FindElement(&quot;//input[@id=(//label[.='Username']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5271898727"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'crmtest.4@aristocrat.com.usprod.qa1' was entered in the text editor."/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegasChangeme.&amp;#8203;frame2.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{1463FF4E-7363-4BA6-81F7-5F6DE219F4C5}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0e2oac&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@data-label='Topper']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAkAcHJvcGNvdW50AAAAAAQAdHlwZQEACwBSZWNvZ25pdGlvbgIAbm0B&#xA;ACQAMTQ2M0ZGNEV4NzM2M3g0QkE2eDgxRjd4NUY2REUyMTlGNEM1BgBjb25maWcBABUARGVmYXVs&#xA;dCBDb25maWd1cmF0aW9uBABtb2RlAAACAAcAcHJvamVjdAEAJAA5QzRFRjJCN3gyOEVFeDRDQTl4&#xA;QkYyMng2NjhCNzgyNENGMjkEAAYAdmFsdWVzAQABADABAMKNAEA3ODAwNzAwMDYxMDA3NDAwNjgw&#xA;MDNEMDAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDQwMDA2NDAwNjEwMDc0MDA2MTAw&#xA;MkQwMDZDMDA2MTAwNjIwMDY1MDA2QzAwM0QwMDI3MDA1NDAwNkYwMDcwMDA3MDAwNjUwMDcyMDAy&#xA;NzAwNUQwMAAACwBmb3VuZHZhbHVlcwIAAQAwAQAwADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMDAwMDAwMAEAMQEAwo0AQDc4MDA3MDAwNjEwMDc0MDA2ODAwM0QwMDJG&#xA;MDAyRjAwNjkwMDZFMDA3MDAwNzUwMDc0MDA1QjAwNDAwMDY0MDA2MTAwNzQwMDYxMDAyRDAwNkMw&#xA;MDYxMDA2MjAwNjUwMDZDMDAzRDAwMjcwMDU0MDA2RjAwNzAwMDcwMDA2NTAwNzIwMDI3MDA1RDAw&#xA;AAAFAG5hbWVzAAAAAAcAbWF0Y2hlZAAAAAA=&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="239"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5293550579"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 57">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Topper_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Topper']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="306"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5298931944"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'TPP NONE OPTION' was entered in the text editor."/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.Topper_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Topper']&quot;))"/>
+			<Prp name="line no" type="I" value="239"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.529356088"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'TPP000027|01 - TPP NONE OPTION' was entered in the text editor."/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.GameTitle_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Game Name']&quot;))"/>
+			<Prp name="line no" type="I" value="228"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5291251042"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text ' DIAMOND STORM' was entered in the text editor."/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="remarks" type="S" value="A click at point (45, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.Configuration_Link&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//span[.='Configuration[1]']&quot;))"/>
+			<Prp name="line no" type="I" value="184"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5282955787"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.Model_PGD&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//tr[14]/td//tr/td//input[@role='textbox']&quot;))"/>
+			<Prp name="line no" type="I" value="225"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5288916204"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconNavigation.SearchThisList_SearchField&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Quote/list?filterName=__Recent&quot;).FindElement(&quot;//input[@id=(//label[.='Search this list...']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="167"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5275017477"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconNavigation.SearchThisList_SearchField&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Quote/list?filterName=__Recent&quot;).FindElement(&quot;//input[@id=(//label[.='Search this list...']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="163"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5274757639"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'ECON GREEN VALLEY RANCH RESORT SPA CASINO - CHANGEME - 06/27/2025' was entered in the text editor."/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegasChangeme.&amp;#8203;frame2.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{B4440AC1-733B-465D-A67B-B417FC643397}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0ecfac&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@data-label='Game Theme']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAIAbm0BACQAQjQ0NDBBQzF4NzMzQng0NjVEeEE2N0J4QjQxN0ZDNjQz&#xA;Mzk3BgBjb25maWcBABUARGVmYXVsdCBDb25maWd1cmF0aW9uCQBwcm9wY291bnQAAAAABABtb2Rl&#xA;AAACAAQAdHlwZQEACwBSZWNvZ25pdGlvbgcAcHJvamVjdAEAJAA5QzRFRjJCN3gyOEVFeDRDQTl4&#xA;QkYyMng2NjhCNzgyNENGMjkEAAcAbWF0Y2hlZAAAAAAGAHZhbHVlcwIAAQAwAQDCnQBANzgwMDcw&#xA;MDA2MTAwNzQwMDY4MDAzRDAwMkYwMDJGMDA2OTAwNkUwMDcwMDA3NTAwNzQwMDVCMDA0MDAwNjQw&#xA;MDYxMDA3NDAwNjEwMDJEMDA2QzAwNjEwMDYyMDA2NTAwNkMwMDNEMDAyNzAwNDcwMDYxMDA2RDAw&#xA;NjUwMDIwMDA1NDAwNjgwMDY1MDA2RDAwNjUwMDI3MDA1RDAwAQAxAQDEsQBANzgwMDcwMDA2MTAw&#xA;NzQwMDY4MDAzRDAwMkYwMDJGMDA2OTAwNkUwMDcwMDA3NTAwNzQwMDVCMDA0MDAwNjQwMDYxMDA3&#xA;NDAwNjEwMDJEMDA2QzAwNjEwMDYyMDA2NTAwNkMwMDNEMDAyNzAwNDcwMDYxMDA2RDAwNjUwMDIw&#xA;MDA1NDAwNjgwMDY1MDA2RDAwNjUwMDI3MDAyMDAwNjEwMDZFMDA2NDAwMjAwMDYzMDA2RjAwNkUw&#xA;MDc0MDA2MTAwNjkwMDZFMDA3MzAwMjgwMDQwMDA2RTAwNjEwMDZEMDA2NTAwMkMwMDIwMDAyNzAw&#xA;NjcwMDcwMDA3MDAwMkUwMDY3MDA2MTAwNkQwMDY1MDA3NDAwNjgwMDY1MDA2RDAwNjUwMDI3MDAy&#xA;OTAwNUQwMAAACwBmb3VuZHZhbHVlcwMAAQAxAQDCnQBANzgwMDcwMDA2MTAwNzQwMDY4MDAzRDAw&#xA;MkYwMDJGMDA2OTAwNkUwMDcwMDA3NTAwNzQwMDVCMDA0MDAwNjQwMDYxMDA3NDAwNjEwMDJEMDA2&#xA;QzAwNjEwMDYyMDA2NTAwNkMwMDNEMDAyNzAwNDcwMDYxMDA2RDAwNjUwMDIwMDA1NDAwNjgwMDY1&#xA;MDA2RDAwNjUwMDI3MDA1RDAwAQAwAQAwADAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMAEAMgEAxLEAQDc4MDA3MDAwNjEwMDc0MDA2ODAwM0QwMDJGMDAyRjAw&#xA;NjkwMDZFMDA3MDAwNzUwMDc0MDA1QjAwNDAwMDY0MDA2MTAwNzQwMDYxMDAyRDAwNkMwMDYxMDA2&#xA;MjAwNjUwMDZDMDAzRDAwMjcwMDQ3MDA2MTAwNkQwMDY1MDAyMDAwNTQwMDY4MDA2NTAwNkQwMDY1&#xA;MDAyNzAwMjAwMDYxMDA2RTAwNjQwMDIwMDA2MzAwNkYwMDZFMDA3NDAwNjEwMDY5MDA2RTAwNzMw&#xA;MDI4MDA0MDAwNkUwMDYxMDA2RDAwNjUwMDJDMDAyMDAwMjcwMDY3MDA3MDAwNzAwMDJFMDA2NzAw&#xA;NjEwMDZEMDA2NTAwNzQwMDY4MDA2NTAwNkQwMDY1MDAyNzAwMjkwMDVEMDAAAAUAbmFtZXMAAAAA&#xA;&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="218"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5286631366"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.BillsAccepted_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Bills Accepted']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="249"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5294934954"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'NONE' was entered in the text editor."/>
+		</Node>
+		<Node name="message 74">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_II.BillAcceptor_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Bill Acceptor Firmware']&quot;))"/>
+			<Prp name="line no" type="I" value="341"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5302775116"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="74"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.Topper_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@data-label='Topper']&quot;))"/>
+			<Prp name="line no" type="I" value="241"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5294173611"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Mainboard_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Mainboard']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="297"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5298444792"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconMainConfiguration.Quantity_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azrNCAQ/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//input[@id=(//label[.='Quantity*']/@for)]&quot;))"/>
+			<Prp name="line no" type="I" value="206"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45838.5285600347"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

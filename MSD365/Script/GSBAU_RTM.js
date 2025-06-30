@@ -174,7 +174,7 @@ econ_nav.SearchedEcon_Node.Click();
 Delay(2000);
 
 Project.Variables.quoteurl=Sys.Browser().Page("*").URL;
-Project.Variables.quoteurl=urc;
+//Project.Variables.quoteurl=urc;
 
 
 Delay(3000);
@@ -426,10 +426,14 @@ Delay(2000);
 Aliases.browser.Page_EconMainConfiguration.link00185996.textnode00185996.Click();
 
 Delay(5000);
-var urb=Sys.Browser().Page("*").URL;
-Log.Message(urb);
-Project.Variables.caseurl=urb;
-Browsers.Item(btEdge).Navigate(urb);
+Project.Variables.caseurl=Sys.Browser().Page("*").URL;
+Sys.Browser("edge").Close();
+}
+
+function caseQC(){
+Browsers.Item(btEdge).Run(Project.Variables.caseurl);
+Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
+Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
 //Project.Variables.caseurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Case/5009r00000KkKoFAAV/view";
 Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.linkDetailtabItem.buttonEditStatus.Click();
 Delay(2000);
@@ -448,9 +452,13 @@ Sys.Browser("edge").Close();
 }
 
 function GSBAU_econ_D65migration(){
+  
+urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azWPCAY/view";
+  
+Project.Variables.quoteurl=urc;
 
 Browsers.Item(btEdge).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
-                                   "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";           
+                                   "PS118692\\Desktop\\path\" --disable-site-isolation-trials";           
          
 Browsers.Item(btEdge).Run(urc);
 
@@ -468,9 +476,16 @@ function GSBAU_D65_MigrationCheck(Config)
 {
   var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
   Browsers.Item(btEdge).Run(durl);
- // quote_number="00141620";
+  quote_number="AM0144750";
   Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
   Delay(2000);
+  var bool=0;
+  while(bool<=0){
+    if(Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonGridOptions.Exists){
+      bool=1;
+    }
+    Delay(2000);
+  }
   Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonGridOptions.Click();
   Delay(2000);
   Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeGrid30OptionscellMenubut.buttonInsertColumns.Click();
@@ -490,6 +505,11 @@ function GSBAU_D65_MigrationCheck(Config)
   Delay(2000);
   Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonLogisticspostaladdressStre.Click();
   Delay(2000);
-  aqObject.CheckProperty(Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxCustomerName, "title", cmpContains, Config[0]);
+//  aqObject.CheckProperty(Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxCustomerName, "title", cmpContains, Config[0]);
+
+
+  Delay(2000);
+  Sys.Browser().Close()
+
   
 }

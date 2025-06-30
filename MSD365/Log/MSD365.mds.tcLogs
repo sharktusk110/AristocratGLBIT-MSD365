@@ -147,6 +147,213 @@
 				<Prp name="relpath" type="S" value="6_30_2025_10_05 AM_54_149\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0014">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.4862707639"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{782DFEFD-5D90-48AC-934C-B148BA21BD14}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_11_40 AM_13_794\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0015">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.4868843981"/>
+				<Prp name="description" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="key" type="S" value="{6BEB45C2-8DB0-4779-B118-C00D67FCE02A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_11_41 AM_06_812\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0016">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.4921947917"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{077BE080-390F-4963-8D32-E165CB5950C0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_11_48 AM_45_630\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.5049686806"/>
+				<Prp name="description" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="key" type="S" value="{2EB125E1-A830-4295-8795-B158FD10C9CD}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_12_07 PM_09_294\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.5070340856"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0E45B4D8-E529-42AB-8565-958F17026F02}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_12_10 PM_07_745\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.5155145833"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9B861A13-EB35-4597-BFD0-3CBBA9FDAE4F}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_12_22 PM_20_460\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0020">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.5176927315"/>
+				<Prp name="description" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="key" type="S" value="{0F5D7CD4-1D33-4DFA-97CD-81D8596A49C5}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_12_25 PM_28_652\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0021">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.5269541667"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D7E2F7F0-B87E-4E20-AA2A-C837D531AD9E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_12_38 PM_48_840\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0022">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.5327873264"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{201ACB2B-660B-4D96-A094-74E5DD5FDB22}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_12_47 PM_12_825\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0023">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.5348212731"/>
+				<Prp name="description" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="key" type="S" value="{331A37B9-D971-4132-BC60-C452E4227041}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_12_50 PM_08_558\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0024">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.5381318171"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4D70FB92-9ED3-4102-A7F5-5424FF2AB104}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_12_54 PM_54_589\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0025">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.5396174769"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{32C7904F-F90A-4F87-A9B4-8C266A57F07F}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_12_57 PM_02_950\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0026">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.5407426042"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{584ECBB9-BEE3-45DC-81CD-3197C9462202}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_12_58 PM_40_161\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0027">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.5418139699"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{30EF0843-78C5-4636-95E9-ECA436EE5A52}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_1_00 PM_12_727\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0028">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.6033350347"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1046F773-2AC5-4F4D-A1DB-6DE7CD2AF5F8}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_2_28 PM_48_155\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0029">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.6048283218"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{01399835-B921-44E4-8CBE-287A49381177}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_2_30 PM_57_167\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0030">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.6063273727"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{749FDD12-73E2-419E-92DB-1112FA55BB94}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_2_33 PM_06_685\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0031">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.6140282407"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B6AD78E4-88EA-4CFC-A007-A93FB3849B27}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_2_44 PM_12_40\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0032">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.6159382755"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F107C454-FF52-488C-8254-E26CE8947582}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_2_46 PM_57_67\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0033">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.6199325579"/>
+				<Prp name="description" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="key" type="S" value="{F33A4EA0-D45A-4D6A-81B2-A101183CF5E9}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_2_52 PM_42_173\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0034">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.6217009028"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0D681E16-1A4A-4BE6-9780-26DD49147B6A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_2_55 PM_14_958\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0035">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.6455825347"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8D6D2F35-3AF3-4371-AEAA-5C18435F51A3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_3_29 PM_38_331\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0036">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45838.6504941204"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D8F1CDD3-226D-4CB2-BCA0-7995F20015AC}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_RTM_Test\CreateOpportunities]"/>
+				<Prp name="relpath" type="S" value="6_30_2025_3_36 PM_42_692\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
