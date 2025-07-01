@@ -10,9 +10,14 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{D2E08988-4B7E-4F86-805E-CF46EB6B613A}" version="14">
 		<children>
-			<testItem name="split_break" key="{48CC5145-9C68-47C1-B147-2038137B5410}" group="False" parallel="False" enabled="True" load="False" testMoniker="{4F71A839-6E2D-4483-A3F2-C4F1569856B2}split_break" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="RR" key="{F0D9FFA3-3212-4653-B369-0894FE7E4D1B}" group="False" parallel="False" enabled="True" load="False" testMoniker="{1C637C46-00E7-496C-B28C-D279CC6EF50A}RR" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="LoginTest" key="{8F941CCD-DB96-4918-B10B-3DC7C138799F}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{6603BB1A-F7C7-40CB-9028-C91A54C10C31}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
 		</children>

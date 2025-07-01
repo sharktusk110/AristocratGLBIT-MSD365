@@ -9,6 +9,9 @@
 			<folder name="Login">
 				<child name="Login" key="{479BA5E3-E06D-4360-847C-C60DDC53EA34}" path="Login.js" />
 			</folder>
+			<folder name="DynamicWait">
+				<child name="DynamicWait" key="{CED4E91D-B5C1-4584-BFDA-B3C759F6A779}" path="DynamicWait.js" />
+			</folder>
 		</folder>
 		<folder name="Pages">
 			<folder name="CPSO Creation &amp; Configuration">
@@ -17,6 +20,7 @@
 			<folder name="RecurringRevenue">
 				<child name="RecurringRevenue" key="{84DCAD69-8F5F-4C3C-AD74-672DBAC2E154}" path="RecurringRevenue.js" />
 				<child name="Unit1" key="{4F71A839-6E2D-4483-A3F2-C4F1569856B2}" path="Unit1.js" />
+				<child name="BOMFirming" key="{6F6E7FB0-D67D-429B-9948-59B4FAED9B71}" path="BOMFirming.js" />
 			</folder>
 		</folder>
 		<folder name="Tests">

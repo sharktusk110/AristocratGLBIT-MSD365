@@ -5,6 +5,7 @@
 //module.exports.getObject
 //USEUNIT ReadExcel
 //USEUNIT Login
+//USEUNIT DynamicWait
 
 var opportunity_name;
 var quotename;
@@ -19,9 +20,11 @@ function Opportunity_Creation(Config) {
  var opportunity=Aliases.browser.Page_NewOpportunityCreation;
 
  Browsers.Item(btEdge).Run("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home");
+ 
  Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
  Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
  Delay(2000);
+ 
  app.AppLauncher_Button.Click();
  app.SearchAppsAndItems_SearchField.SetText("Aristocrat");
  app.SearchAppsAndItems_SearchField.Keys("[Enter]");
@@ -38,7 +41,8 @@ function Opportunity_Creation(Config) {
  Delay(2000);
  Project.Variables.accounturl=Sys.Browser().Page("*").URL;
  account.NewOpportunity_Button.Click();
- Delay(5000);
+ //Delay(5000);
+ DynamicWait["dynamic_wait"](opportunity.OpportunityName_Field,5000);
  
  // Filling opportunity creation mandatory field including opportunity name
  
@@ -101,6 +105,7 @@ search_opportunity.SearchThisList_SearchField.Keys("[Enter]");
 Delay(2000);
 search_opportunity.Opportunity_Node.Click();
 Delay(5000);
+//DynamicWait["dynamic_wait"](econ.econ_Button,30000);
 Project.Variables.econurl=Sys.Browser().Page("*").URL;
 econ.econ_Button.Click();
 Delay(2000);
@@ -135,7 +140,7 @@ var econ_config=Aliases.browser.Page_EconMainConfiguration;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
          "Quote/list?filterName=__Recent";
          
-//quotename="ECON WHEELING ISLAND RACETRACK AND GAMING CENTER -5639544971- 06/25/2025";         
+//quotename="ECON WHEELING ISLAND RACETRACK AND GAMING CENTER -4821837854- 07/01/2025";         
 
 Browsers.Item(btEdge).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";           
@@ -161,7 +166,9 @@ Project.Variables.quoteurl=urc;
 
 econ_config.ConfigureQuote_Link.Click();
 
-Delay(50000);
+//Delay(50000);
+DynamicWait["dynamic_wait"](econ_config.Configuration_Link,60000);
+
 
 econ_config.Configuration_Link.Click();
 
@@ -174,9 +181,13 @@ function econ_mainconfiguration(Config){
 var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
 
 MainConfiguration.SellingModel_Field.SetText(Config[0]);
-Delay(10000);
+Delay(2000);
 MainConfiguration.SellingModel_Field.Keys("[Enter]");
 Delay(2000);
+
+if(MainConfiguration.SellingModel_Field.textContent!=Config[0]){
+  Log.Error("Selling model ajax data not received")
+}
 
 MainConfiguration.Type_Field.Keys(Config[1]);
 Delay(2000);
@@ -214,7 +225,7 @@ Delay(2000);
 
 
 MainConfiguration.Topper_Field.SetText(Config[8]);
-Delay(5000);
+Delay(2000);
 MainConfiguration.Topper_Field.Keys("[Enter]");;
 Delay(2000);
 
@@ -242,6 +253,8 @@ function econ_advancedconfiguration(Config){
 
 var AdvancedConfiguration=Aliases.browser.Page_EconAdvancedConfiguration_I;
 var AdvancedConfigurationPluz=Aliases.browser.Page_EconAdvancedConfiguration_II;
+var AdvancedConfigurationPluz2=Aliases.browser.Page_EconMainConfiguration;
+
 
 AdvancedConfiguration.linkAdvanced.Click();
 Delay(2000);
@@ -277,12 +290,12 @@ Delay(2000);
 AdvancedConfiguration.Mainboard_Field.Keys("[Enter]");
 Delay(2000);
 
-Aliases.browser.Page_EconAdvancedConfiguration_II.TrimFinish_Field.SetText("MARSX PORTRAIT CORONA ASSEMBLY");
+AdvancedConfigurationPluz.TrimFinish_Field.SetText("MARSX PORTRAIT CORONA ASSEMBLY");
 Delay(2000);
-Aliases.browser.Page_EconAdvancedConfiguration_II.TrimFinish_Field.Keys("[Enter]");
+AdvancedConfigurationPluz.TrimFinish_Field.Keys("[Enter]");
 Delay(5000);
 
-if(Config[6]!="Yes" || Config[6]!="YES"||Config[6]!="yes"){
+if(Config[6]=="Yes" || Config[6]=="YES"||Config[6]=="yes"){
 AdvancedConfiguration.TPPLineItem_Checkbox.Click();
 }
 
@@ -356,16 +369,20 @@ AdvancedConfigurationPluz.Platform_Field.SetText(Config[21]);
 Delay(2000);
 AdvancedConfigurationPluz.Platform_Field.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.Page_EconMainConfiguration.textnodeQuote3.Click();
+AdvancedConfigurationPluz2.Quote_link.Click();
 Delay(2000);
-Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeComplianceCheck.buttonComplianceCheck.Click();
-Delay(20000);
+AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
+//Delay(20000);
+DynamicWait["dynamic_wait"](AdvancedConfigurationPluz2.ComplianceAlert,60000);
 if(aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass")){
-Aliases.browser.Page_EconMainConfiguration.buttonOk.Click();
+AdvancedConfigurationPluz2.OK_Button.Click();
 Delay(2000);
-Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeSaveAndExit2.buttonSaveAndExit.Click();
+AdvancedConfigurationPluz2.SaveAndExit_Button.Click();
+Delay(2000);
 }else{
-  Aliases.browser.Page_EconMainConfiguration.buttonOk.Click();
+  AdvancedConfigurationPluz2.OK_Button.Click();
+  Log.Message("Shared econ configuration is not compliance adhered.")
+  //Error needs to be created
 }
 
 Sys.Browser("edge").Close();
@@ -374,7 +391,10 @@ Sys.Browser("edge").Close();
 
 function econ_approval(){
   
-//urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000ZngzCAC/view";
+var econ_approval=Aliases.browser.Page_EconMainConfiguration;
+var econ_approval1=Aliases.browser.Page_EconAdvancedConfiguration_II;
+  
+//urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bKfhCAE/view";
 //Project.Variables.quoteurl=urc; 
           
 Browsers.Item(btEdge).Run(urc);
@@ -382,58 +402,62 @@ Browsers.Item(btEdge).Run(urc);
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
  
-quote_number=Aliases.browser.Page_EconAdvancedConfiguration_II.linkDetailtabItem.textnode00141756.textContent;
+quote_number=econ_approval1.Quote_Node.textContent;
 
-Aliases.browser.Page_EconMainConfiguration.buttonSubmit.Click();
-Delay(2000);
-Aliases.browser.Page_EconMainConfiguration.labelComments.textareaComments.Keys("Please approve");
-Delay(2000);
-Aliases.browser.Page_EconMainConfiguration.buttonSubmit2.Click();
-
-//Browsers.Item(btEdge).Navigate(Sys.Browser().Page("*").URL);
-Delay(2000);
-
-Aliases.browser.Page_EconMainConfiguration.linkRelatedliststabItem.Click();
+econ_approval.SubmitforApproval_Button.Click();
 
 Delay(2000);
-Aliases.browser.Page_EconMainConfiguration.linkRelatedliststabItem.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down]");
-Delay(10000);
-Aliases.browser.Page_EconMainConfiguration.textnodeApprove.linkApprove.Click();
+econ_approval.SubmitforApproval_TextField.Keys("Please approve");
 Delay(2000);
-Aliases.browser.Page_EconMainConfiguration.labelComments.textareaComments.Keys("Please approve");
-Delay(2000);
-Aliases.browser.Page_EconMainConfiguration.buttonSubmit2.Click();
+econ_approval.SubmitforApprovalI_Button.Click();
 Delay(2000);
 
-Aliases.browser.Page_EconMainConfiguration.link00185996.textnode00185996.Click();
+econ_approval.Related_Tab.Click();
+econ_approval.Related_Tab.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down]");
+
+DynamicWait["dynamic_wait"](econ_approval.EconApprove_Button,30000);
+econ_approval.EconApprove_Button.Click();
+Delay(2000);
+econ_approval.SubmitforApproval_TextField.Keys("Please approve");
+Delay(2000);
+econ_approval.SubmitforApprovalI_Button.Click();
+Delay(2000);
+
+econ_approval.Case_Link.Click();
 
 Delay(5000);
+
+
 Project.Variables.caseurl=Sys.Browser().Page("*").URL;
 Sys.Browser("edge").Close();
 }
 
 function caseQC(){
+  
+var casedetail=Aliases.browser.Page_SFCaseDetails;
 Browsers.Item(btEdge).Run(Project.Variables.caseurl);
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
 //Project.Variables.caseurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Case/5009r00000KkKoFAAV/view";
-Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.linkDetailtabItem.buttonEditStatus.Click();
+casedetail.Edit_Icon.Click();
 Delay(2000);
-Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.textnode.buttonStatus.Click();
+casedetail.Status_Panel.Click();
 Delay(2000);
-Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.textnode.buttonStatus.Keys("QC - Complete");
+casedetail.Status_Panel.Keys("QC - Complete");
 Delay(2000);
-Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.textnode.buttonStatus.Keys("[Enter]");
+casedetail.Status_Panel.Keys("[Enter]");
 Delay(2000);
-Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.linkDetailtabItem.buttonSaveedit.Click();
+casedetail.Save_Button.Click();
 Delay(2000);
-Aliases.browser.page00185996CaseSalesforce.sectionSkipToNavigation.textnodeTabs.linkWindow.textnode2.Click();
+casedetail.EconQuote_Node.Click();
 Delay(2000);
 Sys.Browser("edge").Close();
 
 }
 
 function econ_D65migration(){
+  
+var econ_migrate=Aliases.browser.Page_EconMainConfiguration;
 
 Browsers.Item(btEdge).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";           
@@ -443,47 +467,49 @@ Browsers.Item(btEdge).Run(urc);
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
 
-Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link.Click();
-Delay(50000);
-Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeSendToD365Operations.buttonSendToD365Operations.Click();
-Delay(20000);
+econ_migrate.ConfigureQuote_Link.Click();
+//Delay(50000);
+DynamicWait["dynamic_wait"](econ_migrate.SendToD365_Button,60000);
+econ_migrate.SendToD365_Button.Click();
+Delay(2000);
 Sys.Browser("edge").Close();
 }
 
 function D65_MigrationCheck(Config)
 {
-  var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
-  Browsers.Item(btEdge).Run(durl);
-  //quote_number="00141620";
-  Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
-  Delay(2000);
-  var bool=0;
-  while(bool<=0){
-    if(Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonGridOptions.Exists){
-      bool=1;
-    }
-    Delay(2000);
-  }
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonGridOptions.Click();
-  Delay(2000);
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeGrid30OptionscellMenubut.buttonInsertColumns.Click();
-  Delay(5000);
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxShipToCustomerAccount.SetText("quote number");
-  Delay(2000);
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeAllFields.buttonApplyFilter.Click();
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeAllFields.buttonApplyFilter.Click();
-  Delay(2000);
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeAllFields.textnode.Click();
-  Delay(2000);
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonFormcontrolfieldselector2O.Click();
-  Delay(2000);
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.panelQuoteNumber.Click();
-  Delay(2000);
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.textbox.SetText(quote_number);
-  Delay(2000);
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonLogisticspostaladdressStre.Click();
-  Delay(2000);
-  aqObject.CheckProperty(Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxCustomerName, "title", cmpContains, Config[0]);
+//quote_number="00141774";
+var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
+var firm=Aliases.browser.Page_D65;
+Browsers.Item(btEdge).Run(durl);
+
+ 
+ // User needs to login into D65 Account inorder to initiate firming activity.
+ Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
+ Delay(2000);
+ DynamicWait["dynamic_wait"](firm.GridOptions_Button,30000);
   
+  //User needs to click on grid options inorder to add quote number as a column and conduct search for quote number
+  firm.GridOptions_Button.Click();
+  Delay(2000);
+  firm.GridMenu_Button.InsertColumns_Button.Click();
+  //Delay(5000);
+  DynamicWait["dynamic_wait"](firm.QuoteNumber_TextField,6000);
+  firm.QuoteNumber_TextField.SetText("quote number");
+  Delay(2000);
+  firm.AllFields_Menu.ApplyFilter_Button.Click();
+  firm.AllFields_Menu.ApplyFilter_Button.Click();
+  Delay(2000);
+  firm.AllFields_Menu.Node_Checkbox.Click();
+  Delay(2000);
+  firm.Update_Button.Click();
+  Delay(2000);
+  firm.QuoteNumber_Panel.Click();
+  Delay(2000);
+  firm.QuoteNumberFilter_TextField.SetText(quote_number);
+  Delay(2000);
+  firm.Apply_Button.Click();
+  Delay(2000); 
+  aqObject.CheckProperty(firm.CustomerName_Node, "title", cmpContains, Config[0]);
   
+  Sys.Browser("edge").Close();
 }

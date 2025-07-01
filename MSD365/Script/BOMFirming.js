@@ -1,0 +1,85 @@
+﻿ // Requirement : To be done later.
+// Creator : Shariq Abbas
+// Date: 9th of June'25
+//*************************************************************************************************************************************
+//module.exports.getObject
+//USEUNIT ReadExcel
+//USEUNIT Login
+
+function BOMFirming(){
+
+var quote_number="00141774";
+var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
+var firm=Aliases.browser.Page_D65;
+Browsers.Item(btEdge).Run(durl);
+ //quote_number="00141620";
+ 
+ // User needs to login into D65 Account inorder to initiate firming activity.
+ Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
+ Delay(2000);
+ var bool=0;
+ while(bool<=0){
+   if(firm.GridOptions_Button.Exists){
+     bool=1;
+   }
+   Delay(2000);
+  }
+  
+  //User needs to click on grid options inorder to add quote number as a column and conduct search for quote number
+  firm.GridOptions_Button.Click();
+  Delay(2000);
+  firm.GridMenu_Button.InsertColumns_Button.Click();
+  Delay(5000);
+  firm.QuoteNumber_TextField.SetText("quote number");
+  Delay(2000);
+  firm.AllFields_Menu.ApplyFilter_Button.Click();
+  Delay(2000);
+  firm.AllFields_Menu.Node_Checkbox.Click();
+  Delay(2000);
+  firm.Update_Button.Click();
+  Delay(2000);
+  firm.QuoteNumber_Panel.Click();
+  Delay(2000);
+  firm.QuoteNumberFilter_TextField.SetText(quote_number);
+  Delay(2000);
+  firm.Apply_Button.Click();
+  Delay(2000); 
+  
+  
+  // User needs to scroll left inorder to bring sales order into focus 
+  Aliases.firm.Scrollbar.Click();
+  for(i=0;i<=96;i++){
+  firm.Scrollbar.Keys("[Left]");
+  }
+  firm.SalesOrder_Node.Click();
+  Delay(2000);
+  
+  // User needs to click on Supply link and initiate explosion activity
+  firm.ProductAndSupply_Panel.Click();
+  Delay(2000);
+  firm.Explosion_Link.Click();
+  Delay(2000);
+  firm.PlannedOrders_Tab.Click();
+  Delay(2000);
+  
+  // User needs to filter out planned production orders inorder to proceed with the firming activity
+  firm.Reference_Panel.Click();
+  Delay(2000);
+  firm.ReferenceFilter_Field.Keys("Planned Production");
+  Delay(2000);
+  firm.ReferenceFilter_Field.Keys("[Enter]");
+  Delay(2000);
+  firm.ReferenceApply_Button.Click();
+  Delay(2000);
+  firm.PlannedProductionOrder_Node.Click();
+  Delay(2000);
+  firm.Firm_Button.Click();
+  Delay(2000);
+  
+  // Once "Ok" button is clicked then firming starts & it takes sometime inorder to generate the workorders
+  Aliases.browser.Page_SOCreation.Ok_Button.Click();
+  
+  
+ Sys.Browser("edge").Close(); 
+
+}
