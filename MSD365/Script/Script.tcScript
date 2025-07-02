@@ -9,6 +9,9 @@
 			<folder name="Login">
 				<child name="Login" key="{479BA5E3-E06D-4360-847C-C60DDC53EA34}" path="Login.js" />
 			</folder>
+			<folder name="DynamicWait">
+				<child name="DynamicWait" key="{78DC0344-E25F-4BC6-A4A7-03C6A98E092D}" path="DynamicWait.js" />
+			</folder>
 		</folder>
 		<folder name="Pages">
 			<folder name="CPSO Creation &amp; Configuration">

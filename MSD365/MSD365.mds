@@ -9,7 +9,63 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{D2E08988-4B7E-4F86-805E-CF46EB6B613A}" version="14">
-		<children />
+		<children>
+			<testItem name="GSBAU_Opportunity_Creation" key="{483FE96C-A18B-473D-A063-996724640ECA}" group="False" parallel="False" enabled="True" load="False" testMoniker="{C171380D-CC2C-440D-B2AD-49C8461177EB}GSBAU_Opportunity_Creation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters>
+					<param0 name="Config" type="3" localVarName="" varType="0" value="" />
+				</testParameters>
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="GSBAU_New_eCon_Quote" key="{572120A4-881F-41BF-9FEF-6F26A1CE0B68}" group="False" parallel="False" enabled="True" load="False" testMoniker="{C171380D-CC2C-440D-B2AD-49C8461177EB}GSBAU_New_eCon_Quote" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters>
+					<param0 name="Config" type="3" localVarName="" varType="0" value="" />
+				</testParameters>
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="GSBAU_econ_configuration_navigation" key="{A89F0381-8060-47A0-A0E7-4DBDE54591E6}" group="False" parallel="False" enabled="True" load="False" testMoniker="{C171380D-CC2C-440D-B2AD-49C8461177EB}GSBAU_econ_configuration_navigation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="GSBAU_econ_mainconfiguration" key="{531BC955-42C5-4884-A3C5-91544D3EFA5F}" group="False" parallel="False" enabled="True" load="False" testMoniker="{C171380D-CC2C-440D-B2AD-49C8461177EB}GSBAU_econ_mainconfiguration" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters>
+					<param0 name="Config" type="3" localVarName="" varType="0" value="" />
+				</testParameters>
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="GSBAU_econ_advancedconfiguration" key="{58A7847B-F933-4610-9734-D39AC57109B7}" group="False" parallel="False" enabled="True" load="False" testMoniker="{C171380D-CC2C-440D-B2AD-49C8461177EB}GSBAU_econ_advancedconfiguration" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters>
+					<param0 name="Config" type="3" localVarName="" varType="0" value="" />
+				</testParameters>
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="GSBAU_econ_approval" key="{F9EE1350-E3B7-4AFA-BD3D-70309F806DD9}" group="False" parallel="False" enabled="True" load="False" testMoniker="{C171380D-CC2C-440D-B2AD-49C8461177EB}GSBAU_econ_approval" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="caseQC" key="{0370C78E-B77D-4819-AF0A-783FC9E97A9B}" group="False" parallel="False" enabled="True" load="False" testMoniker="{C171380D-CC2C-440D-B2AD-49C8461177EB}caseQC" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="GSBAU_econ_D65migration" key="{252DCB2D-1B68-421D-9DE3-0FA6A03BBC15}" group="False" parallel="False" enabled="True" load="False" testMoniker="{C171380D-CC2C-440D-B2AD-49C8461177EB}GSBAU_econ_D65migration" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="GSBAU_D65_MigrationCheck" key="{83FF6656-263C-408A-BD94-C4A64ED63638}" group="False" parallel="False" enabled="True" load="False" testMoniker="{C171380D-CC2C-440D-B2AD-49C8461177EB}GSBAU_D65_MigrationCheck" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters>
+					<param0 name="Config" type="3" localVarName="" varType="0" value="" />
+				</testParameters>
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{64F3A746-AD7F-4419-B9DA-616F168DF9FF}">
 		<data Version="4">
