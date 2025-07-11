@@ -3148,11 +3148,14 @@
 												</Selectors>
 											</Child>
 											<Child Name="textboxId0eib" Key="{AAF98770-A686-486B-90C7-07B2565844F8}">
-												<Image FileName="387875580" Left="538" Top="742" Right="1063" Bottom="778" />
+												<Image FileName="1414380735" Left="484" Top="794" Right="878" Bottom="821" />
 												<TypeInfo Item0="{1C8EF5F1-727E-44B6-B5B0-426127098976}" />
 												<Selectors>
 													<Selector>
 														<Value Value="//input[@id=(//label[.=&apos;Type&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#ID0EHB" />
 													</Selector>
 													<Selector>
 														<Value Value="//div[@id=&apos;oMain1Container&apos;]//tr[2]/td//input" />
@@ -5087,14 +5090,14 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnode00141756" Key="{2F204E0C-E5E2-4236-810E-FBA7B9D5FBF1}">
-										<Image FileName="5135783" Left="111" Top="1357" Right="202" Bottom="1385" />
+										<Image FileName="-541744336" Left="92" Top="660" Right="164" Bottom="682" />
 										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[@id=&apos;sectionContent-864&apos;]//records-record-layout-row/slot/records-record-layout-item//slot/lightning-formatted-text" />
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqpqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//lightning-formatted-text" />
 											</Selector>
 											<Selector>
-												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqqqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//lightning-formatted-text" />
+												<Value Value="//div[@id=&apos;sectionContent-216&apos;]//records-record-layout-row/slot/records-record-layout-item//slot/lightning-formatted-text" />
 											</Selector>
 										</Selectors>
 									</Child>

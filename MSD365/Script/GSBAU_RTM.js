@@ -97,7 +97,7 @@ var opportunity=Aliases.browser.Page_NewOpportunityCreation;
 //Econ Creation
 function GSBAU_New_eCon_Quote(Config){
   
-//opportunity_name="GREEN VALLEY RANCH RESORT SPA CASINO -7075800365- 07/01/2025";  
+//opportunity_name="GREEN VALLEY RANCH RESORT SPA CASINO -1626075358- 07/10/2025";  
 var search_opportunity=Aliases.browser.Page_SearchOpportunity;
 var econ=Aliases.browser.page_EconCreation.econ;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning"+
@@ -110,8 +110,8 @@ search_opportunity.SearchThisList_SearchField.Keys("[Enter]");
 Delay(2000);
 
 //Opportunity creation Validation
-DynamicWait["dynamic_wait"](search_opportunity.Opportunity_Node.Exists, 10000);
-aqObject.CheckProperty(Aliases.browser.Page_SearchOpportunity.Opportunity_Node, "title", cmpContains, opportunity_name);
+DynamicWait["dynamic_wait"](search_opportunity.Opportunity_Node, 10000);
+aqObject.CheckProperty(Aliases.browser.Page_SearchOpportunity.Opportunity_Node, "ContentText", cmpContains, opportunity_name);
 Log.Message("Opportunity found and text matches: " + opportunity_name);
 
 //Click on the created opportunity
@@ -160,7 +160,7 @@ var econ_config=Aliases.browser.Page_EconMainConfiguration;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
          "Quote/list?filterName=__Recent";
          
-//quotename="ECON GREEN VALLEY RANCH RESORT SPA CASINO -8516966898- 07/01/2025";         
+//quotename="ECON GREEN VALLEY RANCH RESORT SPA CASINO -1626075358- 07/10/2025";         
 //Running browser in insecured way
 Browsers.Item(btEdge).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "PS118692\\Desktop\\path\" --disable-site-isolation-trials";           
@@ -180,8 +180,8 @@ econ_nav.SearchThisList_SearchField.Keys("[Enter]");
 //eCon quote creation Validation
 Delay(2000);
 //eCon creation Validation
-DynamicWait["dynamic_wait"](econ_nav.SearchedEcon_Node.Exists, 10000);
-aqObject.CheckProperty(Aliases.browser.Page_EconNavigation.SearchedEcon_Node, "title", cmpContains, quotename);
+DynamicWait["dynamic_wait"](econ_nav.SearchedEcon_Node, 10000);
+aqObject.CheckProperty(Aliases.browser.Page_EconNavigation.SearchedEcon_Node, "ContentText", cmpContains, quotename);
 Log.Message("eCon found and text matches: " + quotename);
 
 //Searching eCone quote
@@ -196,10 +196,10 @@ Delay(3000);
 econ_config.ConfigureQuote_Link.Click();
 
 DynamicWait["dynamic_wait"](econ_config.Configuration_Link, 50000);
-//Delay(50000);
+Delay(30000);
 //Navigate on Configuration link 
 econ_config.Configuration_Link.Click();
-Log.Message("Clicked on Configuration Link")
+Log.Message("Clicked on Configuration Link");
 }
 
 //Creation of main configuration
@@ -208,46 +208,46 @@ function GSBAU_econ_mainconfiguration(Config){
 var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
 // Filling Selling Model Field Name
 MainConfiguration.SellingModel_Field.SetText(Config[0]);
-//Delay(10000);
-DynamicWait["dynamic_wait"](MainConfiguration.SellingModel_Field, 10000);
-
-
+Log.Message("Selling Model Field has enterd as " +Config[0]);
+Delay(2000);
 MainConfiguration.SellingModel_Field.Keys("[Enter]");
-Log.Message("Selling Model Field has enterd as " +Config[0])
 Delay(2000);
 // Filling Selling Model Type Field Name
 MainConfiguration.Type_Field.Keys(Config[1]);
-Log.Message()
+Log.Message("Type Field Name as "+Config[1]);
 Delay(2000);
 MainConfiguration.Type_Field.Keys("[Enter]");
-Log.Message("Type Field has enterd as " +Config[1])
+
 Delay(5000);
 //Filling Quantity
 MainConfiguration.Quantity_Field.SetText(Config[2]);
 Delay(2000);
 MainConfiguration.Quantity_Field.Keys("[Enter]");
-Log.Message("Quantity Field has enterd as " +Config[2])
+Log.Message("Quantity Field has enterd as "+Config[2]);
 Delay(2000);
 // Filling License Type Field Name
 MainConfiguration.LicenseType_Field.SetText(Config[3]);
-Log.Message("License Type Field has enterd as " +Config[2])
+Log.Message("License Type Field has enterd as "+Config[3]);
 Delay(2000);
 MainConfiguration.LicenseType_Field.Keys("[Enter]");
 
 // Filling Progressive Type Field Name
 MainConfiguration.ProgressiveType_Field.SetText(Config[4]);
+Log.Message("Progressive Type Field has enterd as "+Config[4]);
 Delay(2000);
 MainConfiguration.ProgressiveType_Field.Keys("[Enter]");
 Delay(2000);
 
 // Filling Game Theme Field Name
 MainConfiguration.GameTheme_Field.SetText(Config[5]);
-Delay(2000);
+Log.Message("Game Theme Field has enterd as "+Config[5]);
+Delay(3000);
 MainConfiguration.GameTheme_Field.Keys("[Enter]");
 Delay(5000);
 
 // Filling Model(PGD) Field Name
 MainConfiguration.Model_PGD.SetText(Config[6]);
+Log.Message("Model(PGD) Field has enterd as " +Config[6]);
 Delay(2000);
 MainConfiguration.Model_PGD.Keys("[Enter]");
 //Delay(20000);
@@ -255,6 +255,7 @@ DynamicWait["dynamic_wait"](MainConfiguration.GameTitle_Field, 20000);
 
 // Filling Game Title Field Name
 MainConfiguration.GameTitle_Field.SetText(Config[7]);
+Log.Message("Game Title Field has enterd as " +Config[6]);
 Delay(2000);
 MainConfiguration.GameTitle_Field.Keys("[Enter]");
 //Delay(10000);
@@ -268,23 +269,27 @@ Delay(5000);
 
 // Filling Topper Field Name
 MainConfiguration.Topper_Field.SetText(Config[9]);
+Log.Message("Game Topper Field has enterd as " +Config[9]);
 Delay(5000);
-MainConfiguration.Topper_Field.Keys("[Enter]");;
+MainConfiguration.Topper_Field.Keys("[Enter]");
 Delay(2000);
 
 // Filling Button Panel Field Name
 MainConfiguration.ButtonPanel_Field.SetText(Config[10]);
+Log.Message("Button Panel Field has enterd as " +Config[10]);
 Delay(2000);
 MainConfiguration.ButtonPanel_Field.Keys("[Enter]");
 Delay(2000);
 
 // Filling Bill Accepted Field Name
 MainConfiguration.BillsAccepted_Field.SetText(Config[11]);
+Log.Message("Bills Accepted Field has enterd as " +Config[11]);
 Delay(2000);
 MainConfiguration.BillsAccepted_Field.Keys("[Enter]");
 Delay(3000);
 }
 
+//Function for Advanced configurations for eCon
 function GSBAU_econ_advancedconfiguration(Config){
 
 var AdvancedConfiguration=Aliases.browser.Page_EconAdvancedConfiguration_I;
@@ -294,11 +299,13 @@ AdvancedConfiguration.linkAdvanced.Click();
 Delay(2000);
 
 AdvancedConfiguration.Model_Field.SetText(Config[0]);
+Log.Message("Model Field has enterd as " +Config[0]);
 Delay(2000);
 AdvancedConfiguration.Model_Field.Keys("[Enter]");
 Delay(2000);
 
 AdvancedConfiguration.Cabinet_Field.SetText(Config[1]);
+Log.Message("Cabinet Field has enterd as " +Config[1]);
 Delay(2000);
 AdvancedConfiguration.Cabinet_Field.Keys("[Enter]");
 Delay(2000);
@@ -310,16 +317,19 @@ AdvancedConfiguration.TBXLineItem_Checkbox.Click();
 Delay(2000);
 
 AdvancedConfiguration.TopBox_Field.SetText(Config[3]);
+Log.Message("TopBox Field has enterd as " +Config[3]);
 Delay(2000);
 AdvancedConfiguration.TopBox_Field.Keys("[Enter]");
 Delay(2000);
 
 AdvancedConfiguration.SPC_Field.SetText(Config[4]);
+Log.Message("SPC Field has enterd as " +Config[4]);
 Delay(2000);
 AdvancedConfiguration.SPC_Field.Keys("[Enter]");
 Delay(2000);
 
 AdvancedConfiguration.Mainboard_Field.SetText(Config[5]);
+Log.Message("Advanced Configuration Field has enterd as " +Config[5]);
 Delay(2000);
 AdvancedConfiguration.Mainboard_Field.Keys("[Enter]");
 Delay(2000);
@@ -331,39 +341,47 @@ Delay(2000);
 Delay(2000);
 
 AdvancedConfiguration.Topper_Field.SetText(Config[7]);
+Log.Message("Topper Field has enterd as " +Config[7]);
 Delay(2000);
 AdvancedConfiguration.Topper_Field.Keys("[Enter]");
 Delay(2000);
 
 AdvancedConfiguration.TopBoxDisplay_Field.SetText(Config[8]);
+Log.Message("TopBox Display Field has enterd as " +Config[8]);
 Delay(2000);
 AdvancedConfiguration.TopBoxDisplay_Field.Keys("[Enter]");
 Delay(2000);
 
 AdvancedConfiguration.Candle_Field.SetText(Config[9]);
+Log.Message("Candle Field has enterd as " +Config[9]);
 Delay(2000);
 AdvancedConfiguration.Candle_Field.Keys("[Enter]");
 Delay(2000);
 
 AdvancedConfiguration.Conditional_Field.SetText(Config[10]);
+Log.Message("Conditional Field has enterd as " +Config[10]);
 Delay(2000);
 AdvancedConfiguration.Conditional_Field.Keys("[Enter]");
 Delay(2000);
 
 AdvancedConfiguration.MainMonitorDisplay_Field.SetText(Config[11]);
+Log.Message("Main Monitor Display Field has enterd as " +Config[11]);
 Delay(2000);
 AdvancedConfiguration.MainMonitorDisplay_Field.Keys("[Enter]");
 Delay(2000);
 
 AdvancedConfigurationPluz.Printer_Field.SetText(Config[12]);
+Log.Message("Printer Field has enterd as " +Config[12]);
 Delay(2000);
 AdvancedConfigurationPluz.Printer_Field.Keys("[Enter]");
 Delay(2000);
 AdvancedConfigurationPluz.TicketValidation_Field.SetText(Config[13]);
+Log.Message("Ticket Validation Field has enterd as " +Config[13]);
 Delay(2000);
 AdvancedConfigurationPluz.TicketValidation_Field.Keys("[Enter]");
 Delay(2000);
 AdvancedConfigurationPluz.BillAcceptor_Field.SetText(Config[14]);
+Log.Message("Bill Acceptor Field has enterd as " +Config[14]);
 Delay(2000);
 AdvancedConfigurationPluz.BillAcceptor_Field.Keys("[Enter]");
 Delay(2000);
@@ -375,18 +393,22 @@ AdvancedConfigurationPluz.RunCP_Checkbox.Click();
 }
 
 AdvancedConfigurationPluz.Base_Field.SetText(Config[16]);
+Log.Message("Base Field has enterd as " +Config[16]);
 Delay(2000);
 AdvancedConfigurationPluz.Base_Field.Keys("[Enter]");
 Delay(2000);
 AdvancedConfigurationPluz.OS_Field.SetText(Config[17]);
+Log.Message("OS Field has enterd as " +Config[17]);
 Delay(2000);
 AdvancedConfigurationPluz.OS_Field.Keys("[Enter]");
 Delay(2000);
 AdvancedConfigurationPluz.Bootloader_Field.SetText(Config[18]);
+Log.Message("Bootloader Field has enterd as " +Config[18]);
 Delay(2000);
 AdvancedConfigurationPluz.Bootloader_Field.Keys("[Enter]");
 Delay(2000);
 AdvancedConfigurationPluz.Setchip_Field.SetText(Config[19]);
+Log.Message("Setchip Field has enterd as " +Config[19]);
 Delay(2000);
 AdvancedConfigurationPluz.Setchip_Field.Keys("[Enter]");
 Delay(2000);
@@ -395,6 +417,7 @@ Delay(2000);
 //AdvancedConfigurationPluz.ProgressiveTrigger_Field.Keys("[Enter]");
 //Delay(2000);
 AdvancedConfigurationPluz.Platform_Field.SetText(Config[20]);
+Log.Message("Platform Field has enterd as " +Config[20]);
 Delay(2000);
 AdvancedConfigurationPluz.Platform_Field.Keys("[Enter]");
 Delay(2000);
@@ -414,9 +437,12 @@ Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeSaveAndEx
 }else{
   Aliases.browser.Page_EconMainConfiguration.buttonOk.Click();
 }
+//Close the browser
+Sys.Browser("edge").Close();
+Log.Message("Browser has closed")
 
 }
-
+//function for eCon approval
 function GSBAU_econ_approval(){
   
 //urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azWPCAY/view";
@@ -428,6 +454,7 @@ Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
  
 quote_number=Aliases.browser.Page_EconAdvancedConfiguration_II.linkDetailtabItem.textnode00141756.textContent;
+Log.Message("quote_number as "+quote_number);
 
 Aliases.browser.Page_EconMainConfiguration.buttonSubmit.Click();
 Delay(2000);
@@ -457,6 +484,7 @@ Project.Variables.caseurl=Sys.Browser().Page("*").URL;
 Sys.Browser("edge").Close();
 }
 
+//function for QC check
 function caseQC(){
 Browsers.Item(btEdge).Run(Project.Variables.caseurl);
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
@@ -478,6 +506,7 @@ Sys.Browser("edge").Close();
 
 }
 
+//function for D65 migration
 function GSBAU_econ_D65migration(){
   
 urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000azWPCAY/view";
@@ -493,13 +522,14 @@ Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
 
 Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link.Click();
-DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeSendToD365Operations.buttonSendToD365Operations, 50000);
-//Delay(50000);
+//DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeSendToD365Operations.buttonSendToD365Operations, 50000);
+Delay(50000);
 Aliases.browser.Page_EconMainConfiguration.textnodeSaveAndExit.textnodeSendToD365Operations.buttonSendToD365Operations.Click();
 Delay(20000);
 Sys.Browser("edge").Close();
 }
 
+//function for D65 Migration check
 function GSBAU_D65_MigrationCheck(Config)
 {
   var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
