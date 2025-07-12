@@ -5,33 +5,31 @@
 //module.exports.getObject
 //USEUNIT ReadExcel
 //USEUNIT Login
+//USEUNIT DynamicWait
 
 function BOMFirming(){
 
-var quote_number="00141774";
+var quote_number="00141951";
 var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
 var firm=Aliases.browser.Page_D65;
 Browsers.Item(btEdge).Run(durl);
  //quote_number="00141620";
  
- // User needs to login into D65 Account inorder to initiate firming activity.
- Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
- Delay(2000);
- var bool=0;
- while(bool<=0){
-   if(firm.GridOptions_Button.Exists){
-     bool=1;
-   }
-   Delay(2000);
-  }
+  // User needs to login into D65 Account inorder to initiate firming activity.
+  Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
+  Delay(2000);
+  DynamicWait["dynamic_wait"](firm.GridOptions_Button,30000);
   
   //User needs to click on grid options inorder to add quote number as a column and conduct search for quote number
+   //User needs to click on grid options inorder to add quote number as a column and conduct search for quote number
   firm.GridOptions_Button.Click();
   Delay(2000);
   firm.GridMenu_Button.InsertColumns_Button.Click();
-  Delay(5000);
+  //Delay(5000);
+  DynamicWait["dynamic_wait"](firm.QuoteNumber_TextField,6000);
   firm.QuoteNumber_TextField.SetText("quote number");
   Delay(2000);
+  firm.AllFields_Menu.ApplyFilter_Button.Click();
   firm.AllFields_Menu.ApplyFilter_Button.Click();
   Delay(2000);
   firm.AllFields_Menu.Node_Checkbox.Click();
@@ -47,9 +45,17 @@ Browsers.Item(btEdge).Run(durl);
   
   
   // User needs to scroll left inorder to bring sales order into focus 
-  Aliases.firm.Scrollbar.Click();
-  for(i=0;i<=96;i++){
-  firm.Scrollbar.Keys("[Left]");
+  firm.Scrollbar.Click();
+  for(i=0;i<=6;i++){
+  firm.Scrollbar.Keys("[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]"+
+                      "Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]"+
+                      "Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]"+
+                      "Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]"+
+                      "Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]"+
+                      "Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]"+
+                      "Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]"+
+                      "Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]"+
+                      "Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]");
   }
   firm.SalesOrder_Node.Click();
   Delay(2000);
@@ -60,20 +66,20 @@ Browsers.Item(btEdge).Run(durl);
   firm.Explosion_Link.Click();
   Delay(2000);
   firm.PlannedOrders_Tab.Click();
-  Delay(2000);
-  firm.Reference_Panel.Click();
-  Delay(2000);
+  Delay(10000);
   
   // User needs to filter out planned production orders inorder to proceed with the firming activity
-  firm.textboxAfterTheLookupIsOpenYou7.Keys("Planned Production");
+  firm.Reference_Panel.Click();
   Delay(2000);
-  firm.textboxAfterTheLookupIsOpenYou7.Keys("[Enter]");
+  firm.ReferenceFilter_Field.Keys("Planned Production");
   Delay(2000);
-  firm.buttonReqtransReftypeApplyfilter.Click();
+  firm.ReferenceFilter_Field.Keys("[Enter]");
   Delay(2000);
-  firm.panel10.Click();
+  firm.ReferenceApply_Button.Click();
   Delay(2000);
-  firm.buttonButtonreqtranspomarkfirm.Click();
+  firm.PlannedProductionOrder_Node.Click();
+  Delay(2000);
+  firm.Firm_Button.Click();
   Delay(2000);
   
   // Once "Ok" button is clicked then firming starts & it takes sometime inorder to generate the workorders

@@ -10,15 +10,32 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{D2E08988-4B7E-4F86-805E-CF46EB6B613A}" version="14">
 		<children>
-			<testItem name="RR" key="{F0D9FFA3-3212-4653-B369-0894FE7E4D1B}" group="False" parallel="False" enabled="True" load="False" testMoniker="{1C637C46-00E7-496C-B28C-D279CC6EF50A}RR" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="RR" key="{F0D9FFA3-3212-4653-B369-0894FE7E4D1B}" group="False" parallel="False" enabled="False" load="False" testMoniker="{1C637C46-00E7-496C-B28C-D279CC6EF50A}RR" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="LoginTest" key="{8F941CCD-DB96-4918-B10B-3DC7C138799F}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{6603BB1A-F7C7-40CB-9028-C91A54C10C31}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="LoginTest" key="{8F941CCD-DB96-4918-B10B-3DC7C138799F}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{6603BB1A-F7C7-40CB-9028-C91A54C10C31}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
+			</testItem>
+			<testItem name="ProjectTestItem1" key="{65A0846A-EE21-4955-8323-937C2FB45A86}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children>
+					<testItem name="ProjectTestItem2" key="{9B9764CE-4199-40B0-A55A-DF3C7D8ABD03}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children>
+							<testItem name="ProjectTestItem3" key="{B3D5F7C6-386D-4805-BF89-584DC12E5042}" group="False" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>
@@ -56,7 +73,7 @@
 		</data>
 	</variables>
 	<settings key="{F6ABEF2A-16FE-4132-827F-E2F45C462377}">
-		<settingsVersion value="15.73" />
+		<settingsVersion value="15.76" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

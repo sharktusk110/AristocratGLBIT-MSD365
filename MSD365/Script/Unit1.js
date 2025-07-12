@@ -3,20 +3,40 @@
 // Date: 9th of June'25
 //*************************************************************************************************************************************
 //module.exports.getObject
+//USEUNIT DynamicWait
 
 function split_break() {
-Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bLNFCA2/view";
-  
-var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
+  var AdvancedConfigurationPluz2=Aliases.browser.Page_EconMainConfiguration;
+  Aliases.browser.Page_EconMainConfiguration.Keys("[Enter]");
+//  Delay(5000);
+//Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
+////Delay(10000);
+//DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox,30000);
+//Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
+//Delay(5000);
 
-MainConfiguration.SellingModel_Field.SetText("GOps SSP Fixed Fee Non Jackpssdsdsdot Funded");
-Delay(2000);
-MainConfiguration.SellingModel_Field.Keys("[Enter]");
-Delay(2000);
-Log.Message(MainConfiguration.SellingModel_Field.getAttribute("value"));
-if(MainConfiguration.SellingModel_Field.getAttribute("value")!="GOps SSP Fixed Fede Non Jackpot Funded"){
-  Log.Error("Selling model ajax data not received")
-}
+//GS Conversion Packs 1 to 9 - (PROMO-SQ25-06)
+//GS Conversion Packs 10 or More - (PROMO-SQ25-07)
+//* No Promotion Selected - (PROMO-NO-PROMO)
+//Aliases.browser.pageLightningExperienceSalesforc2.section.sectionConfigure.select.Keys("* No Promotion Selected - (PROMO-NO-PROMO)");
+//Delay(2000);
+//Aliases.browser.pageLightningExperienceSalesforc2.section.sectionConfigure.select2.Keys("PREMIUM PLUS - (PPL)");
+//Delay(2000);
+//Aliases.browser.pageLightningExperienceSalesforc.section.sectionConfigure.select2.ClickR();
+//Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bLNFCA2/view";
+//  
+//var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
+//
+//MainConfiguration.SellingModel_Field.SetText("GOps SSP Fixed Fee Non Jackpssdsdsdot Funded");
+//Delay(2000);
+//MainConfiguration.SellingModel_Field.Keys("[Enter]");
+//Delay(2000);
+//Log.Message(MainConfiguration.SellingModel_Field.getAttribute("value"));
+//if(MainConfiguration.SellingModel_Field.getAttribute("value")!="GOps SSP Fixed Fede Non Jackpot Funded"){
+//  Log.Error("Selling model ajax data not received")
+//}
+
+
 
 
 
@@ -126,11 +146,38 @@ function Opp_creaa()
 
 function Scrollleft()
 {
-  //Opens the specified URL in a running instance of the specified browser.
-  Browsers.Item(btEdge).Navigate("https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableDetails");
-  Aliases.browser.BrowserWindow.Maximize();
-  //Clicks the 'panel4' control.
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel4.Click();
-  //Enters '[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]' in the 'panel5' object.
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel5.Keys("[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]");
+    // User needs to scroll left inorder to bring sales order into focus 
+  var firm=Aliases.browser.Page_D65;
+  firm.Scrollbar.Click();
+ // for(i=0;i<=6;i++){
+  firm.Scrollbar.Keys("[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]");
+  //}
+  firm.SalesOrder_Node.Click();
+  Delay(2000);
+  
+  // User needs to click on Supply link and initiate explosion activity
+  firm.ProductAndSupply_Panel.Click();
+  Delay(2000);
+  firm.Explosion_Link.Click();
+  Delay(2000);
+  firm.PlannedOrders_Tab.Click();
+  Delay(10000);
+  
+  // User needs to filter out planned production orders inorder to proceed with the firming activity
+  firm.Reference_Panel.Click();
+  Delay(2000);
+  firm.ReferenceFilter_Field.Keys("Planned Production");
+  Delay(2000);
+  firm.ReferenceFilter_Field.Keys("[Enter]");
+  Delay(2000);
+  firm.ReferenceApply_Button.Click();
+  Delay(2000);
+  firm.PlannedProductionOrder_Node.Click();
+  Delay(2000);
+  firm.Firm_Button.Click();
+  Delay(2000);
+  
+  // Once "Ok" button is clicked then firming starts & it takes sometime inorder to generate the workorders
+  Aliases.browser.Page_SOCreation.Ok_Button.Click();
 }
+

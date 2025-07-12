@@ -3240,7 +3240,16 @@
 												<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
 												<Selectors>
 													<Selector>
-														<Value Value="(//button)[35]" />
+														<Value Value="//button[.=&apos;OK&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button[@role=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button[contains(@class, &apos;ui-button&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3319,6 +3328,102 @@
 													</Selector>
 													<Selector>
 														<Value Value="//tr[37]/td//tr/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeSaveAndExit" Key="{5A554A27-15C9-4E18-AA65-8C7415870298}">
+												<Image FileName="1759539619" Left="177" Top="675" Right="1860" Bottom="750" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;Save and Exit&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div/div/div/ul[contains(@class, &apos;ui-helper-reset&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oButtonsContainer&apos;]//ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//div/div/div/ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeRunRules" Key="{541788F6-10CA-4232-A2B5-C85D92C6A079}">
+												<Image FileName="1759539619" Left="1721" Top="675" Right="1844" Bottom="750" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[.=&apos;Run Rules&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonRunRules" Key="{3A5995A7-94ED-4238-AAE8-5F0358F60232}">
+												<Image FileName="1759539619" Left="1721" Top="675" Right="1844" Bottom="750" />
+												<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[.=&apos;Run Rules&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[8]/button[@role=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[8]/button[contains(@class, &apos;ui-ribbon-button&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oButtonsContainer&apos;]//li[8]/button" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[8]/button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="label" Key="{A0DBBDA5-F689-4387-AC9A-5D13E8D74E1A}">
+												<Image FileName="-1176217773" Left="549" Top="900" Right="575" Bottom="926" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[19]/td[2]/div/label" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[19]/td[2]//label" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonOk2" Key="{E2DAFDC4-7D6D-48D2-B1B3-2D00FB6B0E44}">
+												<Image FileName="156573073" Left="1066" Top="763" Right="1144" Bottom="794" />
+												<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+												<Selectors>
+													<Selector>
+														<Value Value="(//button)[39]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonOk3" Key="{7C6C3A31-F45B-4F6D-9FF5-BB00DB444914}">
+												<Image FileName="-749701602" Left="1066" Top="874" Right="1144" Bottom="905" />
+												<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//button[.=&apos;OK&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button[@role=&apos;button&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button[contains(@class, &apos;ui-button&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonOk4" Key="{B22C3697-F976-4488-A1EC-5E8A23C0C086}">
+												<Image FileName="-2146768878" Left="1066" Top="685" Right="1144" Bottom="716" />
+												<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+												<Selectors>
+													<Selector>
+														<Value Value="(//button)[35]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -5380,6 +5485,142 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageLightningExperienceSalesforc" Key="{81FC08CE-EE2D-4367-982A-D6387D448086}">
+								<Image FileName="-1001122771" Left="17" Top="189" Right="1925" Bottom="1132" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bbAHCAY/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="section" Key="{4647E83A-5AA1-4562-B940-C4094709EAAF}">
+										<Image FileName="-1001122771" Left="142" Top="219" Right="1799" Bottom="1118" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Game sales - Outright - Outright - Sale New&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;bodyWrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionConfigure" Key="{2194A4F1-D593-4A72-A597-A036362E3CA3}">
+										<Image FileName="-1001122771" Left="159" Top="284" Right="1760" Bottom="2783" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//c-add-egm-wizard//c-egm-configurator//lightning-accordion//slot/lightning-accordion-section[2]//section[contains(@class, &apos;slds-accordion__section&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-add-egm-wizard//c-egm-configurator//lightning-accordion//slot/lightning-accordion-section[2]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-add-egm-wizard//c-egm-configurator//lightning-accordion//slot/lightning-accordion-section[2]//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select" Key="{34004667-8D82-4E80-B810-DEA62031749E}">
+										<Image FileName="-1001122771" Left="384" Top="521" Right="920" Bottom="563" />
+										<TypeInfo Item0="{3D0ADE22-B65A-4C57-B00D-950AE496D5F7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td/c-egm-configurator-line-item-editor-row//select[contains(@class, &apos;slds-select&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr/td/c-egm-configurator-line-item-editor-row//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/c-egm-configurator-line-item-editor-row//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select2" Key="{D6E14586-D1CA-4064-8B06-9B58E595E9C9}">
+										<Image FileName="532072809" Left="384" Top="549" Right="920" Bottom="591" />
+										<TypeInfo Item0="{3D0ADE22-B65A-4C57-B00D-950AE496D5F7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//tr/td/c-egm-configurator-line-item-editor-row//select[contains(@class, &apos;slds-select&apos;)]//option[contains(@label, &apos;* No Promotion Selected - (PROMO-NO-PROMO)&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLightningExperienceSalesforc2" Key="{8825E281-5B7D-4781-BD66-1A7278DB6BAF}">
+								<Image FileName="-1890439843" Left="17" Top="122" Right="1925" Bottom="1133" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000c977CAA/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="section" Key="{ABAD1422-31C9-4F08-B0C8-2113FF2D5CA8}">
+										<Image FileName="-1890439843" Left="142" Top="152" Right="1799" Bottom="1118" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Game sales - Outright - Outright - Sale New&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;bodyWrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionConfigure" Key="{18EF2A7D-45DA-42FA-BF7C-783F406E08D3}">
+										<Image FileName="-1890439843" Left="159" Top="395" Right="1760" Bottom="2894" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//c-add-egm-wizard//c-egm-configurator//lightning-accordion//slot/lightning-accordion-section[2]//section[contains(@class, &apos;slds-accordion__section&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//c-add-egm-wizard//c-egm-configurator//lightning-accordion//slot/lightning-accordion-section[2]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//c-add-egm-wizard//c-egm-configurator//lightning-accordion//slot/lightning-accordion-section[2]//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select" Key="{464CDE0E-7700-49AC-B2D9-0F1B8A1CFDEF}">
+										<Image FileName="-1890439843" Left="384" Top="632" Right="920" Bottom="674" />
+										<TypeInfo Item0="{3D0ADE22-B65A-4C57-B00D-950AE496D5F7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td/c-egm-configurator-line-item-editor-row//select[contains(@class, &apos;slds-select&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr/td/c-egm-configurator-line-item-editor-row//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/c-egm-configurator-line-item-editor-row//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select2" Key="{1BC7EB83-7371-4F11-8E0D-A8F8A1E81F09}">
+										<Image FileName="-1571104885" Left="384" Top="719" Right="920" Bottom="761" />
+										<TypeInfo Item0="{3D0ADE22-B65A-4C57-B00D-950AE496D5F7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[2]/td/c-egm-configurator-line-item-editor-row//select[contains(@class, &apos;slds-select&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wrapper-body&apos;]//tr[2]/td/c-egm-configurator-line-item-editor-row//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/c-egm-configurator-line-item-editor-row//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="SnippingTool" Key="{849F84DF-7D21-4077-87D7-F340283377F8}">
@@ -5746,6 +5987,14 @@
 				<Child Name="Case_Link" Owner="{1C736010-4C26-4EDC-8D71-AF89D3CE5732}" />
 				<Child Name="SendToD365_Button" Owner="{FAC923C8-470B-428C-8080-3D6D2427B411}" />
 				<Child Name="ComplianceAlert" Owner="{FE22EBCC-27A3-4B46-81A2-E30CD92B5D63}" />
+				<Child Name="textnodeSaveAndExit" Owner="{5A554A27-15C9-4E18-AA65-8C7415870298}">
+					<Child Name="textnodeRunRules" Owner="{541788F6-10CA-4232-A2B5-C85D92C6A079}" />
+				</Child>
+				<Child Name="RunRules_Button" Owner="{3A5995A7-94ED-4238-AAE8-5F0358F60232}" />
+				<Child Name="RulesExecuted_Checkbox" Owner="{A0DBBDA5-F689-4387-AC9A-5D13E8D74E1A}" />
+				<Child Name="RulesExecutionConfirmation_Button" Owner="{E2DAFDC4-7D6D-48D2-B1B3-2D00FB6B0E44}" />
+				<Child Name="buttonOk3" Owner="{7C6C3A31-F45B-4F6D-9FF5-BB00DB444914}" />
+				<Child Name="buttonOk4" Owner="{B22C3697-F976-4488-A1EC-5E8A23C0C086}" />
 			</Child>
 			<Child Name="Page_EconAdvancedConfiguration_I" Owner="{881F118D-459D-4371-BBC6-5F30165B3632}">
 				<Child Name="linkAdvanced" Owner="{5797B608-7C90-4EA2-ACE3-CE62B6DF02A2}" />
@@ -5804,6 +6053,22 @@
 				<Child Name="sectionSkipToNavigation" Owner="{0ABFDBE7-DA98-416F-8D05-64E54EC77143}">
 					<Child Name="linkView" Owner="{DB3279A2-CF31-4B71-BBB8-3BB85DA024D1}">
 						<Child Name="textnode" Owner="{E62136AE-41B2-49CF-AF6B-A77CE7D501C6}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLightningExperienceSalesforc" Owner="{81FC08CE-EE2D-4367-982A-D6387D448086}">
+				<Child Name="section" Owner="{4647E83A-5AA1-4562-B940-C4094709EAAF}">
+					<Child Name="sectionConfigure" Owner="{2194A4F1-D593-4A72-A597-A036362E3CA3}">
+						<Child Name="select" Owner="{34004667-8D82-4E80-B810-DEA62031749E}" />
+						<Child Name="select2" Owner="{D6E14586-D1CA-4064-8B06-9B58E595E9C9}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLightningExperienceSalesforc2" Owner="{8825E281-5B7D-4781-BD66-1A7278DB6BAF}">
+				<Child Name="section" Owner="{ABAD1422-31C9-4F08-B0C8-2113FF2D5CA8}">
+					<Child Name="sectionConfigure" Owner="{18EF2A7D-45DA-42FA-BF7C-783F406E08D3}">
+						<Child Name="select" Owner="{464CDE0E-7700-49AC-B2D9-0F1B8A1CFDEF}" />
+						<Child Name="select2" Owner="{1BC7EB83-7371-4F11-8E0D-A8F8A1E81F09}" />
 					</Child>
 				</Child>
 			</Child>

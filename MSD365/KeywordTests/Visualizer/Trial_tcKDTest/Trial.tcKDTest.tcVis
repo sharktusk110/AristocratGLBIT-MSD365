@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{293B0AE0-EDFA-42FE-B9B2-DD55EC0F94DB}" />
+	<data key="{293B0AE0-EDFA-42FE-B9B2-DD55EC0F94DB}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45845.4524884259" objectName="Aliases.browser.pageLightningExperienceSalesforc.section.sectionConfigure.select" objectLeft="373" objectTop="451" objectRight="909" objectBottom="493" clickPointX="891" clickPointY="467" imageFileName="tcvi93869850096600.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

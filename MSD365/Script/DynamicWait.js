@@ -11,7 +11,7 @@ function dynamic_wait(locator,cap){
    Delay(2000);
    delay+=2000;
   }
-  if(bool==1){
+  if(bool==0){
     Log.Error(locator+"not found.")
   }
 }

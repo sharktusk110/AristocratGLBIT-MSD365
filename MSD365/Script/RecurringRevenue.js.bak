@@ -91,7 +91,7 @@ function Opportunity_Creation(Config) {
 
 function econ_generation(Config){
   
-//opportunity_name="WHEELING ISLAND RACETRACK AND GAMING CENTER -3587299014- 06/15/2025";  
+//opportunity_name="WHEELING ISLAND RACETRACK AND GAMING CENTER -4744050575- 07/07/2025";  
 var search_opportunity=Aliases.browser.Page_SearchOpportunity;
 var econ=Aliases.browser.page_EconCreation.econ;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning"+
@@ -140,7 +140,7 @@ var econ_config=Aliases.browser.Page_EconMainConfiguration;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
          "Quote/list?filterName=__Recent";
          
-//quotename="ECON WHEELING ISLAND RACETRACK AND GAMING CENTER -4821837854- 07/01/2025";         
+//quotename="ECON WHEELING ISLAND RACETRACK AND GAMING CENTER -2452673348- 07/07/2025";         
 
 Browsers.Item(btEdge).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";           
@@ -176,7 +176,7 @@ econ_config.Configuration_Link.Click();
 
 function econ_mainconfiguration(Config){
 
-//Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000avJ7CAI/view";
+//Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000boqfCAA/view";
   
 var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
 
@@ -184,6 +184,10 @@ MainConfiguration.SellingModel_Field.SetText(Config[0]);
 Delay(2000);
 MainConfiguration.SellingModel_Field.Keys("[Enter]");
 Delay(2000);
+
+if(MainConfiguration.SellingModel_Field.textContent!=Config[0]){
+  Log.Error("Selling model ajax data not received")
+}
 
 MainConfiguration.Type_Field.Keys(Config[1]);
 Delay(2000);
@@ -367,18 +371,23 @@ AdvancedConfigurationPluz.Platform_Field.Keys("[Enter]");
 Delay(2000);
 AdvancedConfigurationPluz2.Quote_link.Click();
 Delay(2000);
+
+Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
+//Delay(2000);
+DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox,30000);
+Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
+Delay(2000);
 AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
-//Delay(20000);
 DynamicWait["dynamic_wait"](AdvancedConfigurationPluz2.ComplianceAlert,60000);
 if(aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass")){
-AdvancedConfigurationPluz2.OK_Button.Click();
+AdvancedConfigurationPluz2.Keys("[Enter]");
 Delay(2000);
 AdvancedConfigurationPluz2.SaveAndExit_Button.Click();
 Delay(2000);
 }else{
-  AdvancedConfigurationPluz2.OK_Button.Click();
-  Log.Message("Shared econ configuration is not compliance adhered.")
-  //Error needs to be created
+  AdvancedConfigurationPluz2.Keys("[Enter]");
+  Log.Error("Shared econ configuration is not compliance adhered.")
+  
 }
 
 Sys.Browser("edge").Close();
@@ -390,7 +399,7 @@ function econ_approval(){
 var econ_approval=Aliases.browser.Page_EconMainConfiguration;
 var econ_approval1=Aliases.browser.Page_EconAdvancedConfiguration_II;
   
-//urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bKfhCAE/view";
+//urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bp5BCAQ/view";
 //Project.Variables.quoteurl=urc; 
           
 Browsers.Item(btEdge).Run(urc);
@@ -429,7 +438,8 @@ Sys.Browser("edge").Close();
 }
 
 function caseQC(){
-  
+
+Project.Variables.caseurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Case/5009r00000KzLgtAAF/view";
 var casedetail=Aliases.browser.Page_SFCaseDetails;
 Browsers.Item(btEdge).Run(Project.Variables.caseurl);
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
