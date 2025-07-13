@@ -17,10 +17,13 @@
 			<folder name="CPSO Creation &amp; Configuration">
 				<child name="SO_CreateAndConfig" key="{A45D2BC7-A690-4C7C-A3C2-EAD5627E39AB}" path="SO_CreateAndConfig.js" />
 			</folder>
-			<folder name="RecurringRevenue">
-				<child name="RecurringRevenue" key="{84DCAD69-8F5F-4C3C-AD74-672DBAC2E154}" path="RecurringRevenue.js" />
+			<folder name="GSBAU">
+				<child name="GSBAU" key="{84DCAD69-8F5F-4C3C-AD74-672DBAC2E154}" path="GSBAU.js" />
 				<child name="Unit1" key="{4F71A839-6E2D-4483-A3F2-C4F1569856B2}" path="Unit1.js" />
 				<child name="BOMFirming" key="{6F6E7FB0-D67D-429B-9948-59B4FAED9B71}" path="BOMFirming.js" />
+			</folder>
+			<folder name="RR">
+				<child name="RecurringRevenue" key="{613C73BB-9A7C-4AD1-BB58-1D015A3065F1}" path="RecurringRevenue.js" />
 			</folder>
 		</folder>
 		<folder name="Tests">
@@ -32,8 +35,11 @@
 				<child name="SO_CreateAndConfig_VHD_Test" key="{E034DA71-4D4D-4676-96B9-573408B974CF}" path="SO_CreateAndConfig_VHD_Test.js" />
 				<child name="SO_CreateAndConfig_OBC_Test" key="{B9914FFE-DB6C-4A62-9E79-A3A7647218C4}" path="SO_CreateAndConfig_OBC_Test.js" />
 			</folder>
-			<folder name="RecurringRevenue Test">
-				<child name="RecurringRevenue_Test" key="{1C637C46-00E7-496C-B28C-D279CC6EF50A}" path="RecurringRevenue_Test.js" />
+			<folder name="GSBAU Test">
+				<child name="GSBAU_Test" key="{1C637C46-00E7-496C-B28C-D279CC6EF50A}" path="GSBAU_Test.js" />
+			</folder>
+			<folder name="RR_Test">
+				<child name="RecurringRevenue_Test" key="{F383465A-4C3E-4C7E-91ED-5D7CF3D66583}" path="RecurringRevenue_Test.js" />
 			</folder>
 		</folder>
 	</children>

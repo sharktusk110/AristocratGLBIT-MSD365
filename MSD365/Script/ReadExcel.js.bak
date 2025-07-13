@@ -153,8 +153,10 @@ function readOBCConfigDataFromExcel() {
 
 function readRRConfigDataFromExcel() {
   
- Path="C:\\Users\\SA118193\\Desktop\\RR_Datasheet.xlsx";
- Sheet="RR";
+// Path="C:\\Users\\SA118193\\Desktop\\RR_Datasheet.xlsx";
+// Sheet="RR";
+ Path="C:\\Users\\SA118193\\Desktop\\Data_Sheet.xlsx";
+Sheet="GSBAU_TestData";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
  var RowIndex;
@@ -185,10 +187,9 @@ function readRRConfigDataFromExcel() {
       config[RowIndex][15]=String(excelSheet.Cell("U", RowIndex).Value);
       config[RowIndex][16]=String(excelSheet.Cell("V", RowIndex).Value);
       config[RowIndex][17]=String(excelSheet.Cell("W", RowIndex).Value);
-      //config[RowIndex][18]=String(excelSheet.Cell("W", RowIndex).Value);
+      config[RowIndex][18]=String(excelSheet.Cell("R", RowIndex).Value);
       
       config[RowIndex][19]=String(excelSheet.Cell("X", RowIndex).Value);
-      // config[RowIndex][20]=String(excelSheet.Cell("Y", RowIndex).Value);
       config[RowIndex][20]=String(excelSheet.Cell("Z", RowIndex).Value);
       config[RowIndex][21]=String(excelSheet.Cell("AA", RowIndex).Value);
       config[RowIndex][22]=String(excelSheet.Cell("AB", RowIndex).Value);

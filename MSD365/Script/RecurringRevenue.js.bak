@@ -1,4 +1,4 @@
-﻿ // Requirement : To be done later.
+﻿﻿ // Requirement : To be done later.
 // Creator : Shariq Abbas
 // Date: 9th of June'25
 //*************************************************************************************************************************************
@@ -439,7 +439,7 @@ Sys.Browser("edge").Close();
 
 function caseQC(){
 
-Project.Variables.caseurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Case/5009r00000KzLgtAAF/view";
+//Project.Variables.caseurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Case/5009r00000KzLgtAAF/view";
 var casedetail=Aliases.browser.Page_SFCaseDetails;
 Browsers.Item(btEdge).Run(Project.Variables.caseurl);
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;

@@ -3048,16 +3048,7 @@
 												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//input[@value=&apos;RECURRING REVENUE&apos;]" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[12]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[12]/td//tr/td//input" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[12]/td//tr/td//input" />
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.ptypid.licensetype&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3066,16 +3057,7 @@
 												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//input[@value=&apos;PI-SSP - Single-Site Progressive&apos;]" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[13]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[13]/td//tr/td//input" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[13]/td//tr/td//input" />
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.prgid.progressivetype&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3084,13 +3066,7 @@
 												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//tr[14]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[14]/td//tr/td//input" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[14]/td//tr/td//input" />
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.gpp.gametheme&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3099,13 +3075,7 @@
 												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//tr[17]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[17]/td//tr/td//input" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[17]/td//tr/td//input" />
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.gpg.gamename&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3114,13 +3084,7 @@
 												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//tr[19]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[19]/td//tr/td//input" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[19]/td//tr/td//input" />
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.denom.denominations&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3129,13 +3093,7 @@
 												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//tr[23]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[23]/td//tr/td//input" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[23]/td//tr/td//input" />
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.btn.buttonpanel&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3144,19 +3102,7 @@
 												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//tr[21]/td//tr/td//input[@role=&apos;textbox&apos;]" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[21]/td//tr/td//input[contains(@class, &apos;ui-state-default&apos;)]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[21]/td//tr/td//input" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[21]/td//tr/td//input" />
-													</Selector>
-													<Selector>
-														<Value Value="xpath=/html/body/div[1]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/div[2]/div/div[1]/div[1]/div/div[2]/div[1]/table/tbody/tr[22]/td[2]/div[1]/table/tbody/tr/td[1]/div/span/input" />
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.tpp.topper&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3169,9 +3115,6 @@
 													</Selector>
 													<Selector>
 														<Value Value="#ID0ECKAE" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[28]/td//input" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3424,6 +3367,24 @@
 												<Selectors>
 													<Selector>
 														<Value Value="(//button)[35]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0e6dac" Key="{6AB6E95A-F97E-4871-9968-765A440A3D3B}">
+												<Image FileName="747107731" Left="295" Top="760" Right="610" Bottom="796" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.pgd.gamingdevice&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0ezkag" Key="{A0F61AB9-1F8F-44FC-A795-239112F182E3}">
+												<Image FileName="-1650332941" Left="1218" Top="677" Right="1743" Bottom="713" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.hwbom.printerfirmware&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -5995,6 +5956,8 @@
 				<Child Name="RulesExecutionConfirmation_Button" Owner="{E2DAFDC4-7D6D-48D2-B1B3-2D00FB6B0E44}" />
 				<Child Name="buttonOk3" Owner="{7C6C3A31-F45B-4F6D-9FF5-BB00DB444914}" />
 				<Child Name="buttonOk4" Owner="{B22C3697-F976-4488-A1EC-5E8A23C0C086}" />
+				<Child Name="Model_Field" Owner="{6AB6E95A-F97E-4871-9968-765A440A3D3B}" />
+				<Child Name="PrinterFirmware_Field" Owner="{A0F61AB9-1F8F-44FC-A795-239112F182E3}" />
 			</Child>
 			<Child Name="Page_EconAdvancedConfiguration_I" Owner="{881F118D-459D-4371-BBC6-5F30165B3632}">
 				<Child Name="linkAdvanced" Owner="{5797B608-7C90-4EA2-ACE3-CE62B6DF02A2}" />
