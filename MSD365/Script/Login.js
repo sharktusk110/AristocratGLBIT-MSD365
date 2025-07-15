@@ -24,7 +24,7 @@ function D65_login(username,password){
   //Simulates a left-button single click in a window or control as specified (relative position, shift keys).
   Aliases.browser.Page_OutlookLogin.Next_Button.Click();
   //Clicks the 'Next_Button' button.
-  Aliases.browser.Page_AristocratLogin_Passive.Next_Button.ClickButton();
+  //Aliases.browser.Page_AristocratLogin_Passive.Next_Button.ClickButton();
   //Clicks the 'panelSigninContainer' control.
   //Aliases.browser.pagePassive.panelSigninContainer.Click();
   //Enters text in the text box.

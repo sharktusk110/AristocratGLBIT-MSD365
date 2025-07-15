@@ -29,7 +29,7 @@ ConfigFilter4=[Config[i][19],Config[i][20],Config[i][21],Config[i][22],Config[i]
   
 //RecurringRevenue["Opportunity_Creation"](ConfigFilter1);
 //RecurringRevenue["econ_generation"](ConfigFilter2);
-//RecurringRevenue["econ_configuration_navigation"]();
+RecurringRevenue["econ_configuration_navigation"]();
 RecurringRevenue["econ_mainconfiguration"](ConfigFilter3);
 RecurringRevenue["econ_advancedconfiguration"](ConfigFilter4);
 RecurringRevenue["econ_approval"]();

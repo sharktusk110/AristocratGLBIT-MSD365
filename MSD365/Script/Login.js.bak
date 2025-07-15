@@ -1,4 +1,6 @@
-﻿function SF_login(username,password){
+﻿//module.exports.getObject
+
+function SF_login(username,password){
   
   Aliases.browser.pageLoginSalesforce.formLoginForm.emailinputUsername.SetText(username);
   Delay(2000); 

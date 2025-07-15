@@ -3273,16 +3273,7 @@
 												<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//button[.=&apos;OK&apos;]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button[@role=&apos;button&apos;]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button[contains(@class, &apos;ui-button&apos;)]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button" />
+														<Value Value="xpath=//button[@class=&apos;ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -5672,6 +5663,82 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageEconWheelingIslandRacetrackA3" Key="{7154DFFC-8707-416A-B66C-27BB028EDD6A}">
+								<Image FileName="1751848837" Left="6" Top="111" Right="1914" Bottom="1122" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000cdA1CAI/view" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frame" Key="{A5530662-858D-4EDC-A0B1-FE1FE57DACC1}">
+										<Image FileName="1751848837" Left="49" Top="509" Right="1848" Bottom="2009" />
+										<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]//div/article/div/p/iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-23&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//div/article/div/p/iframe" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionSkipToNavigation" Key="{82205BDC-1F61-4CB5-BCBC-E42F49D8877A}">
+										<Image FileName="482228297" Left="6" Top="50" Right="1891" Bottom="794" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTabs" Key="{264434C4-E678-4C2C-8C0F-EB99C0642512}">
+										<Image FileName="482228297" Left="6" Top="111" Right="6" Bottom="111" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Configure Quote&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/one-record-home-flexipage2/forcegenerated-flexipage_ati_econ_quote_dynamic_record_page_quote__view_js___lmt___1727395319000//ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div[2]/div/slot/flexipage-component2//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/slot/flexipage-component2/slot//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="article" Key="{8425E8E3-C155-40BC-8400-EB5F6402F495}">
+										<Image FileName="482228297" Left="49" Top="491" Right="1848" Bottom="2100" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]//flexipage-component2/slot/flexipage-aura-wrapper/div/article[contains(@class, &apos;slds-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-23&apos;]//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//flexipage-component2/slot/flexipage-aura-wrapper/div/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="SnippingTool" Key="{849F84DF-7D21-4077-87D7-F340283377F8}">
@@ -6129,6 +6196,14 @@
 					<Child Name="sectionConfigure" Owner="{18EF2A7D-45DA-42FA-BF7C-783F406E08D3}">
 						<Child Name="select" Owner="{464CDE0E-7700-49AC-B2D9-0F1B8A1CFDEF}" />
 						<Child Name="select2" Owner="{1BC7EB83-7371-4F11-8E0D-A8F8A1E81F09}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageEconWheelingIslandRacetrackA3" Owner="{7154DFFC-8707-416A-B66C-27BB028EDD6A}">
+				<Child Name="frame" Owner="{A5530662-858D-4EDC-A0B1-FE1FE57DACC1}" />
+				<Child Name="sectionSkipToNavigation" Owner="{82205BDC-1F61-4CB5-BCBC-E42F49D8877A}">
+					<Child Name="textnodeTabs" Owner="{264434C4-E678-4C2C-8C0F-EB99C0642512}">
+						<Child Name="article" Owner="{8425E8E3-C155-40BC-8400-EB5F6402F495}" />
 					</Child>
 				</Child>
 			</Child>

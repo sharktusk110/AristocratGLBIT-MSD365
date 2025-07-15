@@ -225,7 +225,7 @@ Delay(10000);
 MainConfiguration.GameTitle_Field.SetText(Config[6]);
 Delay(2000);
 MainConfiguration.GameTitle_Field.Keys("[Enter]");
-Delay(2000);
+Delay(5000);
 
 
 
@@ -389,7 +389,16 @@ DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.RulesExec
 Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
 Delay(2000);
 AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
-DynamicWait["dynamic_wait"](AdvancedConfigurationPluz2.ComplianceAlert,60000);
+//================================
+ var bool=0;
+ while(bool<=0){
+   if(!Aliases.browser.Page_EconMainConfiguration.ComplianceCheck_Button.VisibleOnScreen){
+     bool=1;
+   }
+   Delay(2000);
+  }
+  Delay(1500);
+//=================================  
 if(aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass")){
 AdvancedConfigurationPluz2.Keys("[Enter]");
 Delay(2000);

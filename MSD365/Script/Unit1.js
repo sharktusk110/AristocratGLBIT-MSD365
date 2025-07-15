@@ -6,9 +6,24 @@
 //USEUNIT DynamicWait
 
 function split_break() {
-  Aliases.browser.Page_SOCreation.TextBoxFilterGaming_Field.Click();
-  Aliases.browser.Page_SOCreation.TextBoxFilterGaming_Field.SetText("Class III");
-  Aliases.browser.Page_SOCreation.TextBoxFilterGaming_Field.Click();
+Aliases.browser.Page_EconMainConfiguration.ComplianceCheck_Button.Click();
+// Aliases.browser.Page_EconMainConfiguration.WaitAliasChild("OK_Button",10000).Exists ;
+// DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.ComplianceAlert,60000);
+ var bool=0;
+ while(bool<=0){
+   if(!Aliases.browser.Page_EconMainConfiguration.ComplianceCheck_Button.VisibleOnScreen){
+     bool=1;
+   }
+   Delay(2000);
+  }
+  Delay(1500);
+  if(aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass")){
+
+  Aliases.browser.Page_EconMainConfiguration.Keys("[Enter]");
+  
+  }
+
+//Aliases.browser.Page_EconMainConfiguration.OK_Button.Click();
 //  Delay(5000);
 //Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
 ////Delay(10000);

@@ -15,3 +15,14 @@ function dynamic_wait(locator,cap){
     Log.Error(locator+"not found.")
   }
 }
+
+function waitForElement(obj, timeoutMs) {
+  var startTime = new Date().getTime();
+  while ((new Date().getTime() - startTime) < timeoutMs) {
+    if (obj.Exists && obj.VisibleOnScreen) {
+      return true;
+    }
+    Delay(500); // Wait for 0.5 sec before checking again
+  }
+  return false;
+}

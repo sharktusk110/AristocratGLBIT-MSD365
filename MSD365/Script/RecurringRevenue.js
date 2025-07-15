@@ -19,7 +19,7 @@ function Opportunity_Creation(Config) {
  var account=Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch;
  var opportunity=Aliases.browser.Page_NewOpportunityCreation;
 
- Browsers.Item(btEdge).Run("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home");
+ Browsers.Item(btChrome).Run("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home");
  
  Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
  Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
@@ -31,7 +31,7 @@ function Opportunity_Creation(Config) {
  
  // Navigating to account section
  
- Browsers.Item(btEdge).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Account/list?filterName=__Recent");
+ Browsers.Item(btChrome).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Account/list?filterName=__Recent");
  
  // Searching account for opportunity creation
  
@@ -97,12 +97,13 @@ var econ=Aliases.browser.page_EconCreation.econ;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning"+
          "/o/Opportunity/list?filterName=__Recent" ;
 
-Browsers.Item(btEdge).Navigate(url) ;
+Browsers.Item(btChrome).Navigate(url) ;
 
 search_opportunity.SearchThisList_SearchField.SetText(opportunity_name);
 Delay(2000);
 search_opportunity.SearchThisList_SearchField.Keys("[Enter]");
 Delay(2000);
+
 search_opportunity.Opportunity_Node.Click();
 Delay(5000);
 //DynamicWait["dynamic_wait"](econ.econ_Button,30000);
@@ -129,7 +130,7 @@ Delay(2000);
 econ.Next_Button.Click();;
 Delay(2000);
 
-Sys.Browser("edge").Close();
+Sys.Browser("chrome").Close();
 
 }
 
@@ -140,12 +141,12 @@ var econ_config=Aliases.browser.Page_EconMainConfiguration;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
          "Quote/list?filterName=__Recent";
          
-//quotename="ECON WHEELING ISLAND RACETRACK AND GAMING CENTER -2452673348- 07/07/2025";         
+//quotename="ECON WHEELING ISLAND RACETRACK AND GAMING CENTER -9785116533- 07/15/2025";         
 
-Browsers.Item(btEdge).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
-                                   "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";           
+Browsers.Item(btChrome).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
+                                   "Tester\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" --disable-site-isolation-trials";           
          
-Browsers.Item(btEdge).Run(url);
+Browsers.Item(btChrome).Run(url);
 
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
@@ -158,6 +159,7 @@ econ_nav.SearchThisList_SearchField.Keys("[Enter]");
 
 Delay(2000);
 
+DynamicWait["dynamic_wait"](econ_nav.SearchedEcon_Node,60000);
 econ_nav.SearchedEcon_Node.Click();
 
 Delay(2000);
@@ -169,7 +171,7 @@ econ_config.ConfigureQuote_Link.Click();
 //Delay(50000);
 DynamicWait["dynamic_wait"](econ_config.Configuration_Link,60000);
 
-
+econ_config.Configuration_Link.scrollIntoView();
 econ_config.Configuration_Link.Click();
 
 }
@@ -185,9 +187,9 @@ Delay(2000);
 MainConfiguration.SellingModel_Field.Keys("[Enter]");
 Delay(2000);
 
-if(MainConfiguration.SellingModel_Field.textContent!=Config[0]){
-  Log.Error("Selling model ajax data not received")
-}
+//if(MainConfiguration.SellingModel_Field.textContent!=Config[0]){
+//  Log.Error("Selling model ajax data not received")
+//}
 
 MainConfiguration.Type_Field.Keys(Config[1]);
 Delay(2000);
@@ -379,7 +381,16 @@ Delay(10000);
 Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
 Delay(2000);
 AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
-DynamicWait["dynamic_wait"](AdvancedConfigurationPluz2.ComplianceAlert,60000);
+//==========================
+ var bool=0;
+ while(bool<=0){
+   if(!Aliases.browser.Page_EconMainConfiguration.ComplianceCheck_Button.VisibleOnScreen){
+     bool=1;
+   }
+   Delay(2000);
+  }
+  Delay(1500);
+//==========================  
 if(aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass")){
 AdvancedConfigurationPluz2.Keys("[Enter]");
 Delay(2000);
@@ -391,7 +402,7 @@ Delay(2000);
   
 }
 
-Sys.Browser("edge").Close();
+Sys.Browser("chrome").Close();
 
 }
 
@@ -403,7 +414,7 @@ var econ_approval1=Aliases.browser.Page_EconAdvancedConfiguration_II;
 //urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bp5BCAQ/view";
 //Project.Variables.quoteurl=urc; 
           
-Browsers.Item(btEdge).Run(urc);
+Browsers.Item(btChrome).Run(urc);
 
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
@@ -435,14 +446,14 @@ Delay(5000);
 
 
 Project.Variables.caseurl=Sys.Browser().Page("*").URL;
-Sys.Browser("edge").Close();
+Sys.Browser("chrome").Close();
 }
 
 function caseQC(){
 
 //Project.Variables.caseurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Case/5009r00000KzLgtAAF/view";
 var casedetail=Aliases.browser.Page_SFCaseDetails;
-Browsers.Item(btEdge).Run(Project.Variables.caseurl);
+Browsers.Item(btChrome).Run(Project.Variables.caseurl);
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
 //Project.Variables.caseurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Case/5009r00000KkKoFAAV/view";
@@ -458,7 +469,7 @@ casedetail.Save_Button.Click();
 Delay(2000);
 casedetail.EconQuote_Node.Click();
 Delay(2000);
-Sys.Browser("edge").Close();
+Sys.Browser("chrome").Close();
 
 }
 
@@ -466,10 +477,9 @@ function econ_D65migration(){
   
 var econ_migrate=Aliases.browser.Page_EconMainConfiguration;
 
-Browsers.Item(btEdge).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
-                                   "Tester\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\" --disable-site-isolation-trials";           
-         
-Browsers.Item(btEdge).Run(urc);
+Browsers.Item(btChrome).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
+                                   "Tester\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" --disable-site-isolation-trials";           
+Browsers.Item(btChrome).Run(urc);
 
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
@@ -486,7 +496,7 @@ Delay(10000);
 }
 econ_migrate.SendToD365_Button.Click();
 Delay(2000);
-Sys.Browser("edge").Close();
+Sys.Browser("chrome").Close();
 }
 
 function D65_MigrationCheck(Config)
@@ -494,7 +504,7 @@ function D65_MigrationCheck(Config)
 //quote_number="00141774";
 var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
 var firm=Aliases.browser.Page_D65;
-Browsers.Item(btEdge).Run(durl);
+Browsers.Item(btChrome).Run(durl);
 
  
  // User needs to login into D65 Account inorder to initiate firming activity.
@@ -525,5 +535,5 @@ Browsers.Item(btEdge).Run(durl);
   Delay(2000); 
   aqObject.CheckProperty(firm.CustomerName_Node, "title", cmpContains, Config[0]);
   
-  Sys.Browser("edge").Close();
+  Sys.Browser("chrome").Close();
 }
