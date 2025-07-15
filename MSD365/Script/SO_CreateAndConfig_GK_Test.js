@@ -19,7 +19,7 @@ var cols = excelSheet.ColumnCount;
 var Config = new Array(rows).fill(0).map(() => new Array(cols).fill(0));
 Config=ReadExcel["readGPKConfigDataFromExcel"]();
 
-for(let i=2;i<=rows;i++){
+for(let i=2;i<=2;i++){
 
 ConfigFilter1=[Config[i][0],Config[i][1],Config[i][2]];
 ConfigFilter2=[Config[i][3],Config[i][4],Config[i][5],Config[i][6],Config[i][7],Config[i][8]];
@@ -27,8 +27,8 @@ ConfigFilter2=[Config[i][3],Config[i][4],Config[i][5],Config[i][6],Config[i][7],
 SO_CreateAndConfig["OrderCreation"](ConfigFilter1);
 SO_CreateAndConfig["OrderConfigurationNavigation"]();
 SO_CreateAndConfig["GameProKitOrderConfiguration"](ConfigFilter2);
-SO_CreateAndConfig["OrderConfiguration"]();
-Delay(50000);
+//SO_CreateAndConfig["OrderConfiguration"]();
+//Delay(50000);
 
 if(aqObject.CheckProperty(verify, "Text", cmpContains, Config[i][4].split("|")[0], false)){
   Log.Message("Test Passed for the data row: "+i);

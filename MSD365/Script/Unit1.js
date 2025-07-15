@@ -6,8 +6,9 @@
 //USEUNIT DynamicWait
 
 function split_break() {
-  var AdvancedConfigurationPluz2=Aliases.browser.Page_EconMainConfiguration;
-  Aliases.browser.Page_EconMainConfiguration.Keys("[Enter]");
+  Aliases.browser.Page_SOCreation.TextBoxFilterGaming_Field.Click();
+  Aliases.browser.Page_SOCreation.TextBoxFilterGaming_Field.SetText("Class III");
+  Aliases.browser.Page_SOCreation.TextBoxFilterGaming_Field.Click();
 //  Delay(5000);
 //Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
 ////Delay(10000);

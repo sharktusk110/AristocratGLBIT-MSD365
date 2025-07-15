@@ -4,13 +4,13 @@
 //*************************************************************************************************************************************
 //module.exports.getObject
 //USEUNIT ReadExcel
+//USEUNIT Login
+//USEUNIT DynamicWait
 
  function OrderCreation(Config) {
     var nav = Aliases.browser.Page_SOCreation;
     
-    // Opens the specified URL in a running instance of the specified browser.
-    Browsers.Item(btEdge).Navigate("https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage");
-
+    
     // Clicks the 'New' button.
     nav.New_Button.ClickButton();
 
@@ -38,12 +38,12 @@
     Delay(2000);
      
    //Entering the gaming classification 
-    nav.TextBoxFilterGaming_Field.Keys(Config[2]); //
+    nav.TextBoxFilterGaming_Field.SetText(Config[2]);
     Delay(2000);
     
    // Entering Enter action inorder to select the entered gaming classification
-    nav.TextBoxFilterGaming_Field.Keys("[Enter]");
-    Delay(2000);
+   // nav.TextBoxFilterGaming_Field.Keys("[Enter]");
+    //Delay(2000);
     
    // Clicking on Apply Filters inorder to filter the data associated with the entered gaming classification. 
     nav.GamingClassificationApply_Button.Click();
@@ -317,6 +317,10 @@ function OrderConfiguration() {
     var navconfigexit=Aliases.browser.Page_SOConfig.ConfigExit;
 
     // Finalize configuration
+//    Aliases.browser.Page_SOConfig.SetChip_Config.SearchWith_Selectlist.Click();
+//    Delay(2000);
+//    Aliases.browser.Page_SOConfig.buttonClose.Click();
+//    Delay(2000);
     navconfigexit.OrderConfigurator_Link.Click();
     Delay(2000);
     navconfigexit.ProcessExit_Button.ClickButton();

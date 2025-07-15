@@ -4,13 +4,13 @@
 //*************************************************************************************************************************************
 //module.exports.getObject
 //USEUNIT ReadExcel
+//USEUNIT Login
+//USEUNIT DynamicWait
 
  function OrderCreation(Config) {
     var nav = Aliases.browser.Page_SOCreation;
     
-    // Opens the specified URL in a running instance of the specified browser.
-    Browsers.Item(btEdge).Navigate("https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage");
-
+    
     // Clicks the 'New' button.
     nav.New_Button.ClickButton();
 
@@ -38,7 +38,7 @@
     Delay(2000);
      
    //Entering the gaming classification 
-    nav.TextBoxFilterGaming_Field.Keys(Config[2]); //
+    nav.TextBoxFilterGaming_Field.SetText(Config[2]);
     Delay(2000);
     
    // Entering Enter action inorder to select the entered gaming classification
@@ -237,25 +237,25 @@ function VHDOrderConfiguration(Config) {
     Delay(5000);
 
     // Enter 'AS-is-VTC'
-    navsetchip.GamingClassification_Selectlist.SetText(Config[RowIndex][0]);
+    navsetchip.GamingClassification_Selectlist.SetText(Config[0]);
     Delay(2000);
     navsetchip.GamingClassification_Selectlist.Keys("[Enter]");
     Delay(5000);
 
     // Enter 'Game Theme'
-    navsetchip.Platform_Selectlist.SetText(Config[RowIndex][1]);
+    navsetchip.Platform_Selectlist.SetText(Config[1]);
     Delay(2000);
     navsetchip.Platform_Selectlist.Keys("[Enter]");
     Delay(5000);
 
     // Enter 'VOS'
-    navsetchip.GamingClass_Selectlist.SetText(Config[RowIndex][2]);
+    navsetchip.GamingClass_Selectlist.SetText(Config[2]);
     Delay(2000);
     navsetchip.GamingClass_Selectlist.Keys("[Enter]");
     Delay(5000);
 
     // Enter 'VF'
-    navsetchip.Vf_Selectlist.SetText(Config[RowIndex][3]);
+    navsetchip.Vf_Selectlist.SetText(Config[3]);
     Delay(2000);
     navsetchip.Vf_Selectlist.Keys("[Enter]");
     Delay(5000);    
@@ -317,6 +317,10 @@ function OrderConfiguration() {
     var navconfigexit=Aliases.browser.Page_SOConfig.ConfigExit;
 
     // Finalize configuration
+//    Aliases.browser.Page_SOConfig.SetChip_Config.SearchWith_Selectlist.Click();
+//    Delay(2000);
+//    Aliases.browser.Page_SOConfig.buttonClose.Click();
+//    Delay(2000);
     navconfigexit.OrderConfigurator_Link.Click();
     Delay(2000);
     navconfigexit.ProcessExit_Button.ClickButton();

@@ -6,8 +6,8 @@
 //USEUNIT DynamicWait
 
 function split_break() {
-  var AdvancedConfigurationPluz2=Aliases.browser.Page_EconMainConfiguration;
-  Aliases.browser.Page_EconMainConfiguration.Keys("[Enter]");
+  Aliases.browser.Page_SOCreation.TextBoxFilterGaming_Field.Click();
+  Aliases.browser.Page_SOCreation.TextBoxFilterGaming_Field.SetText("sdsd");
 //  Delay(5000);
 //Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
 ////Delay(10000);
@@ -146,12 +146,38 @@ function Opp_creaa()
 
 function Scrollleft()
 {
-  //Opens the specified URL in a running instance of the specified browser.
-  Browsers.Item(btEdge).Navigate("https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableDetails");
-  Aliases.browser.BrowserWindow.Maximize();
-  //Clicks the 'panel4' control.
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel4.Click();
-  //Enters '[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]' in the 'panel5' object.
-  Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel5.Keys("[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]");
+    // User needs to scroll left inorder to bring sales order into focus 
+  var firm=Aliases.browser.Page_D65;
+  firm.Scrollbar.Click();
+ // for(i=0;i<=6;i++){
+  firm.Scrollbar.Keys("[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]");
+  //}
+  firm.SalesOrder_Node.Click();
+  Delay(2000);
+  
+  // User needs to click on Supply link and initiate explosion activity
+  firm.ProductAndSupply_Panel.Click();
+  Delay(2000);
+  firm.Explosion_Link.Click();
+  Delay(2000);
+  firm.PlannedOrders_Tab.Click();
+  Delay(10000);
+  
+  // User needs to filter out planned production orders inorder to proceed with the firming activity
+  firm.Reference_Panel.Click();
+  Delay(2000);
+  firm.ReferenceFilter_Field.Keys("Planned Production");
+  Delay(2000);
+  firm.ReferenceFilter_Field.Keys("[Enter]");
+  Delay(2000);
+  firm.ReferenceApply_Button.Click();
+  Delay(2000);
+  firm.PlannedProductionOrder_Node.Click();
+  Delay(2000);
+  firm.Firm_Button.Click();
+  Delay(2000);
+  
+  // Once "Ok" button is clicked then firming starts & it takes sometime inorder to generate the workorders
+  Aliases.browser.Page_SOCreation.Ok_Button.Click();
 }
 

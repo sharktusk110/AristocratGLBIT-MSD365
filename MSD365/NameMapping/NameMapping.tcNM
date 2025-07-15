@@ -848,7 +848,7 @@
 										<TypeInfo Item0="{1C8EF5F1-727E-44B6-B5B0-426127098976}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//input[@id=&apos;__FilterField_LogisticsPostalAddressMain_ATI_GamingClassification_ATI_GamingClassification_Input_0_0_input&apos;]" />
+												<Value Value="xpath=//input[@name=&apos;FilterField_LogisticsPostalAddressMain_ATI_GamingClassification_ATI_GamingClassification_Input_0&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -1422,6 +1422,78 @@
 											</Selector>
 											<Selector>
 												<Value Value="xpath=//div[@role=&apos;main&apos;]/form[5]//div[contains(@class, &apos;dyn-container&apos;)]//div[contains(@class, &apos;dyn-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonUserbtn" Key="{B96C8C8B-58F1-475C-914D-0525DD917DCB}">
+										<Image FileName="506564504" Left="1852" Top="122" Right="1926" Bottom="194" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#UserBtn" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;C4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;CRMTest 4&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;User&apos;]/button[contains(@class, &apos;navigationBar-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;User&apos;]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCrmtest4" Key="{8DFBAEC8-5ECA-4657-A3D9-63AD874899DF}">
+										<Image FileName="1000359613" Left="1698" Top="209" Right="1910" Bottom="301" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;CRMTest 4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;navigationBar-userFlyOutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignout" Key="{325063ED-3E8B-4370-826E-467F91281873}">
+										<Image FileName="1000359613" Left="1698" Top="265" Right="1895" Bottom="302" />
+										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SignOut" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@name=&apos;SignOut&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Sign out&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[@role=&apos;link&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;anchorButton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignoutLabel" Key="{4BF07440-1B8F-457D-9D55-3BFE0510938E}">
+										<Image FileName="1000359613" Left="1699" Top="266" Right="1777" Bottom="301" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[@aria-describedby=&apos;SignOut_helptext&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;Sign out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#SignOut_label" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -2008,6 +2080,24 @@
 											</Selector>
 											<Selector>
 												<Value Value="//li/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonClose" Key="{F52D2FF7-12B0-430C-81AB-47F6BB885A66}">
+										<Image FileName="1342090056" Left="1684" Top="189" Right="1714" Bottom="219" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/button[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/button[contains(@class, &apos;ui-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/button" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5811,6 +5901,12 @@
 				<Child Name="Scrollbar" Owner="{63B28441-47BA-4337-8342-0CF55A2986C0}" />
 				<Child Name="PlannedProductionOrder_Node" Owner="{9E93F1A6-D985-4BEC-B935-0B8A9D8AE2D4}" />
 				<Child Name="ProductAndSupply_Panel" Owner="{15AF377F-ABD8-4A4C-8BB4-1B1B33AD2B6E}" />
+				<Child Name="buttonUserbtn" Owner="{B96C8C8B-58F1-475C-914D-0525DD917DCB}" />
+				<Child Name="textnodeCrmtest4" Owner="{8DFBAEC8-5ECA-4657-A3D9-63AD874899DF}">
+					<Child Name="linkSignout" Owner="{325063ED-3E8B-4370-826E-467F91281873}">
+						<Child Name="textnodeSignoutLabel" Owner="{4BF07440-1B8F-457D-9D55-3BFE0510938E}" />
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="Page_SOConfig" Owner="{E67A00D3-D138-4DBA-9421-074767B4836D}">
 				<Child Name="SetChip_Config" Owner="{6AED7B26-D806-484F-8FF3-B24414EF69FE}">
@@ -5849,6 +5945,7 @@
 					<Child Name="ProductName_TextBox" Owner="{9AB40081-6EF6-48F4-B36B-7352710429B2}" />
 					<Child Name="Test_TextBox" Owner="{150B8D6C-5F60-4D80-82DE-BDA44783BF2E}" />
 				</Child>
+				<Child Name="buttonClose" Owner="{F52D2FF7-12B0-430C-81AB-47F6BB885A66}" />
 			</Child>
 			<Child Name="Page_AristocratLogin_Passive" Owner="{858E393B-305B-4067-B78E-6551AD08AB96}">
 				<Child Name="Next_Button" Owner="{62C708B8-01DE-42A6-94C3-6F570DCE272A}" />

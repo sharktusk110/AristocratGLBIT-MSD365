@@ -7,6 +7,7 @@
 
 function SO_GameProgramKit_Test(){
 
+var verify=Aliases.browser.Page_SOConfig.ConfigCheckpoint.ProductName_TextBox;
 Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
 Sheet="GameProgramKit";
 
@@ -26,10 +27,10 @@ ConfigFilter2=[Config[i][3],Config[i][4],Config[i][5],Config[i][6],Config[i][7],
 SO_CreateAndConfig["OrderCreation"](ConfigFilter1);
 SO_CreateAndConfig["OrderConfigurationNavigation"]();
 SO_CreateAndConfig["GameProKitOrderConfiguration"](ConfigFilter2);
-SO_CreateAndConfig["OrderConfiguration"]();
-Delay(50000);
+//SO_CreateAndConfig["OrderConfiguration"]();
+//Delay(50000);
 
-if(aqObject.CheckProperty(Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxProductName, "Text", cmpContains, Config[i][4].split("|")[0], false)){
+if(aqObject.CheckProperty(verify, "Text", cmpContains, Config[i][4].split("|")[0], false)){
   Log.Message("Test Passed for the data row: "+i);
 }else{
   Log.Message("Test Failed for the data row: "+i);

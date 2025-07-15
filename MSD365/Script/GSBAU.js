@@ -487,6 +487,13 @@ Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
 econ_migrate.ConfigureQuote_Link.Click();
 //Delay(50000);
 DynamicWait["dynamic_wait"](econ_migrate.SendToD365_Button,60000);
+
+if(Aliases.browser.Page_EconMainConfiguration.OK_Button.Exists){
+Aliases.browser.Page_EconMainConfiguration.OK_Button.Click();
+Delay(2000);
+Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
+Delay(10000);
+}
 econ_migrate.SendToD365_Button.Click();
 Delay(2000);
 Sys.Browser("edge").Close();
