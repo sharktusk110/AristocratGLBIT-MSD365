@@ -5,51 +5,107 @@
 //module.exports.getObject
 //USEUNIT DynamicWait
 
+
 function split_break() {
-Aliases.browser.Page_EconMainConfiguration.ComplianceCheck_Button.Click();
-// Aliases.browser.Page_EconMainConfiguration.WaitAliasChild("OK_Button",10000).Exists ;
-// DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.ComplianceAlert,60000);
+  
+var AdvancedConfigurationPluz2=Aliases.browser.Page_EconMainConfiguration;
+
+ 
+AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
+Delay(5000);
+//================================
  var bool=0;
- while(bool<=0){
-   if(!Aliases.browser.Page_EconMainConfiguration.ComplianceCheck_Button.VisibleOnScreen){
-     bool=1;
+ while(bool<=30){
+   if(equal(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen,false)){
+     break;
+   } else{
+     Delay(100);
+     bool=bool+1;
    }
-   Delay(2000);
+   Log.Message(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen);
   }
-  Delay(1500);
-  Aliases.browser.Page_EconMainConfiguration.Keys("[Enter]");
+  //Delay(1500);
+  Log.Message(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen);
+  aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass");
+AdvancedConfigurationPluz2.Keys("[Enter]");
+//Aliases.browser.Page_EconMainConfiguration.buttonOk4.Click();
 
-//Aliases.browser.Page_EconMainConfiguration.OK_Button.Click();
-//  Delay(5000);
-//Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
-////Delay(10000);
-//DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox,30000);
-//Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
-//Delay(5000);
-
-//GS Conversion Packs 1 to 9 - (PROMO-SQ25-06)
-//GS Conversion Packs 10 or More - (PROMO-SQ25-07)
-//* No Promotion Selected - (PROMO-NO-PROMO)
-//Aliases.browser.pageLightningExperienceSalesforc2.section.sectionConfigure.select.Keys("* No Promotion Selected - (PROMO-NO-PROMO)");
-//Delay(2000);
-//Aliases.browser.pageLightningExperienceSalesforc2.section.sectionConfigure.select2.Keys("PREMIUM PLUS - (PPL)");
-//Delay(2000);
-//Aliases.browser.pageLightningExperienceSalesforc.section.sectionConfigure.select2.ClickR();
-//Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bLNFCA2/view";
-//  
+//Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link.Click();
+//DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.Configuration_Link,60000);
+//Delay(2000); 
+//Aliases.browser.Page_EconMainConfiguration.Configuration_Link.Click();
+//
 //var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
 //
-//MainConfiguration.SellingModel_Field.SetText("GOps SSP Fixed Fee Non Jackpssdsdsdot Funded");
+//MainConfiguration.SellingModel_Field.SetText("GOps SSP Fixed Fee Non Jackpot Funded");
 //Delay(2000);
 //MainConfiguration.SellingModel_Field.Keys("[Enter]");
 //Delay(2000);
-//Log.Message(MainConfiguration.SellingModel_Field.getAttribute("value"));
-//if(MainConfiguration.SellingModel_Field.getAttribute("value")!="GOps SSP Fixed Fede Non Jackpot Funded"){
-//  Log.Error("Selling model ajax data not received")
-//}
+//
+////if(MainConfiguration.SellingModel_Field.textContent!=Config[0]){
+////  Log.Error("Selling model ajax data not received")
+////}
+//
+//MainConfiguration.Type_Field.Keys("EGM");
+//Delay(2000);
+//MainConfiguration.Type_Field.Keys("[Enter]");
+//
+//DynamicWait["dynamic_wait"](MainConfiguration.Quantity_Field,120000);
+//
+//MainConfiguration.Quantity_Field.SetText("2");
+//Delay(2000);
 
 
+  
 
+//Aliases.browser.Page_EconMainConfiguration.ComplianceCheck_Button.Click();
+//// Aliases.browser.Page_EconMainConfiguration.WaitAliasChild("OK_Button",10000).Exists ;
+//// DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.ComplianceAlert,60000);
+// var bool=0;
+// while(bool<=0){
+//   if(!Aliases.browser.Page_EconMainConfiguration.ComplianceCheck_Button.VisibleOnScreen){
+//     bool=1;
+//   }
+//   Delay(2000);
+//  }
+//  Delay(1500);
+//  if(aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass")){
+//
+//  Aliases.browser.Page_EconMainConfiguration.Keys("[Enter]");
+//  
+//  }
+//
+////Aliases.browser.Page_EconMainConfiguration.OK_Button.Click();
+////  Delay(5000);
+////Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
+//////Delay(10000);
+////DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox,30000);
+////Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
+////Delay(5000);
+//
+////GS Conversion Packs 1 to 9 - (PROMO-SQ25-06)
+////GS Conversion Packs 10 or More - (PROMO-SQ25-07)
+////* No Promotion Selected - (PROMO-NO-PROMO)
+////Aliases.browser.pageLightningExperienceSalesforc2.section.sectionConfigure.select.Keys("* No Promotion Selected - (PROMO-NO-PROMO)");
+////Delay(2000);
+////Aliases.browser.pageLightningExperienceSalesforc2.section.sectionConfigure.select2.Keys("PREMIUM PLUS - (PPL)");
+////Delay(2000);
+////Aliases.browser.pageLightningExperienceSalesforc.section.sectionConfigure.select2.ClickR();
+////Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bLNFCA2/view";
+////  
+////var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
+////
+////MainConfiguration.SellingModel_Field.SetText("GOps SSP Fixed Fee Non Jackpssdsdsdot Funded");
+////Delay(2000);
+////MainConfiguration.SellingModel_Field.Keys("[Enter]");
+////Delay(2000);
+////Log.Message(MainConfiguration.SellingModel_Field.getAttribute("value"));
+////if(MainConfiguration.SellingModel_Field.getAttribute("value")!="GOps SSP Fixed Fede Non Jackpot Funded"){
+////  Log.Error("Selling model ajax data not received")
+////}
+//
+//
+//
 
 
 

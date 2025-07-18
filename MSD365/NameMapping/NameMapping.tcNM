@@ -2897,13 +2897,7 @@
 										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//input[@id=(//label[.=&apos;Search this list...&apos;]/@for)]" />
-											</Selector>
-											<Selector>
 												<Value Value="//input[@name=&apos;Quote-search-input&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//force-list-view-manager-search-bar//lightning-input/lightning-primitive-input-simple//input" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -2986,22 +2980,7 @@
 										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#customTab__item" />
-											</Selector>
-											<Selector>
 												<Value Value="//a[.=&apos;Configure Quote&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//li[5]/a[@role=&apos;tab&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//li[5]/a[contains(@class, &apos;slds-tabs_default__link&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul/li[5]/a" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li[5]/a" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3048,16 +3027,7 @@
 												<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//span[.=&apos;Configuration[1]&apos;]" />
-													</Selector>
-													<Selector>
-														<Value Value="//a/span[contains(@class, &apos;eConTreeNodeLabel&apos;)]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;oTree&apos;]//a/span" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;oMain1Container&apos;]//ul/li/ul/li//a/span" />
+														<Value Value="xpath=//div[@class=&apos;eConTreeNodeLine ui-state-default&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3105,13 +3075,7 @@
 												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//input[@id=(//label[.=&apos;SellingModel&apos;]/@for)]" />
-													</Selector>
-													<Selector>
-														<Value Value="#ID0EU" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;oMain1Container&apos;]//tr/td//input" />
+														<Value Value="xpath=//input[@name=&apos;configuration[1].sellingmodel&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3213,10 +3177,7 @@
 												<TypeInfo Item0="{1C8EF5F1-727E-44B6-B5B0-426127098976}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//input[@id=(//label[.=&apos;Type&apos;]/@for)]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;oMain1Container&apos;]//tr[2]/td//input" />
+														<Value Value="xpath=//input[@name=&apos;configuration[1].type&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3443,11 +3404,10 @@
 												</Selectors>
 											</Child>
 											<Child Name="buttonOk4" Key="{B22C3697-F976-4488-A1EC-5E8A23C0C086}">
-												<Image FileName="-2146768878" Left="1066" Top="685" Right="1144" Bottom="716" />
 												<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
 												<Selectors>
 													<Selector>
-														<Value Value="(//button)[35]" />
+														<Value Value="xpath=//div[@class=&apos;ui-widget-overlay ui-front&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>

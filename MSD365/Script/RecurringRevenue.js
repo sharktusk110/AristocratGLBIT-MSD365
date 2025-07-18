@@ -141,7 +141,7 @@ var econ_config=Aliases.browser.Page_EconMainConfiguration;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
          "Quote/list?filterName=__Recent";
          
-//quotename="ECON WHEELING ISLAND RACETRACK AND GAMING CENTER -9785116533- 07/15/2025";         
+//quotename="ECON WHEELING ISLAND RACETRACK AND GAMING CENTER -6140668933- 07/18/2025";         
 
 Browsers.Item(btChrome).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "Tester\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" --disable-site-isolation-trials";           
@@ -169,9 +169,8 @@ Project.Variables.quoteurl=urc;
 econ_config.ConfigureQuote_Link.Click();
 
 //Delay(50000);
-DynamicWait["dynamic_wait"](econ_config.Configuration_Link,60000);
-
-econ_config.Configuration_Link.scrollIntoView();
+DynamicWait["dynamic_wait"](econ_config.Configuration_Link,120000);
+Delay(2000);
 econ_config.Configuration_Link.Click();
 
 }
@@ -181,6 +180,12 @@ function econ_mainconfiguration(Config){
 //Project.Variables.quoteurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000boqfCAA/view";
   
 var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
+
+if(!MainConfiguration.SellingModel_Field.Exists){
+  Sys.Browser("chrome").Close();
+  econ_configuration_navigation();
+  Aliases.browser.Page_EconMainConfiguration.Configuration_Link.Click();
+}
 
 MainConfiguration.SellingModel_Field.SetText(Config[0]);
 Delay(2000);
@@ -194,16 +199,16 @@ Delay(2000);
 MainConfiguration.Type_Field.Keys(Config[1]);
 Delay(2000);
 MainConfiguration.Type_Field.Keys("[Enter]");
-Delay(5000);
+
+DynamicWait["dynamic_wait"](MainConfiguration.Quantity_Field,60000);
 
 MainConfiguration.Quantity_Field.SetText(Config[2]);
-Delay(2000);
-MainConfiguration.Quantity_Field.Keys("[Enter]");
 Delay(2000);
 
 MainConfiguration.LicenseType_Field.SetText(Config[3]);
 Delay(2000);
 MainConfiguration.LicenseType_Field.Keys("[Enter]");
+Delay(2000);
 
 MainConfiguration.ProgressiveType_Field.SetText(Config[4]);
 Delay(2000);
@@ -214,6 +219,13 @@ MainConfiguration.GameTheme_Field.SetText(Config[5]);
 Delay(2000);
 MainConfiguration.GameTheme_Field.Keys("[Enter]");
 Delay(10000);
+
+if(!MainConfiguration.GameTheme_Field.getAttribute("value")==Config[5]){
+MainConfiguration.GameTheme_Field.SetText(Config[5]);
+Delay(5000);
+MainConfiguration.GameTheme_Field.Keys("[Enter]");
+Delay(10000);
+}
 
 MainConfiguration.GameTitle_Field.SetText(Config[6]);
 Delay(2000);
@@ -381,15 +393,19 @@ Delay(10000);
 Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
 Delay(2000);
 AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
+Delay(2000);
 //==========================
- var bool=0;
- while(bool<=0){
-   if(!Aliases.browser.Page_EconMainConfiguration.ComplianceCheck_Button.VisibleOnScreen){
-     bool=1;
+  var bool=0;
+ while(bool<=30){
+   if(equal(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen,false)){
+     break;
+   } else{
+     Delay(100);
+     bool=bool+1;
    }
-   Delay(2000);
+   Log.Message(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen);
   }
-  Delay(1500);
+  Delay(2000);
 //==========================  
 if(aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass")){
 AdvancedConfigurationPluz2.Keys("[Enter]");
@@ -501,7 +517,7 @@ Sys.Browser("chrome").Close();
 
 function D65_MigrationCheck(Config)
 {
-//quote_number="00141774";
+//quote_number="00142193444";
 var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
 var firm=Aliases.browser.Page_D65;
 Browsers.Item(btChrome).Run(durl);
@@ -532,7 +548,21 @@ Browsers.Item(btChrome).Run(durl);
   firm.QuoteNumberFilter_TextField.SetText(quote_number);
   Delay(2000);
   firm.Apply_Button.Click();
-  Delay(2000); 
+  Delay(2000);
+  var pp=0;
+  while(pp<=5){
+  if(!firm.CustomerName_Node.Exists){
+  firm.QuoteNumber_Panel.Click();
+  Delay(2000);
+  firm.QuoteNumberFilter_TextField.SetText(quote_number);
+  Delay(2000);
+  firm.Apply_Button.Click();
+  Delay(2000);
+  pp++;
+  }else{
+    break;
+  }
+  }
   aqObject.CheckProperty(firm.CustomerName_Node, "title", cmpContains, Config[0]);
   
   Sys.Browser("chrome").Close();
