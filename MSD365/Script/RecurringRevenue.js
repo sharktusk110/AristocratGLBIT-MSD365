@@ -451,7 +451,7 @@ econ_approval.Related_Tab.Keys("[Down][Down][Down][Down][Down][Down][Down][Down]
 DynamicWait["dynamic_wait"](econ_approval.EconApprove_Button,30000);
 econ_approval.EconApprove_Button.Click();
 Delay(2000);
-econ_approval.SubmitforApproval_TextField.Keys("Please approve");
+econ_approval.SubmitforApproval_TextField.Keys("Approved,please take it forward");
 Delay(2000);
 econ_approval.SubmitforApprovalI_Button.Click();
 Delay(2000);
@@ -473,6 +473,7 @@ Browsers.Item(btChrome).Run(Project.Variables.caseurl);
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
 //Project.Variables.caseurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Case/5009r00000KkKoFAAV/view";
+DynamicWait["dynamic_wait"](casedetail.Edit_Icon,30000);
 casedetail.Edit_Icon.Click();
 Delay(2000);
 casedetail.Status_Panel.Click();
@@ -500,6 +501,7 @@ Browsers.Item(btChrome).Run(urc);
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
 
+DynamicWait["dynamic_wait"](econ_migrate.ConfigureQuote_Link,30000);
 econ_migrate.ConfigureQuote_Link.Click();
 //Delay(50000);
 DynamicWait["dynamic_wait"](econ_migrate.SendToD365_Button,60000);

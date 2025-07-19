@@ -9,11 +9,14 @@
 
 function BOMFirming(){
 
-var quote_number="00141951";
+var quote_number;
+var customer;
 var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
+var purl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=ProdTableListPage";
+var WO=Aliases.browser.Page_D65.FindElement("//div[@role='main']/form//div//input[@value='"+customer+"']");
 var firm=Aliases.browser.Page_D65;
-Browsers.Item(btEdge).Run(durl);
- //quote_number="00141620";
+var SO;
+Browsers.Item(btChrome).Run(durl);
  
   // User needs to login into D65 Account inorder to initiate firming activity.
   Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
@@ -24,9 +27,19 @@ Browsers.Item(btEdge).Run(durl);
    //User needs to click on grid options inorder to add quote number as a column and conduct search for quote number
   firm.GridOptions_Button.Click();
   Delay(2000);
+  var delay=0;
+  while(delay<=0){
+   if(!firm.GridMenu_Button.InsertColumns_Button.Exists){
+     firm.GridOptions_Button.Click();
+     
+    }else{
+      break;
+         }
+   }
+  //DynamicWait["dynamic_wait"](firm.GridMenu_Button.InsertColumns_Button,30000);
   firm.GridMenu_Button.InsertColumns_Button.Click();
   //Delay(5000);
-  DynamicWait["dynamic_wait"](firm.QuoteNumber_TextField,6000);
+  DynamicWait["dynamic_wait"](firm.QuoteNumber_TextField,30000);
   firm.QuoteNumber_TextField.SetText("quote number");
   Delay(2000);
   firm.AllFields_Menu.ApplyFilter_Button.Click();
@@ -57,18 +70,25 @@ Browsers.Item(btEdge).Run(durl);
                       "Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]"+
                       "Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]");
   //}
+  SO=firm.SalesOrder_Node.getattribute("value");
+  
   firm.SalesOrder_Node.Click();
   Delay(2000);
   
   // User needs to click on Supply link and initiate explosion activity
+  DynamicWait["dynamic_wait"](firm.ProductAndSupply_Panel,30000);
   firm.ProductAndSupply_Panel.Click();
   Delay(2000);
+  DynamicWait["dynamic_wait"](firm.Explosion_Link,30000);
   firm.Explosion_Link.Click();
   Delay(2000);
+  
+  DynamicWait["dynamic_wait"](firm.PlannedOrders_Tab,30000);
   firm.PlannedOrders_Tab.Click();
   Delay(10000);
   
   // User needs to filter out planned production orders inorder to proceed with the firming activity
+  DynamicWait["dynamic_wait"](firm.Reference_Panel,30000);
   firm.Reference_Panel.Click();
   Delay(2000);
   firm.ReferenceFilter_Field.Keys("Planned Production");
@@ -84,8 +104,20 @@ Browsers.Item(btEdge).Run(durl);
   
   // Once "Ok" button is clicked then firming starts & it takes sometime inorder to generate the workorders
   Aliases.browser.Page_SOCreation.Ok_Button.Click();
+
+  Delay(2000);
+  
+  Browsers.Item(btChrome).Navigate(purl);
+  DynamicWait["dynamic_wait"](Aliases.browser.Page_D65.ProductionOrder_SearchField,30000);
+  Delay(2000);
+  Aliases.browser.Page_D65.ProductionOrder_SearchField.SetText(SO);
+  Delay(2000);
+  Aliases.browser.Page_D65.ProductionOrder_SearchField.Keys("[Enter]");
+  DynamicWait["dynamic_wait"](WO,30000);
+  Delay(2000);
+  aqObject.CheckProperty(WO, "value", cmpContains, customer);
   
   
- Sys.Browser("edge").Close(); 
+ Sys.Browser("chrome").Close(); 
 
 }

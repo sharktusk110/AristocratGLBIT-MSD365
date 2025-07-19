@@ -1497,6 +1497,75 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textboxFilter" Key="{601B46A2-C5BE-4362-B84E-B1D5F2C92335}">
+										<Image FileName="23366919" Left="122" Top="646" Right="452" Bottom="691" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;QuickFilterControl_Input&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@aria-label=&apos;Filter&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]//div[@id=&apos;prodtablelistpage_12_Filter&apos;]//input[@role=&apos;combobox&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;prodtablelistpage_12_Filter&apos;]//input[contains(@class, &apos;textbox&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;prodtablelistpage_12_Filter&apos;]//input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;prodtablelistpage_12_Filter&apos;]//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxProduction" Key="{7599C2C1-2A43-40AC-85C0-D1092B636405}">
+										<Image FileName="-1850727564" Left="184" Top="753" Right="332" Bottom="798" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div//input[@aria-label=&apos;Production&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;WO001130112&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;prodtablelistpage_12_ListPageGrid&apos;]//div[@id=&apos;GridCell-0-ProdTable_ProdId&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;GridCell-0-ProdTable_ProdId&apos;]//input[contains(@class, &apos;dyn-field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;GridCell-0-ProdTable_ProdId&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;prodtablelistpage_12_ListPageGrid&apos;]//div[@id=&apos;GridCell-0-ProdTable_ProdId&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCustomerName2" Key="{10EC9F74-FA29-44C3-BFAE-01FBE6AB832B}">
+										<Image FileName="2107466793" Left="1156" Top="753" Right="1484" Bottom="798" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div//input[@value=&apos;WHEELING ISLAND RACETRACK AND GAMING CENTER&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;prodtablelistpage_12_ListPageGrid&apos;]//div[21]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[21]//input[contains(@class, &apos;dyn-field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;prodtablelistpage_12_ListPageGrid&apos;]//div[21]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;prodtablelistpage_12_ListPageGrid&apos;]//div[21]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="page00300505XmlECon" Key="{E67A00D3-D138-4DBA-9421-074767B4836D}">
@@ -5934,6 +6003,9 @@
 						<Child Name="textnodeSignoutLabel" Owner="{4BF07440-1B8F-457D-9D55-3BFE0510938E}" />
 					</Child>
 				</Child>
+				<Child Name="ProductionOrder_SearchField" Owner="{601B46A2-C5BE-4362-B84E-B1D5F2C92335}" />
+				<Child Name="textboxProduction" Owner="{7599C2C1-2A43-40AC-85C0-D1092B636405}" />
+				<Child Name="textboxCustomerName2" Owner="{10EC9F74-FA29-44C3-BFAE-01FBE6AB832B}" />
 			</Child>
 			<Child Name="Page_SOConfig" Owner="{E67A00D3-D138-4DBA-9421-074767B4836D}">
 				<Child Name="SetChip_Config" Owner="{6AED7B26-D806-484F-8FF3-B24414EF69FE}">

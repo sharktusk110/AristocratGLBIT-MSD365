@@ -7,27 +7,24 @@
 
 
 function split_break() {
+  var firm=Aliases.browser.Page_D65;
+  var SO;
+  var WO;
+  var customer="WHEELING ISLAND RACETRACK AND GAMING CENTER";
   
-var AdvancedConfigurationPluz2=Aliases.browser.Page_EconMainConfiguration;
-
- 
-AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
-Delay(5000);
-//================================
- var bool=0;
- while(bool<=30){
-   if(equal(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen,false)){
-     break;
-   } else{
-     Delay(100);
-     bool=bool+1;
-   }
-   Log.Message(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen);
-  }
+  SO=firm.SalesOrder_Node.getattribute("value");
   Delay(2000);
-  Log.Message(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen);
-  aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass");
-AdvancedConfigurationPluz2.Keys("[Enter]");
+  Browsers.Item(btChrome).Navigate("https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=ProdTableListPage");
+  Delay(2000);
+  Aliases.browser.Page_D65.ProductionOrder_SearchField.SetText(SO);
+  Delay(2000);
+  Aliases.browser.Page_D65.ProductionOrder_SearchField.Keys("[Enter]");
+  Delay(2000);
+  WO=Aliases.browser.Page_D65.FindElement("//div[@role='main']/form//div//input[@value='"+customer+"']");
+  aqObject.CheckProperty(WO, "value", cmpContains, customer);
+  //Log.Message(WO);
+  //div[@role='main']/form//div//input[@value='WHEELING ISLAND RACETRACK AND GAMING CENTER']
+//firm.SalesOrder_Node.getattribute("value");
 //Aliases.browser.Page_EconMainConfiguration.buttonOk4.Click();
 
 //Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link.Click();

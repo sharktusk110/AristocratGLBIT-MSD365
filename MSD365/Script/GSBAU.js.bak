@@ -551,7 +551,7 @@ casedetail.Save_Button.Click();
 Delay(2000);
 casedetail.EconQuote_Node.Click();
 Delay(2000);
-Sys.Browser("edge").Close();
+Sys.Browser("chrome").Close();
 
 }
 

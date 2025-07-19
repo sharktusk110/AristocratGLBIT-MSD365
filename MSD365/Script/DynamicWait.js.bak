@@ -13,22 +13,3 @@ function dynamic_wait(locator,cap){
          }
    }
 }
-
-function waitForObjectVisible(object, timeout) {
-  var startTime = new Date().getTime();
-  var endTime = startTime + timeout;
-  while (new Date().getTime() <= endTime) {
-    try {
-      if (object.Visible && object.Enabled ) {
-          aqUtils.Delay(500);
-        //Log.Message("Object is visible.");
-        return true;
-      }
-    } catch (err) {
-      Log.Warning("Error accessing object: " + err.message);
-    }
-    aqUtils.Delay(100); 
-  }
-  Log.Error("Error Msg:Object did not become visible within the timeout: "+ object);
-  return false;
-}
