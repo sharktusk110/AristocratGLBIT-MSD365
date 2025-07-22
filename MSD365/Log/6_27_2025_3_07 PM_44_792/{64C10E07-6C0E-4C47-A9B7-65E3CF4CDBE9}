@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 41">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306052778"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{C4F87606-75C9-4755-AEE7-35D02B5A9F3F}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="split_break"/>
+		</Node>
+		<Node name="message 64">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="There was an attempt to perform an action on a zero-sized window."/>
+			<Prp name="date" type="D" value="45835.6309190741"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="remarks" type="S" value="The window size is (0, 0); the screen rectangle: the left top corner is (6, 111), the right bottom corner is (6, 111).&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonSalesOrderLines4.panel3&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableDetails&quot;).FindElement(&quot;(//div)[2098]&quot;))"/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306083681"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{F9B7A8C5-0BAB-4601-9962-3DA91E9F477B}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 66">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The script execution was interrupted."/>
+			<Prp name="date" type="D" value="45835.6310629745"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305991319"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{C3F69BBC-2B13-49B2-B0B1-3BAEED10E9E4}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.63052375"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{CB939A88-5453-4961-8CEE-5322B98F7B43}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306004977"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{BB69F1AC-E1F1-496E-A9FD-E5D3D3C7C50C}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305479514"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{C3CD2115-7DCB-472A-8DFD-96DCE1C88119}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305525926"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{7179058F-1433-448A-A160-9975E54A62BB}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306460995"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{077C4068-3787-4C46-9D2B-40B5E62C2701}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305811227"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{1ADEE9D4-93E7-4B1E-8B19-16E1A9C08EAE}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305941319"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{AC3AFE8E-A1D1-455B-96C8-D917C2F2F111}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.630567419"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{E2743EC2-0D7D-4F59-A430-2BDECF7391AA}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305722685"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{88377327-CE6B-43AB-BB36-CB5CBB03E17A}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 55">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306383333"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{35BBD1C8-74DF-460D-B573-3ACB06A6E152}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 52">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306324769"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{C63F178F-56E0-4C99-B844-3AC30B4D3390}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305361458"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{2B087614-D8D9-48D8-BD87-B14280639B20}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 49">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306247106"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{27C27CF7-7576-4E5A-A444-5F77C68C121B}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305310417"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{E1422C73-15E5-4F79-B0DE-63F519A4B13C}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="split_break"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305223495"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{60C5D1F3-98D5-4981-889E-506E013A5182}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305022917"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{611F6E99-6312-4DE8-BE2B-4AC88D6894DF}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305627894"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{19B7F14E-C316-489D-8117-F5AB1F15D991}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305189931"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{A506C071-AA1F-4CB7-8C88-51797BA2F720}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305267593"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{AC078148-9D7B-4A05-A6E1-BD95E58FE19C}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305430903"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{4EEB304B-A462-468C-BE51-E0E925463274}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306172569"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{AB930086-A8D2-4933-98EF-BEF977211D04}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305172569"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{5BBF3A90-C34D-462B-A96F-863ED3BF9081}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 61">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306541204"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{56DF34F0-14EC-4222-A0E0-D9F6070B8782}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 62">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306572106"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{F85C3388-EAA4-4C8C-BB73-92D025460FFB}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305568056"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{EEAED873-D764-4421-875D-CFA8E2866FAA}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{4F71A839-6E2D-4483-A3F2-C4F1569856B2}"/>
+		</Node>
+		<Node name="message 47">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306193171"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{B40AB3DD-631B-47CD-A56A-0AACC51B5B1F}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305078704"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{1DDE24A4-D910-4F75-ABD4-33F7430A5A01}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305707523"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{6C71D2E7-4A19-4121-8802-D05C9398C596}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305512384"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{E7C126FB-5202-4F74-9760-37F04FD756B4}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 53">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.63063375"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{C5D78B20-A97C-4322-A7B8-71BDA5AFA240}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306230903"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{55A25C36-C806-4F3A-B01C-B67E7CBFABE5}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305280324"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{67A63E22-1A6F-45D5-830C-9E026A00614D}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306097917"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{2AA069AB-8E2B-4914-A5DB-70F446E76037}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305861343"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{1316B707-7079-440A-8F15-0657616F1F2C}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 31">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305798264"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{6AC9A5A6-DB22-44A5-A5C4-CD610EAB3B27}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 63">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="There was an attempt to perform an action at a point, which is beyond the screen."/>
+			<Prp name="date" type="D" value="45835.6306591319"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="Screen coordinates of the point: (-2554, 793).&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxSalesOrder&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableDetails&quot;).FindElement(&quot;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&quot;))"/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 44">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.630613044"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{346301AE-EB4B-4E08-AB9E-3A68AF458142}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 65">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45835.6309484028"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="remarks" type="S" value="A click at point (77, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonSalesOrderLines5.buttonProductAndSupply&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableDetails&quot;).FindElement(&quot;//button[contains(.,'Product and supply')]&quot;))"/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305956019"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{071F9E08-5EC0-4154-8022-0D885549B683}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305464468"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{D95C5C60-358E-46BB-BE6D-C86C97F73F42}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 45">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306143634"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{A65D1AC7-5645-4C5E-90DB-E6FA7991632E}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305131944"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{1F1E6F4B-1E5A-4A3F-AC2C-6A362CA47364}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305768519"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{2F8EDF44-BE8D-4AA7-8BA1-DDA931F01F18}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305887616"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{1287F321-0454-44F2-913F-45D8CD10C9EB}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 57">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306431829"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{731D344D-AB1D-4A32-8280-3EEC5251BA99}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306277199"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{3F78DE32-ECA0-4E1B-B83E-24AC7E53EF67}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.630532662"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{1746DAD6-7939-4F83-9FBD-B7708D3ACA3B}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Ambiguous browser recognition."/>
+			<Prp name="date" type="D" value="45835.630394213"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;There are several browsers running in the system. The executed test commands do not specify the web browser to be used (this can happen, for example, when you are running part of your test).&lt;/p&gt;&lt;p style=&quot;margin-top : 12px;&quot;&gt;&lt;b&gt;&lt;u&gt;Launched browsers:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;div style=&quot;margin-left: 24px;&quot;&gt;Sys.Browser(&quot;chrome&quot;)&lt;br&gt;Sys.Browser(&quot;edge&quot;)&lt;/div&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Please close the browsers you do not want to use and run the test again. Alternatively, you can run the test from the Run Browser or Navigate command that specifies the desired browser (IExplore, Firefox, Chrome).&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://4297&quot;&gt;See Help for more information&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306416319"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{3E4AF752-BC10-4EB6-9F9D-D85CFE405319}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306288889"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{EFCDAAF9-530D-40A4-8804-5223CA1C700F}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305585417"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{A55A2388-BD75-4796-8A47-755BC2A31239}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.630561412"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{6A93EC67-0027-4B1B-ADE1-6F122C42D6B4}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305828472"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{EBA84E9E-1B1E-4265-9728-D80726EEC1C4}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305376505"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{F94E2D15-D403-42A0-9C71-C1E4257EE387}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305754167"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{22F98764-FC16-4BB5-975A-0A42179E42D5}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306368866"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{B5AE84EF-B08F-48BF-8607-6F34223C9824}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 59">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306477894"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{F1106C63-E5BB-4687-9552-36A85F70177E}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305415856"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{E5608C04-47A9-4734-91E9-88F23CC33ED0}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 60">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306521296"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{ECED89A9-1F91-4414-BA0E-E21FDFBCC577}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305659954"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{819F5221-0DD4-46BE-B90E-0C941CCC79B7}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6305112963"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{F5808C36-88E8-4361-89FA-B545EE34636D}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="date" type="D" value="45835.6306038426"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{AA889747-F3F0-46FA-9803-53C86B70BF55}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 1">
+			<Prp name="date" type="D" value="45835.6367569329"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left][Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel5&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableDetails&quot;).FindElement(&quot;//div[@role='main']/form//div[@id='salestabledetails_1_TabPageGrid_panel']//div[contains(@class, 'ScrollbarLayout_main')]&quot;))"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{4F71A839-6E2D-4483-A3F2-C4F1569856B2}"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="date" type="D" value="45835.6368784954"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (79, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxSalesOrder&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableDetails&quot;).FindElement(&quot;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&quot;))"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="45835.636708206"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Ambiguous browser recognition."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;There are several browsers running in the system. The executed test commands do not specify the web browser to be used (this can happen, for example, when you are running part of your test).&lt;/p&gt;&lt;p style=&quot;margin-top : 12px;&quot;&gt;&lt;b&gt;&lt;u&gt;Launched browsers:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;div style=&quot;margin-left: 24px;&quot;&gt;Sys.Browser(&quot;chrome&quot;)&lt;br&gt;Sys.Browser(&quot;edge&quot;)&lt;/div&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Please close the browsers you do not want to use and run the test again. Alternatively, you can run the test from the Run Browser or Navigate command that specifies the desired browser (IExplore, Firefox, Chrome).&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://4297&quot;&gt;See Help for more information&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="date" type="D" value="45835.6368740394"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{AD01101A-1A08-41FD-B80F-097C77A1F8D6}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>

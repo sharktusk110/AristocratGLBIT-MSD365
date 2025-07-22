@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{4F71A839-6E2D-4483-A3F2-C4F1569856B2}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45834.9666348495"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageEconBellagioLasVegas21888452.&amp;#8203;frame2.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{86C4FE4B-9458-4B33-8E13-E5A3F2403AEB}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxId0eiwae&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@id='Advanced']//tr[15]/td//input&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAIAbm0BACQAODZDNEZFNEJ4OTQ1OHg0QjMzeDhFMTN4RTVBM0YyNDAz&#xA;QUVCBgBjb25maWcBABUARGVmYXVsdCBDb25maWd1cmF0aW9uCQBwcm9wY291bnQAAAAABAB0eXBl&#xA;AQALAFJlY29nbml0aW9uBwBwcm9qZWN0AQAkADlDNEVGMkI3eDI4RUV4NENBOXhCRjIyeDY2OEI3&#xA;ODI0Q0YyOQQAbW9kZQAAAgAEAAcAbWF0Y2hlZAAAAAAGAHZhbHVlcwMAAQAxAQAlAEAyMzAwNDkw&#xA;MDQ0MDAzMDAwNDUwMDQ5MDA1NzAwNDEwMDQ1MDABADABAMKdAEAyRjAwMkYwMDY5MDA2RTAwNzAw&#xA;MDc1MDA3NDAwNUIwMDQwMDA2OTAwNjQwMDNEMDAyODAwMkYwMDJGMDA2QzAwNjEwMDYyMDA2NTAw&#xA;NkMwMDVCMDAyRTAwM0QwMDI3MDA1NDAwNkYwMDcwMDA3MDAwNjUwMDcyMDAyNzAwNUQwMDJGMDA0&#xA;MDAwNjYwMDZGMDA3MjAwMjkwMDVEMDABADIBAMKdAEAyRjAwMkYwMDY0MDA2OTAwNzYwMDVCMDA0&#xA;MDAwNjkwMDY0MDAzRDAwMjcwMDQxMDA2NDAwNzYwMDYxMDA2RTAwNjMwMDY1MDA2NDAwMjcwMDVE&#xA;MDAyRjAwMkYwMDc0MDA3MjAwNUIwMDMxMDAzNTAwNUQwMDJGMDA3NDAwNjQwMDJGMDAyRjAwNjkw&#xA;MDZFMDA3MDAwNzUwMDc0MDAAAAUAbmFtZXMAAAAACwBmb3VuZHZhbHVlcwMAAQAxAQDCnQBAMkYw&#xA;MDJGMDA2OTAwNkUwMDcwMDA3NTAwNzQwMDVCMDA0MDAwNjkwMDY0MDAzRDAwMjgwMDJGMDAyRjAw&#xA;NkMwMDYxMDA2MjAwNjUwMDZDMDA1QjAwMkUwMDNEMDAyNzAwNTQwMDZGMDA3MDAwNzAwMDY1MDA3&#xA;MjAwMjcwMDVEMDAyRjAwNDAwMDY2MDA2RjAwNzIwMDI5MDA1RDAwAQAwAQDCnQBAMkYwMDJGMDA2&#xA;NDAwNjkwMDc2MDA1QjAwNDAwMDY5MDA2NDAwM0QwMDI3MDA0MTAwNjQwMDc2MDA2MTAwNkUwMDYz&#xA;MDA2NTAwNjQwMDI3MDA1RDAwMkYwMDJGMDA3NDAwNzIwMDVCMDAzMTAwMzUwMDVEMDAyRjAwNzQw&#xA;MDY0MDAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3NDAwAQAyAQAlAEAyMzAwNDkwMDQ0MDAzMDAw&#xA;NDUwMDQ5MDA1NzAwNDEwMDQ1MDAAAA==&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="message 1">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45834.9666374769"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'TOPPER MARSX PORTRAIT 21IN LCD BRN' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Topper_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000avJ7CAI/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//div[@id='Advanced']//tr[15]/td//input&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45834.9666997222"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (25, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.CompleteEdit_Button&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000avJ7CAI/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;#ID0EUB&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45834.9666678009"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_EconAdvancedConfiguration_I.Topper_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000avJ7CAI/view&quot;).FindElement(&quot;//iframe[contains(@src, 'eConEngineHtml.aspx')]&quot;).FindElement(&quot;//div[@id='Advanced']//tr[15]/td//input&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

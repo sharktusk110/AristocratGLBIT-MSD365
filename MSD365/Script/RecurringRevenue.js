@@ -23,9 +23,10 @@ function Opportunity_Creation(Config) {
  
  Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
  Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
- Delay(2000);
  
+ DynamicWait["dynamic_wait"](app.AppLauncher_Button,30000);
  app.AppLauncher_Button.Click();
+ DynamicWait["dynamic_wait"](app.SearchAppsAndItems_SearchField,30000);
  app.SearchAppsAndItems_SearchField.SetText("Aristocrat");
  app.SearchAppsAndItems_SearchField.Keys("[Enter]");
  
@@ -160,6 +161,9 @@ econ_nav.SearchThisList_SearchField.Keys("[Enter]");
 Delay(2000);
 
 DynamicWait["dynamic_wait"](econ_nav.SearchedEcon_Node,60000);
+
+quote_number=econ_nav.quotenum.textContent;
+
 econ_nav.SearchedEcon_Node.Click();
 
 Delay(2000);
@@ -393,7 +397,7 @@ Delay(10000);
 Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
 Delay(2000);
 AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
-Delay(2000);
+Delay(5000);
 //==========================
   var bool=0;
  while(bool<=30){
@@ -513,7 +517,7 @@ Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
 Delay(10000);
 }
 econ_migrate.SendToD365_Button.Click();
-Delay(2000);
+Delay(15000);
 Sys.Browser("chrome").Close();
 }
 

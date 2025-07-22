@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 25">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.676478044"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 88">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766775347"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="88"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 82">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766572917"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="82"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764630903"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765168171"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 59">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765858333"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 61">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765918634"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765096759"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 93">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766940162"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="93"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 75">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766358912"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="75"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765600579"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 72">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766265972"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="72"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 89">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766811111"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="89"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 53">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765664468"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 68">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766138773"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 104">
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6769424074"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="104"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (77, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonSalesOrderLines5.buttonProductAndSupply&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableDetails&quot;).FindElement(&quot;//button[contains(.,'Product and supply')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 108">
+			<Prp name="message" type="S" value="The script execution was interrupted."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6785502315"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="id" type="I" value="108"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 96">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6767029977"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="96"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765695023"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 73">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766301852"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="message" type="S" value="Ambiguous browser recognition."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6762034722"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;There are several browsers running in the system. The executed test commands do not specify the web browser to be used (this can happen, for example, when you are running part of your test).&lt;/p&gt;&lt;p style=&quot;margin-top : 12px;&quot;&gt;&lt;b&gt;&lt;u&gt;Launched browsers:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;div style=&quot;margin-left: 24px;&quot;&gt;Sys.Browser(&quot;chrome&quot;)&lt;br&gt;Sys.Browser(&quot;edge&quot;)&lt;/div&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Please close the browsers you do not want to use and run the test again. Alternatively, you can run the test from the Run Browser or Navigate command that specifies the desired browser (IExplore, Firefox, Chrome).&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://4297&quot;&gt;See Help for more information&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764573958"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765200694"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 107">
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6771639699"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="107"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (57, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonButtonreqpo&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableDetails&quot;).FindElement(&quot;//button[@name='ButtonReqPo']&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765440741"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 106">
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6770957176"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="106"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (83, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonRequirementsExplosion&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableDetails&quot;).FindElement(&quot;//button[@name='buttonLineExplosion']&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 60">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.67658875"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 97">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6767056829"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="97"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764514236"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 94">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766971065"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="94"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764972454"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764165046"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 55">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765727315"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="message" type="S" value="The text '00141718' was entered in the text editor."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6762105671"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textbox&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;xpath=/html/body/div[21]/div[3]/div/div[3]/div/div/input&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6763506597"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{44603A16-9D41-4957-9202-62727F9AE844}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;buttonLogisticspostaladdressStre&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//button[contains(., 'Apply')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAcAcHJvamVjdAEAJAA5QzRFRjJCN3gyOEVFeDRDQTl4QkYyMng2NjhC&#xA;NzgyNENGMjkGAGNvbmZpZwEAFQBEZWZhdWx0IENvbmZpZ3VyYXRpb24JAHByb3Bjb3VudAAAAAAC&#xA;AG5tAQAkADQ0NjAzQTE2eDlENDF4NDk1N3g5MjAyeDYyNzI3RjlBRTg0NAQAbW9kZQAAAgAEAHR5&#xA;cGUBAAsAUmVjb2duaXRpb24EAAsAZm91bmR2YWx1ZXMDAAEAMgEAw7EAQDJGMDAyRjAwNjIwMDc1&#xA;MDA3NDAwNzQwMDZGMDA2RTAwNUIwMDQwMDA2RTAwNjEwMDZEMDA2NTAwM0QwMDI3MDA0QzAwNkYw&#xA;MDY3MDA2OTAwNzMwMDc0MDA2OTAwNjMwMDczMDA1MDAwNkYwMDczMDA3NDAwNjEwMDZDMDA0MTAw&#xA;NjQwMDY0MDA3MjAwNjUwMDczMDA3MzAwNUYwMDUzMDA3NDAwNzIwMDY1MDA2NTAwNzQwMDVGMDA0&#xA;MTAwNzAwMDcwMDA2QzAwNzkwMDQ2MDA2OTAwNkMwMDc0MDA2NTAwNzIwMDczMDAyNzAwNUQwMAEA&#xA;MAEAeQBAMkYwMDJGMDA2MjAwNzUwMDc0MDA3NDAwNkYwMDZFMDA1QjAwNjMwMDZGMDA2RTAwNzQw&#xA;MDYxMDA2OTAwNkUwMDczMDAyODAwMkUwMDJDMDAyMDAwMjcwMDQxMDA3MDAwNzAwMDZDMDA3OTAw&#xA;MjcwMDI5MDA1RDAwAQAxAQDCtQBAMjMwMDVGMDA1RjAwNEMwMDZGMDA2NzAwNjkwMDczMDA3NDAw&#xA;NjkwMDYzMDA3MzAwNTAwMDZGMDA3MzAwNzQwMDYxMDA2QzAwNDEwMDY0MDA2NDAwNzIwMDY1MDA3&#xA;MzAwNzMwMDVGMDA1MzAwNzQwMDcyMDA2NTAwNjUwMDc0MDA1RjAwNDEwMDcwMDA3MDAwNkMwMDc5&#xA;MDA0NjAwNjkwMDZDMDA3NDAwNjUwMDcyMDA3MzAwAAAGAHZhbHVlcwMAAQAyAQB5AEAyRjAwMkYw&#xA;MDYyMDA3NTAwNzQwMDc0MDA2RjAwNkUwMDVCMDA2MzAwNkYwMDZFMDA3NDAwNjEwMDY5MDA2RTAw&#xA;NzMwMDI4MDAyRTAwMkMwMDIwMDAyNzAwNDEwMDcwMDA3MDAwNkMwMDc5MDAyNzAwMjkwMDVEMDAB&#xA;ADABAMK1AEAyMzAwNUYwMDVGMDA0QzAwNkYwMDY3MDA2OTAwNzMwMDc0MDA2OTAwNjMwMDczMDA1&#xA;MDAwNkYwMDczMDA3NDAwNjEwMDZDMDA0MTAwNjQwMDY0MDA3MjAwNjUwMDczMDA3MzAwNUYwMDUz&#xA;MDA3NDAwNzIwMDY1MDA2NTAwNzQwMDVGMDA0MTAwNzAwMDcwMDA2QzAwNzkwMDQ2MDA2OTAwNkMw&#xA;MDc0MDA2NTAwNzIwMDczMDABADEBAMOxAEAyRjAwMkYwMDYyMDA3NTAwNzQwMDc0MDA2RjAwNkUw&#xA;MDVCMDA0MDAwNkUwMDYxMDA2RDAwNjUwMDNEMDAyNzAwNEMwMDZGMDA2NzAwNjkwMDczMDA3NDAw&#xA;NjkwMDYzMDA3MzAwNTAwMDZGMDA3MzAwNzQwMDYxMDA2QzAwNDEwMDY0MDA2NDAwNzIwMDY1MDA3&#xA;MzAwNzMwMDVGMDA1MzAwNzQwMDcyMDA2NTAwNjUwMDc0MDA1RjAwNDEwMDcwMDA3MDAwNkMwMDc5&#xA;MDA0NjAwNjkwMDZDMDA3NDAwNjUwMDcyMDA3MzAwMjcwMDVEMDAAAAUAbmFtZXMAAAAABwBtYXRj&#xA;aGVkAAAAAA==&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 71">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766231713"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="71"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764660995"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 66">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766079051"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764719329"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 105">
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.677083125"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="105"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{BB6B0A00-5455-4EAB-9B12-065BCD3CFF19}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;buttonRequirementsExplosion&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//button[@name='buttonLineExplosion']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAQAbW9kZQAAAgAJAHByb3Bjb3VudAAAAAAHAHByb2plY3QBACQAOUM0&#xA;RUYyQjd4MjhFRXg0Q0E5eEJGMjJ4NjY4Qjc4MjRDRjI5AgBubQEAJABCQjZCMEEwMHg1NDU1eDRF&#xA;QUJ4OUIxMngwNjVCQ0QzQ0ZGMTkGAGNvbmZpZwEAFQBEZWZhdWx0IENvbmZpZ3VyYXRpb24EAHR5&#xA;cGUBAAsAUmVjb2duaXRpb24EAAsAZm91bmR2YWx1ZXMDAAEAMgEAwokAQDJGMDAyRjAwNjIwMDc1&#xA;MDA3NDAwNzQwMDZGMDA2RTAwNUIwMDYzMDA2RjAwNkUwMDc0MDA2MTAwNjkwMDZFMDA3MzAwMjgw&#xA;MDJFMDAyQzAwMjAwMDI3MDA0NTAwNzgwMDcwMDA2QzAwNkYwMDczMDA2OTAwNkYwMDZFMDAyNzAw&#xA;MjkwMDVEMDABADABAMKVAEAyRjAwMkYwMDYyMDA3NTAwNzQwMDc0MDA2RjAwNkUwMDVCMDA0MDAw&#xA;NkUwMDYxMDA2RDAwNjUwMDNEMDAyNzAwNjIwMDc1MDA3NDAwNzQwMDZGMDA2RTAwNEMwMDY5MDA2&#xA;RTAwNjUwMDQ1MDA3ODAwNzAwMDZDMDA2RjAwNzMwMDY5MDA2RjAwNkUwMDI3MDA1RDAwAQAxAQDC&#xA;iQBAMjMwMDUzMDA2MTAwNkMwMDY1MDA3MzAwNTQwMDYxMDA2MjAwNkMwMDY1MDA1RjAwMzEwMDM3&#xA;MDA1RjAwNjIwMDc1MDA3NDAwNzQwMDZGMDA2RTAwNEMwMDY5MDA2RTAwNjUwMDQ1MDA3ODAwNzAw&#xA;MDZDMDA2RjAwNzMwMDY5MDA2RjAwNkUwMAAABgB2YWx1ZXMDAAEAMgEAwokAQDJGMDAyRjAwNjIw&#xA;MDc1MDA3NDAwNzQwMDZGMDA2RTAwNUIwMDYzMDA2RjAwNkUwMDc0MDA2MTAwNjkwMDZFMDA3MzAw&#xA;MjgwMDJFMDAyQzAwMjAwMDI3MDA0NTAwNzgwMDcwMDA2QzAwNkYwMDczMDA2OTAwNkYwMDZFMDAy&#xA;NzAwMjkwMDVEMDABADABAMKJAEAyMzAwNTMwMDYxMDA2QzAwNjUwMDczMDA1NDAwNjEwMDYyMDA2&#xA;QzAwNjUwMDVGMDAzMTAwMzcwMDVGMDA2MjAwNzUwMDc0MDA3NDAwNkYwMDZFMDA0QzAwNjkwMDZF&#xA;MDA2NTAwNDUwMDc4MDA3MDAwNkMwMDZGMDA3MzAwNjkwMDZGMDA2RTAwAQAxAQDClQBAMkYwMDJG&#xA;MDA2MjAwNzUwMDc0MDA3NDAwNkYwMDZFMDA1QjAwNDAwMDZFMDA2MTAwNkQwMDY1MDAzRDAwMjcw&#xA;MDYyMDA3NTAwNzQwMDc0MDA2RjAwNkUwMDRDMDA2OTAwNkUwMDY1MDA0NTAwNzgwMDcwMDA2QzAw&#xA;NkYwMDczMDA2OTAwNkYwMDZFMDAyNzAwNUQwMAAABwBtYXRjaGVkAAAAAAUAbmFtZXMAAAAA&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 100">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6767147569"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="100"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764543403"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 95">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6767003819"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764485301"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764905787"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764871296"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764121759"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (127, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 92">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766908333"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="92"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 19">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764602894"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 102">
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6768353935"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="102"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{9C44066F-0E72-44F7-98CC-304C1DD8E6E4}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxSalesOrder&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{0CBEDA28-CCF4-454D-BB45-320247A9C3D5}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 65">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.676604537"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 98">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6767084606"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="98"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764196875"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764937269"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 52">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765635532"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{4F71A839-6E2D-4483-A3F2-C4F1569856B2}"/>
+		</Node>
+		<Node name="message 47">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765471759"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 86">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766712616"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="86"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764419792"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 85">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766674074"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="85"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.676534919"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 101">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6767180093"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="101"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 80">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766512731"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="80"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 62">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765950926"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6763605208"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (30, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonLogisticspostaladdressStre&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//button[contains(., 'Apply')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 91">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766877199"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="91"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765502315"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 81">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766543287"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="81"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 49">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765534954"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 99">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6767116088"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="99"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 79">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.676648125"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="79"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765064005"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765762037"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 57">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765796065"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764292824"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765567477"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 83">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766605093"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="83"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765228819"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764262384"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 44">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765379051"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764226968"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 76">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766390625"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="76"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764844213"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 70">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766203472"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="70"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 69">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766171528"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="69"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 87">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.676674213"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="87"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 41">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765289583"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765259259"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 64">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766010417"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 103">
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.676845787"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="103"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (79, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxSalesOrder&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[@role='main']/form//div[@id='GridCell-0-SalesTable_SalesIdAdvanced']//input[contains(@class, 'dyn-field')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765133912"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764450694"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 77">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.676641875"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="77"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765824074"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 74">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766330093"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="74"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765005671"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 90">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766839699"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="90"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764323495"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764810069"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765319213"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 67">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.676610787"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764691667"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764752315"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 84">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766636343"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="84"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764354282"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 63">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765980903"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6764387268"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765034954"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 45">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6765409838"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 78">
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45837.6766448148"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="78"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="'[Left]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panel7&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[contains(@class, 'ScrollbarLayout_face')]&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

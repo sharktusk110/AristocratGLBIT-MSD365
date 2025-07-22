@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="details" type="S" value="{9D392097-A24B-4998-8E88-6826235A1755}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45859.6328300231"/>
+				<Prp name="end time" type="D" value="45859.6414037037"/>
+				<Prp name="name" type="S" value="Outright_Sale [Script\GSBAU_Test - Outright_Sale]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="details" type="S" value=""/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45859.6414037037"/>
+				<Prp name="end time" type="D" value="45859.6414037037"/>
+				<Prp name="name" type="S" value="The execution process was interrupted."/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="details" type="S" value="{CA2D5325-0A5A-4ECF-A413-A3C6B685E36E}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45859.6242530208"/>
+				<Prp name="end time" type="D" value="45859.6328299074"/>
+				<Prp name="name" type="S" value="RR [Script\RecurringRevenue_Test - RR]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

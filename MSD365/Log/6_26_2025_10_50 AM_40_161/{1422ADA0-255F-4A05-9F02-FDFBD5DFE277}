@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 14">
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="45834.4529303472"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The script execution was interrupted."/>
+			<Prp name="id" type="I" value="14"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45834.4525630903"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch.SearchThisList_SearchField&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Account/list?filterName=__Recent&quot;).FindElement(&quot;//input[@id=(//label[.='Search this list...']/@for)]&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'WHEELING ISLAND RACETRACK AND GAMING CENTER' was entered in the text editor."/>
+			<Prp name="id" type="I" value="9"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45834.452230463"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (169, 21) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageLoginSalesforce.formLoginForm.submitbuttonLogInToSandbox&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.my.salesforce.com/?ec=302&amp;startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Faristocrat-global--qa1.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome&quot;).FindElement(&quot;#Login&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="4"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45834.4521716088"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLoginSalesforce.formLoginForm.emailinputUsername&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.my.salesforce.com/?ec=302&amp;startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Faristocrat-global--qa1.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome&quot;).FindElement(&quot;//input[@id=(//label[.='Username']/@for)]&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'crmtest.4@aristocrat.com.usprod.qa1' was entered in the text editor."/>
+			<Prp name="id" type="I" value="2"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45834.4524773148"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="URL: https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Account/list?filterName=__Recent&#xA;&#xA;Aliases.browser"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Navigating to the https://aristocrat-global--qa1.sandbox.lightning.force.com/l... page."/>
+			<Prp name="id" type="I" value="8"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="line no" type="I" value="50"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="date" type="D" value="45834.4529269676"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;None of the selectors for your mapped object was found. Instead, we have found a similar control for&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageBellagioLasVegasAccountSales.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{2806EFF6-6B66-44E2-B117-5EE8B30ACF36}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;buttonAccountNewoppqa&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;New Selectors&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;//button[@name='Account.NewOppQA']&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;//button[.='New Opportunity']&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;//div[@role='main']//runtime_platform_actions-executor-page-reference/slot/slot/lightning-button/button[@type='button']&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;//div[@role='main']//runtime_platform_actions-executor-page-reference/slot/slot/lightning-button/button[contains(@class, 'slds-button')]&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;//div[@id='brandBand_2']//li//slot/slot/lightning-button/button&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;//div[@role='main']//runtime_platform_actions-executor-page-reference/slot/slot/lightning-button/button&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://{0A779DF4-1EFD-4626-BF09-6772B33221B3}.if&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The &quot;buttonAccountNewoppqa&quot; object was replaced with a similar object."/>
+			<Prp name="id" type="I" value="12"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{84DCAD69-8F5F-4C3C-AD74-672DBAC2E154}"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45834.4521348148"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="URL: https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&#xA;&#xA;Aliases.browser"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Navigating to the https://aristocrat-global--qa1.sandbox.lightning.force.com/l... page."/>
+			<Prp name="id" type="I" value="1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45834.4523328935"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_SFAppSearch_AccountSearch.SearchAppsAndItems_SearchField&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search apps and items...']/@for)]&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'Aristocrat' was entered in the text editor."/>
+			<Prp name="id" type="I" value="6"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="date" type="D" value="45834.4529276736"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;During the test run, one or several test objects were not found, and the test engine tried to â€œhealâ€ your test by replacing missing objects with similar ones automatically. &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;If a replacement object is selected incorrectly, this can affect further behavior of your test and cause errors.&lt;/li&gt;&lt;li&gt;Please check all the preceding â€˜Object was replaced with a similar objectâ€™ messages in the test log.&lt;/li&gt;&lt;li&gt;If the found replacement object meets your requirements, make sure to click the &lt;b&gt;Accept Intelligent Fix&lt;/b&gt; button.The mapping criteria will be updated, and the message will no longer appear for that object.&lt;/li&gt;&lt;li&gt;If the found replacement object was not the correct one, please update its mapping criteria manually.&lt;/li&gt;&lt;li&gt;To cancel the automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="There may be an error (or errors) caused by test self-healing."/>
+			<Prp name="id" type="I" value="13"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45834.4523382523"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_SFAppSearch_AccountSearch.SearchAppsAndItems_SearchField&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//input[@id=(//label[.='Search apps and items...']/@for)]&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="7"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45834.4523054861"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (16, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_SFAppSearch_AccountSearch.AppLauncher_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//button[.='App Launcher']&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="5"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45834.452581956"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (159, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch.Account_Node&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Account/list?filterName=__Recent&quot;).FindElement(&quot;//a[contains(@href, 'r')]//slot/span&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="11"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 0">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45834.4519488889"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Microsoft Edge ver.137.0.3296.93 (x64)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PID:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;52956&lt;/td&gt;&lt;/tr&gt;											  &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Microsoft Edge was launched."/>
+			<Prp name="id" type="I" value="0"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45834.452570625"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch.SearchThisList_SearchField&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Account/list?filterName=__Recent&quot;).FindElement(&quot;//input[@id=(//label[.='Search this list...']/@for)]&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="10"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45834.4521993981"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLoginSalesforce.formLoginForm.passwordboxPassword&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.my.salesforce.com/?ec=302&amp;startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Faristocrat-global--qa1.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome&quot;).FindElement(&quot;//input[@id=(//label[.='Password']/@for)]&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'LifeisGood5' was entered in the text editor."/>
+			<Prp name="id" type="I" value="3"/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

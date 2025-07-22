@@ -25,7 +25,9 @@ function Opportunity_Creation(Config) {
  Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
  Delay(2000);
  
+ DynamicWait["dynamic_wait"](app.AppLauncher_Button,30000);
  app.AppLauncher_Button.Click();
+ DynamicWait["dynamic_wait"](app.SearchAppsAndItems_SearchField,30000);
  app.SearchAppsAndItems_SearchField.SetText("Aristocrat");
  app.SearchAppsAndItems_SearchField.Keys("[Enter]");
  
@@ -159,6 +161,8 @@ Delay(2000);
 econ_nav.SearchThisList_SearchField.Keys("[Enter]");
 
 Delay(2000);
+
+quote_number=econ_nav.quotenum.textContent;
 
 econ_nav.SearchedEcon_Node.Click();
 
@@ -366,6 +370,13 @@ Delay(2000);
 AdvancedConfiguration.SPC_Field.Keys("[Enter]");
 Delay(2000);
 
+if(AdvancedConfiguration.SPC_Field.getAttribute("value")!=Config[4]){
+  AdvancedConfiguration.SPC_Field.SetText(Config[4]);
+Delay(4000);
+AdvancedConfiguration.SPC_Field.Keys("[Enter]");
+Delay(2000);
+}
+
 AdvancedConfiguration.Mainboard_Field.SetText(Config[5]);
 Delay(2000);
 AdvancedConfiguration.Mainboard_Field.Keys("[Enter]");
@@ -459,14 +470,14 @@ DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.RulesExec
 Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
 Delay(2000);
 AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
-Delay(2000);
+Delay(10000);
 //================================
  var bool=0;
  while(bool<=30){
    if(equal(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen,false)){
      break;
    } else{
-     Delay(100);
+     Delay(1000);
      bool=bool+1;
    }
    Log.Message(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen);
@@ -500,9 +511,9 @@ Browsers.Item(btChrome).Run(urc);
 
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
- 
-quote_number=econ_approval1.Quote_Node.textContent;
 
+
+DynamicWait["dynamic_wait"](econ_approval.SubmitforApproval_Button,30000);
 econ_approval.SubmitforApproval_Button.Click();
 
 Delay(2000);
@@ -564,7 +575,7 @@ var econ_migrate=Aliases.browser.Page_EconMainConfiguration;
 Browsers.Item(btChrome).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "Tester\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" --disable-site-isolation-trials";           
          
-Browsers.Item(btChrome).Run(url);
+Browsers.Item(btChrome).Run(urc);
 
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
@@ -581,7 +592,7 @@ Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
 Delay(10000);
 }
 econ_migrate.SendToD365_Button.Click();
-Delay(2000);
+Delay(15000);
 Sys.Browser("chrome").Close();
 }
 
@@ -619,6 +630,20 @@ Browsers.Item(btChrome).Run(durl);
   Delay(2000);
   firm.Apply_Button.Click();
   Delay(2000); 
+  var pp=0;
+  while(pp<=5){
+  if(!firm.CustomerName_Node.Exists){
+  firm.QuoteNumber_Panel.Click();
+  Delay(2000);
+  firm.QuoteNumberFilter_TextField.SetText(quote_number);
+  Delay(2000);
+  firm.Apply_Button.Click();
+  Delay(2000);
+  pp++;
+  }else{
+    break;
+  }
+  }
   aqObject.CheckProperty(firm.CustomerName_Node, "title", cmpContains, Config[0]);
   
   Sys.Browser("chrome").Close();

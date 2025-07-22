@@ -1545,24 +1545,39 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textboxCustomerName2" Key="{10EC9F74-FA29-44C3-BFAE-01FBE6AB832B}">
-										<Image FileName="2107466793" Left="1156" Top="753" Right="1484" Bottom="798" />
+									<Child Name="textboxCustomerName2" Key="{B323E144-A1D4-49A3-B582-16B1FC4D047E}">
+										<Image FileName="-550409549" Left="345" Top="753" Right="673" Bottom="798" />
 										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[@role=&apos;main&apos;]/form//div//input[@value=&apos;WHEELING ISLAND RACETRACK AND GAMING CENTER&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;prodtablelistpage_12_ListPageGrid&apos;]//div[21]//input[@type=&apos;text&apos;]" />
+												<Value Value="//div[@role=&apos;main&apos;]/form/div[@role=&apos;region&apos;]//div[@id=&apos;prodtablelistpage_1_ListPageGrid&apos;]//div[21]//input[@type=&apos;text&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[@role=&apos;main&apos;]/form//div[21]//input[contains(@class, &apos;dyn-field&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;prodtablelistpage_12_ListPageGrid&apos;]//div[21]//input" />
+												<Value Value="//div[@id=&apos;ListPageGrid_3_0-row-0&apos;]//div[21]//input" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;prodtablelistpage_12_ListPageGrid&apos;]//div[21]//input" />
+												<Value Value="//div[@role=&apos;main&apos;]/form/div[@role=&apos;region&apos;]//div[@id=&apos;prodtablelistpage_1_ListPageGrid&apos;]//div[21]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCustomerName3" Key="{7105AEE7-892A-4709-B391-064E131AFA69}">
+										<Image FileName="1100671484" Left="667" Top="753" Right="1309" Bottom="798" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form/div[@role=&apos;region&apos;]//div[@id=&apos;salestablelistpage_3_Grid&apos;]//div[@id=&apos;GridCell-0-SalesTable_SalesName&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;GridCell-0-SalesTable_SalesName&apos;]//input[contains(@class, &apos;dyn-field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;GridCell-0-SalesTable_SalesName&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form/div[@role=&apos;region&apos;]//div[@id=&apos;salestablelistpage_3_Grid&apos;]//div[@id=&apos;GridCell-0-SalesTable_SalesName&apos;]//input" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3006,6 +3021,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode142239" Key="{678CD353-75B6-4591-849D-954AF140C405}">
+										<Image FileName="1148646898" Left="828" Top="590" Right="891" Bottom="616" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_1&apos;]//lightning-formatted-rich-text/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-formatted-rich-text/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageEconBellagioLasVegasChangeme" Key="{DA2716AC-FA89-41F7-A9E1-47F13C157371}">
@@ -3538,18 +3565,6 @@
 											</Selector>
 											<Selector>
 												<Value Value="//button[.=&apos;Submit for Approval&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//ul/li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-delayed-aura-legacy/slot//button[@type=&apos;button&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//ul/li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-delayed-aura-legacy/slot//button[contains(@class, &apos;slds-button&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;brandBand_2&apos;]//li[3]//slot/slot/lightning-button/button" />
-											</Selector>
-											<Selector>
-												<Value Value="//ul/li[3]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-delayed-aura-legacy/slot//button" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5287,37 +5302,10 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="linkDetailtabItem" Key="{A36E9B3F-39CD-4573-9A59-07F267C6A27B}">
-										<Image FileName="5135783" Left="78" Top="630" Right="155" Bottom="690" />
-										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
-										<Selectors>
-											<Selector>
-												<Value Value="#detailTab__item" />
-											</Selector>
-											<Selector>
-												<Value Value="//a[.=&apos;Details&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//li/a[@role=&apos;tab&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//li/a[contains(@class, &apos;slds-tabs_default__link&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul/li/a" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a" />
-											</Selector>
-										</Selectors>
-									</Child>
 									<Child Name="textnode00141756" Key="{2F204E0C-E5E2-4236-810E-FBA7B9D5FBF1}">
 										<Image FileName="5135783" Left="111" Top="1357" Right="202" Bottom="1385" />
 										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
 										<Selectors>
-											<Selector>
-												<Value Value="//div[@id=&apos;sectionContent-864&apos;]//records-record-layout-row/slot/records-record-layout-item//slot/lightning-formatted-text" />
-											</Selector>
 											<Selector>
 												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqqqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//lightning-formatted-text" />
 											</Selector>
@@ -5768,6 +5756,86 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageEconGreenValleyRanchResortSp" Key="{9CD1A2A6-94EE-4FF9-83AD-E482D0174CB7}">
+								<Image FileName="-135794830" Left="11" Top="141" Right="1931" Bottom="1138" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="1" LocalVariable="quoteurl" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{7E9F5383-230F-4817-96B9-4F44B3D9EF85}">
+										<Image FileName="-135794830" Left="11" Top="-499" Right="1908" Bottom="232" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTabs" Key="{00F1A6CA-D185-464B-AB96-2900B94B196F}">
+										<Image FileName="-135794830" Left="11" Top="141" Right="11" Bottom="141" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@aria-label=&apos;Tabs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div//lightning-tabset/div/lightning-tab-bar/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//lightning-tab-bar/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuoteInformation" Key="{FA0A9A80-595A-45C5-B247-5CB8C724C879}">
+										<Image FileName="-135794830" Left="54" Top="494" Right="1865" Bottom="543" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqpqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//h3[contains(@class, &apos;test-id__section-header-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-9&apos;]//records-record-layout-section[3]/div/h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqpqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonQuoteInformation" Key="{01F038EA-E1C9-49E3-AA50-7C2BF135C560}">
+										<Image FileName="-135794830" Left="55" Top="495" Right="1864" Bottom="542" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqpqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//button[contains(@class, &apos;test-id__section-header-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-9&apos;]//forcegenerated-detailpanel_quote___0127f000000hsqpqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqpqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="SnippingTool" Key="{849F84DF-7D21-4077-87D7-F340283377F8}">
@@ -6005,7 +6073,8 @@
 				</Child>
 				<Child Name="ProductionOrder_SearchField" Owner="{601B46A2-C5BE-4362-B84E-B1D5F2C92335}" />
 				<Child Name="textboxProduction" Owner="{7599C2C1-2A43-40AC-85C0-D1092B636405}" />
-				<Child Name="textboxCustomerName2" Owner="{10EC9F74-FA29-44C3-BFAE-01FBE6AB832B}" />
+				<Child Name="textboxCustomerName2" Owner="{B323E144-A1D4-49A3-B582-16B1FC4D047E}" />
+				<Child Name="textboxCustomerName3" Owner="{7105AEE7-892A-4709-B391-064E131AFA69}" />
 			</Child>
 			<Child Name="Page_SOConfig" Owner="{E67A00D3-D138-4DBA-9421-074767B4836D}">
 				<Child Name="SetChip_Config" Owner="{6AED7B26-D806-484F-8FF3-B24414EF69FE}">
@@ -6112,6 +6181,7 @@
 			<Child Name="Page_EconNavigation" Owner="{C562931A-B9AD-480B-BA1E-1C391932FD64}">
 				<Child Name="SearchThisList_SearchField" Owner="{226ACF61-EB57-4472-9913-7058004FA1F1}" />
 				<Child Name="SearchedEcon_Node" Owner="{5E55B507-8608-4568-A8CE-27A14222DDB5}" />
+				<Child Name="quotenum" Owner="{678CD353-75B6-4591-849D-954AF140C405}" />
 			</Child>
 			<Child Name="Page_EconMainConfiguration" Owner="{DA2716AC-FA89-41F7-A9E1-47F13C157371}">
 				<Child Name="ConfigureQuote_Link" Owner="{385AB616-AC6F-4163-B70D-299BF2EBA8C4}" />
@@ -6188,7 +6258,6 @@
 				<Child Name="textnodeApprove" Owner="{F13064A7-E2B2-4482-B858-BD072E51849C}">
 					<Child Name="linkApprove" Owner="{7F24A30A-ACCE-4982-A184-DBD467C13E66}" />
 				</Child>
-				<Child Name="linkDetailtabItem" Owner="{A36E9B3F-39CD-4573-9A59-07F267C6A27B}" />
 				<Child Name="TrimFinish_Field" Owner="{EAFDA007-B5CC-4645-9BFF-2F1BC1E99A76}" />
 				<Child Name="textboxId0eduae" Owner="{C24F93BB-528E-4695-822B-89B63296BFC5}" />
 				<Child Name="textnode" Owner="{C0AB8134-FC21-4EC8-B544-FAE59DA6EDF7}" />
@@ -6238,6 +6307,14 @@
 						<Child Name="article" Owner="{8425E8E3-C155-40BC-8400-EB5F6402F495}" />
 					</Child>
 				</Child>
+			</Child>
+			<Child Name="pageEconGreenValleyRanchResortSp" Owner="{9CD1A2A6-94EE-4FF9-83AD-E482D0174CB7}">
+				<Child Name="sectionSkipToNavigation" Owner="{7E9F5383-230F-4817-96B9-4F44B3D9EF85}">
+					<Child Name="textnodeTabs" Owner="{00F1A6CA-D185-464B-AB96-2900B94B196F}">
+						<Child Name="textnodeQuoteInformation" Owner="{FA0A9A80-595A-45C5-B247-5CB8C724C879}" />
+					</Child>
+				</Child>
+				<Child Name="buttonQuoteInformation" Owner="{01F038EA-E1C9-49E3-AA50-7C2BF135C560}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{54A8C89A-F972-4B15-8558-398DB71549EF}">

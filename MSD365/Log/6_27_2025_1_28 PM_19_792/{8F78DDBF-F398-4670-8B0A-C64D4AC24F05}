@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 5">
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pagePassive.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{62C708B8-01DE-42A6-94C3-6F570DCE272A}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;submitbuttonNext&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@type='submit']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAIAbm0BACQANjJDNzA4Qjh4MDFERXg0MkE2eDk0QzN4NkY1NzBEQ0Uy&#xA;NzJBBAB0eXBlAQALAFJlY29nbml0aW9uBABtb2RlAAACAAkAcHJvcGNvdW50AAAAAAYAY29uZmln&#xA;AQAVAERlZmF1bHQgQ29uZmlndXJhdGlvbgcAcHJvamVjdAEAJAA5QzRFRjJCN3gyOEVFeDRDQTl4&#xA;QkYyMng2NjhCNzgyNENGMjkEAAcAbWF0Y2hlZAAAAAAFAG5hbWVzAAAAAAYAdmFsdWVzBQABADEB&#xA;AF0AQDJGMDAyRjAwNjkwMDZFMDA3MDAwNzUwMDc0MDA1QjAwNDAwMDc0MDA3OTAwNzAwMDY1MDAz&#xA;RDAwMjcwMDczMDA3NTAwNjIwMDZEMDA2OTAwNzQwMDI3MDA1RDAwAQA0AQA5AEAyRjAwMkYwMDY0&#xA;MDA2OTAwNzYwMDVCMDAzMjAwNUQwMDJGMDA2OTAwNkUwMDcwMDA3NTAwNzQwMAEAMwEAwqEAQDJG&#xA;MDAyRjAwNkQwMDYxMDA2OTAwNkUwMDVCMDA0MDAwNjkwMDY0MDAzRDAwMjcwMDZGMDA2QjAwNzQw&#xA;MDYxMDAyRDAwNzMwMDY5MDA2NzAwNkUwMDJEMDA2OTAwNkUwMDI3MDA1RDAwMkYwMDJGMDA2NDAw&#xA;NjkwMDc2MDA1QjAwMzIwMDVEMDAyRjAwNjkwMDZFMDA3MDAwNzUwMDc0MDABADIBAMKNAEAyRjAw&#xA;MkYwMDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDYzMDA2RjAwNkUwMDc0MDA2MTAwNjkwMDZFMDA3&#xA;MzAwMjgwMDQwMDA2MzAwNkMwMDYxMDA3MzAwNzMwMDJDMDAyMDAwMjcwMDYyMDA3NTAwNzQwMDc0&#xA;MDA2RjAwNkUwMDI3MDAyOTAwNUQwMAEAMAEAWQBAMkYwMDJGMDA2OTAwNkUwMDcwMDA3NTAwNzQw&#xA;MDVCMDA0MDAwNzYwMDYxMDA2QzAwNzUwMDY1MDAzRDAwMjcwMDRFMDA2NTAwNzgwMDc0MDAyNzAw&#xA;NUQwMAAACwBmb3VuZHZhbHVlcwUAAQAxAQBZAEAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3NDAw&#xA;NUIwMDQwMDA3NjAwNjEwMDZDMDA3NTAwNjUwMDNEMDAyNzAwNEUwMDY1MDA3ODAwNzQwMDI3MDA1&#xA;RDAwAQA0AQA5AEAyRjAwMkYwMDY0MDA2OTAwNzYwMDVCMDAzMjAwNUQwMDJGMDA2OTAwNkUwMDcw&#xA;MDA3NTAwNzQwMAEAMwEAwqEAQDJGMDAyRjAwNkQwMDYxMDA2OTAwNkUwMDVCMDA0MDAwNjkwMDY0&#xA;MDAzRDAwMjcwMDZGMDA2QjAwNzQwMDYxMDAyRDAwNzMwMDY5MDA2NzAwNkUwMDJEMDA2OTAwNkUw&#xA;MDI3MDA1RDAwMkYwMDJGMDA2NDAwNjkwMDc2MDA1QjAwMzIwMDVEMDAyRjAwNjkwMDZFMDA3MDAw&#xA;NzUwMDc0MDABADIBAMKNAEAyRjAwMkYwMDY5MDA2RTAwNzAwMDc1MDA3NDAwNUIwMDYzMDA2RjAw&#xA;NkUwMDc0MDA2MTAwNjkwMDZFMDA3MzAwMjgwMDQwMDA2MzAwNkMwMDYxMDA3MzAwNzMwMDJDMDAy&#xA;MDAwMjcwMDYyMDA3NTAwNzQwMDc0MDA2RjAwNkUwMDI3MDAyOTAwNUQwMAEAMAEAXQBAMkYwMDJG&#xA;MDA2OTAwNkUwMDcwMDA3NTAwNzQwMDVCMDA0MDAwNzQwMDc5MDA3MDAwNjUwMDNEMDAyNzAwNzMw&#xA;MDc1MDA2MjAwNkQwMDY5MDA3NDAwMjcwMDVEMDAAAA==&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5617757176"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_AristocratLogin_Active.Password_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat.okta.com/app/office365/exk1rqhftLyRPOLa2356/sso/wsfed/passive?client-request-id=f55dbbd1-ad41-474c-91f2-4c78d6f0b6fa&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAlVNLiNtmELbW3m0StsmmpxxzSHooka2XZWthoZIsy_Zalh_S6gFlkfWwZb1sPSzZp9IXPZXttYce2p4WCiHQUtpLDj3llF566Knk0hJoCYHCUghE9ib3dhhmfub_vvmZ-WfeKcJl-PAOtBW4Cm7cpdFfn15L-Na1g19-eu8f8tsu-_nzbvbrs-__PQfuTeN4Hh1WKgsNLkeab4yDrBzMzVCL7cCPysbK1zxbj8p64FV-AIDHAPAnAJzvRDhar-M4VCNgCMcRBKmjZWXGrRVBRBRkEPMCiXErCOI8Zd2VGIiT2rGynkDcTEx5lsF6CINtsJzgoDwrxtxMQdURBOWxdVdwVj12EKtSe81JTMYLk4xnT5zfdm7wZBJPkY0JQnttPt-5agWhdzoPoviL4sclfm76bYMOfN_U4_IGZvqxrW9r6YebsmLbjI7IAUmSPZrzjTrVNJjhrBWQKXNKu2BE5TekF7EnwnDN4yJIJXhKzu2kNd1wSJLeWpIcqJONY15FGqtMXmT9cVrtLEeo4-quqflq29OPQbLrIiZzjAla6jEyMr7Mw2_pZPsVn3JOpyilODErhRAWi2JfS48jNdManfGMh6eGxjkBIofQYMlu8Z3FSaTh9BIhRn3YDfFQwoYdStST4cqcNVdMtxta6kKSFdckbEJFJkjKekHLXmQNcSqoFEg2TMtOOanT5K0q2s57oPLjQPAmiKpok8TQRnVDVpDEJuhF4CKtUdzkLEaS6Y4H19vEZTM4UBnXpcYCizneF1QLakLSUqXpOWYhqIQvSFVIBLghD1pBZzU3gmY1kk06VNcIqwZRD6eOG-oo7UgqxQtMKo4mULYk3x6ahh3mHygER9vpvIuSd5Fmrv9hRnPUg-IdvQaNDRTVQYwgNBDDxzVQ0wgDHEOWVavCkKUT6KPi9TyHbxu352Fg2a75pHhLD73YjOIy9q4W2lEc6PkTm6wPS-9_vfu4BDwt7UPFwytXrh0UbhVuFy5KwFe7-VoB2YPP9v_4svEB8uK-8N1-4dFuRXCEhjvNxL7dmgqQwC0zeBRIjNIzfKdChLWlA_dMfZYoo_ZR9RA-2wPO9vae7QGfvlH48er_WsqHbxYurn_4zUc_f3L-19-tpzfuuXy_UZXlcI63fExw2R7UCjl1dmJimayHMxPFE3eZrBNKTo_uHxR-z_Vm4eLm2c5L0&amp;cbcxt=&amp;username=crmtest.4%40aristocrat.com&amp;mkt=&amp;lc=&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Password')]/@for)]&quot;))"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'Te$tU$er16' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5617878819"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.pageAllS...per.textboxCustomerName.title&lt;b&gt; contains the substring (case-sensitive) &lt;/b&gt;&quot;WHEELING ISLAND RACETRACK AND GAMING CENTER&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{27EE111A-AF7E-455F-82A7-31B508F84EF1}'&gt;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxCustomerName&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;title&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;contains the substring (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;WHEELING ISLAND RACETRACK AND GAMING CENTER&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;WHEELING ISLAND RACETRACK AND GAMING CENTER&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The property checkpoint passed: title contains the substring (case-sensitive) &quot;WHEELING ISLAND RACETRACK AND GAMING CENTER&quot;."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5629141782"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="481"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'crmtest.4@aristocrat.com' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_OutlookLogin.Email_Field&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_mode=form_post&amp;response_type=code+id_token&amp;scope=openid+profile&amp;state=OpenIdConnect.AuthenticationProperties%3dAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAAmsGVTRzO6U-Bu6wApiuHhQAAAAACAAAAAAAQZgAAAAEAACAAAADyxXqxPbw5JvS3klcleanZImcK-ALl2eEK4TawmEX2bQAAAAAOgAAAAAIAACAAAABk_h3BYktGWr04tUUPawKsZxaDJbjO1hdaMko2Xr0QvGAAAABJqVsa6Cv29SP1lr6rW4RJBUcuRyejFyELLrfZqWXYle9i9Z2g2wGmoHiqxDUhTZB-ADefiwMWJFOf53IRjHZOboTmg2ZYagudaS8dXY2ui9Cqol2HStFMfEWXCJm18I9AAAAACM-Yb8WDq4tMOnTZf0F0WvZCCp4f23W6qAZTuT1DXQHoJypdoF5sXeCrZz2GZosN6BKDZSwJWZBOTEwUSg0xvA%26RedirectTo%3dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;nonce=638866079106622283.YjMzYTU2Y2QtOTA4My00MmYzLWE0MWItYzg0MjUwOGE4N2E4YTU2MTk3OGUtMjY3ZS00YTUzLTkyNGQtZWIzMWExOTgxOGVk&amp;redirect_uri=https%3a%2f%2fqa1.sandbox.operations.dynamics.com%2f&amp;max_age=86400&quot;).FindElement(&quot;//input[@name='loginfmt']&quot;))"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5616445949"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 400px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;vertical-align:top;text-align:left&quot;&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;Click&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;lnamemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonGridOptions&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;buttonGridOptions&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;On the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt; tab, check if the object existed during the test run.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{AF76F00B-78DB-4BF5-82C3-6846CB64EF1E}.pick&quot;&gt;Update the search criteria&lt;/a&gt; for the object or view them in the &lt;a href=&quot;lnamemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonGridOptions&quot;&gt;NameMapping editor&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{AF76F00B-78DB-4BF5-82C3-6846CB64EF1E}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;file:///%%LogDir%%\{AF76F00B-78DB-4BF5-82C3-6846CB64EF1E}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="message" type="S" value="The object &quot;buttonGridOptions&quot; does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="date" type="D" value="45835.5620765046"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="462"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textbox&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;xpath=/html/body/div[21]/div[3]/div/div[3]/div/div/input&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text '00141620' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5627432407"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="477"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{F396F65E-CF92-4286-8FF7-416FE0487A9D}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textnode&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@id='GridCell-0-FormControlFieldSelector_Grid_Selected']//*[name()='rect']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{52EEFA0E-0613-425C-A764-34468039492A}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5626356597"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="471"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="RR"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="unit id" type="I" value="2"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 2" type="S" value="{1C637C46-00E7-496C-B28C-D279CC6EF50A}"/>
+			<Prp name="unit 0" type="S" value="{84DCAD69-8F5F-4C3C-AD74-672DBAC2E154}"/>
+			<Prp name="unit 1" type="S" value="{479BA5E3-E06D-4360-847C-C60DDC53EA34}"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="stacktext" type="S" value="RR"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="unit id" type="I" value="2"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (30, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonLogisticspostaladdressStre&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//button[contains(., 'Apply')]&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5628889236"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="479"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeAllFields.buttonApplyFilter&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[@role='dialog']//button[@title='Apply filter']&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5624950579"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="469"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_AristocratLogin_Passive.Next_Button&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat.okta.com/app/office365/exk1rqhftLyRPOLa2356/sso/wsfed/passive?client-request-id=f55dbbd1-ad41-474c-91f2-4c78d6f0b6fa&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAlVNLiNtmELbW3m0StsmmpxxzSHooka2XZWthoZIsy_Zalh_S6gFlkfWwZb1sPSzZp9IXPZXttYce2p4WCiHQUtpLDj3llF566Knk0hJoCYHCUghE9ib3dhhmfub_vvmZ-WfeKcJl-PAOtBW4Cm7cpdFfn15L-Na1g19-eu8f8tsu-_nzbvbrs-__PQfuTeN4Hh1WKgsNLkeab4yDrBzMzVCL7cCPysbK1zxbj8p64FV-AIDHAPAnAJzvRDhar-M4VCNgCMcRBKmjZWXGrRVBRBRkEPMCiXErCOI8Zd2VGIiT2rGynkDcTEx5lsF6CINtsJzgoDwrxtxMQdURBOWxdVdwVj12EKtSe81JTMYLk4xnT5zfdm7wZBJPkY0JQnttPt-5agWhdzoPoviL4sclfm76bYMOfN_U4_IGZvqxrW9r6YebsmLbjI7IAUmSPZrzjTrVNJjhrBWQKXNKu2BE5TekF7EnwnDN4yJIJXhKzu2kNd1wSJLeWpIcqJONY15FGqtMXmT9cVrtLEeo4-quqflq29OPQbLrIiZzjAla6jEyMr7Mw2_pZPsVn3JOpyilODErhRAWi2JfS48jNdManfGMh6eGxjkBIofQYMlu8Z3FSaTh9BIhRn3YDfFQwoYdStST4cqcNVdMtxta6kKSFdckbEJFJkjKekHLXmQNcSqoFEg2TMtOOanT5K0q2s57oPLjQPAmiKpok8TQRnVDVpDEJuhF4CKtUdzkLEaS6Y4H19vEZTM4UBnXpcYCizneF1QLakLSUqXpOWYhqIQvSFVIBLghD1pBZzU3gmY1kk06VNcIqwZRD6eOG-oo7UgqxQtMKo4mULYk3x6ahh3mHygER9vpvIuSd5Fmrv9hRnPUg-IdvQaNDRTVQYwgNBDDxzVQ0wgDHEOWVavCkKUT6KPi9TyHbxu352Fg2a75pHhLD73YjOIy9q4W2lEc6PkTm6wPS-9_vfu4BDwt7UPFwytXrh0UbhVuFy5KwFe7-VoB2YPP9v_4svEB8uK-8N1-4dFuRXCEhjvNxL7dmgqQwC0zeBRIjNIzfKdChLWlA_dMfZYoo_ZR9RA-2wPO9vae7QGfvlH48er_WsqHbxYurn_4zUc_f3L-19-tpzfuuXy_UZXlcI63fExw2R7UCjl1dmJimayHMxPFE3eZrBNKTo_uHxR-z_Vm4eLm2c5L0&amp;cbcxt=&amp;username=crmtest.4%40aristocrat.com&amp;mkt=&amp;lc=&quot;).FindElement(&quot;//input[@type='submit']&quot;))"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5617833218"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textboxShipToCustomerAccount&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[@role='dialog']//input&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text 'quote number' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.562456088"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="466"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_AristocratLogin_Active.Verify_Button&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat.okta.com/app/office365/exk1rqhftLyRPOLa2356/sso/wsfed/passive?client-request-id=f55dbbd1-ad41-474c-91f2-4c78d6f0b6fa&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAlVNLiNtmELbW3m0StsmmpxxzSHooka2XZWthoZIsy_Zalh_S6gFlkfWwZb1sPSzZp9IXPZXttYce2p4WCiHQUtpLDj3llF566Knk0hJoCYHCUghE9ib3dhhmfub_vvmZ-WfeKcJl-PAOtBW4Cm7cpdFfn15L-Na1g19-eu8f8tsu-_nzbvbrs-__PQfuTeN4Hh1WKgsNLkeab4yDrBzMzVCL7cCPysbK1zxbj8p64FV-AIDHAPAnAJzvRDhar-M4VCNgCMcRBKmjZWXGrRVBRBRkEPMCiXErCOI8Zd2VGIiT2rGynkDcTEx5lsF6CINtsJzgoDwrxtxMQdURBOWxdVdwVj12EKtSe81JTMYLk4xnT5zfdm7wZBJPkY0JQnttPt-5agWhdzoPoviL4sclfm76bYMOfN_U4_IGZvqxrW9r6YebsmLbjI7IAUmSPZrzjTrVNJjhrBWQKXNKu2BE5TekF7EnwnDN4yJIJXhKzu2kNd1wSJLeWpIcqJONY15FGqtMXmT9cVrtLEeo4-quqflq29OPQbLrIiZzjAla6jEyMr7Mw2_pZPsVn3JOpyilODErhRAWi2JfS48jNdManfGMh6eGxjkBIofQYMlu8Z3FSaTh9BIhRn3YDfFQwoYdStST4cqcNVdMtxta6kKSFdckbEJFJkjKekHLXmQNcSqoFEg2TMtOOanT5K0q2s57oPLjQPAmiKpok8TQRnVDVpDEJuhF4CKtUdzkLEaS6Y4H19vEZTM4UBnXpcYCizneF1QLakLSUqXpOWYhqIQvSFVIBLghD1pBZzU3gmY1kk06VNcIqwZRD6eOG-oo7UgqxQtMKo4mULYk3x6ahh3mHygER9vpvIuSd5Fmrv9hRnPUg-IdvQaNDRTVQYwgNBDDxzVQ0wgDHEOWVavCkKUT6KPi9TyHbxu352Fg2a75pHhLD73YjOIy9q4W2lEc6PkTm6wPS-9_vfu4BDwt7UPFwytXrh0UbhVuFy5KwFe7-VoB2YPP9v_4svEB8uK-8N1-4dFuRXCEhjvNxL7dmgqQwC0zeBRIjNIzfKdChLWlA_dMfZYoo_ZR9RA-2wPO9vae7QGfvlH48er_WsqHbxYurn_4zUc_f3L-19-tpzfuuXy_UZXlcI63fExw2R7UCjl1dmJimayHMxPFE3eZrBNKTo_uHxR-z_Vm4eLm2c5L0&amp;cbcxt=&amp;username=crmtest.4%40aristocrat.com&amp;mkt=&amp;lc=&quot;).FindElement(&quot;//input[@value='Verify']&quot;))"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5617960995"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 4">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (54, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_OutlookLogin.Next_Button&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_mode=form_post&amp;response_type=code+id_token&amp;scope=openid+profile&amp;state=OpenIdConnect.AuthenticationProperties%3dAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAAmsGVTRzO6U-Bu6wApiuHhQAAAAACAAAAAAAQZgAAAAEAACAAAADyxXqxPbw5JvS3klcleanZImcK-ALl2eEK4TawmEX2bQAAAAAOgAAAAAIAACAAAABk_h3BYktGWr04tUUPawKsZxaDJbjO1hdaMko2Xr0QvGAAAABJqVsa6Cv29SP1lr6rW4RJBUcuRyejFyELLrfZqWXYle9i9Z2g2wGmoHiqxDUhTZB-ADefiwMWJFOf53IRjHZOboTmg2ZYagudaS8dXY2ui9Cqol2HStFMfEWXCJm18I9AAAAACM-Yb8WDq4tMOnTZf0F0WvZCCp4f23W6qAZTuT1DXQHoJypdoF5sXeCrZz2GZosN6BKDZSwJWZBOTEwUSg0xvA%26RedirectTo%3dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;nonce=638866079106622283.YjMzYTU2Y2QtOTA4My00MmYzLWE0MWItYzg0MjUwOGE4N2E4YTU2MTk3OGUtMjY3ZS00YTUzLTkyNGQtZWIzMWExOTgxOGVk&amp;redirect_uri=https%3a%2f%2fqa1.sandbox.operations.dynamics.com%2f&amp;max_age=86400&quot;).FindElement(&quot;#idSIButton9&quot;))"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.561657338"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 400px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;vertical-align:top;text-align:left&quot;&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;Click&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;textnodeGrid30OptionscellMenubut.&amp;#8203;&lt;a href=&quot;lnamemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeGrid30OptionscellMenubut.buttonInsertColumns&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;buttonInsertColumns&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;On the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt; tab, check if the object existed during the test run.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{7719ECD6-02E3-4739-9287-8D119DDADC5A}.pick&quot;&gt;Update the search criteria&lt;/a&gt; for the object or view them in the &lt;a href=&quot;lnamemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeGrid30OptionscellMenubut.buttonInsertColumns&quot;&gt;NameMapping editor&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{7719ECD6-02E3-4739-9287-8D119DDADC5A}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;file:///%%LogDir%%\{7719ECD6-02E3-4739-9287-8D119DDADC5A}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="message" type="S" value="The object &quot;buttonInsertColumns&quot; does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="date" type="D" value="45835.5622769329"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="464"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (176, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_OutlookLogin.Signin_Text&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_mode=form_post&amp;response_type=code+id_token&amp;scope=openid+profile&amp;state=OpenIdConnect.AuthenticationProperties%3dAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAAmsGVTRzO6U-Bu6wApiuHhQAAAAACAAAAAAAQZgAAAAEAACAAAADyxXqxPbw5JvS3klcleanZImcK-ALl2eEK4TawmEX2bQAAAAAOgAAAAAIAACAAAABk_h3BYktGWr04tUUPawKsZxaDJbjO1hdaMko2Xr0QvGAAAABJqVsa6Cv29SP1lr6rW4RJBUcuRyejFyELLrfZqWXYle9i9Z2g2wGmoHiqxDUhTZB-ADefiwMWJFOf53IRjHZOboTmg2ZYagudaS8dXY2ui9Cqol2HStFMfEWXCJm18I9AAAAACM-Yb8WDq4tMOnTZf0F0WvZCCp4f23W6qAZTuT1DXQHoJypdoF5sXeCrZz2GZosN6BKDZSwJWZBOTEwUSg0xvA%26RedirectTo%3dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;nonce=638866079106622283.YjMzYTU2Y2QtOTA4My00MmYzLWE0MWItYzg0MjUwOGE4N2E4YTU2MTk3OGUtMjY3ZS00YTUzLTkyNGQtZWIzMWExOTgxOGVk&amp;redirect_uri=https%3a%2f%2fqa1.sandbox.operations.dynamics.com%2f&amp;max_age=86400&quot;).FindElement(&quot;//div[.='Sign in']&quot;))"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5616508218"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (10, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeAllFields.buttonApplyFilter&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[@role='dialog']//button[@title='Apply filter']&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5624867361"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="468"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (76, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.panelQuoteNumber&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[text()='Quote Number']&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5627086111"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="475"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="stacktext" type="S" value="D65_MigrationCheck"/>
+			<Prp name="line no" type="I" value="464"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Microsoft Edge ver.137.0.3296.93 (x64)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PID:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;41956&lt;/td&gt;&lt;/tr&gt;											  &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Microsoft Edge was launched."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5613922801"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="455"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (34, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonFormcontrolfieldselector2O&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;#FormControlFieldSelector_2_OK&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5626714815"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="473"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="D65_MigrationCheck"/>
+			<Prp name="line no" type="I" value="462"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (8, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeAllFields.textnode&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[@id='GridCell-0-FormControlFieldSelector_Grid_Selected']//*[name()='rect']&quot;))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.562641794"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="471"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{44603A16-9D41-4957-9202-62727F9AE844}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;buttonLogisticspostaladdressStre&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//button[contains(., 'Apply')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAQAdHlwZQEACwBSZWNvZ25pdGlvbgYAY29uZmlnAQAVAERlZmF1bHQg&#xA;Q29uZmlndXJhdGlvbgIAbm0BACQANDQ2MDNBMTZ4OUQ0MXg0OTU3eDkyMDJ4NjI3MjdGOUFFODQ0&#xA;CQBwcm9wY291bnQAAAAABwBwcm9qZWN0AQAkADlDNEVGMkI3eDI4RUV4NENBOXhCRjIyeDY2OEI3&#xA;ODI0Q0YyOQQAbW9kZQAAAgAEAAYAdmFsdWVzAwABADABAMK1AEAyMzAwNUYwMDVGMDA0QzAwNkYw&#xA;MDY3MDA2OTAwNzMwMDc0MDA2OTAwNjMwMDczMDA1MDAwNkYwMDczMDA3NDAwNjEwMDZDMDA0MTAw&#xA;NjQwMDY0MDA3MjAwNjUwMDczMDA3MzAwNUYwMDUzMDA3NDAwNzIwMDY1MDA2NTAwNzQwMDVGMDA0&#xA;MTAwNzAwMDcwMDA2QzAwNzkwMDQ2MDA2OTAwNkMwMDc0MDA2NTAwNzIwMDczMDABADEBAMOxAEAy&#xA;RjAwMkYwMDYyMDA3NTAwNzQwMDc0MDA2RjAwNkUwMDVCMDA0MDAwNkUwMDYxMDA2RDAwNjUwMDNE&#xA;MDAyNzAwNEMwMDZGMDA2NzAwNjkwMDczMDA3NDAwNjkwMDYzMDA3MzAwNTAwMDZGMDA3MzAwNzQw&#xA;MDYxMDA2QzAwNDEwMDY0MDA2NDAwNzIwMDY1MDA3MzAwNzMwMDVGMDA1MzAwNzQwMDcyMDA2NTAw&#xA;NjUwMDc0MDA1RjAwNDEwMDcwMDA3MDAwNkMwMDc5MDA0NjAwNjkwMDZDMDA3NDAwNjUwMDcyMDA3&#xA;MzAwMjcwMDVEMDABADIBAHkAQDJGMDAyRjAwNjIwMDc1MDA3NDAwNzQwMDZGMDA2RTAwNUIwMDYz&#xA;MDA2RjAwNkUwMDc0MDA2MTAwNjkwMDZFMDA3MzAwMjgwMDJFMDAyQzAwMjAwMDI3MDA0MTAwNzAw&#xA;MDcwMDA2QzAwNzkwMDI3MDAyOTAwNUQwMAAABwBtYXRjaGVkAAAAAAsAZm91bmR2YWx1ZXMDAAEA&#xA;MAEAeQBAMkYwMDJGMDA2MjAwNzUwMDc0MDA3NDAwNkYwMDZFMDA1QjAwNjMwMDZGMDA2RTAwNzQw&#xA;MDYxMDA2OTAwNkUwMDczMDAyODAwMkUwMDJDMDAyMDAwMjcwMDQxMDA3MDAwNzAwMDZDMDA3OTAw&#xA;MjcwMDI5MDA1RDAwAQAxAQDCtQBAMjMwMDVGMDA1RjAwNEMwMDZGMDA2NzAwNjkwMDczMDA3NDAw&#xA;NjkwMDYzMDA3MzAwNTAwMDZGMDA3MzAwNzQwMDYxMDA2QzAwNDEwMDY0MDA2NDAwNzIwMDY1MDA3&#xA;MzAwNzMwMDVGMDA1MzAwNzQwMDcyMDA2NTAwNjUwMDc0MDA1RjAwNDEwMDcwMDA3MDAwNkMwMDc5&#xA;MDA0NjAwNjkwMDZDMDA3NDAwNjUwMDcyMDA3MzAwAQAyAQDDsQBAMkYwMDJGMDA2MjAwNzUwMDc0&#xA;MDA3NDAwNkYwMDZFMDA1QjAwNDAwMDZFMDA2MTAwNkQwMDY1MDAzRDAwMjcwMDRDMDA2RjAwNjcw&#xA;MDY5MDA3MzAwNzQwMDY5MDA2MzAwNzMwMDUwMDA2RjAwNzMwMDc0MDA2MTAwNkMwMDQxMDA2NDAw&#xA;NjQwMDcyMDA2NTAwNzMwMDczMDA1RjAwNTMwMDc0MDA3MjAwNjUwMDY1MDA3NDAwNUYwMDQxMDA3&#xA;MDAwNzAwMDZDMDA3OTAwNDYwMDY5MDA2QzAwNzQwMDY1MDA3MjAwNzMwMDI3MDA1RDAwAAAFAG5h&#xA;bWVzAAAAAA==&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5628838773"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="479"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="URL: https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&#xA;&#xA;Aliases.browser"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Navigating to the https://qa1.sandbox.operations.dynamics.com/... page."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5614956829"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="455"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{8E3FB7DC-5718-4375-B2AD-B635E94489B2}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxShipToCustomerAccount&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='dialog']//input&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{53734CF8-2916-4C64-BD7C-963266CE7E77}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45835.5624524769"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="466"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

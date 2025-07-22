@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 6">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="date" type="D" value="45834.42872875"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="message" type="S" value="The script execution was interrupted."/>
+			<Prp name="id" type="I" value="6"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45834.4286253009"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLoginSalesforce.formLoginForm.emailinputUsername&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.my.salesforce.com/?ec=302&amp;startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Faristocrat-global--qa1.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome&quot;).FindElement(&quot;//input[@id=(//label[.='Username']/@for)]&quot;))"/>
+			<Prp name="message" type="S" value="The text '' was entered in the text editor."/>
+			<Prp name="id" type="I" value="2"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45834.4286079514"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="URL: https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&#xA;&#xA;Aliases.browser"/>
+			<Prp name="message" type="S" value="Navigating to the https://aristocrat-global--qa1.sandbox.lightning.force.com/l... page."/>
+			<Prp name="id" type="I" value="1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45834.4287262384"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (-1, -1) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_SFAppSearch_AccountSearch.AppLauncher_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&quot;).FindElement(&quot;//button[.='App Launcher']&quot;))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="5"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 4">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45834.4286776042"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (169, 21) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageLoginSalesforce.formLoginForm.submitbuttonLogInToSandbox&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.my.salesforce.com/?ec=302&amp;startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Faristocrat-global--qa1.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome&quot;).FindElement(&quot;#Login&quot;))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="4"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 3">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45834.4286505324"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLoginSalesforce.formLoginForm.passwordboxPassword&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat-global--qa1.sandbox.my.salesforce.com/?ec=302&amp;startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Faristocrat-global--qa1.sandbox.lightning.force.com%252Flightning%252Fpage%252Fhome&quot;).FindElement(&quot;//input[@id=(//label[.='Password']/@for)]&quot;))"/>
+			<Prp name="message" type="S" value="The text '' was entered in the text editor."/>
+			<Prp name="id" type="I" value="3"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{84DCAD69-8F5F-4C3C-AD74-672DBAC2E154}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="45834.4285382523"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Microsoft Edge ver.137.0.3296.93 (x64)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PID:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;39292&lt;/td&gt;&lt;/tr&gt;											  &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="Microsoft Edge was launched."/>
+			<Prp name="id" type="I" value="0"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="22"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

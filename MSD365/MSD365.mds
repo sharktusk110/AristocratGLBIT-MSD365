@@ -10,7 +10,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{D2E08988-4B7E-4F86-805E-CF46EB6B613A}" version="14">
 		<children>
-			<testItem name="SO_Setchip_Test" key="{705563F7-A9D2-4DF6-9F86-A55879B275FF}" group="False" parallel="False" enabled="True" load="False" testMoniker="{E8796B24-10E2-47D1-8395-A0D250577602}SO_Setchip_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="RR" key="{651C7EAB-B93A-48C0-9F45-FA3962CA2AD1}" group="False" parallel="False" enabled="True" load="False" testMoniker="{F383465A-4C3E-4C7E-91ED-5D7CF3D66583}RR" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
