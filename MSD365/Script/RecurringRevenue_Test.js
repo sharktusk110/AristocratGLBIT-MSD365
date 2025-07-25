@@ -36,6 +36,7 @@ RecurringRevenue["econ_approval"]();
 RecurringRevenue["caseQC"]();
 RecurringRevenue["econ_D65migration"]();
 RecurringRevenue["D65_MigrationCheck"](ConfigFilter1);
+Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\Log.zip", lsPackedHTML);
 
 }
 
