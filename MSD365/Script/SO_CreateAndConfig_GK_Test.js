@@ -1,5 +1,6 @@
 ﻿//USEUNIT ReadExcel
 //USEUNIT SO_CreateAndConfig
+//USEUNIT Login
 // Requirement : 
 // Creator : Shariq Abbas
 // Date: 10th of May'25
@@ -15,9 +16,22 @@ var excelFile = Excel.Open(Path); //Path of the Datasheet
 var excelSheet = excelFile.SheetByTitle(Sheet);
 var rows = excelSheet.RowCount;
 var cols = excelSheet.ColumnCount;
+var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
+var firm=Aliases.browser.Page_D65;
 
 var Config = new Array(rows).fill(0).map(() => new Array(cols).fill(0));
 Config=ReadExcel["readGPKConfigDataFromExcel"]();
+var SO=[];
+
+
+Browsers.Item(btChrome).Run(durl);
+
+ 
+ // User needs to login into D65 Account inorder to initiate firming activity.
+ 
+ Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
+ Delay(2000);
+ DynamicWait["dynamic_wait"](firm.GridOptions_Button,30000);
 
 for(let i=2;i<=2;i++){
 
@@ -27,8 +41,13 @@ ConfigFilter2=[Config[i][3],Config[i][4],Config[i][5],Config[i][6],Config[i][7],
 SO_CreateAndConfig["OrderCreation"](ConfigFilter1);
 SO_CreateAndConfig["OrderConfigurationNavigation"]();
 SO_CreateAndConfig["GameProKitOrderConfiguration"](ConfigFilter2);
-//SO_CreateAndConfig["OrderConfiguration"]();
+SO_CreateAndConfig["OrderConfiguration1"]();
 //Delay(50000);
+
+DynamicWait["dynamic_wait"](Aliases.browser.Page_SOCreation.New_Button,30000);
+Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
+Delay(2000);
+SO[i-1]=Aliases.browser.Page_D65.textnodeLines.buttonGeneral3.textboxSalestable2SalestableSale.Text;
 
 if(aqObject.CheckProperty(verify, "Text", cmpContains, Config[i][4].split("|")[0], false)){
   Log.Message("Test Passed for the data row: "+i);
@@ -37,5 +56,9 @@ if(aqObject.CheckProperty(verify, "Text", cmpContains, Config[i][4].split("|")[0
 }
 
 }
+
+Log.Message("Following Sales Order created"+SO);
+
+//Sys.Browser("chrome").Close();
 
 }

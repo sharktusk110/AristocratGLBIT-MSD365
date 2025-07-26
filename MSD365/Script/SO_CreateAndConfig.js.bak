@@ -13,6 +13,8 @@
     
     // Clicks the 'New' button.
     nav.New_Button.ClickButton();
+    
+    DynamicWait["dynamic_wait"](nav.Account_Selectlist,30000);
 
     // Enters the account number into the Ship-To Customer Account field.
     nav.Account_Selectlist.SetText(Config[0]); //"AM0112200"
@@ -22,6 +24,7 @@
     Delay(2000);
     
     //Clicking on Street column associated selectlist inorder to conduct the search for address.
+    DynamicWait["dynamic_wait"](nav.StreetFilter_Selectlist,30000);
     nav.StreetFilter_Selectlist.Click();
     Delay(2000);
     
@@ -36,14 +39,16 @@
    //CLicking on Gaming Classification associated selectlist inorder to conduct search for game class.
     nav.GamingClassificationFilter_Selectlist.Click();
     Delay(2000);
+    
+    DynamicWait["dynamic_wait"](nav.TextBoxFilterGaming_Field,30000);
      
    //Entering the gaming classification 
     nav.TextBoxFilterGaming_Field.SetText(Config[2]);
     Delay(2000);
     
    // Entering Enter action inorder to select the entered gaming classification
-    nav.TextBoxFilterGaming_Field.Keys("[Enter]");
-    Delay(2000);
+   // nav.TextBoxFilterGaming_Field.Keys("[Enter]");
+    //Delay(2000);
     
    // Clicking on Apply Filters inorder to filter the data associated with the entered gaming classification. 
     nav.GamingClassificationApply_Button.Click();
@@ -58,16 +63,16 @@
 
 function OrderConfigurationNavigation() {
     var navconfig = Aliases.browser.Page_SOConfig.Config_Navigation;
-
+    DynamicWait["dynamic_wait"](navconfig.SalesOrder_Button,30000);
     // Navigating to the configuration page
     navconfig.SalesOrder_Button.Click();
     Delay(2000);
     navconfig.Configure_Button.Click();
     Delay(2000);
     navconfig.SwitchtoEcon_Button.Click();
-   
+    DynamicWait["dynamic_wait"](navconfig.Configuration_Link,60000);
     // Wait for the new window to load
-    Delay(30000);
+    //Delay(30000);
 
     // Click on configuration link
     navconfig.Configuration_Link.Click();
@@ -119,27 +124,31 @@ function GameProKitOrderConfiguration(Config) {
     Aliases.browser.Page_SOConfig.SetChip_Config.GamingClass_Selectlist
 
     // Enter 'Type'
+    DynamicWait["dynamic_wait"](navsetchip.Type_Selectlist,30000);
     navsetchip.Type_Selectlist.SetText("Game Program Kit");
     Delay(2000);
     navsetchip.Type_Selectlist.Keys("[Enter]");
-    Delay(5000);
+    Delay(2000);
 
     // Enter 'Game Class'
+    DynamicWait["dynamic_wait"](navsetchip.GamingClass_Selectlist,30000);
     navsetchip.GamingClass_Selectlist.SetText(Config[0]);
     navsetchip.GamingClass_Selectlist.Keys("[Enter]");
-    Delay(5000);
+    Delay(2000);
 
     // Enter 'Search With'
+    DynamicWait["dynamic_wait"](navsetchip.SearchWith_Selectlist,30000);
     navsetchip.SearchWith_Selectlist.SetText("Game Title");
     Delay(2000);
     navsetchip.SearchWith_Selectlist.Keys("[Enter]");
-    Delay(5000);
+    Delay(2000);
 
     // Enter 'GameTitles'
+    DynamicWait["dynamic_wait"](navsetchip.GameTitles_Selectlist,30000);
     navsetchip.GameTitles_Selectlist.SetText(Config[1]);
     Delay(10000);
     navsetchip.GameTitles_Selectlist.Keys("[Enter]");
-    Delay(5000);
+    Delay(2000);
 
     // Enter 'Base'
     navsetchip.Base_Selectlist.SetText(Config[2]);
@@ -151,11 +160,13 @@ function GameProKitOrderConfiguration(Config) {
     navsetchip.OS_Selectlist.SetText(Config[3]);
     Delay(2000);
     navsetchip.OS_Selectlist.Keys("[Enter]");
+    Delay(5000);
 
     // Enter 'Bootloader'
     navsetchip.Bootloader_Selectlist.SetText(Config[4]);
     Delay(2000);
     navsetchip.Bootloader_Selectlist.Keys("[Enter]");
+    Delay(5000);
     
     //Enter 'Setchip'
     navsetchip.Setchip_Selectlist.SetText(Config[5]);
@@ -322,6 +333,27 @@ function OrderConfiguration() {
 //    Aliases.browser.Page_SOConfig.buttonClose.Click();
 //    Delay(2000);
     navconfigexit.OrderConfigurator_Link.Click();
+    Delay(2000);
+    navconfigexit.ProcessExit_Button.ClickButton();
+    Delay(2000);
+    navconfigexit.Yes_Button.ClickButton();
+}
+
+function OrderConfiguration1() {
+    var navconfigexit=Aliases.browser.Page_SOConfig.ConfigExit;
+
+    // Finalize configuration
+//    Aliases.browser.Page_SOConfig.SetChip_Config.SearchWith_Selectlist.Click();
+//    Delay(2000);
+//    Aliases.browser.Page_SOConfig.buttonClose.Click();
+//    Delay(2000);
+    navconfigexit.OrderConfigurator_Link.Click();
+    Delay(2000);
+    Aliases.browser.Page_SOConfig.textnodeRunRules.buttonRunRules.Click();
+    Delay(20000);
+    Aliases.browser.Page_SOConfig.SetChip_Config.SearchWith_Selectlist.Click();
+    Delay(2000);
+    Aliases.browser.Page_SOConfig.buttonOk2.Click()
     Delay(2000);
     navconfigexit.ProcessExit_Button.ClickButton();
     Delay(2000);

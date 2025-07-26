@@ -1581,6 +1581,84 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeLines" Key="{3CAD87E5-55A0-4ABF-ABA4-02EDC6881434}">
+										<Image FileName="641769024" Left="122" Top="655" Right="1843" Bottom="698" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Lines&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;SalesTable_2_TabPageDetails_panel&apos;]//div/ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;SalesTable_2_TabPageDetails_panel&apos;]//div/ul[contains(@class, &apos;pivot-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_2_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_2_DetailsTab&apos;]/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;SalesTable_2_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_2_DetailsTab&apos;]/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSalestable2HeaderviewHea" Key="{921ECD1C-02D2-4E83-BE4A-F4809B1A6BA6}">
+										<Image FileName="641769024" Left="201" Top="655" Right="285" Bottom="698" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesTable_2_HeaderView_header" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Header&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonGeneral3" Key="{EC65740F-EC02-4B2D-9345-7BCA9599E9B0}">
+										<Image FileName="1464202272" Left="122" Top="736" Right="987" Bottom="802" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesTable_2_TabHeaderGeneral_caption" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;General&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-label=&apos;General&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;SalesTable_2_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_2_HeaderView_panel&apos;]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;SalesTable_2_HeaderView_panel&apos;]//div[@id=&apos;SalesTable_2_TabHeaderGeneral&apos;]//button[contains(@class, &apos;section-page-caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_2_TabHeaderGeneral_header&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;SalesTable_2_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_2_HeaderView_panel&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSalestable2SalestableSale" Key="{BA4A7563-C70C-4FC2-8194-7D250D312B24}">
+										<Image FileName="1464202272" Left="137" Top="884" Right="382" Bottom="929" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@aria-describedby=&apos;SalesTable_2_SalesTable_SalesId_helptext&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#SalesTable_2_SalesTable_SalesId_input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;SalesTable_SalesId&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;SalesTable_2_DetailsTab&apos;]/div[@id=&apos;SalesTable_2_HeaderView_panel&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="page00300505XmlECon" Key="{E67A00D3-D138-4DBA-9421-074767B4836D}">
@@ -2182,6 +2260,54 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[@role=&apos;dialog&apos;]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRunRules" Key="{A206110E-F5FA-4E45-84B2-B0557A16F133}">
+										<Image FileName="-1990866072" Left="1721" Top="213" Right="1826" Bottom="273" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Run Rules&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonRunRules" Key="{D7716F36-037E-4615-BB88-A62279D314E6}">
+										<Image FileName="-1990866072" Left="1721" Top="213" Right="1826" Bottom="273" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Run Rules&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Run Rules&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/button[contains(@class, &apos;ui-ribbon-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMainContainer&apos;]//li[6]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{9EAB8639-1AA4-4008-896F-4F0BA3EB97FD}">
+										<Image FileName="2099795052" Left="1094" Top="711" Right="1166" Bottom="758" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//button)[54]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk2" Key="{660A46C2-AC0A-4853-BFBE-B9611F6952FE}">
+										<Image FileName="-952778800" Left="1094" Top="711" Right="1166" Bottom="758" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//button)[53]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6075,6 +6201,12 @@
 				<Child Name="textboxProduction" Owner="{7599C2C1-2A43-40AC-85C0-D1092B636405}" />
 				<Child Name="textboxCustomerName2" Owner="{B323E144-A1D4-49A3-B582-16B1FC4D047E}" />
 				<Child Name="textboxCustomerName3" Owner="{7105AEE7-892A-4709-B391-064E131AFA69}" />
+				<Child Name="textnodeLines" Owner="{3CAD87E5-55A0-4ABF-ABA4-02EDC6881434}">
+					<Child Name="textnodeSalestable2HeaderviewHea" Owner="{921ECD1C-02D2-4E83-BE4A-F4809B1A6BA6}" />
+					<Child Name="buttonGeneral3" Owner="{EC65740F-EC02-4B2D-9345-7BCA9599E9B0}">
+						<Child Name="textboxSalestable2SalestableSale" Owner="{BA4A7563-C70C-4FC2-8194-7D250D312B24}" />
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="Page_SOConfig" Owner="{E67A00D3-D138-4DBA-9421-074767B4836D}">
 				<Child Name="SetChip_Config" Owner="{6AED7B26-D806-484F-8FF3-B24414EF69FE}">
@@ -6114,6 +6246,11 @@
 					<Child Name="Test_TextBox" Owner="{150B8D6C-5F60-4D80-82DE-BDA44783BF2E}" />
 				</Child>
 				<Child Name="buttonClose" Owner="{F52D2FF7-12B0-430C-81AB-47F6BB885A66}" />
+				<Child Name="textnodeRunRules" Owner="{A206110E-F5FA-4E45-84B2-B0557A16F133}">
+					<Child Name="buttonRunRules" Owner="{D7716F36-037E-4615-BB88-A62279D314E6}" />
+				</Child>
+				<Child Name="buttonOk" Owner="{9EAB8639-1AA4-4008-896F-4F0BA3EB97FD}" />
+				<Child Name="buttonOk2" Owner="{660A46C2-AC0A-4853-BFBE-B9611F6952FE}" />
 			</Child>
 			<Child Name="Page_AristocratLogin_Passive" Owner="{858E393B-305B-4067-B78E-6551AD08AB96}">
 				<Child Name="Next_Button" Owner="{62C708B8-01DE-42A6-94C3-6F570DCE272A}" />

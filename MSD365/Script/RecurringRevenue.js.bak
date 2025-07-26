@@ -517,7 +517,7 @@ Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
 Delay(10000);
 }
 econ_migrate.SendToD365_Button.Click();
-Delay(2000);
+Delay(15000);
 Sys.Browser("chrome").Close();
 }
 

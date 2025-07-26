@@ -123,6 +123,6 @@ Browsers.Item(btChrome).Run(durl);
   aqObject.CheckProperty(Aliases.browser.Page_D65.textboxCustomerName2, "value", cmpContains, customer);
   
   
- //Sys.Browser("chrome").Close(); 
+  Sys.Browser("chrome").Close(); 
 
 }
