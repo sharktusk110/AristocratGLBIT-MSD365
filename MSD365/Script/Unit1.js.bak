@@ -10,10 +10,9 @@ function exportLogsToMHT() {
 //Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\", lsHTML,true,1);
 
 //Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\Log.zip", lsPackedHTML);
-Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
-Delay(2000);
-var chr=Aliases.browser.Page_D65.textnodeLines.buttonGeneral3.textboxSalestable2SalestableSale.textContent;
-Log.Message(chr);
+//Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
+//Delay(2000);
+Sys.Keys("[F5]");
   
 }
 

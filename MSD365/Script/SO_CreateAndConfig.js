@@ -26,7 +26,7 @@
     //Clicking on Street column associated selectlist inorder to conduct the search for address.
     DynamicWait["dynamic_wait"](nav.StreetFilter_Selectlist,30000);
     nav.StreetFilter_Selectlist.Click();
-    Delay(2000);
+    Delay(5000);
     
     //Entering the address inorder to apply filter for selected address .
     nav.TextBoxFilter_Field.SetText(Config[1]); //"2522 W MASON ST"
@@ -34,7 +34,7 @@
     
     //Clicking on apply button inorder to apply filter for selected address.
     nav.StreetApply_Button.Click();
-    Delay(2000); 
+    Delay(5000); 
     
    //CLicking on Gaming Classification associated selectlist inorder to conduct search for game class.
     nav.GamingClassificationFilter_Selectlist.Click();
@@ -52,7 +52,7 @@
     
    // Clicking on Apply Filters inorder to filter the data associated with the entered gaming classification. 
     nav.GamingClassificationApply_Button.Click();
-    Delay(2000);
+    Delay(5000);
     
    // Clicking on filtered address inorder to select the address and associating it with the sales order .
     nav.Filter_Select.Click();

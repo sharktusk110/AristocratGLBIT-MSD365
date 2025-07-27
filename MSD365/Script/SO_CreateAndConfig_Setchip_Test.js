@@ -15,13 +15,26 @@ Sheet="SetChip";
 
 var excelFile = Excel.Open(Path); //Path of the Datasheet
 var excelSheet = excelFile.SheetByTitle(Sheet);
+var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
 var rows = excelSheet.RowCount;
 var cols = excelSheet.ColumnCount;
-
+var firm=Aliases.browser.Page_D65;
 var Config = new Array(rows).fill(0).map(() => new Array(cols).fill(0));
 Config=ReadExcel["readFilterConfigDataFromExcel"]();
 
-for(let i=2;i<=2;i++){
+var SO=[];
+
+
+Browsers.Item(btChrome).Run(durl);
+
+ 
+ // User needs to login into D65 Account inorder to initiate firming activity.
+ 
+ Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
+ Delay(2000);
+ DynamicWait["dynamic_wait"](firm.GridOptions_Button,30000);
+
+for(let i=2;i<=rows;i++){
 
 ConfigFilter1=[Config[i][0],Config[i][1],Config[i][2]];
 ConfigFilter2=[Config[i][3],Config[i][4],Config[i][5],Config[i][6],Config[i][7],Config[i][8]];
@@ -29,29 +42,35 @@ ConfigFilter2=[Config[i][3],Config[i][4],Config[i][5],Config[i][6],Config[i][7],
 // Opens the specified URL in a running instance of the specified browser.
 
     
-if(i==2){
-// User needs to login into D65 Account
-Browsers.Item(btEdge).Run("https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage");
-Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
-Delay(2000);
-DynamicWait["dynamic_wait"](Aliases.browser.Page_D65.GridOptions_Button,30000);
-}else{
-  Browsers.Item(btEdge).Navigate("https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage");
-}
-
 SO_CreateAndConfig["OrderCreation"](ConfigFilter1);
 SO_CreateAndConfig["OrderConfigurationNavigation"]();
 SO_CreateAndConfig["SetchipOrderConfiguration"](ConfigFilter2);
 SO_CreateAndConfig["OrderConfiguration"]();
 
 //DynamicWait["dynamic_wait"](verify,60000);
-Delay(90000);
+DynamicWait["dynamic_wait"](Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea,30000);
+Delay(2000);
+Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
+Delay(5000);
+
+if(!Aliases.browser.Page_D65.textnodeLines.buttonGeneral3.textboxSalestable2SalestableSale.Exists){
+  Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
+}
+SO[i-1]=Aliases.browser.Page_D65.textnodeLines.buttonGeneral3.textboxSalestable2SalestableSale.Text;
+
 
 if(aqObject.CheckProperty(verify, "Text", cmpEqual, Config[i][6]+" | "+Config[i][5]+" Platform", false)){
   Log.Message("Test Passed for the data row: "+i);
 }else{
   Log.Message("Test Failed for the data row: "+i);
 }
+
+if(i==rows){
+Log.Message("Following Sales Order created"+SO);
+}
+
+Sys.Keys("[F5]");
+DynamicWait["dynamic_wait"](Aliases.browser.Page_SOCreation.New_Button,30000);
 
 }
 
@@ -61,8 +80,8 @@ Aliases.browser.Page_D65.buttonUserbtn.Click();
 Delay(2000);
 Aliases.browser.Page_D65.textnodeCrmtest4.linkSignout.textnodeSignoutLabel.Click();
 Delay(2000);
-Sys.Browser("edge").Close();
 
+Sys.Browser("chrome").Close();
 
 }
 

@@ -12,8 +12,14 @@ function exportLogsToMHT() {
 //Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\Log.zip", lsPackedHTML);
 //Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
 //Delay(2000);
-var chr=Aliases.browser.Page_D65.textnodeLines.buttonGeneral3.textboxSalestable2SalestableSale.Text;
-Log.Message(chr);
+Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+Sheet="GameProgramKit";
+
+var excelFile = Excel.Open(Path); //Path of the Datasheet
+var excelSheet = excelFile.SheetByTitle(Sheet);
+var rows = excelSheet.RowCount;
+
+Log.Message(rows);
   
 }
 

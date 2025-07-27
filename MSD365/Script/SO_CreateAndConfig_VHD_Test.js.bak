@@ -20,7 +20,7 @@ Config=ReadExcel["readVHDConfigDataFromExcel"]();
 
 Log.Message(Config);
 
-for(let i=2;i<=rows;i++){
+for(let i=2;i<=2;i++){
 
 ConfigFilter1=[Config[i][0],Config[i][1],Config[i][2]];
 ConfigFilter2=[Config[i][3],Config[i][4],Config[i][5],Config[i][6],Config[i][7]];
