@@ -2,11 +2,11 @@
 
 function SF_login(username,password){
   
-  Aliases.browser.pageLoginSalesforce.formLoginForm.emailinputUsername.SetText(username);
+  Aliases.browser.pageLoginSalesforce2.formLoginForm.emailinputUsername.SetText(username);
   Delay(2000); 
-  Aliases.browser.pageLoginSalesforce.formLoginForm.passwordboxPassword.SetText(password);
+  Aliases.browser.pageLoginSalesforce2.formLoginForm.passwordboxPassword.SetText(password);
   Delay(2000);
-  Aliases.browser.pageLoginSalesforce.formLoginForm.submitbuttonLogInToSandbox.Click();
+  Aliases.browser.pageLoginSalesforce2.formLoginForm.submitbuttonLogInToSandbox.Click();
                                  
 }
 

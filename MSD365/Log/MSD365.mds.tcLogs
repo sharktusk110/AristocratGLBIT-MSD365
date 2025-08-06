@@ -23,12 +23,12 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45865.7524159954"/>
+				<Prp name="datetime" type="D" value="45875.6305490046"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{26462FE2-C479-4C7E-9A65-E523CCB2BF24}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [SO_CreateAndConfig_VC_Test\SO_VC_Test]"/>
-				<Prp name="relpath" type="S" value="7_27_2025_6_03 PM_28_742\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
+				<Prp name="key" type="S" value="{8B109EB7-5B11-4772-B9C1-B48FFCD9F4AD}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SO_CreateAndConfig_Setchip_Test\SO_Setchip_Test]"/>
+				<Prp name="relpath" type="S" value="8_6_2025_3_07 PM_59_434\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>

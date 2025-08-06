@@ -3,7 +3,6 @@
 function dynamic_wait(locator,cap){
   
  var delay=0;
- var loc=locator;
   while(delay<=cap){
    if(!locator.Exists){
      Delay(200);

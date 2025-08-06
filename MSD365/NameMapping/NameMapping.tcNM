@@ -3596,6 +3596,9 @@
 													<Selector>
 														<Value Value="//tr[19]/td[2]//label" />
 													</Selector>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;executedrules&apos;]" Enabled="False" />
+													</Selector>
 												</Selectors>
 											</Child>
 											<Child Name="buttonOk2" Key="{E2DAFDC4-7D6D-48D2-B1B3-2D00FB6B0E44}">
@@ -3654,17 +3657,10 @@
 										</Children>
 									</Child>
 									<Child Name="frame3" Key="{EACFC117-C32C-4842-AB47-3DEEC8B206C8}">
-										<Image FileName="1012516024" Left="60" Top="14" Right="1859" Bottom="1514" />
 										<TypeInfo Item0="{5A92A37E-8D2E-42A5-A21A-49D978456E6C}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//iframe[contains(@src, &apos;eConEngineHtml.aspx&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//flexipage-tab2[@id=&apos;tab-8&apos;]//iframe" />
-											</Selector>
-											<Selector>
-												<Value Value="//iframe" />
+												<Value Value="xpath=//input[@name=&apos;executedrules&apos;]" />
 											</Selector>
 										</Selectors>
 										<Children>
@@ -5962,6 +5958,95 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageLoginSalesforce2" Key="{79DA2DAB-139D-4C43-9104-C4105BFAC512}">
+								<Image FileName="812501400" Left="11" Top="141" Right="1931" Bottom="1138" />
+								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://test.salesforce.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLoginForm" Key="{1EE2C5E7-EBC5-4CFC-BF11-2BBA9B1848DB}">
+										<Image FileName="812501400" Left="237" Top="438" Right="745" Bottom="818" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login_form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Username&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;test.salesforce.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;theloginform&apos;]/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputUsername" Key="{DD496F3A-3727-401E-BE12-C633981873EF}">
+										<Image FileName="812501400" Left="237" Top="473" Right="745" Bottom="536" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Username&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;usernamegroup&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{3262B2CC-E6B3-4D8D-80F7-6D52D6E2FF40}">
+										<Image FileName="812501400" Left="237" Top="595" Right="745" Bottom="658" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;pw&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogInToSandbox" Key="{7D7D8046-3EE0-4199-836B-4700C4DD9909}">
+										<Image FileName="812501400" Left="237" Top="682" Right="745" Bottom="745" />
+										<TypeInfo Item0="{60AD172F-2049-4C66-B26D-A8522BF80F1A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Login" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Log In to Sandbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="SnippingTool" Key="{849F84DF-7D21-4077-87D7-F340283377F8}">
@@ -6452,6 +6537,13 @@
 					</Child>
 				</Child>
 				<Child Name="buttonQuoteInformation" Owner="{01F038EA-E1C9-49E3-AA50-7C2BF135C560}" />
+			</Child>
+			<Child Name="pageLoginSalesforce2" Owner="{79DA2DAB-139D-4C43-9104-C4105BFAC512}">
+				<Child Name="formLoginForm" Owner="{1EE2C5E7-EBC5-4CFC-BF11-2BBA9B1848DB}">
+					<Child Name="emailinputUsername" Owner="{DD496F3A-3727-401E-BE12-C633981873EF}" />
+					<Child Name="passwordboxPassword" Owner="{3262B2CC-E6B3-4D8D-80F7-6D52D6E2FF40}" />
+					<Child Name="submitbuttonLogInToSandbox" Owner="{7D7D8046-3EE0-4199-836B-4700C4DD9909}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{54A8C89A-F972-4B15-8558-398DB71549EF}">

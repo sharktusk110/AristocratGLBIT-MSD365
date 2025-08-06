@@ -42,16 +42,7 @@ SO_CreateAndConfig["OrderConfigurationNavigation"]();
 SO_CreateAndConfig["VHDOrderConfiguration"](ConfigFilter2);
 SO_CreateAndConfig["OrderConfiguration"]();
 
-DynamicWait["dynamic_wait"](Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea,30000);
-Delay(2000);
-Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
-Delay(5000);
-
-if(!Aliases.browser.Page_D65.textnodeLines.buttonGeneral3.textboxSalestable2SalestableSale.Exists){
-  Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
-}
-SO[i-1]=Aliases.browser.Page_D65.textnodeLines.buttonGeneral3.textboxSalestable2SalestableSale.Text;
-
+DynamicWait["dynamic_wait_visible"](Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea,30000);
 
 if(aqObject.CheckProperty(verify, "Title", cmpContains, "VERTEX FIRMWARE VERSION", false)){
   Log.Message("Test Passed for the data row: "+i);
@@ -59,11 +50,17 @@ if(aqObject.CheckProperty(verify, "Title", cmpContains, "VERTEX FIRMWARE VERSION
   Log.Message("Test Failed for the data row: "+i);
 }
 
+Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
+Delay(2000);
+
+SO[i-1]=Aliases.browser.Page_D65.textnodeLines.buttonGeneral3.textboxSalestable2SalestableSale.Text;
+
 if(i==rows){
 Log.Message("Following Sales Order created"+SO);
 }
+
 Sys.Keys("[F5]");
-DynamicWait["dynamic_wait"](Aliases.browser.Page_SOCreation.New_Button,30000);
+DynamicWait["dynamic_wait_visible"](Aliases.browser.Page_SOCreation.New_Button,30000);
 
 
 }

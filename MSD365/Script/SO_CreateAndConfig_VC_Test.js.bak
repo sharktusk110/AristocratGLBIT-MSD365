@@ -61,7 +61,7 @@ if(aqObject.CheckProperty(verify, "Title", cmpContains, "VERTEX FIRMWARE VERSION
   Log.Message("Test Failed for the data row: "+i);
 }
 
-if(i==row){
+if(i==rows){
 Log.Message("Following Sales Order created"+SO);
 }
 Sys.Keys("[F5]");

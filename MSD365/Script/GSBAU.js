@@ -11,6 +11,7 @@ var opportunity_name;
 var quotename;
 var urc;
 var quote_number;
+var app=Aliases.browser.Page_SFAppSearch_AccountSearch;
 
 
 function Opportunity_Creation(Config) {
@@ -19,7 +20,7 @@ function Opportunity_Creation(Config) {
  var account=Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch;
  var opportunity=Aliases.browser.Page_NewOpportunityCreation;
 
- Browsers.Item(btChrome).Run("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/page/home");
+ Browsers.Item(btChrome).Run("https://test.salesforce.com");
  
  Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
  Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
@@ -46,6 +47,12 @@ function Opportunity_Creation(Config) {
  //Delay(5000);
  DynamicWait["dynamic_wait"](opportunity.OpportunityName_Field,5000);
  
+ // Filling opportunity creation mandatory field including market segment.
+ 
+ opportunity.MarketSegment_Field.Click();
+ Delay(2000);
+ opportunity.FindElement('//*[@title="'+Config[3]+'"]').Click();
+ 
  // Filling opportunity creation mandatory field including opportunity name
  
  opportunity_name=opportunity.OpportunityName_Field.Text;
@@ -55,9 +62,9 @@ function Opportunity_Creation(Config) {
  
  // Filling opportunity creation mandatory field including market segment.
  
- opportunity.MarketSegment_Field.Click();
- Delay(2000);
- opportunity.FindElement('//*[@title="'+Config[3]+'"]').Click();
+//// opportunity.MarketSegment_Field.Click();
+//// Delay(2000);
+//// opportunity.FindElement('//*[@title="'+Config[3]+'"]').Click();
  
  // Filling opportunity creation mandatory field including gaming classification
  
@@ -149,10 +156,14 @@ var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/
 Browsers.Item(btChrome).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "Tester\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" --disable-site-isolation-trials";           
          
-Browsers.Item(btChrome).Run(url);
+Browsers.Item(btChrome).Run("https://test.salesforce.com");
 
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
+
+DynamicWait["dynamic_wait"](app.AppLauncher_Button,30000);
+
+Browsers.Item(btChrome).Navigate(url);
 
 econ_nav.SearchThisList_SearchField.SetText(quotename);
 
@@ -507,11 +518,13 @@ var econ_approval1=Aliases.browser.Page_EconAdvancedConfiguration_II;
 //urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bp5BCAQ/view";
 //Project.Variables.quoteurl=urc; 
           
-Browsers.Item(btChrome).Run(urc);
+Browsers.Item(btChrome).Run("https://test.salesforce.com");
 
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
+DynamicWait["dynamic_wait"](app.AppLauncher_Button,30000);
 
+Browsers.Item(btChrome).Navigate(urc);
 
 DynamicWait["dynamic_wait"](econ_approval.SubmitforApproval_Button,30000);
 econ_approval.SubmitforApproval_Button.Click();
@@ -546,11 +559,12 @@ function caseQC(){
 
 //Project.Variables.caseurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Case/5009r00000KzLgtAAF/view";
 var casedetail=Aliases.browser.Page_SFCaseDetails;
-Browsers.Item(btChrome).Run(Project.Variables.caseurl);
+Browsers.Item(btChrome).Run("https://test.salesforce.com");
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
+DynamicWait["dynamic_wait"](app.AppLauncher_Button,30000);
 //Project.Variables.caseurl="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Case/5009r00000KkKoFAAV/view";
-
+Browsers.Item(btChrome).Navigate(Project.Variables.caseurl);
 DynamicWait["dynamic_wait"](casedetail.Edit_Icon,30000);
 casedetail.Edit_Icon.Click();
 Delay(2000);
@@ -575,11 +589,13 @@ var econ_migrate=Aliases.browser.Page_EconMainConfiguration;
 Browsers.Item(btChrome).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "Tester\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" --disable-site-isolation-trials";           
          
-Browsers.Item(btChrome).Run(urc);
+Browsers.Item(btChrome).Run("https://test.salesforce.com");
 
 Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
 Login["SF_login"](Project.Variables.SF_Username,Project.Variables.SF_Password);
+DynamicWait["dynamic_wait"](app.AppLauncher_Button,30000);
 
+Browsers.Item(btChrome).Navigate(urc);
 DynamicWait["dynamic_wait"](econ_migrate.ConfigureQuote_Link,30000);
 econ_migrate.ConfigureQuote_Link.Click();
 //Delay(50000);

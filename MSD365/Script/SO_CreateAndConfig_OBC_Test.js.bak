@@ -15,10 +15,23 @@ var excelFile = Excel.Open(Path); //Path of the Datasheet
 var excelSheet = excelFile.SheetByTitle(Sheet);
 var rows = excelSheet.RowCount;
 var cols = excelSheet.ColumnCount;
+var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
+var firm=Aliases.browser.Page_D65;
 
 var Config = new Array(rows).fill(0).map(() => new Array(cols).fill(0));
 Config=ReadExcel["readOBCConfigDataFromExcel"]();
+var SO=[];
 
+
+Browsers.Item(btChrome).Run(durl);
+
+ 
+ // User needs to login into D65 Account inorder to initiate firming activity.
+ 
+ Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
+ Delay(2000);
+ DynamicWait["dynamic_wait"](firm.GridOptions_Button,30000);
+ 
 for(let i=3;i<=rows;i++){
 
 ConfigFilter1=[Config[i][0],Config[i][1],Config[i][2]];

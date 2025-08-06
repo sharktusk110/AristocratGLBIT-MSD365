@@ -12,14 +12,13 @@ function exportLogsToMHT() {
 //Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\Log.zip", lsPackedHTML);
 //Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
 //Delay(2000);
-Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
-Sheet="GameProgramKit";
-
-var excelFile = Excel.Open(Path); //Path of the Datasheet
-var excelSheet = excelFile.SheetByTitle(Sheet);
-var rows = excelSheet.RowCount;
-
-Log.Message(rows);
+//Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
+//Delay(4000);
+var opportunity=Aliases.browser.Page_NewOpportunityCreation;
+var Config="Class III";
+ opportunity.MarketSegment_Field.Click();
+ Delay(2000);
+ opportunity.MarketSegment_Field.FindElement('//*[@title="'+Config+'"]').Click();
   
 }
 

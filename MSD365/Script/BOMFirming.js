@@ -9,7 +9,7 @@
 
 function BOMFirming(){
 
-var quote_number="00142260";
+var quote_number="00150775";
 
 var customer ;
 var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
