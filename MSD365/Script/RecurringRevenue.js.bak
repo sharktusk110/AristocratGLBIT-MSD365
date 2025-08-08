@@ -411,7 +411,7 @@ DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.RulesExec
 Delay(10000);
 Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
 Delay(2000);
-if(equal(Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.FindElement("//input[@name='executedrules']").getAttribute("data-original-value"),false)){
+if(Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.FindElement("//input[@name='executedrules']").getAttribute("data-original-value")=="False"){
   Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
 }
 AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();

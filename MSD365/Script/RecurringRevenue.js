@@ -154,7 +154,7 @@ var econ_config=Aliases.browser.Page_EconMainConfiguration;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
          "Quote/list?filterName=__Recent";
          
-//quotename="WHEELING ISLAND RACETRACK AND GAMING CENTER -8297574295- 07/24/2025";         
+quotename="ECON  WHEELING ISLAND RACETRACK AND GAMING CENTER -6646925957- 08/08/2025";         
 
 Browsers.Item(btChrome).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "Tester\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" --disable-site-isolation-trials";           

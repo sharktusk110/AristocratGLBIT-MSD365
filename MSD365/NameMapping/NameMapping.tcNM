@@ -3654,6 +3654,36 @@
 													</Selector>
 												</Selectors>
 											</Child>
+											<Child Name="textboxId0emdag" Key="{D8D6720E-F384-4217-9398-D3DC378D66DC}">
+												<Image FileName="-134630698" Left="1212" Top="579" Right="1737" Bottom="615" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.swbom.progressivehardware&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0e1dag" Key="{AFB311F8-6F3E-4D3D-90E6-BD8EE6CE1FB6}">
+												<Image FileName="-18182818" Left="1212" Top="632" Right="1737" Bottom="668" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@id=(//label[.=&apos;Topper Art&apos;]/@for)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="label2" Key="{7D4E7A9D-FF84-4209-8AC5-F2B459449C50}">
+												<Image FileName="594616126" Left="545" Top="806" Right="571" Bottom="832" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[20]/td[2]/div/label" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[20]/td[2]//label" />
+													</Selector>
+												</Selectors>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="frame3" Key="{EACFC117-C32C-4842-AB47-3DEEC8B206C8}">
@@ -5522,7 +5552,6 @@
 								</Children>
 							</Child>
 							<Child Name="pageLoginSalesforce" Key="{4444C046-ECA7-469A-AB3A-CA76A271E704}">
-								<Image FileName="595485158" Left="17" Top="122" Right="1925" Bottom="1133" />
 								<TypeInfo Item0="{942146E5-1285-4AD2-BDBC-6DFD1BFD5B81}" />
 								<Properties>
 									<Property Name="ObjectType">
@@ -5534,7 +5563,6 @@
 								</Properties>
 								<Children>
 									<Child Name="formLoginForm" Key="{0AD27077-4191-4F00-8A38-F351DA18796B}">
-										<Image FileName="595485158" Left="234" Top="449" Right="742" Bottom="829" />
 										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
 										<Selectors>
 											<Selector>
@@ -5555,7 +5583,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="emailinputUsername" Key="{6F914E09-2327-4FEA-A0BD-50A9050A8B8F}">
-										<Image FileName="595485158" Left="234" Top="484" Right="742" Bottom="547" />
 										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 										<Selectors>
 											<Selector>
@@ -5573,7 +5600,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="passwordboxPassword" Key="{390D3461-8298-4440-B8C0-9A7FCDC7EEA5}">
-										<Image FileName="232072538" Left="234" Top="606" Right="742" Bottom="669" />
 										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 										<Selectors>
 											<Selector>
@@ -5591,7 +5617,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="submitbuttonLogInToSandbox" Key="{42452A0D-873D-4CE1-917E-4AA0E0E4FDAC}">
-										<Image FileName="2023555624" Left="234" Top="693" Right="742" Bottom="756" />
 										<TypeInfo Item0="{60AD172F-2049-4C66-B26D-A8522BF80F1A}" />
 										<Selectors>
 											<Selector>
@@ -6446,6 +6471,8 @@
 				<Child Name="buttonOk4" Owner="{B22C3697-F976-4488-A1EC-5E8A23C0C086}" />
 				<Child Name="Model_Field" Owner="{6AB6E95A-F97E-4871-9968-765A440A3D3B}" />
 				<Child Name="PrinterFirmware_Field" Owner="{A0F61AB9-1F8F-44FC-A795-239112F182E3}" />
+				<Child Name="ProgressiveHardware_field" Owner="{D8D6720E-F384-4217-9398-D3DC378D66DC}" />
+				<Child Name="TopperArt_Field" Owner="{AFB311F8-6F3E-4D3D-90E6-BD8EE6CE1FB6}" />
 			</Child>
 			<Child Name="Page_EconAdvancedConfiguration_I" Owner="{881F118D-459D-4371-BBC6-5F30165B3632}">
 				<Child Name="linkAdvanced" Owner="{5797B608-7C90-4EA2-ACE3-CE62B6DF02A2}" />
@@ -6537,6 +6564,7 @@
 					</Child>
 				</Child>
 				<Child Name="buttonQuoteInformation" Owner="{01F038EA-E1C9-49E3-AA50-7C2BF135C560}" />
+				<Child Name="label2" Owner="{7D4E7A9D-FF84-4209-8AC5-F2B459449C50}" />
 			</Child>
 			<Child Name="pageLoginSalesforce2" Owner="{79DA2DAB-139D-4C43-9104-C4105BFAC512}">
 				<Child Name="formLoginForm" Owner="{1EE2C5E7-EBC5-4CFC-BF11-2BBA9B1848DB}">

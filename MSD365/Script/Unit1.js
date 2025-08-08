@@ -6,19 +6,11 @@
 //USEUNIT DynamicWait
 
 function exportLogsToMHT() {
-//Log.Error("This is for the testing");    
-//Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\", lsHTML,true,1);
-
-//Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\Log.zip", lsPackedHTML);
-//Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
-//Delay(2000);
-//Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
-//Delay(4000);
-var opportunity=Aliases.browser.Page_NewOpportunityCreation;
-var Config="Class III";
- opportunity.MarketSegment_Field.Click();
- Delay(2000);
- opportunity.MarketSegment_Field.FindElement('//*[@title="'+Config+'"]').Click();
+  var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
+MainConfiguration.Model_Field.SetText("PGD-0229|01 - HELIX UPRIGHT XT");
+Delay(2000);
+MainConfiguration.Model_Field.Keys("[Enter]");
+Delay(2000);
   
 }
 
