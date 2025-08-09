@@ -29,16 +29,16 @@ ConfigFilter4=[Config[i][19],Config[i][20],Config[i][21],Config[i][22],Config[i]
   
 
 //Log.Message(ConfigFilter3);
-Trials["Opportunity_Creation"](ConfigFilter1);
-////Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\", lsHTML,true,1);
-Trials["econ_generation"](ConfigFilter2);
-Trials["econ_configuration_navigation"]();
+//Trials["Opportunity_Creation"](ConfigFilter1);
+//////Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\", lsHTML,true,1);
+//Trials["econ_generation"](ConfigFilter2);
+//Trials["econ_configuration_navigation"]();
 Trials["econ_mainconfiguration"](ConfigFilter3);
-Trials["econ_advancedconfiguration"](ConfigFilter4);
-Trials["econ_approval"]();
-Trials["caseQC"]();
-Trials["econ_D65migration"]();
-Trials["D65_MigrationCheck"](ConfigFilter1);
+//Trials["econ_advancedconfiguration"](ConfigFilter4);
+//Trials["econ_approval"]();
+//Trials["caseQC"]();
+//Trials["econ_D65migration"]();
+//Trials["D65_MigrationCheck"](ConfigFilter1);
 
 }
 

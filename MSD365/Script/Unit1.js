@@ -6,7 +6,7 @@
 //USEUNIT DynamicWait
 
 function exportLogsToMHT() {
- Log.Message("00"+"150861");
+ Aliases.browser.Page_ConversionMainConfiguration.ButtonConversion_Field.SetText("Config[9]");
   
 }
 

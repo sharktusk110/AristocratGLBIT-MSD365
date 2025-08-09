@@ -3684,6 +3684,99 @@
 													</Selector>
 												</Selectors>
 											</Child>
+											<Child Name="textboxId0enaac" Key="{ACD11CF1-936A-4468-9329-E71FD9A9F153}">
+												<Image FileName="-27312445" Left="613" Top="590" Right="1138" Bottom="626" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;configuration[1].conversion.license.pricetypeto&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0e6bac" Key="{A38F7CE6-0917-4E91-8C58-EA21A69DC66F}">
+												<Image FileName="-27312445" Left="613" Top="641" Right="1138" Bottom="677" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;configuration[1].conversion.progressive.progressiveto&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0eqdac" Key="{AF509AF2-5EEF-473C-BED6-6BB6C5C4D0E4}">
+												<Image FileName="-27312445" Left="613" Top="692" Right="1138" Bottom="728" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;configuration[1].conversion.gametheme.gamethemeto&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0ecfac2" Key="{EFC15BD8-11D1-4750-A24F-8F0C03315F22}">
+												<Image FileName="-27312445" Left="613" Top="744" Right="1138" Bottom="780" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;configuration[1].conversion.gamingdevice.gamingdeviceto&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0ehlac" Key="{C05A73EB-FB8E-429A-B089-C98AB2961218}">
+												<Image FileName="-1374802449" Left="613" Top="775" Right="1138" Bottom="811" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;configuration[1].conversion.denominations.denominationsto&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0eloac" Key="{B61CC7B8-EC58-4FA0-93F8-09D3D6075AAC}">
+												<Image FileName="-1374802449" Left="613" Top="878" Right="1138" Bottom="914" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;configuration[1].conversion.topper.topperto&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0e4pac" Key="{132C6672-0925-4A5C-8449-B8B10739D3E8}">
+												<Image FileName="-1374802449" Left="613" Top="929" Right="1138" Bottom="965" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//input[@name=&apos;configuration[1].conversion.buttonpanel.buttonpanelto&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0epeae" Key="{AB8CDDF3-216C-4056-A389-8E27A2BFF3EF}">
+												<Image FileName="78385210" Left="1212" Top="575" Right="1737" Bottom="611" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@id=(//label[.=&apos;Gaming Device (GD)&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#ID0EPEAE" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;Advanced&apos;]//tr[7]/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxId0erfae" Key="{FD020DC0-1CA3-48C5-92C3-2EBB65B2D514}">
+												<Image FileName="854712335" Left="1212" Top="706" Right="1737" Bottom="742" />
+												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//input[@id=(//label[.=&apos;TrimFinish&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#ID0ERFAE" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;Advanced&apos;]//tr[9]/td//input" />
+													</Selector>
+												</Selectors>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="frame3" Key="{EACFC117-C32C-4842-AB47-3DEEC8B206C8}">
@@ -5908,74 +6001,6 @@
 										<Value PropertyType="1" LocalVariable="quoteurl" />
 									</Property>
 								</Properties>
-								<Children>
-									<Child Name="sectionSkipToNavigation" Key="{7E9F5383-230F-4817-96B9-4F44B3D9EF85}">
-										<Image FileName="-135794830" Left="11" Top="-499" Right="1908" Bottom="232" />
-										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="textnodeTabs" Key="{00F1A6CA-D185-464B-AB96-2900B94B196F}">
-										<Image FileName="-135794830" Left="11" Top="141" Right="11" Bottom="141" />
-										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//ul[contains(., &apos;Details&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@aria-label=&apos;Tabs&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[@role=&apos;tablist&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tabset/div/lightning-tab-bar/ul[contains(@class, &apos;slds-tabs_default__nav&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;brandBand_2&apos;]//div//lightning-tabset/div/lightning-tab-bar/ul" />
-											</Selector>
-											<Selector>
-												<Value Value="//lightning-tab-bar/ul" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="textnodeQuoteInformation" Key="{FA0A9A80-595A-45C5-B247-5CB8C724C879}">
-										<Image FileName="-135794830" Left="54" Top="494" Right="1865" Bottom="543" />
-										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqpqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//h3[contains(@class, &apos;test-id__section-header-container&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//flexipage-tab2[@id=&apos;tab-9&apos;]//records-record-layout-section[3]/div/h3" />
-											</Selector>
-											<Selector>
-												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqpqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//h3" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="buttonQuoteInformation" Key="{01F038EA-E1C9-49E3-AA50-7C2BF135C560}">
-										<Image FileName="-135794830" Left="55" Top="495" Right="1864" Bottom="542" />
-										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqpqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//button[contains(@class, &apos;test-id__section-header-button&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//flexipage-tab2[@id=&apos;tab-9&apos;]//forcegenerated-detailpanel_quote___0127f000000hsqpqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//button" />
-											</Selector>
-											<Selector>
-												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_quote___0127f000000hsqpqaa___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section[3]//button" />
-											</Selector>
-										</Selectors>
-									</Child>
-								</Children>
 							</Child>
 							<Child Name="pageLoginSalesforce2" Key="{79DA2DAB-139D-4C43-9104-C4105BFAC512}">
 								<Image FileName="812501400" Left="11" Top="141" Right="1931" Bottom="1138" />
@@ -6552,13 +6577,16 @@
 					</Child>
 				</Child>
 			</Child>
-			<Child Name="pageEconGreenValleyRanchResortSp" Owner="{9CD1A2A6-94EE-4FF9-83AD-E482D0174CB7}">
-				<Child Name="sectionSkipToNavigation" Owner="{7E9F5383-230F-4817-96B9-4F44B3D9EF85}">
-					<Child Name="textnodeTabs" Owner="{00F1A6CA-D185-464B-AB96-2900B94B196F}">
-						<Child Name="textnodeQuoteInformation" Owner="{FA0A9A80-595A-45C5-B247-5CB8C724C879}" />
-					</Child>
-				</Child>
-				<Child Name="buttonQuoteInformation" Owner="{01F038EA-E1C9-49E3-AA50-7C2BF135C560}" />
+			<Child Name="Page_ConversionMainConfiguration" Owner="{9CD1A2A6-94EE-4FF9-83AD-E482D0174CB7}">
+				<Child Name="LicenseConversion_Field" Owner="{ACD11CF1-936A-4468-9329-E71FD9A9F153}" />
+				<Child Name="ProgressiveConversion_Field" Owner="{A38F7CE6-0917-4E91-8C58-EA21A69DC66F}" />
+				<Child Name="GameThemeConversion_Field" Owner="{AF509AF2-5EEF-473C-BED6-6BB6C5C4D0E4}" />
+				<Child Name="ModelConversion_Field" Owner="{EFC15BD8-11D1-4750-A24F-8F0C03315F22}" />
+				<Child Name="DenomConversion_Field" Owner="{C05A73EB-FB8E-429A-B089-C98AB2961218}" />
+				<Child Name="TopperConversion_Field" Owner="{B61CC7B8-EC58-4FA0-93F8-09D3D6075AAC}" />
+				<Child Name="ButtonConversion_Field" Owner="{132C6672-0925-4A5C-8449-B8B10739D3E8}" />
+				<Child Name="GD_Advanced_Conversion_Field" Owner="{AB8CDDF3-216C-4056-A389-8E27A2BFF3EF}" />
+				<Child Name="Trimfinish_Advanced_Conversion_Field" Owner="{FD020DC0-1CA3-48C5-92C3-2EBB65B2D514}" />
 			</Child>
 			<Child Name="pageLoginSalesforce2" Owner="{79DA2DAB-139D-4C43-9104-C4105BFAC512}">
 				<Child Name="formLoginForm" Owner="{1EE2C5E7-EBC5-4CFC-BF11-2BBA9B1848DB}">
