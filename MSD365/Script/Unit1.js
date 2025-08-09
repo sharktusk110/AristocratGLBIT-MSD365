@@ -6,11 +6,7 @@
 //USEUNIT DynamicWait
 
 function exportLogsToMHT() {
-  var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
-MainConfiguration.Model_Field.SetText("PGD-0229|01 - HELIX UPRIGHT XT");
-Delay(2000);
-MainConfiguration.Model_Field.Keys("[Enter]");
-Delay(2000);
+ Log.Message("00"+"150861");
   
 }
 

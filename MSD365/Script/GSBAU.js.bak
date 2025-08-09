@@ -34,7 +34,7 @@ function Opportunity_Creation(Config) {
  
  // Navigating to account section
  
- Browsers.Item(btChrome).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Account/list?filterName=AllAccounts");
+ Browsers.Item(btChrome).Navigate("https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/Account/list?filterName=__Recent");
  
  // Searching account for opportunity creation
  

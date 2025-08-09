@@ -4829,13 +4829,7 @@
 												<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
 												<Selectors>
 													<Selector>
-														<Value Value="//input[@id=(//label[.=&apos;SPC&apos;]/@for)]" />
-													</Selector>
-													<Selector>
-														<Value Value="#ID0EUUAE" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;Advanced&apos;]//tr[11]/td//input" />
+														<Value Value="xpath=//input[@name=&apos;configuration[1].egm.hwbom.spc&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -6473,6 +6467,7 @@
 				<Child Name="PrinterFirmware_Field" Owner="{A0F61AB9-1F8F-44FC-A795-239112F182E3}" />
 				<Child Name="ProgressiveHardware_field" Owner="{D8D6720E-F384-4217-9398-D3DC378D66DC}" />
 				<Child Name="TopperArt_Field" Owner="{AFB311F8-6F3E-4D3D-90E6-BD8EE6CE1FB6}" />
+				<Child Name="ExecutedRulesTrial_Checkbox" Owner="{7D4E7A9D-FF84-4209-8AC5-F2B459449C50}" />
 			</Child>
 			<Child Name="Page_EconAdvancedConfiguration_I" Owner="{881F118D-459D-4371-BBC6-5F30165B3632}">
 				<Child Name="linkAdvanced" Owner="{5797B608-7C90-4EA2-ACE3-CE62B6DF02A2}" />
@@ -6564,7 +6559,6 @@
 					</Child>
 				</Child>
 				<Child Name="buttonQuoteInformation" Owner="{01F038EA-E1C9-49E3-AA50-7C2BF135C560}" />
-				<Child Name="label2" Owner="{7D4E7A9D-FF84-4209-8AC5-F2B459449C50}" />
 			</Child>
 			<Child Name="pageLoginSalesforce2" Owner="{79DA2DAB-139D-4C43-9104-C4105BFAC512}">
 				<Child Name="formLoginForm" Owner="{1EE2C5E7-EBC5-4CFC-BF11-2BBA9B1848DB}">

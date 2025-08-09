@@ -642,7 +642,7 @@ Browsers.Item(btChrome).Run(durl);
   Delay(2000);
   firm.QuoteNumber_Panel.Click();
   Delay(2000);
-  firm.QuoteNumberFilter_TextField.SetText(quote_number);
+  firm.QuoteNumberFilter_TextField.SetText("00"+quote_number);
   Delay(2000);
   firm.Apply_Button.Click();
   Delay(2000); 
@@ -651,7 +651,7 @@ Browsers.Item(btChrome).Run(durl);
   if(!firm.CustomerName_Node.Exists){
   firm.QuoteNumber_Panel.Click();
   Delay(2000);
-  firm.QuoteNumberFilter_TextField.SetText(quote_number);
+  firm.QuoteNumberFilter_TextField.SetText("00"+quote_number);
   Delay(2000);
   firm.Apply_Button.Click();
   Delay(2000);
