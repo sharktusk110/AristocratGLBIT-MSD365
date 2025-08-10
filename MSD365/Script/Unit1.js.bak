@@ -6,7 +6,7 @@
 //USEUNIT DynamicWait
 
 function exportLogsToMHT() {
- Log.Message("00"+"150861");
+ Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
   
 }
 

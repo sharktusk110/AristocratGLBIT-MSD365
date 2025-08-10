@@ -3777,6 +3777,18 @@
 													</Selector>
 												</Selectors>
 											</Child>
+											<Child Name="label3" Key="{F60FBE23-0F43-4676-89F7-546988AB8166}">
+												<Image FileName="-1930929855" Left="545" Top="657" Right="571" Bottom="683" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[21]/td[2]/div/label" />
+													</Selector>
+													<Selector>
+														<Value Value="//tr[21]/td[2]//label" />
+													</Selector>
+												</Selectors>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="frame3" Key="{EACFC117-C32C-4842-AB47-3DEEC8B206C8}">
@@ -6493,6 +6505,7 @@
 				<Child Name="ProgressiveHardware_field" Owner="{D8D6720E-F384-4217-9398-D3DC378D66DC}" />
 				<Child Name="TopperArt_Field" Owner="{AFB311F8-6F3E-4D3D-90E6-BD8EE6CE1FB6}" />
 				<Child Name="ExecutedRulesTrial_Checkbox" Owner="{7D4E7A9D-FF84-4209-8AC5-F2B459449C50}" />
+				<Child Name="ExecutedRulesNonGaming_Checkbox" Owner="{F60FBE23-0F43-4676-89F7-546988AB8166}" />
 			</Child>
 			<Child Name="Page_EconAdvancedConfiguration_I" Owner="{881F118D-459D-4371-BBC6-5F30165B3632}">
 				<Child Name="linkAdvanced" Owner="{5797B608-7C90-4EA2-ACE3-CE62B6DF02A2}" />

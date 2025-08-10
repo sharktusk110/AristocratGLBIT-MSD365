@@ -6,7 +6,7 @@
 //USEUNIT DynamicWait
 
 function exportLogsToMHT() {
- Aliases.browser.Page_ConversionMainConfiguration.ButtonConversion_Field.SetText("Config[9]");
+ Aliases.browser.Page_EconMainConfiguration.ExecutedRulesNonGaming_Checkbox.Click();
   
 }
 

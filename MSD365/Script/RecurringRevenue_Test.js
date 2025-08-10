@@ -28,7 +28,7 @@ ConfigFilter3=[Config[i][7],Config[i][8],Config[i][9],Config[i][10],Config[i][11
 ConfigFilter4=[Config[i][19],Config[i][20],Config[i][21],Config[i][22],Config[i][23],Config[i][24],Config[i][25],Config[i][26],Config[i][27],Config[i][28],Config[i][29],Config[i][30],Config[i][31],Config[i][32],Config[i][33],Config[i][34],Config[i][35],Config[i][36],Config[i][37],Config[i][38],Config[i][39],Config[i][40]];
   
 //RecurringRevenue["Opportunity_Creation"](ConfigFilter1);
-//Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\", lsHTML,true,1);
+////Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\", lsHTML,true,1);
 //RecurringRevenue["econ_generation"](ConfigFilter2);
 //RecurringRevenue["econ_configuration_navigation"]();
 RecurringRevenue["econ_mainconfiguration"](ConfigFilter3);

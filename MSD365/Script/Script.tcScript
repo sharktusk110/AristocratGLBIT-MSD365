@@ -31,6 +31,9 @@
 			<folder name="Conversions">
 				<child name="Conversions" key="{7D807A28-53A2-4E8D-84E2-D3963AA371E7}" path="Conversions.js" />
 			</folder>
+			<folder name="RR_Non_Gaming_Ops">
+				<child name="RR_Non_Gaming_Ops" key="{14BC3377-6183-4509-96CD-E9179D1F2272}" path="RR_Non_Gaming_Ops.js" />
+			</folder>
 		</folder>
 		<folder name="Tests">
 			<folder name="CPSO Creation &amp; Configuration Test">
@@ -52,6 +55,9 @@
 			</folder>
 			<folder name="Conversions_Test">
 				<child name="Conversions_Test" key="{CAD35B57-DCFC-4278-8483-90E67E2B8C36}" path="Conversions_Test.js" />
+			</folder>
+			<folder name="RR_Non_Gaming_Ops_Test">
+				<child name="RR_Non_Gaming_Ops_Test" key="{FD55C8F7-AA47-42DD-A310-E31BCA154B9F}" path="RR_Non_Gaming_Ops_Test.js" />
 			</folder>
 		</folder>
 	</children>
