@@ -12,6 +12,9 @@
 			<folder name="DynamicWait">
 				<child name="DynamicWait" key="{CED4E91D-B5C1-4584-BFDA-B3C759F6A779}" path="DynamicWait.js" />
 			</folder>
+			<folder name="Checkpoint">
+				<child name="Checkpoint" key="{38F8F310-E841-4090-A87D-1D4F9FAA81D1}" path="Checkpoint.js" />
+			</folder>
 		</folder>
 		<folder name="Pages">
 			<folder name="CPSO Creation &amp; Configuration">

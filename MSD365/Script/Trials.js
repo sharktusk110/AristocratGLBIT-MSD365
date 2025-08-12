@@ -6,6 +6,7 @@
 //USEUNIT ReadExcel
 //USEUNIT Login
 //USEUNIT DynamicWait
+//USEUNIT Checkpoint
 
 var opportunity_name;
 var quotename;
@@ -117,6 +118,11 @@ Delay(2000);
 
 }
 
+DynamicWait["dynamic_wait"](search_opportunity.Opportunity_Node,10000);
+
+//Validating whether Opportunity created & searchable
+Checkpoint["checkpoint"](search_opportunity.Opportunity_Node.textContent,opportunity_name);
+
 search_opportunity.Opportunity_Node.Click();
 Delay(5000);
 //DynamicWait["dynamic_wait"](econ.econ_Button,30000);
@@ -182,6 +188,10 @@ DynamicWait["dynamic_wait"](econ_nav.SearchedEcon_Node,60000);
 quote_number=econ_nav.quotenum.textContent;
 
 Log.Message("quote number"+quote_number);
+
+// Validating whether econ quote created and searchable
+
+Checkpoint["checkpoint"](econ_nav.SearchedEcon_Node.textContent,quotename);
 
 econ_nav.SearchedEcon_Node.Click();
 
@@ -466,7 +476,7 @@ Sys.Browser("chrome").Close();
 
 }
 
-function econ_approval(){
+function econ_approval(Config){
   
 var econ_approval=Aliases.browser.Page_EconMainConfiguration;
 var econ_approval1=Aliases.browser.Page_EconAdvancedConfiguration_II;
@@ -487,6 +497,11 @@ if(equal(quote_number,"1234")){
 quote_number=econ_approval1.Quote_Node.textContent;
 }
 
+//Validating EGM count which confirms econ configuration getting saved successfully .
+Sys.Keys("^[F5]");
+DynamicWait["dynamic_wait"](econ_approval1.EGMCount,30000);
+Checkpoint["checkpoint"](econ_approval1.EGMCount.textContent.split("Count")[1],Config[2]+".00");
+
 econ_approval.SubmitforApproval_Button.Click();
 
 Delay(2000);
@@ -494,6 +509,13 @@ econ_approval.SubmitforApproval_TextField.Keys("Please approve");
 Delay(2000);
 econ_approval.SubmitforApprovalI_Button.Click();
 Delay(2000);
+Sys.Keys("^[F5]");
+
+//Econ quote status is being validated post submitting it for approval"
+Sys.Keys("^[F5]");
+Sys.Keys("^[F5]");
+DynamicWait["dynamic_wait"](econ_approval1.Details_Tab.Quote_Status1,30000);
+Checkpoint["checkpoint"](econ_approval1.Details_Tab.Quote_Status1.textContent,"Submitted for Approval");
 
 econ_approval.Related_Tab.Click();
 econ_approval.Related_Tab.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down]");
@@ -509,9 +531,14 @@ Delay(2000);
 econ_approval.Case_Link.Click();
 
 Delay(5000);
-
-
 Project.Variables.caseurl=Sys.Browser().Page("*").URL;
+
+Aliases.browser.Page_SFCaseDetails.EconQuote_Node.Click();
+
+econ_approval1.Details_Tab.Click();
+//Econ quote status is being validated post approving it"
+Checkpoint["checkpoint"](econ_approval1.Details_Tab.Quote_Status1.textContent,"Approved");
+
 Sys.Browser("chrome").Close();
 }
 
@@ -536,8 +563,12 @@ casedetail.Status_Panel.Keys("[Enter]");
 Delay(2000);
 casedetail.Save_Button.Click();
 Delay(2000);
+//Validating whether case QC got completed successfully .
+DynamicWait["dynamic_wait"](Aliases.browser.Page_SFCaseDetails.QC_Status,30000);
+Checkpoint["checkpoint"](Aliases.browser.Page_SFCaseDetails.QC_Status.textContent,"QC - Complete");
 casedetail.EconQuote_Node.Click();
 Delay(2000);
+
 Sys.Browser("chrome").Close();
 
 }
@@ -567,6 +598,13 @@ Delay(2000);
 Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
 Delay(10000);
 }
+
+if(econ_migrate.SendToD365_Button.VisibleOnScreen){
+  Log.Checkpoint("Quote successfully configured & could be migrated to D365");
+}else{
+  Log.Error("Quote successfully not configured & could not be migrated to D365")
+}
+
 econ_migrate.SendToD365_Button.Click();
 Delay(15000);
 Sys.Browser("chrome").Close();

@@ -4,10 +4,23 @@
 //*************************************************************************************************************************************
 //module.exports.getObject
 //USEUNIT DynamicWait
+//USEUNIT Checkpoint
 
 function exportLogsToMHT() {
- Aliases.browser.Page_EconMainConfiguration.ExecutedRulesNonGaming_Checkbox.Click();
   
+//opportunity_name="WHEELING ISLAND RACETRACK AND GAMING CENTER -8116650340- 08/10/2025";  
+//var search_opportunity=Aliases.browser.Page_SearchOpportunity;
+//Log.Message(Aliases.browser.Page_EconAdvancedConfiguration_II.panelEgmCount.textContent);
+//aqObject.CheckProperty(search_opportunity.Opportunity_Node.textContent,"", cmpContains, opportunity_name);
+
+//Aliases.browser.Page_EconAdvancedConfiguration_II.Details_Tab.Click();
+//Sys.Keys("^[F5]");
+//Checkpoint["checkpoint"](Aliases.browser.Page_SFCaseDetails.QC_Status.textContent,"QC - Complete");
+
+//Aliases.browser.Page_EconAdvancedConfiguration_II.Details_Tab.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down]");
+//Sys.Keys("^[F5]");
+Log.Message(Aliases.browser.Page_EconAdvancedConfiguration_II.Details_Tab.Quote_Status1.textContent);
+
 }
 
 //function Trial()

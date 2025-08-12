@@ -1,0 +1,10 @@
+﻿//module.exports.getObject
+
+function checkpoint(String1,String2){
+  
+if(equal(String1,String2)){
+Log.Checkpoint("Value of the object found correct as : "+String2);
+}else{
+  Log.Error("Value of the object found as : "+String1+" but it should be : "+String2);
+}
+}

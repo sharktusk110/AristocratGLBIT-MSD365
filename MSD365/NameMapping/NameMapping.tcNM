@@ -5081,6 +5081,33 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="panelStatus" Key="{342E6B7B-49F1-4E26-970C-A1561ACBE362}">
+										<Image FileName="2020400191" Left="978" Top="779" Right="1821" Bottom="854" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//records-record-layout-row[5]/slot/records-record-layout-item[2]/div/div[contains(@class, &apos;slds-form-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-15&apos;]//records-record-layout-row[5]/slot/records-record-layout-item[2]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-row[5]/slot/records-record-layout-item[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeApproved" Key="{C9D9F7E3-945A-4477-ADE8-3040781ECADB}">
+										<Image FileName="467309081" Left="984" Top="849" Right="1075" Bottom="877" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-29&apos;]//records-record-layout-row[5]/slot/records-record-layout-item//slot/lightning-formatted-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-row[5]/slot/records-record-layout-item//slot/lightning-formatted-text" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageEconWheelingIslandRacetrackA2" Key="{DC0A32F8-B72B-4554-A7E1-2A2C59BB459A}">
@@ -5194,7 +5221,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value PropertyType="1" LocalVariable="quoteurl" />
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -5426,36 +5453,12 @@
 													</Selector>
 												</Selectors>
 											</Child>
-											<Child Name="textnode00141697Pass" Key="{92894D89-E134-4365-B573-0766F9CD04C7}">
-												<Image FileName="603033427" Left="755" Top="762" Right="891" Bottom="784" />
-												<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
-												<Selectors>
-													<Selector>
-														<Value Value="(//span)[234]" />
-													</Selector>
-												</Selectors>
-											</Child>
 											<Child Name="panel00141697Pass" Key="{F06C1D22-0A21-4234-9BF1-F43F30537B3E}">
 												<Image FileName="36773912" Left="725" Top="707" Right="1175" Bottom="803" />
 												<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
 												<Selectors>
 													<Selector>
 														<Value Value="#alert-dialog-1750667422444" />
-													</Selector>
-												</Selectors>
-											</Child>
-											<Child Name="textnode" Key="{C0AB8134-FC21-4EC8-B544-FAE59DA6EDF7}">
-												<Image FileName="-1323720433" Left="1013" Top="712" Right="1049" Bottom="748" />
-												<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
-												<Selectors>
-													<Selector>
-														<Value Value="//div[@id=&apos;oMain3Container&apos;]//tr[35]/td//tr/td//a/span[contains(@class, &apos;ui-button-icon-primary&apos;)]" />
-													</Selector>
-													<Selector>
-														<Value Value="//div[@id=&apos;MainPane1-scroll&apos;]//tr[35]/td//tr/td//a/span" />
-													</Selector>
-													<Selector>
-														<Value Value="//tr[35]/td//tr/td//a/span" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -5562,6 +5565,51 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkDetailtabItem" Key="{E0ED97F2-4995-4122-B158-4BF5359C32F4}">
+										<Image FileName="598429575" Left="11" Top="219" Right="11" Bottom="219" />
+										<TypeInfo Item0="{2FCB0918-7DCF-4FF4-84E1-E6DF95277977}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#detailTab__item" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a[@role=&apos;tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a[contains(@class, &apos;slds-tabs_default__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//lightning-tab-bar/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/lightning-tab-bar/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDraft" Key="{6E91E023-66B2-42B7-8BBF-84B6DC293320}">
+										<Image FileName="2116059132" Left="984" Top="642" Right="1030" Bottom="670" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;sectionContent-213&apos;]//records-record-layout-row[2]/slot/records-record-layout-item[2]//slot/lightning-formatted-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-record-layout-section[3]//slot/records-record-layout-row[2]/slot/records-record-layout-item[2]//slot/lightning-formatted-text" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEgmCount" Key="{BE5AA9C4-2094-411D-8230-B601AB7C6A30}">
+										<Image FileName="91620261" Left="1233" Top="486" Right="1420" Bottom="543" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//records-highlights-details-item[contains(., &apos;EGM Count&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="page00185996CaseSalesforce" Key="{B79AFDA6-3297-4FB1-AA9B-94276C35D416}">
@@ -5645,6 +5693,18 @@
 											</Selector>
 											<Selector>
 												<Value Value="//records-record-layout-item//span/slot/span/slot/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQcComplete" Key="{C1784526-E5F4-45F8-881D-BC8B3C75B8E7}">
+										<Image FileName="-1521159010" Left="676" Top="776" Right="815" Bottom="804" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//flexipage-tab2[@id=&apos;tab-53&apos;]//records-record-layout-row/slot/records-record-layout-item//slot/lightning-formatted-text" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_case___0127f000000hsqsqaq___full___view___recordlayout2/records-record-layout-block/slot/records-record-layout-section//lightning-formatted-text" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6535,22 +6595,27 @@
 				<Child Name="Platform_Field" Owner="{96FCA2B0-0C34-4ECA-954A-013D90C2B4D2}" />
 				<Child Name="BillAcceptor_Field" Owner="{60136C26-D91B-430B-BB5E-C0737A5A3795}" />
 				<Child Name="OS_Field" Owner="{FCB53613-6B5C-44E4-AECE-86D4B59EA209}" />
-				<Child Name="textnode00141697Pass" Owner="{92894D89-E134-4365-B573-0766F9CD04C7}" />
 				<Child Name="panel00141697Pass" Owner="{F06C1D22-0A21-4234-9BF1-F43F30537B3E}" />
 				<Child Name="textnodeApprove" Owner="{F13064A7-E2B2-4482-B858-BD072E51849C}">
 					<Child Name="linkApprove" Owner="{7F24A30A-ACCE-4982-A184-DBD467C13E66}" />
 				</Child>
 				<Child Name="TrimFinish_Field" Owner="{EAFDA007-B5CC-4645-9BFF-2F1BC1E99A76}" />
 				<Child Name="textboxId0eduae" Owner="{C24F93BB-528E-4695-822B-89B63296BFC5}" />
-				<Child Name="textnode" Owner="{C0AB8134-FC21-4EC8-B544-FAE59DA6EDF7}" />
 				<Child Name="EZPay_Field" Owner="{4CAE37D9-B217-4372-B509-B6739715D586}" />
 				<Child Name="Quote_Node" Owner="{2F204E0C-E5E2-4236-810E-FBA7B9D5FBF1}" />
+				<Child Name="Details_Tab" Owner="{E0ED97F2-4995-4122-B158-4BF5359C32F4}">
+					<Child Name="Quote_Status" Owner="{6E91E023-66B2-42B7-8BBF-84B6DC293320}" />
+					<Child Name="panelStatus" Owner="{342E6B7B-49F1-4E26-970C-A1561ACBE362}" />
+					<Child Name="Quote_Status1" Owner="{C9D9F7E3-945A-4477-ADE8-3040781ECADB}" />
+				</Child>
+				<Child Name="EGMCount" Owner="{BE5AA9C4-2094-411D-8230-B601AB7C6A30}" />
 			</Child>
 			<Child Name="Page_SFCaseDetails" Owner="{B79AFDA6-3297-4FB1-AA9B-94276C35D416}">
 				<Child Name="Edit_Icon" Owner="{0E7D7D27-3CC7-4458-A2D1-9D72C1CE9B92}" />
 				<Child Name="Status_Panel" Owner="{3DA9C525-2BC8-4B1C-A149-CE28D45F2E91}" />
 				<Child Name="Save_Button" Owner="{DAC285C6-71EC-4419-9F18-5C2051650C9F}" />
 				<Child Name="EconQuote_Node" Owner="{5317AC66-2881-48A6-A4FF-BFDE9C456DEB}" />
+				<Child Name="QC_Status" Owner="{C1784526-E5F4-45F8-881D-BC8B3C75B8E7}" />
 			</Child>
 			<Child Name="pageLoginSalesforce" Owner="{4444C046-ECA7-469A-AB3A-CA76A271E704}">
 				<Child Name="formLoginForm" Owner="{0AD27077-4191-4F00-8A38-F351DA18796B}">

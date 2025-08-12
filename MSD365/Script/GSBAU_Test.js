@@ -31,7 +31,7 @@ GSBAU["econ_generation"](ConfigFilter2);
 GSBAU["econ_configuration_navigation"]();
 GSBAU["econ_mainconfiguration"](ConfigFilter3);
 GSBAU["econ_advancedconfiguration"](ConfigFilter4);
-GSBAU["econ_approval"]();
+GSBAU["econ_approval"](ConfigFilter3);
 GSBAU["caseQC"]();
 GSBAU["econ_D65migration"]();
 GSBAU["D65_MigrationCheck"](ConfigFilter1);

@@ -35,7 +35,7 @@ RR_Non_Gaming_Ops["econ_generation"](ConfigFilter2);
 RR_Non_Gaming_Ops["econ_configuration_navigation"]();
 RR_Non_Gaming_Ops["econ_mainconfiguration"](ConfigFilter3);
 RR_Non_Gaming_Ops["econ_advancedconfiguration"](ConfigFilter4);
-RR_Non_Gaming_Ops["econ_approval"]();
+RR_Non_Gaming_Ops["econ_approval"](ConfigFilter3);
 RR_Non_Gaming_Ops["caseQC"]();
 RR_Non_Gaming_Ops["econ_D65migration"]();
 RR_Non_Gaming_Ops["D65_MigrationCheck"](ConfigFilter1);
