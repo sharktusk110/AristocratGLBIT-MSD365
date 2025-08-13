@@ -5453,15 +5453,6 @@
 													</Selector>
 												</Selectors>
 											</Child>
-											<Child Name="panel00141697Pass" Key="{F06C1D22-0A21-4234-9BF1-F43F30537B3E}">
-												<Image FileName="36773912" Left="725" Top="707" Right="1175" Bottom="803" />
-												<TypeInfo Item0="{18095E7A-357E-4EDD-95F3-9020C4FEF911}" />
-												<Selectors>
-													<Selector>
-														<Value Value="#alert-dialog-1750667422444" />
-													</Selector>
-												</Selectors>
-											</Child>
 											<Child Name="textboxId0eupae" Key="{4CAE37D9-B217-4372-B509-B6739715D586}">
 												<Image FileName="877928455" Left="538" Top="712" Right="1054" Bottom="748" />
 												<TypeInfo Item0="{1C8EF5F1-727E-44B6-B5B0-426127098976}" />
@@ -5607,6 +5598,18 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//records-highlights-details-item[contains(., &apos;EGM Count&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelConversionLineItemCount" Key="{1AE5B84B-0582-49AF-865F-D1CF47FEEF74}">
+										<Image FileName="-560783854" Left="1329" Top="486" Right="1549" Bottom="541" />
+										<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;brandBand_2&apos;]//records-highlights-details-item[5]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//records-highlights-details-item[5]/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6595,7 +6598,6 @@
 				<Child Name="Platform_Field" Owner="{96FCA2B0-0C34-4ECA-954A-013D90C2B4D2}" />
 				<Child Name="BillAcceptor_Field" Owner="{60136C26-D91B-430B-BB5E-C0737A5A3795}" />
 				<Child Name="OS_Field" Owner="{FCB53613-6B5C-44E4-AECE-86D4B59EA209}" />
-				<Child Name="panel00141697Pass" Owner="{F06C1D22-0A21-4234-9BF1-F43F30537B3E}" />
 				<Child Name="textnodeApprove" Owner="{F13064A7-E2B2-4482-B858-BD072E51849C}">
 					<Child Name="linkApprove" Owner="{7F24A30A-ACCE-4982-A184-DBD467C13E66}" />
 				</Child>
@@ -6609,6 +6611,7 @@
 					<Child Name="Quote_Status1" Owner="{C9D9F7E3-945A-4477-ADE8-3040781ECADB}" />
 				</Child>
 				<Child Name="EGMCount" Owner="{BE5AA9C4-2094-411D-8230-B601AB7C6A30}" />
+				<Child Name="ConversionLineItemCount" Owner="{1AE5B84B-0582-49AF-865F-D1CF47FEEF74}" />
 			</Child>
 			<Child Name="Page_SFCaseDetails" Owner="{B79AFDA6-3297-4FB1-AA9B-94276C35D416}">
 				<Child Name="Edit_Icon" Owner="{0E7D7D27-3CC7-4458-A2D1-9D72C1CE9B92}" />

@@ -509,12 +509,12 @@ econ_approval.SubmitforApproval_TextField.Keys("Please approve");
 Delay(2000);
 econ_approval.SubmitforApprovalI_Button.Click();
 Delay(2000);
+Sys.Keys("^[F5]");
 
 //Econ quote status is being validated post submitting it for approval"
 Sys.Keys("^[F5]");
 Sys.Keys("^[F5]");
-Sys.Keys("^[F5]");
-DynamicWait["dynamic_wait"](econ_approval1.Details_Tab.Quote_Status,30000);
+DynamicWait["dynamic_wait"](econ_approval1.Details_Tab.Quote_Status1,30000);
 Checkpoint["checkpoint"](econ_approval1.Details_Tab.Quote_Status1.textContent,"Submitted for Approval");
 
 econ_approval.Related_Tab.Click();
@@ -590,7 +590,7 @@ Browsers.Item(btChrome).Navigate(urc);
 DynamicWait["dynamic_wait"](econ_migrate.ConfigureQuote_Link,30000);
 econ_migrate.ConfigureQuote_Link.Click();
 //Delay(50000);
-DynamicWait["dynamic_wait"](econ_migrate.SendToD365_Button,60000);
+DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.RunRules_Button,60000);
 
 if(Aliases.browser.Page_EconMainConfiguration.OK_Button.Exists){
 Aliases.browser.Page_EconMainConfiguration.OK_Button.Click();

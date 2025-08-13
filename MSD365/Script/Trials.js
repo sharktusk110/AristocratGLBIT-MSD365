@@ -512,8 +512,7 @@ Delay(2000);
 Sys.Keys("^[F5]");
 
 //Econ quote status is being validated post submitting it for approval"
-Sys.Keys("^[F5]");
-Sys.Keys("^[F5]");
+Browsers.Item(btChrome).Navigate(urc);
 DynamicWait["dynamic_wait"](econ_approval1.Details_Tab.Quote_Status1,30000);
 Checkpoint["checkpoint"](econ_approval1.Details_Tab.Quote_Status1.textContent,"Submitted for Approval");
 
@@ -590,19 +589,26 @@ Browsers.Item(btChrome).Navigate(urc);
 DynamicWait["dynamic_wait"](econ_migrate.ConfigureQuote_Link,30000);
 econ_migrate.ConfigureQuote_Link.Click();
 //Delay(50000);
-DynamicWait["dynamic_wait"](econ_migrate.SendToD365_Button,60000);
+DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.RunRules_Button,60000);
 
 if(Aliases.browser.Page_EconMainConfiguration.OK_Button.Exists){
 Aliases.browser.Page_EconMainConfiguration.OK_Button.Click();
 Delay(2000);
-Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
-Delay(10000);
-}
 
 if(econ_migrate.SendToD365_Button.VisibleOnScreen){
   Log.Checkpoint("Quote successfully configured & could be migrated to D365");
 }else{
   Log.Error("Quote successfully not configured & could not be migrated to D365")
+}
+
+Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
+Delay(10000);
+}else{
+  if(econ_migrate.SendToD365_Button.VisibleOnScreen){
+  Log.Checkpoint("Quote successfully configured & could be migrated to D365");
+}else{
+  Log.Error("Quote successfully not configured & could not be migrated to D365")
+}
 }
 
 econ_migrate.SendToD365_Button.Click();

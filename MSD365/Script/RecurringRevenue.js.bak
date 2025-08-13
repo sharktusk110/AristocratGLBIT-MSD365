@@ -495,7 +495,7 @@ econ_approval.SubmitforApprovalI_Button.Click();
 Delay(5000);
 
 //Econ quote status is being validated post submitting it for approval"
-Sys.Keys("^[F5]");
+Browsers.Item(btChrome).Navigate(urc);
 DynamicWait["dynamic_wait"](econ_approval1.Details_Tab.Quote_Status,30000);
 Checkpoint["checkpoint"](econ_approval1.Details_Tab.Quote_Status.textContent,"Submitted for Approval");
 
@@ -516,10 +516,8 @@ Project.Variables.caseurl=Sys.Browser().Page("*").URL;
 
 Aliases.browser.Page_SFCaseDetails.EconQuote_Node.Click();
 
-//Econ quote status is being validated post approving it"
 econ_approval1.Details_Tab.Click();
-
-DynamicWait["dynamic_wait_visible"](econ_approval1.Details_Tab,30000);
+//Econ quote status is being validated post approving it"
 Checkpoint["checkpoint"](econ_approval1.Details_Tab.Quote_Status.textContent,"Approved");
 
 
@@ -575,20 +573,29 @@ Browsers.Item(btChrome).Navigate(urc);
 DynamicWait["dynamic_wait"](econ_migrate.ConfigureQuote_Link,30000);
 econ_migrate.ConfigureQuote_Link.Click();
 //Delay(50000);
-DynamicWait["dynamic_wait"](econ_migrate.SendToD365_Button,60000);
+DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.RunRules_Button,60000);
 
 if(Aliases.browser.Page_EconMainConfiguration.OK_Button.Exists){
 Aliases.browser.Page_EconMainConfiguration.OK_Button.Click();
 Delay(2000);
-Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
-Delay(10000);
-}
 
 if(econ_migrate.SendToD365_Button.VisibleOnScreen){
   Log.Checkpoint("Quote successfully configured & could be migrated to D365");
 }else{
   Log.Error("Quote successfully not configured & could not be migrated to D365")
 }
+
+Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
+Delay(10000);
+}else{
+  if(econ_migrate.SendToD365_Button.VisibleOnScreen){
+  Log.Checkpoint("Quote successfully configured & could be migrated to D365");
+}else{
+  Log.Error("Quote successfully not configured & could not be migrated to D365")
+}
+}
+
+
 econ_migrate.SendToD365_Button.Click();
 Delay(15000);
 Sys.Browser("chrome").Close();

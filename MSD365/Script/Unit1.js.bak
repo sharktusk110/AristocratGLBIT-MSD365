@@ -19,7 +19,7 @@ function exportLogsToMHT() {
 
 //Aliases.browser.Page_EconAdvancedConfiguration_II.Details_Tab.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down]");
 //Sys.Keys("^[F5]");
-Log.Message(Aliases.browser.Page_EconAdvancedConfiguration_II.Details_Tab.textnodeApproved.textContent);
+Log.Message(Aliases.browser.Page_EconAdvancedConfiguration_II.ConversionLineItemCount.textContent);
 
 }
 

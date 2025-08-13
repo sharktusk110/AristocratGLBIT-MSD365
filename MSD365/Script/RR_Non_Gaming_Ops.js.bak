@@ -476,7 +476,7 @@ Sys.Browser("chrome").Close();
 
 }
 
-function econ_approval(){
+function econ_approval(Config){
   
 var econ_approval=Aliases.browser.Page_EconMainConfiguration;
 var econ_approval1=Aliases.browser.Page_EconAdvancedConfiguration_II;
@@ -591,18 +591,22 @@ econ_migrate.ConfigureQuote_Link.Click();
 //Delay(50000);
 DynamicWait["dynamic_wait"](econ_migrate.SendToD365_Button,60000);
 
+
 if(Aliases.browser.Page_EconMainConfiguration.OK_Button.Exists){
 Aliases.browser.Page_EconMainConfiguration.OK_Button.Click();
 Delay(2000);
-Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
-Delay(10000);
-}
 
 if(econ_migrate.SendToD365_Button.VisibleOnScreen){
   Log.Checkpoint("Quote successfully configured & could be migrated to D365");
 }else{
   Log.Error("Quote successfully not configured & could not be migrated to D365")
 }
+
+Aliases.browser.Page_EconMainConfiguration.RunRules_Button.Click();
+Delay(10000);
+}
+
+
 
 econ_migrate.SendToD365_Button.Click();
 Delay(15000);

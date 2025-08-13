@@ -608,8 +608,6 @@ casedetail.Status_Panel.Keys("[Enter]");
 Delay(2000);
 casedetail.Save_Button.Click();
 Delay(2000);
-casedetail.EconQuote_Node.Click();
-Delay(2000);
 
 //Validating whether case QC got completed successfully .
 DynamicWait["dynamic_wait"](Aliases.browser.Page_SFCaseDetails.QC_Status,30000);
