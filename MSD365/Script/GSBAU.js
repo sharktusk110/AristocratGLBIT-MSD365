@@ -192,6 +192,7 @@ Delay(2000);
 urc=Sys.Browser().Page("*").URL;
 Project.Variables.quoteurl=urc;
 
+DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link,30000);
 econ_config.ConfigureQuote_Link.Click();
 
 //Delay(50000);
@@ -515,14 +516,7 @@ if(aqString.Contains(Aliases.browser.Page_EconMainConfiguration.panelOmessagecon
 Log.Checkpoint("Compliance check pass");
 AdvancedConfigurationPluz2.SaveAndExit_Button.Click();
 
-Delay(5000);
-while(save<=0){
-if(!AdvancedConfigurationPluz2.SaveAndExit_Button.VisibleOnScreen && !AdvancedConfigurationPluz2.SaveAndExit_Button.Exists){
-  save=1;
-}else{
-  Delay(500);
-}
-}
+DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link,30000);
 
 }else{
   Log.Error("Shared econ configuration is not compliance adhered.")
