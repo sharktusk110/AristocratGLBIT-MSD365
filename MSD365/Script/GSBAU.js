@@ -156,7 +156,7 @@ var econ_config=Aliases.browser.Page_EconMainConfiguration;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
          "Quote/list?filterName=__Recent";
          
-quotename="ECON GREEN VALLEY RANCH RESORT SPA CASINO -8471629212- 09/30/2025";   
+//quotename="ECON GREEN VALLEY RANCH RESORT SPA CASINO -8471629212- 09/30/2025";   
 
       
 
