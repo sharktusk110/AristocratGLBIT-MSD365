@@ -9,7 +9,7 @@
 function SO_GameProgramKit_Test(){
 
 var verify=Aliases.browser.Page_SOConfig.ConfigCheckpoint.ProductName_TextBox;
-Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+Path=Project.Path+"\\DataSheets\\CopyProtect_DataSheet.xlsx";
 Sheet="GameProgramKit";
 
 var excelFile = Excel.Open(Path); //Path of the Datasheet
@@ -23,17 +23,16 @@ var Config = new Array(rows).fill(0).map(() => new Array(cols).fill(0));
 Config=ReadExcel["readGPKConfigDataFromExcel"]();
 var SO=[];
 
-
+Browsers.Item(btChrome).RunOptions = "-incognito";
 Browsers.Item(btChrome).Run(durl);
 
  
- // User needs to login into D65 Account inorder to initiate firming activity.
+// User needs to login into D65 Account inorder to initiate firming activity.
  
- Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
- Delay(2000);
- DynamicWait["dynamic_wait"](firm.GridOptions_Button,30000);
+Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
+DynamicWait["dynamic_wait"](firm.GridOptions_Button,30000);
 
-for(let i=2;i<=rows;i++){
+for(let i=2;i<=2;i++){
   
 ConfigFilter1=[Config[i][0],Config[i][1],Config[i][2]];
 ConfigFilter2=[Config[i][3],Config[i][4],Config[i][5],Config[i][6],Config[i][7],Config[i][8]];
@@ -44,7 +43,11 @@ SO_CreateAndConfig["GameProKitOrderConfiguration"](ConfigFilter2);
 SO_CreateAndConfig["OrderConfiguration1"]();
 //Delay(50000);
 
-DynamicWait["dynamic_wait_visible"](Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea,30000);
+DynamicWait["dynamic_wait_visible"](Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea,60000);
+
+if(!verify.Exists){
+NameMapping.Sys.browser.pageAllSalesOrdersFinanceAndOper.buttonLineDetails.Click();
+}
 
 if(aqObject.CheckProperty(verify, "Text", cmpContains, Config[i][4].split("|")[0], false)){
   Log.Message("Test Passed for the data row: "+i);

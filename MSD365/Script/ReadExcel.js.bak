@@ -153,8 +153,8 @@ function readOBCConfigDataFromExcel() {
 
 function readGSBAUConfigDataFromExcel() {
 
- Path="C:\\Users\\SA118193\\Desktop\\Data_Sheet.xlsx";
-Sheet="GSBAU_TestData";
+Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
+Sheet="GSBAU";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
  var RowIndex;
@@ -215,7 +215,7 @@ Sheet="GSBAU_TestData";
 
 function readRRConfigDataFromExcel() {
 
- Path="C:\\Users\\SA118193\\Desktop\\RR_Datasheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
  Sheet="RR";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -277,7 +277,7 @@ function readRRConfigDataFromExcel() {
 
 function readTRConfigDataFromExcel() {
 
- Path="C:\\Users\\SA118193\\Desktop\\RR_Datasheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
  Sheet="TR";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -339,7 +339,7 @@ function readTRConfigDataFromExcel() {
 
 function readCVConfigDataFromExcel() {
 
- Path="C:\\Users\\SA118193\\Desktop\\RR_Datasheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
  Sheet="CV";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -401,8 +401,8 @@ function readCVConfigDataFromExcel() {
 
 function readNGConfigDataFromExcel() {
 
- Path="C:\\Users\\SA118193\\Desktop\\RR_Datasheet.xlsx";
- Sheet="CV";
+ Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
+ Sheet="NG";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
  var RowIndex;

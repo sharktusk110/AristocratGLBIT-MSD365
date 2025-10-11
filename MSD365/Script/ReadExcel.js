@@ -3,7 +3,7 @@
 
 function readFilterConfigDataFromExcel() {
   
- Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\CopyProtect_DataSheet.xlsx";
  Sheet="SetChip";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -29,7 +29,7 @@ function readFilterConfigDataFromExcel() {
 
 function readGPKConfigDataFromExcel() {
   
- Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\CopyProtect_DataSheet.xlsx";
  Sheet="GameProgramKit";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -55,7 +55,7 @@ function readGPKConfigDataFromExcel() {
 
 function readSPConfigDataFromExcel() {
   
- Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\CopyProtect_DataSheet.xlsx";
  Sheet="SpareParts";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -77,7 +77,7 @@ function readSPConfigDataFromExcel() {
 
 function readVCConfigDataFromExcel() {
   
- Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\CopyProtect_DataSheet.xlsx";
  Sheet="VertexController";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -101,7 +101,7 @@ function readVCConfigDataFromExcel() {
 }
 function readVHDConfigDataFromExcel() {
   
- Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\CopyProtect_DataSheet.xlsx";
  Sheet="VertexHardDrive";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -126,7 +126,7 @@ function readVHDConfigDataFromExcel() {
 
 function readOBCConfigDataFromExcel() {
   
- Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\CopyProtect_DataSheet.xlsx";
  Sheet="OBC";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -153,8 +153,8 @@ function readOBCConfigDataFromExcel() {
 
 function readGSBAUConfigDataFromExcel() {
 
- Path="C:\\Users\\SA118193\\Desktop\\Data_Sheet.xlsx";
-Sheet="GSBAU_TestData";
+Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
+Sheet="GSBAU";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
  var RowIndex;
@@ -215,7 +215,7 @@ Sheet="GSBAU_TestData";
 
 function readRRConfigDataFromExcel() {
 
- Path="C:\\Users\\SA118193\\Desktop\\RR_Datasheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
  Sheet="RR";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -277,7 +277,7 @@ function readRRConfigDataFromExcel() {
 
 function readTRConfigDataFromExcel() {
 
- Path="C:\\Users\\SA118193\\Desktop\\RR_Datasheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
  Sheet="TR";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -339,7 +339,7 @@ function readTRConfigDataFromExcel() {
 
 function readCVConfigDataFromExcel() {
 
- Path="C:\\Users\\SA118193\\Desktop\\RR_Datasheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
  Sheet="CV";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);
@@ -401,7 +401,7 @@ function readCVConfigDataFromExcel() {
 
 function readNGConfigDataFromExcel() {
 
- Path="C:\\Users\\SA118193\\Desktop\\RR_Datasheet.xlsx";
+ Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
  Sheet="NG";
  var excelFile = Excel.Open(Path); //Path of the Datasheet
  var excelSheet = excelFile.SheetByTitle(Sheet);

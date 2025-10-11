@@ -9,7 +9,7 @@
 function Tr() {
   
 
-Path="C:\\Users\\SA118193\\Desktop\\RR_DataSheet.xlsx";
+Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
 Sheet="TR";
 
 var excelFile = Excel.Open(Path); //Path of the Datasheet
@@ -27,13 +27,13 @@ ConfigFilter2=[Config[i][5],Config[i][6]];
 ConfigFilter3=[Config[i][7],Config[i][8],Config[i][9],Config[i][10],Config[i][11],Config[i][12],Config[i][13],Config[i][14],Config[i][15],Config[i][16],Config[i][17]];
 ConfigFilter4=[Config[i][19],Config[i][20],Config[i][21],Config[i][22],Config[i][23],Config[i][24],Config[i][25],Config[i][26],Config[i][27],Config[i][28],Config[i][29],Config[i][30],Config[i][31],Config[i][32],Config[i][33],Config[i][34],Config[i][35],Config[i][36],Config[i][37],Config[i][38],Config[i][39],Config[i][40]];
   
-
-//Log.Message(ConfigFilter3);
-Trials["Opportunity_Creation"](ConfigFilter1);
-////Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\", lsHTML,true,1);
-Trials["econ_generation"](ConfigFilter2);
-Trials["econ_configuration_navigation"]();
-Trials["econ_mainconfiguration"](ConfigFilter3);
+//
+////Log.Message(ConfigFilter3);
+//Trials["Opportunity_Creation"](ConfigFilter1);
+//////Log.SaveResultsAs("C:\\Users\\SA118193\\Desktop\\Pooja\\", lsHTML,true,1);
+//Trials["econ_generation"](ConfigFilter2);
+//Trials["econ_configuration_navigation"]();
+//Trials["econ_mainconfiguration"](ConfigFilter3);
 Trials["econ_advancedconfiguration"](ConfigFilter4);
 Trials["econ_approval"](ConfigFilter3);
 Trials["caseQC"]();

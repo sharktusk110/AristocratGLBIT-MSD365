@@ -2,11 +2,11 @@
 
 function SF_login(username,password){
   
-  Aliases.browser.pageLoginSalesforce.formLoginForm.emailinputUsername.SetText(username);
+  Aliases.browser.pageLoginSalesforce2.formLoginForm.emailinputUsername.SetText(username);
   Delay(2000); 
-  Aliases.browser.pageLoginSalesforce.formLoginForm.passwordboxPassword.SetText(password);
+  Aliases.browser.pageLoginSalesforce2.formLoginForm.passwordboxPassword.SetText(password);
   Delay(2000);
-  Aliases.browser.pageLoginSalesforce.formLoginForm.submitbuttonLogInToSandbox.Click();
+  Aliases.browser.pageLoginSalesforce2.formLoginForm.submitbuttonLogInToSandbox.Click();
                                  
 }
 
@@ -18,6 +18,7 @@ function D65_login(username,password){
   }
   
   //Enters 'crmtest.4@aristocrat.com' in the 'Email_Field' object.
+  Aliases.browser.Page_OutlookLogin.Email_Field.Click();
   Aliases.browser.Page_OutlookLogin.Email_Field.Keys(username);
   //Clicks the 'Signin_Text' control.
   Aliases.browser.Page_OutlookLogin.Signin_Text.Click();

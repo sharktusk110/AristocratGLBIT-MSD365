@@ -9,13 +9,15 @@
 
 function BOMFirming(){
 
-var quote_number="00150775";
+var quote_number="00152252";
 
 var customer ;
 var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
 var purl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=ProdTableListPage";
 var firm=Aliases.browser.Page_D65;
 var SO ;
+
+Browsers.Item(btChrome).RunOptions = "-incognito";
 Browsers.Item(btChrome).Run(durl);
  
   // User needs to login into D65 Account inorder to initiate firming activity.

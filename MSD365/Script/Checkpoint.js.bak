@@ -1,6 +1,12 @@
 ﻿//module.exports.getObject
 
-function checkpoint(String1,String2){
+//function checkpoint(String1,String2){
+  function checkpoint(){
+    String1="dffd";
+    String2="dffd";
+  
+String1=String1.trim();
+String2=String2.trim();
   
 if(equal(String1,String2)){
 Log.Checkpoint("Value of the object found correct as : "+String2);

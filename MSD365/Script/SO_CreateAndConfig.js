@@ -183,11 +183,12 @@ function SPOrderConfiguration(Config) {
     navsetchip.Type_Selectlist.SetText("Service compliance parts");
     Delay(2000);
     navsetchip.Type_Selectlist.Keys("[Enter]");
-    Delay(5000);
+    DynamicWait["dynamic_wait"](navsetchip.GamingClassification_Selectlist,30000);
 
     // Enter 'Gaming Classification'
     navsetchip.GamingClassification_Selectlist.SetText(Config[0]);
-    Delay(5000);
+    navsetchip.GamingClassification_Selectlist.Keys("[Enter]");
+    Delay(15000);
 
     if(Config[1]=="No") {
     // Enter 'Bootloader'
@@ -234,6 +235,7 @@ function VCOrderConfiguration(Config) {
     navsetchip.OS_Selectlist.SetText(Config[4]);
     Delay(2000);
     navsetchip.OS_Selectlist.Keys("[Enter]"); 
+    Delay(5000);
     
    
 }
@@ -322,6 +324,14 @@ function OBCOrderConfiguration(Config) {
     Delay(2000);
     navsetchip.Setchip_Selectlist.Keys("[Enter]");
     Delay(5000);  
+    
+    //Enter 'OBC'
+    Aliases.browser.Page_SOConfig.textboxOnboardJackpotControllerO.SetText(Config[6]);
+    Delay(2000);
+    Aliases.browser.Page_SOConfig.textboxOnboardJackpotControllerO.Keys("[Enter]");
+    Delay(5000);  
+    
+    
    
 }
 
@@ -354,7 +364,28 @@ function OrderConfiguration1() {
     Delay(20000);
     Aliases.browser.Page_SOConfig.SetChip_Config.SearchWith_Selectlist.Click();
     Delay(2000);
-    Aliases.browser.Page_SOConfig.buttonOk2.Click()
+    Aliases.browser.Page_SOConfig.buttonOk3.Click()
+    Delay(2000);
+    navconfigexit.ProcessExit_Button.ClickButton();
+    Delay(2000);
+    navconfigexit.Yes_Button.ClickButton();
+}
+
+function OrderConfiguration2() {
+    var navconfigexit=Aliases.browser.Page_SOConfig.ConfigExit;
+
+    // Finalize configuration
+//    Aliases.browser.Page_SOConfig.SetChip_Config.SearchWith_Selectlist.Click();
+//    Delay(2000);
+//    Aliases.browser.Page_SOConfig.buttonClose.Click();
+//    Delay(2000);
+    navconfigexit.OrderConfigurator_Link.Click();
+    Delay(2000);
+    Aliases.browser.Page_SOConfig.textnodeRunRules.buttonRunRules.Click();
+    Delay(20000);
+    Aliases.browser.Page_SOConfig.SetChip_Config.SearchWith_Selectlist.Click();
+    Delay(2000);
+    Aliases.browser.Page_SOConfig.buttonOk3.Click()
     Delay(2000);
     navconfigexit.ProcessExit_Button.ClickButton();
     Delay(2000);

@@ -1,7 +1,7 @@
 ﻿//module.exports.getObject
 
 function checkpoint(String1,String2){
-  
+    
 String1=String1.trim();
 String2=String2.trim();
   

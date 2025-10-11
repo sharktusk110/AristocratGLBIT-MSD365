@@ -2311,6 +2311,42 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonOk3" Key="{8E6C3189-31D2-4ED7-8953-CEE4AAF8A229}">
+										<Image FileName="-30009643" Left="1094" Top="711" Right="1166" Bottom="758" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//button)[52]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//*[@id=&quot;oBody&quot;]/div[30]/div[3]/div/button/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxOnboardJackpotControllerO" Key="{F5B0D153-D66D-4040-A17E-B5359A420A41}">
+										<Image FileName="178478433" Left="496" Top="852" Right="976" Bottom="897" />
+										<TypeInfo Item0="{379429C6-248D-4857-874D-B67BE74265FA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Onboard Jackpot Controller (OBC)*&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ID0EPCAC" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[18]/td//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk4" Key="{641BE1DF-59EE-4130-B43B-F371CB78E14E}">
+										<Image FileName="-1024952375" Left="1094" Top="711" Right="1166" Bottom="758" />
+										<TypeInfo Item0="{393B36F7-25B3-4486-804F-B9B7F09D0487}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//button)[52]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{DEA46AC0-4D24-409A-AF31-94F92F6E8AC0}">
@@ -3169,7 +3205,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value PropertyType="1" LocalVariable="quoteurl" />
+										<Value Value="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -3786,6 +3822,24 @@
 													</Selector>
 													<Selector>
 														<Value Value="//tr[21]/td[2]//label" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="panelOmessagecontainer" Key="{8E58EAA7-B246-45B1-83B7-6D39FDFC1328}">
+												<Image FileName="234495571" Left="55" Top="783" Right="1896" Bottom="898" />
+												<TypeInfo Item0="{EFD1D94E-EEA7-4663-B430-9432F9982726}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#oMessageContainer" />
+													</Selector>
+													<Selector>
+														<Value Value="//div/div[@title=&apos;Messages&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[contains(@class, &apos;ui-preloadedPanel-icons&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;oMessageBoxContainer&apos;]/div" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -6455,6 +6509,9 @@
 				</Child>
 				<Child Name="buttonOk" Owner="{9EAB8639-1AA4-4008-896F-4F0BA3EB97FD}" />
 				<Child Name="buttonOk2" Owner="{660A46C2-AC0A-4853-BFBE-B9611F6952FE}" />
+				<Child Name="buttonOk3" Owner="{8E6C3189-31D2-4ED7-8953-CEE4AAF8A229}" />
+				<Child Name="textboxOnboardJackpotControllerO" Owner="{F5B0D153-D66D-4040-A17E-B5359A420A41}" />
+				<Child Name="buttonOk4" Owner="{641BE1DF-59EE-4130-B43B-F371CB78E14E}" />
 			</Child>
 			<Child Name="Page_AristocratLogin_Passive" Owner="{858E393B-305B-4067-B78E-6551AD08AB96}">
 				<Child Name="Next_Button" Owner="{62C708B8-01DE-42A6-94C3-6F570DCE272A}" />
@@ -6569,6 +6626,7 @@
 				<Child Name="TopperArt_Field" Owner="{AFB311F8-6F3E-4D3D-90E6-BD8EE6CE1FB6}" />
 				<Child Name="ExecutedRulesTrial_Checkbox" Owner="{7D4E7A9D-FF84-4209-8AC5-F2B459449C50}" />
 				<Child Name="ExecutedRulesNonGaming_Checkbox" Owner="{F60FBE23-0F43-4676-89F7-546988AB8166}" />
+				<Child Name="panelOmessagecontainer" Owner="{8E58EAA7-B246-45B1-83B7-6D39FDFC1328}" />
 			</Child>
 			<Child Name="Page_EconAdvancedConfiguration_I" Owner="{881F118D-459D-4371-BBC6-5F30165B3632}">
 				<Child Name="linkAdvanced" Owner="{5797B608-7C90-4EA2-ACE3-CE62B6DF02A2}" />

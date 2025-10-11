@@ -1,4 +1,5 @@
 ﻿//module.exports.getObject
+//USEUNIT DynamicWait
 
 function SF_login(username,password){
   
@@ -18,9 +19,12 @@ function D65_login(username,password){
   }
   
   //Enters 'crmtest.4@aristocrat.com' in the 'Email_Field' object.
+  DynamicWait["dynamic_wait"](Aliases.browser.Page_OutlookLogin.Email_Field,30000);
+  Aliases.browser.Page_OutlookLogin.Email_Field.Click();
   Aliases.browser.Page_OutlookLogin.Email_Field.Keys(username);
   //Clicks the 'Signin_Text' control.
   Aliases.browser.Page_OutlookLogin.Signin_Text.Click();
+  DynamicWait["dynamic_wait"](Aliases.browser.Page_OutlookLogin.Next_Button,30000);
   //Simulates a left-button single click in a window or control as specified (relative position, shift keys).
   Aliases.browser.Page_OutlookLogin.Next_Button.Click();
   //Clicks the 'Next_Button' button.
@@ -28,6 +32,7 @@ function D65_login(username,password){
   //Clicks the 'panelSigninContainer' control.
   //Aliases.browser.pagePassive.panelSigninContainer.Click();
   //Enters text in the text box.
+  DynamicWait["dynamic_wait"](Aliases.browser.Page_AristocratLogin_Active.Password_Field,30000);
   Aliases.browser.Page_AristocratLogin_Active.Password_Field.SetText(password);
   //Clicks the 'Verify_Button' button.
   Aliases.browser.Page_AristocratLogin_Active.Verify_Button.ClickButton();

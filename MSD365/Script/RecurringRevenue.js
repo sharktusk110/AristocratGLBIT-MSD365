@@ -160,7 +160,7 @@ var econ_config=Aliases.browser.Page_EconMainConfiguration;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
          "Quote/list?filterName=__Recent";
          
-//quotename="ECON  WHEELING ISLAND RACETRACK AND GAMING CENTER -6646925957- 08/08/2025";         
+//quotename="ECON WHEELING ISLAND RACETRACK AND GAMING CENTER -1388535905- 09/17/2025";         
 
 Browsers.Item(btChrome).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
                                    "Tester\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" --disable-site-isolation-trials";           
@@ -296,6 +296,7 @@ function econ_advancedconfiguration(Config){
 var AdvancedConfiguration=Aliases.browser.Page_EconAdvancedConfiguration_I;
 var AdvancedConfigurationPluz=Aliases.browser.Page_EconAdvancedConfiguration_II;
 var AdvancedConfigurationPluz2=Aliases.browser.Page_EconMainConfiguration;
+var save=0;
 
 
 AdvancedConfiguration.linkAdvanced.Click();
@@ -429,29 +430,26 @@ if(AdvancedConfigurationPluz2.RulesExecuted_Checkbox.FindElement("//input[@name=
   AdvancedConfigurationPluz2.RulesExecuted_Checkbox.Click();
 }
 AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
-Delay(5000);
-//==========================
-  var bool=0;
- while(bool<=30){
-   if(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen){
-     Delay(100);
-     bool=bool+1;
-   } else{
-     break;
-   }
-   Log.Message(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen);
-  }
-  Delay(2000);
-//==========================  
-if(aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass")){
-AdvancedConfigurationPluz2.Keys("[Enter]");
-Delay(2000);
+
+Aliases.browser.Page_EconMainConfiguration.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down]");
+
+DynamicWait["dynamic_wait_visible"](Aliases.browser.Page_EconMainConfiguration.panelOmessagecontainer,60000);
+
+if(aqString.Contains(Aliases.browser.Page_EconMainConfiguration.panelOmessagecontainer.textContent,"Pass")>0){
+Log.Checkpoint("Compliance check pass");
 AdvancedConfigurationPluz2.SaveAndExit_Button.Click();
-Delay(2000);
+
+Delay(5000);
+while(save<=0){
+if(!AdvancedConfigurationPluz2.SaveAndExit_Button.VisibleOnScreen && !AdvancedConfigurationPluz2.SaveAndExit_Button.Exists){
+  save=1;
 }else{
-  AdvancedConfigurationPluz2.Keys("[Enter]");
+  Delay(500);
+}
+}
+
+}else{
   Log.Error("Shared econ configuration is not compliance adhered.")
-  
 }
 
 Sys.Browser("chrome").Close();
@@ -463,7 +461,7 @@ function econ_approval(Config){
 var econ_approval=Aliases.browser.Page_EconMainConfiguration;
 var econ_approval1=Aliases.browser.Page_EconAdvancedConfiguration_II;
   
-//urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q09r000000bp5BCAQ/view";
+//urc="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/r/Quote/0Q0Bn000000zzEgKAI/view";
 //Project.Variables.quoteurl=urc; 
           
 Browsers.Item(btChrome).Run("https://test.salesforce.com");
@@ -602,9 +600,10 @@ Sys.Browser("chrome").Close();
 
 function D65_MigrationCheck(Config)
 {
-//quote_number="00142193444";
+//quote_number="00151735";
 var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
 var firm=Aliases.browser.Page_D65;
+Browsers.Item(btChrome).RunOptions = "-incognito";
 Browsers.Item(btChrome).Run(durl);
 
  

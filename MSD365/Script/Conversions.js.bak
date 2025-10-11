@@ -291,6 +291,7 @@ function econ_advancedconfiguration(Config){
 var AdvancedConfiguration=Aliases.browser.Page_EconAdvancedConfiguration_I;
 var AdvancedConfigurationPluz=Aliases.browser.Page_EconAdvancedConfiguration_II;
 var AdvancedConfigurationPluz2=Aliases.browser.Page_EconMainConfiguration;
+var save=0;
 
 
 AdvancedConfiguration.linkAdvanced.Click();
@@ -379,29 +380,24 @@ if(Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.FindElement
   Aliases.browser.Page_EconMainConfiguration.RulesExecuted_Checkbox.Click();
 }
 AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
-Delay(5000);
-//==========================
-  var bool=0;
- while(bool<=30){
-   if(equal(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen,false)){
-     break;
-   } else{
-     Delay(100);
-     bool=bool+1;
-   }
-   Log.Message(AdvancedConfigurationPluz2.ComplianceCheck_Button.VisibleOnScreen);
-  }
-  Delay(5000);
-//==========================  
-if(aqObject.CheckProperty(Aliases.browser.Page_EconMainConfiguration.FindElement("//iframe[contains(@src, 'eConEngineHtml.aspx')]"), "contentText", cmpContains, "Pass")){
-AdvancedConfigurationPluz2.Keys("[Enter]");
-Delay(2000);
+
+DynamicWait["dynamic_wait_visible"](Aliases.browser.Page_EconMainConfiguration.panelOmessagecontainer,60000);
+
+if(aqString.Contains(Aliases.browser.Page_EconMainConfiguration.panelOmessagecontainer.textContent,"Pass")>0){
+Log.Checkpoint("Compliance check pass");
 AdvancedConfigurationPluz2.SaveAndExit_Button.Click();
-Delay(2000);
+
+Delay(5000);
+while(save<=0){
+if(!AdvancedConfigurationPluz2.SaveAndExit_Button.VisibleOnScreen && !AdvancedConfigurationPluz2.SaveAndExit_Button.Exists){
+  save=1;
 }else{
-  AdvancedConfigurationPluz2.Keys("[Enter]");
+  Delay(500);
+}
+}
+
+}else{
   Log.Error("Shared econ configuration is not compliance adhered.")
-  
 }
 
 Sys.Browser("chrome").Close();
@@ -432,7 +428,7 @@ quote_number=econ_approval1.Quote_Node.textContent;
 //Validating EGM count which confirms econ configuration getting saved successfully .
 Sys.Keys("^[F5]");
 DynamicWait["dynamic_wait"](econ_approval1.EGMCount,30000);
-Checkpoint["checkpoint"](econ_approval1.EGMCount.textContent.split("Count")[1],Config[2]+".00");
+Checkpoint["checkpoint"](econ_approval1.ConversionLineItemCount.textContent.split("Count")[1],Config[2]+".00");
 
 econ_approval.SubmitforApproval_Button.Click();
 
@@ -462,9 +458,11 @@ econ_approval.Case_Link.Click();
 Delay(5000);
 Project.Variables.caseurl=Sys.Browser().Page("*").URL;
 
+Aliases.browser.Page_SFCaseDetails.EconQuote_Node.Click();
+
 econ_approval1.Details_Tab.Click();
 //Econ quote status is being validated post approving it"
-Checkpoint["checkpoint"](econ_approval1.Details_Tab.Quote_Status.textContent,"Approved");
+Checkpoint["checkpoint"](econ_approval1.Details_Tab.Quote_Status.textContent,"Accepted");
 
 Sys.Browser("chrome").Close();
 }

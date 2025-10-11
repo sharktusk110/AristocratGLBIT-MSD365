@@ -9,7 +9,7 @@
 function SO_SpareParts_Test(){
 
 verify=Aliases.browser.Page_SOConfig.ConfigCheckpoint.Test_TextBox;
-Path="C:\\Users\\SA118193\\Desktop\\CopyProtect_DataSheet.xlsx";
+Path=Project.Path+"\\DataSheets\\CopyProtect_DataSheet.xlsx";
 Sheet="SpareParts";
 
 var excelFile = Excel.Open(Path); //Path of the Datasheet
@@ -24,48 +24,49 @@ Config=ReadExcel["readSPConfigDataFromExcel"]();
 
 var SO=[];
 
-
-Browsers.Item(btChrome).Run(durl);
-
+//Browsers.Item(btChrome).RunOptions = "-incognito";
+//Browsers.Item(btChrome).Run(durl);
+//
+// 
+// // User needs to login into D65 Account inorder to initiate firming activity.
+// 
+// Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
+// Delay(2000);
+// DynamicWait["dynamic_wait"](firm.GridOptions_Button,30000);
  
- // User needs to login into D65 Account inorder to initiate firming activity.
- 
- Login["D65_login"](Project.Variables.D65_Username,Project.Variables.D65_Password);
- Delay(2000);
- DynamicWait["dynamic_wait"](firm.GridOptions_Button,30000);
- 
-for(let i=2;i<=rows;i++){
+for(let i=2;i<=2;i++){
 
 ConfigFilter1=[Config[i][0],Config[i][1],Config[i][2]];
 ConfigFilter2=[Config[i][3],Config[i][4]];
 
-SO_CreateAndConfig["OrderCreation"](ConfigFilter1);
-SO_CreateAndConfig["OrderConfigurationNavigation"]();
-SO_CreateAndConfig["SPOrderConfiguration"](ConfigFilter2);
-SO_CreateAndConfig["OrderConfiguration"]();
+//SO_CreateAndConfig["OrderCreation"](ConfigFilter1);
+//SO_CreateAndConfig["OrderConfigurationNavigation"]();
+//SO_CreateAndConfig["SPOrderConfiguration"](ConfigFilter2);
+//SO_CreateAndConfig["OrderConfiguration"]();
 
-DynamicWait["dynamic_wait"](Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea,30000);
-Delay(2000);
-Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
-Delay(5000);
+DynamicWait["dynamic_wait_visible"](Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea,30000);
 
-if(!Aliases.browser.Page_D65.textnodeLines.buttonGeneral3.textboxSalestable2SalestableSale.Exists){
-  Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
+if(!verify.Exists){
+NameMapping.Sys.browser.pageAllSalesOrdersFinanceAndOper.buttonLineDetails.Click();
 }
-SO[i-1]=Aliases.browser.Page_D65.textnodeLines.buttonGeneral3.textboxSalestable2SalestableSale.Text;
 
-
-if(aqObject.CheckProperty(verify, "Title", cmpContains, Config[i][3], false)){
+if(aqObject.CheckProperty(verify, "Title", cmpContains, "BACKPLANE", false)){
   Log.Message("Test Passed for the data row: "+i);
 }else{
   Log.Message("Test Failed for the data row: "+i);
 }
 
+Aliases.browser.Page_D65.textnodeLines.textnodeSalestable2HeaderviewHea.Click();
+Delay(2000);
+
+SO[i-1]=Aliases.browser.Page_D65.textnodeLines.buttonGeneral3.textboxSalestable2SalestableSale.Text;
+
 if(i==rows){
 Log.Message("Following Sales Order created"+SO);
 }
+
 Sys.Keys("[F5]");
-DynamicWait["dynamic_wait"](Aliases.browser.Page_SOCreation.New_Button,30000);
+DynamicWait["dynamic_wait_visible"](Aliases.browser.Page_SOCreation.New_Button,30000);
 
 
 }

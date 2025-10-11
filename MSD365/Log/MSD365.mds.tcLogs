@@ -23,12 +23,12 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45882.5382177894"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{F147FAF7-5A60-4E33-88DD-58BE14A11515}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Unit1\exportLogsToMHT]"/>
-				<Prp name="relpath" type="S" value="8_13_2025_12_55 PM_02_17\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
+				<Prp name="datetime" type="D" value="45930.7073907407"/>
+				<Prp name="description" type="S" value="Script Test Log [GSBAU_Test\Outright_Sale]"/>
+				<Prp name="key" type="S" value="{5C1F8172-E77F-4D15-BEB4-5A6DE3B66895}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_Test\Outright_Sale]"/>
+				<Prp name="relpath" type="S" value="9_30_2025_4_58 PM_38_560\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>

@@ -35,7 +35,7 @@ Conversions["econ_generation"](ConfigFilter2);
 Conversions["econ_configuration_navigation"]();
 Conversions["econ_mainconfiguration"](ConfigFilter3);
 Conversions["econ_advancedconfiguration"](ConfigFilter4);
-Conversions["econ_approval"]();
+Conversions["econ_approval"](ConfigFilter3);
 Conversions["caseQC"]();
 Conversions["econ_D65migration"]();
 Conversions["D65_MigrationCheck"](ConfigFilter1);

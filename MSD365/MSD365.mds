@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
-		<folder name="DataSheets" />
+		<folder name="DataSheets">
+			<child name="Data_Sheet.xlsx" key="{F92A9ACE-9F8F-4712-92A1-8014CF39AF21}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="DataSheets\Data_Sheet.xlsx" />
+			<child name="CopyProtect_DataSheet.xlsx" key="{A52159A7-DD9F-4F5E-90D8-2599E1706823}" type="Other File" typeId="{7E17765D-0A59-4C70-A5DA-31DC6D5FED35}" pluginName="Other Files" path="DataSheets\CopyProtect_DataSheet.xlsx" />
+		</folder>
 		<child name="Script" key="{DFA0F377-31F8-42B9-8108-3F013CF7A5C8}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{6F9DCBBB-BDE6-4C4E-8737-D4CE0350D7A5}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="NameMapping" key="{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />

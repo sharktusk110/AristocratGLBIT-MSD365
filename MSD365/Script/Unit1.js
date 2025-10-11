@@ -8,18 +8,36 @@
 
 function exportLogsToMHT() {
   
-//opportunity_name="WHEELING ISLAND RACETRACK AND GAMING CENTER -8116650340- 08/10/2025";  
-//var search_opportunity=Aliases.browser.Page_SearchOpportunity;
-//Log.Message(Aliases.browser.Page_EconAdvancedConfiguration_II.panelEgmCount.textContent);
-//aqObject.CheckProperty(search_opportunity.Opportunity_Node.textContent,"", cmpContains, opportunity_name);
+//var MainConfiguration=Aliases.browser.Page_EconMainConfiguration;
+//var a=0;
+//Log.Message(MainConfiguration.Denom_Field.getAttribute("value"));
+//while(a<=0){
+//if(equal(MainConfiguration.Denom_Field.getAttribute("value"),".01")){
+//  a=1;
+//}else{
+//  Log.Message(MainConfiguration.Denom_Field.getAttribute("value"));
+//MainConfiguration.Denom_Field.SetText(".01");
+//Delay(2000);
+//MainConfiguration.Denom_Field.Keys("[Enter]");
+//Delay(2000);
+//}
+//}
+//var save=0;
+//var AdvancedConfigurationPluz2=Aliases.browser.Page_EconMainConfiguration;
+//AdvancedConfigurationPluz2.SaveAndExit_Button.Click();
+//Delay(5000);
+//while(save<=0){
+//if(!AdvancedConfigurationPluz2.SaveAndExit_Button.VisibleOnScreen && !AdvancedConfigurationPluz2.SaveAndExit_Button.Exists){
+//  save=1;
+//}else{
+//  Delay(500);
+//}
+//}
+ Aliases.browser.Page_SOConfig.textboxOnboardJackpotControllerO.SetText("OBC-NONE");
+    Delay(2000);
+    Aliases.browser.Page_SOConfig.textboxOnboardJackpotControllerO.Keys("[Enter]");
+    Delay(5000);  
 
-//Aliases.browser.Page_EconAdvancedConfiguration_II.Details_Tab.Click();
-//Sys.Keys("^[F5]");
-//Checkpoint["checkpoint"](Aliases.browser.Page_SFCaseDetails.QC_Status.textContent,"QC - Complete");
-
-//Aliases.browser.Page_EconAdvancedConfiguration_II.Details_Tab.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down]");
-//Sys.Keys("^[F5]");
-Log.Message(Aliases.browser.Page_EconAdvancedConfiguration_II.ConversionLineItemCount.textContent.split("Count")[1]);
 
 }
 

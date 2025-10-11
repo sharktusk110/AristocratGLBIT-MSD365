@@ -9,7 +9,7 @@
 function Conversion() {
   
 
-Path="C:\\Users\\SA118193\\Desktop\\RR_DataSheet.xlsx";
+Path=Project.Path+"\\DataSheets\\Data_Sheet.xlsx";
 Sheet="CV";
 
 var excelFile = Excel.Open(Path); //Path of the Datasheet
