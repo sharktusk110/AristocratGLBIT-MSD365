@@ -13,17 +13,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{D2E08988-4B7E-4F86-805E-CF46EB6B613A}" version="14">
 		<children>
-			<testItem name="RR" key="{34257774-7EE0-4857-90C5-6933382FA0DA}" group="False" parallel="False" enabled="True" load="False" testMoniker="{F383465A-4C3E-4C7E-91ED-5D7CF3D66583}RR" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="Outright_Sale" key="{62DEBFD5-196C-4F4F-A323-AB220615D1E6}" group="False" parallel="False" enabled="True" load="False" testMoniker="{1C637C46-00E7-496C-B28C-D279CC6EF50A}Outright_Sale" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="SO_Setchip_Test" key="{3C917487-E07A-4D52-B463-F93BD2669FE8}" group="False" parallel="False" enabled="True" load="False" testMoniker="{E8796B24-10E2-47D1-8395-A0D250577602}SO_Setchip_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="Outright_Sale" key="{B3CB6D92-69D6-4010-AC51-49C9CE76015D}" group="False" parallel="False" enabled="True" load="False" testMoniker="{1C637C46-00E7-496C-B28C-D279CC6EF50A}Outright_Sale" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -64,7 +54,7 @@
 		</data>
 	</variables>
 	<settings key="{F6ABEF2A-16FE-4132-827F-E2F45C462377}">
-		<settingsVersion value="15.76" />
+		<settingsVersion value="15.77" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
