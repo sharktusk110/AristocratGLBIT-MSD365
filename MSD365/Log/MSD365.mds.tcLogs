@@ -23,11 +23,11 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45930.7073907407"/>
+				<Prp name="datetime" type="D" value="45941.7360110069"/>
 				<Prp name="description" type="S" value="Script Test Log [GSBAU_Test\Outright_Sale]"/>
-				<Prp name="key" type="S" value="{5C1F8172-E77F-4D15-BEB4-5A6DE3B66895}"/>
+				<Prp name="key" type="S" value="{841E5AC5-9DBE-499F-AEB9-5B57E2494057}"/>
 				<Prp name="nameofroot" type="S" value="Script Test Log [GSBAU_Test\Outright_Sale]"/>
-				<Prp name="relpath" type="S" value="9_30_2025_4_58 PM_38_560\Description.tcLog"/>
+				<Prp name="relpath" type="S" value="10_11_2025_5_39 PM_51_351\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>

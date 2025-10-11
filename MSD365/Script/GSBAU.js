@@ -156,7 +156,7 @@ var econ_config=Aliases.browser.Page_EconMainConfiguration;
 var url="https://aristocrat-global--qa1.sandbox.lightning.force.com/lightning/o/"+
          "Quote/list?filterName=__Recent";
          
-//quotename="ECON GREEN VALLEY RANCH RESORT SPA CASINO -8471629212- 09/30/2025";   
+//quotename="ECON GREEN VALLEY RANCH RESORT SPA CASINO -4894496904- 10/11/2025";   
 
       
 
@@ -515,8 +515,8 @@ DynamicWait["dynamic_wait_visible"](Aliases.browser.Page_EconMainConfiguration.p
 if(aqString.Contains(Aliases.browser.Page_EconMainConfiguration.panelOmessagecontainer.textContent,"Pass")>0){
 Log.Checkpoint("Compliance check pass");
 AdvancedConfigurationPluz2.SaveAndExit_Button.Click();
-
-DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link,30000);
+Delay(5000);
+//DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link,30000);
 
 }else{
   Log.Error("Shared econ configuration is not compliance adhered.")
