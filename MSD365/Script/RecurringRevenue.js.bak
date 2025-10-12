@@ -430,6 +430,9 @@ if(AdvancedConfigurationPluz2.RulesExecuted_Checkbox.FindElement("//input[@name=
   AdvancedConfigurationPluz2.RulesExecuted_Checkbox.Click();
 }
 AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
+
+Aliases.browser.Page_EconMainConfiguration.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down]");
+
 DynamicWait["dynamic_wait_visible"](Aliases.browser.Page_EconMainConfiguration.panelOmessagecontainer,60000);
 
 if(aqString.Contains(Aliases.browser.Page_EconMainConfiguration.panelOmessagecontainer.textContent,"Pass")>0){

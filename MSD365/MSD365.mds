@@ -18,6 +18,26 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="RR" key="{B0871706-5B28-4AC1-B8C0-B8FA78444852}" group="False" parallel="False" enabled="True" load="False" testMoniker="{F383465A-4C3E-4C7E-91ED-5D7CF3D66583}RR" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="Nongaming" key="{CB013C6E-C9F2-4152-B9A7-75F64C26EAEF}" group="False" parallel="False" enabled="True" load="False" testMoniker="{FD55C8F7-AA47-42DD-A310-E31BCA154B9F}Nongaming" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="Tr" key="{92F36A69-BF53-4A96-8D20-28B6A87DB651}" group="False" parallel="False" enabled="True" load="False" testMoniker="{5AE5C994-79B2-4679-977A-54ABEE8B47ED}Tr" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="Conversion" key="{2A093F2D-F2F1-4260-8CF2-DE72C14758A5}" group="False" parallel="False" enabled="True" load="False" testMoniker="{CAD35B57-DCFC-4278-8483-90E67E2B8C36}Conversion" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{64F3A746-AD7F-4419-B9DA-616F168DF9FF}">
@@ -631,7 +651,7 @@
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
-		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="200" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="500" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />

@@ -545,6 +545,7 @@ function D65_MigrationCheck(Config)
 //quote_number="00142193444";
 var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
 var firm=Aliases.browser.Page_D65;
+Browsers.Item(btChrome).RunOptions = "-incognito";
 Browsers.Item(btChrome).Run(durl);
 
  
