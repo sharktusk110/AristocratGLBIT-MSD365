@@ -451,20 +451,14 @@ AdvancedConfigurationPluz2.ComplianceCheck_Button.Click();
 
 Aliases.browser.Page_EconMainConfiguration.Keys("[Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down][Down]");
 
+ 
 DynamicWait["dynamic_wait_visible"](Aliases.browser.Page_EconMainConfiguration.panelOmessagecontainer,60000);
 
 if(aqString.Contains(Aliases.browser.Page_EconMainConfiguration.panelOmessagecontainer.textContent,"Pass")>0){
 Log.Checkpoint("Compliance check pass");
 AdvancedConfigurationPluz2.SaveAndExit_Button.Click();
-
 Delay(5000);
-while(save<=0){
-if(!AdvancedConfigurationPluz2.SaveAndExit_Button.VisibleOnScreen && !AdvancedConfigurationPluz2.SaveAndExit_Button.Exists){
-  save=1;
-}else{
-  Delay(500);
-}
-}
+//DynamicWait["dynamic_wait"](Aliases.browser.Page_EconMainConfiguration.ConfigureQuote_Link,30000);
 
 }else{
   Log.Error("Shared econ configuration is not compliance adhered.")
