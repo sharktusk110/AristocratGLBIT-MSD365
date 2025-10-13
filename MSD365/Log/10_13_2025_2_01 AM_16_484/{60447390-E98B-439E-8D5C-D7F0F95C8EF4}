@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 14">
+			<Prp name="date" type="D" value="45943.0848556829"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="695"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (8, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.AllFields_Menu.Node_Checkbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//*[name()='rect'][contains(@class, '_jpa94h')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="date" type="D" value="45943.0856829745"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '0000152520' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="710"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumberFilter_TextField&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;xpath=/html/body/div[21]/div[3]/div/div[3]/div/div/input&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="date" type="D" value="45943.0844405556"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'crmtest.4@aristocrat.com' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_OutlookLogin.Email_Field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_type=code%20id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAALkBx4kL8aUiK8hHhj9M8wgAAAAACAAAAAAAQZgAAAAEAACAAAAAhyo155LTATE6PVZg2R8w2CmaNA17O_YzgZlWT82YbhwAAAAAOgAAAAAIAACAAAABhp0WnrKWmhvjxhbNdpfuug5ggiLJABuILbIgEHSwgW2AAAAA9J5WPTzQBKs4G1JwFMwoKE4oPBLiGHSmqQNEPhb6EEEfYq2yw6KZp5_1BfmNElgFcBt294B_FV_Q48u_4n3LPNRJUU8G4B-rG09qTcdc2OaxYCoYoBYpGV6ah79Iwqi5AAAAAlSdLX2YAQsd_KAL10cOVK-kMbReTwBurVbLWHnI2lwNlOh3bDscmCaqxDiG3HI-CqyWH2lh26USS3A1rcgrs0w%26RedirectTo%3Dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;response_mode=form_post&amp;nonce=638959356807559918.OTU2ZWVjMTktNWFlMy00MmJkLTkyMDItMmE4Njg1NjViZmMyMGQwZTlmYTUtNzdlMC00ZTA3LWIwNTAtYWU5NDY5MmI4ZjIz&amp;redirect_uri=https%3A%2F%2Fqa1.sandbox.operations.dynamics.com%2F&amp;max_age=86400&amp;x-client-SKU=ID_NET472&amp;x-client-ver=8.3.0.0&amp;sso_reload=true&quot;).FindElement(&quot;//input[@name='loginfmt']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="date" type="D" value="45943.0862745833"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="708"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (65, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumber_Panel&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[text()='Quote Number']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 2" type="S" value="{CED4E91D-B5C1-4584-BFDA-B3C759F6A779}"/>
+			<Prp name="unit 0" type="S" value="{84DCAD69-8F5F-4C3C-AD74-672DBAC2E154}"/>
+			<Prp name="unit 1" type="S" value="{479BA5E3-E06D-4360-847C-C60DDC53EA34}"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="date" type="D" value="45943.0850923611"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="703"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{44603A16-9D41-4957-9202-62727F9AE844}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;buttonLogisticspostaladdressStre&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//button[contains(., 'Apply')]&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAIAbm0BACQANDQ2MDNBMTZ4OUQ0MXg0OTU3eDkyMDJ4NjI3MjdGOUFF&#xA;ODQ0BgBjb25maWcBABUARGVmYXVsdCBDb25maWd1cmF0aW9uBAB0eXBlAQALAFJlY29nbml0aW9u&#xA;BABtb2RlAAACAAcAcHJvamVjdAEAJAA5QzRFRjJCN3gyOEVFeDRDQTl4QkYyMng2NjhCNzgyNENG&#xA;MjkJAHByb3Bjb3VudAAAAAAEAAcAbWF0Y2hlZAAAAAAFAG5hbWVzAAAAAAsAZm91bmR2YWx1ZXMD&#xA;AAEAMAEAeQBAMkYwMDJGMDA2MjAwNzUwMDc0MDA3NDAwNkYwMDZFMDA1QjAwNjMwMDZGMDA2RTAw&#xA;NzQwMDYxMDA2OTAwNkUwMDczMDAyODAwMkUwMDJDMDAyMDAwMjcwMDQxMDA3MDAwNzAwMDZDMDA3&#xA;OTAwMjcwMDI5MDA1RDAwAQAyAQDDsQBAMkYwMDJGMDA2MjAwNzUwMDc0MDA3NDAwNkYwMDZFMDA1&#xA;QjAwNDAwMDZFMDA2MTAwNkQwMDY1MDAzRDAwMjcwMDRDMDA2RjAwNjcwMDY5MDA3MzAwNzQwMDY5&#xA;MDA2MzAwNzMwMDUwMDA2RjAwNzMwMDc0MDA2MTAwNkMwMDQxMDA2NDAwNjQwMDcyMDA2NTAwNzMw&#xA;MDczMDA1RjAwNTMwMDc0MDA3MjAwNjUwMDY1MDA3NDAwNUYwMDQxMDA3MDAwNzAwMDZDMDA3OTAw&#xA;NDYwMDY5MDA2QzAwNzQwMDY1MDA3MjAwNzMwMDI3MDA1RDAwAQAxAQDCtQBAMjMwMDVGMDA1RjAw&#xA;NEMwMDZGMDA2NzAwNjkwMDczMDA3NDAwNjkwMDYzMDA3MzAwNTAwMDZGMDA3MzAwNzQwMDYxMDA2&#xA;QzAwNDEwMDY0MDA2NDAwNzIwMDY1MDA3MzAwNzMwMDVGMDA1MzAwNzQwMDcyMDA2NTAwNjUwMDc0&#xA;MDA1RjAwNDEwMDcwMDA3MDAwNkMwMDc5MDA0NjAwNjkwMDZDMDA3NDAwNjUwMDcyMDA3MzAwAAAG&#xA;AHZhbHVlcwMAAQAwAQDCtQBAMjMwMDVGMDA1RjAwNEMwMDZGMDA2NzAwNjkwMDczMDA3NDAwNjkw&#xA;MDYzMDA3MzAwNTAwMDZGMDA3MzAwNzQwMDYxMDA2QzAwNDEwMDY0MDA2NDAwNzIwMDY1MDA3MzAw&#xA;NzMwMDVGMDA1MzAwNzQwMDcyMDA2NTAwNjUwMDc0MDA1RjAwNDEwMDcwMDA3MDAwNkMwMDc5MDA0&#xA;NjAwNjkwMDZDMDA3NDAwNjUwMDcyMDA3MzAwAQAyAQB5AEAyRjAwMkYwMDYyMDA3NTAwNzQwMDc0&#xA;MDA2RjAwNkUwMDVCMDA2MzAwNkYwMDZFMDA3NDAwNjEwMDY5MDA2RTAwNzMwMDI4MDAyRTAwMkMw&#xA;MDIwMDAyNzAwNDEwMDcwMDA3MDAwNkMwMDc5MDAyNzAwMjkwMDVEMDABADEBAMOxAEAyRjAwMkYw&#xA;MDYyMDA3NTAwNzQwMDc0MDA2RjAwNkUwMDVCMDA0MDAwNkUwMDYxMDA2RDAwNjUwMDNEMDAyNzAw&#xA;NEMwMDZGMDA2NzAwNjkwMDczMDA3NDAwNjkwMDYzMDA3MzAwNTAwMDZGMDA3MzAwNzQwMDYxMDA2&#xA;QzAwNDEwMDY0MDA2NDAwNzIwMDY1MDA3MzAwNzMwMDVGMDA1MzAwNzQwMDcyMDA2NTAwNjUwMDc0&#xA;MDA1RjAwNDEwMDcwMDA3MDAwNkMwMDc5MDA0NjAwNjkwMDZDMDA3NDAwNjUwMDcyMDA3MzAwMjcw&#xA;MDVEMDAAAA==&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="date" type="D" value="45943.0853001968"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="712"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (30, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.Apply_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//button[contains(., 'Apply')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="date" type="D" value="45943.0852405208"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="708"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (65, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumber_Panel&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[text()='Quote Number']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="date" type="D" value="45943.0844480556"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (176, 14) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_OutlookLogin.Signin_Text&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_type=code%20id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAALkBx4kL8aUiK8hHhj9M8wgAAAAACAAAAAAAQZgAAAAEAACAAAAAhyo155LTATE6PVZg2R8w2CmaNA17O_YzgZlWT82YbhwAAAAAOgAAAAAIAACAAAABhp0WnrKWmhvjxhbNdpfuug5ggiLJABuILbIgEHSwgW2AAAAA9J5WPTzQBKs4G1JwFMwoKE4oPBLiGHSmqQNEPhb6EEEfYq2yw6KZp5_1BfmNElgFcBt294B_FV_Q48u_4n3LPNRJUU8G4B-rG09qTcdc2OaxYCoYoBYpGV6ah79Iwqi5AAAAAlSdLX2YAQsd_KAL10cOVK-kMbReTwBurVbLWHnI2lwNlOh3bDscmCaqxDiG3HI-CqyWH2lh26USS3A1rcgrs0w%26RedirectTo%3Dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;response_mode=form_post&amp;nonce=638959356807559918.OTU2ZWVjMTktNWFlMy00MmJkLTkyMDItMmE4Njg1NjViZmMyMGQwZTlmYTUtNzdlMC00ZTA3LWIwNTAtYWU5NDY5MmI4ZjIz&amp;redirect_uri=https%3A%2F%2Fqa1.sandbox.operations.dynamics.com%2F&amp;max_age=86400&amp;x-client-SKU=ID_NET472&amp;x-client-ver=8.3.0.0&amp;sso_reload=true&quot;).FindElement(&quot;//div[.='Sign in']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="date" type="D" value="45943.0848249421"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="693"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (10, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.AllFields_Menu.ApplyFilter_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[@role='dialog']//button[@title='Apply filter']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="date" type="D" value="45943.0846315856"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="685"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (9, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.GridOptions_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;#Grid_3_0_optionsCell_menuButtonButton&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="date" type="D" value="45943.0850940278"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="703"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (30, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.Apply_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//button[contains(., 'Apply')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="date" type="D" value="45943.0849472801"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '0000152520' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="701"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumberFilter_TextField&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;xpath=/html/body/div[21]/div[3]/div/div[3]/div/div/input&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="date" type="D" value="45943.0844552662"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (54, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_OutlookLogin.Next_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_type=code%20id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAALkBx4kL8aUiK8hHhj9M8wgAAAAACAAAAAAAQZgAAAAEAACAAAAAhyo155LTATE6PVZg2R8w2CmaNA17O_YzgZlWT82YbhwAAAAAOgAAAAAIAACAAAABhp0WnrKWmhvjxhbNdpfuug5ggiLJABuILbIgEHSwgW2AAAAA9J5WPTzQBKs4G1JwFMwoKE4oPBLiGHSmqQNEPhb6EEEfYq2yw6KZp5_1BfmNElgFcBt294B_FV_Q48u_4n3LPNRJUU8G4B-rG09qTcdc2OaxYCoYoBYpGV6ah79Iwqi5AAAAAlSdLX2YAQsd_KAL10cOVK-kMbReTwBurVbLWHnI2lwNlOh3bDscmCaqxDiG3HI-CqyWH2lh26USS3A1rcgrs0w%26RedirectTo%3Dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;response_mode=form_post&amp;nonce=638959356807559918.OTU2ZWVjMTktNWFlMy00MmJkLTkyMDItMmE4Njg1NjViZmMyMGQwZTlmYTUtNzdlMC00ZTA3LWIwNTAtYWU5NDY5MmI4ZjIz&amp;redirect_uri=https%3A%2F%2Fqa1.sandbox.operations.dynamics.com%2F&amp;max_age=86400&amp;x-client-SKU=ID_NET472&amp;x-client-ver=8.3.0.0&amp;sso_reload=true&quot;).FindElement(&quot;#idSIButton9&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="date" type="D" value="45943.0860662616"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="708"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (65, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumber_Panel&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[text()='Quote Number']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="date" type="D" value="45943.0854764236"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '0000152520' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="710"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumberFilter_TextField&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;xpath=/html/body/div[21]/div[3]/div/div[3]/div/div/input&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="date" type="D" value="45943.0848166782"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="692"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (10, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.AllFields_Menu.ApplyFilter_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[@role='dialog']//button[@title='Apply filter']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="date" type="D" value="45943.0861267014"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="712"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (30, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.Apply_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//button[contains(., 'Apply')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="date" type="D" value="45943.0848860764"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="697"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (34, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.Update_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;#FormControlFieldSelector_2_OK&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="45943.0842482407"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Google Chrome was launched."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="676"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Google Chrome ver.138.0.7204.97 (x64)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files\Google\Chrome\Application\chrome.exe&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;-incognito&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;amp;mi=SalesTableListPage&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PID:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;6664&lt;/td&gt;&lt;/tr&gt;											  &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="date" type="D" value="45943.0860958449"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '0000152520' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="710"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumberFilter_TextField&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;xpath=/html/body/div[21]/div[3]/div/div[3]/div/div/input&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="date" type="D" value="45943.0845167824"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_AristocratLogin_Active.Verify_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat.okta.com/app/office365/exk1rqhftLyRPOLa2356/sso/wsfed/passive?client-request-id=0d1e8366-483f-43e4-b21f-4cb3804ac61a&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAlVNNjNtUEI432e3uSm23FUIVB-ihRQg1jn8Te6UF7MRJHP_lx4nXFlLkv9hO_JPYznqTU0VBgtueuUFvFQe0XBCnHhCHPfWIeqoqkFAvIMRhj01S9g6j0bw3b7753hu9mf1rBIiCEAh9mIdB-PAetBEYL66XN8a82l1JfHv_YPTo3esfN3-rnr_H__Cw9cs7T4AHbppOk8NSaabDYKKHlhGdgtHUjvXUi8IEtBahHnhmAppRUPoRAJ4BwB8A8GQrKaMEiZMoXiagCo6TJEyAktxHNGUwFuRJKip1X1hAkBC0Jrw8WQg1NhUCBhPHDiyOB54WCAuh0ck02Q9UuZ-KS8sXqhCkyRTKK2wmylSqKn1crKm4ELCYNmaXz7duStQ8dZG1iWJvaf-9tTeK4mA4jZL06_wXBWlqh6xVjcLQNlNwDbPD1DM3tbTjdVmpZydHVIeiKLEqhBZB1y2mO25GVMYMq34xoVcRip_Qp9iEJ_S-xxFu0x2TApE56whV3ViK6mgbn7k6cRcRjOO8TMlMuT3QHKRLZEg10EUKrkhDdeloviITiGq42QYvvaFj_82n3SmkhDGnBO7J-NQ1RGs6ms8d3HE8vkXRc5Y3WIdp9jJHQTaJZAtX2vKyQ3MJ1oBbWV3IIo7BojbNe41mL5h1RKbtGmWGYUbqDFlkZU6b4kOYHgUi4zt1k04REqOH9cGwgxHzIRaifFvstvp9ooHRxbgBkTPZtExE0k_VaqRGtDptDMq6WyHZbObhm0f4PYs_RlSqk1hDjuJhyJQGXHEiGF1bzuh5PDB4pRmyiJ-JvuSiRi0xg6o-O615DbTJFquzhdJEfBcp93s9lIJj04kTKHu_a1tevPpAOTradOd9lLqP1Ff6H3p0hTrP3zMrkGGhqFnESFIvYmWjUtR10ioa0GhUwWFoZJLoRf7GiiP0rLvTOBp5vv0yf8eMg9ROUhD7RI-9JI3M1RVr1qeFh4-3nxWAV4W3d3cP8ndyd3MfvAXlD3d39w9ya--yAHy7vRqw7148Fpznn7ceffRp_E_hInexXWrFmqC1qAYhKZFdoTk8XFQQhdZLJyedk5quHLvdEWoypNQXjohD-GwHONvZudjZY2tDkZGxCvLXDvDltdxPe_9rVJ9ez13e-PX8m69-__mzP5uvbj4ohfaszpXYUOCCulie97UTd6mTNh53B8cV1QmXEsc1eolVmxx9f5B7sdJbuctbZ1uvAQ2&amp;cbcxt=&amp;username=crmtest.4%40aristocrat.com&amp;mkt=&amp;lc=&quot;).FindElement(&quot;//input[@value='Verify']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="date" type="D" value="45943.085506713"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="712"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (30, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.Apply_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//button[contains(., 'Apply')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="date" type="D" value="45943.0847854398"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageAllSalesOrdersFinanceAndOper.&amp;#8203;&lt;a href=&quot;namemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{8E3FB7DC-5718-4375-B2AD-B635E94489B2}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxShipToCustomerAccount&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//div[@role='dialog']//input&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://{59F70A0F-5334-44D2-9C4F-27924283CBFC}.if&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="date" type="D" value="45943.0846632523"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="687"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (51, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.GridMenu_Button.InsertColumns_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;#Grid_3_0_AddNewColumnId&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="date" type="D" value="45943.085889456"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '0000152520' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="710"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumberFilter_TextField&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;xpath=/html/body/div[21]/div[3]/div/div[3]/div/div/input&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="date" type="D" value="45943.0842941204"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Navigating to the https://qa1.sandbox.operations.dynamics.com/... page."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="676"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="URL: https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&#xA;&#xA;Aliases.browser"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="date" type="D" value="45943.0863039468"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '0000152520' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="710"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumberFilter_TextField&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;xpath=/html/body/div[21]/div[3]/div/div[3]/div/div/input&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="date" type="D" value="45943.085447037"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="708"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (65, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumber_Panel&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[text()='Quote Number']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="date" type="D" value="45943.0856535648"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="708"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (65, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumber_Panel&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[text()='Quote Number']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 11">
+			<Prp name="date" type="D" value="45943.0847860301"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'quote number' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="690"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumber_TextField&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[@role='dialog']//input&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="date" type="D" value="45943.0857136111"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="712"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (30, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.Apply_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//button[contains(., 'Apply')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="date" type="D" value="45943.0852699306"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '0000152520' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="710"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumberFilter_TextField&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;xpath=/html/body/div[21]/div[3]/div/div[3]/div/div/input&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="date" type="D" value="45943.0849178935"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="699"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (76, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumber_Panel&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[text()='Quote Number']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="date" type="D" value="45943.085860081"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="708"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (65, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.QuoteNumber_Panel&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//div[text()='Quote Number']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="date" type="D" value="45943.0845035069"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The text 'Te$tU$er16' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_AristocratLogin_Active.Password_Field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://aristocrat.okta.com/app/office365/exk1rqhftLyRPOLa2356/sso/wsfed/passive?client-request-id=0d1e8366-483f-43e4-b21f-4cb3804ac61a&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAlVNNjNtUEI432e3uSm23FUIVB-ihRQg1jn8Te6UF7MRJHP_lx4nXFlLkv9hO_JPYznqTU0VBgtueuUFvFQe0XBCnHhCHPfWIeqoqkFAvIMRhj01S9g6j0bw3b7753hu9mf1rBIiCEAh9mIdB-PAetBEYL66XN8a82l1JfHv_YPTo3esfN3-rnr_H__Cw9cs7T4AHbppOk8NSaabDYKKHlhGdgtHUjvXUi8IEtBahHnhmAppRUPoRAJ4BwB8A8GQrKaMEiZMoXiagCo6TJEyAktxHNGUwFuRJKip1X1hAkBC0Jrw8WQg1NhUCBhPHDiyOB54WCAuh0ck02Q9UuZ-KS8sXqhCkyRTKK2wmylSqKn1crKm4ELCYNmaXz7duStQ8dZG1iWJvaf-9tTeK4mA4jZL06_wXBWlqh6xVjcLQNlNwDbPD1DM3tbTjdVmpZydHVIeiKLEqhBZB1y2mO25GVMYMq34xoVcRip_Qp9iEJ_S-xxFu0x2TApE56whV3ViK6mgbn7k6cRcRjOO8TMlMuT3QHKRLZEg10EUKrkhDdeloviITiGq42QYvvaFj_82n3SmkhDGnBO7J-NQ1RGs6ms8d3HE8vkXRc5Y3WIdp9jJHQTaJZAtX2vKyQ3MJ1oBbWV3IIo7BojbNe41mL5h1RKbtGmWGYUbqDFlkZU6b4kOYHgUi4zt1k04REqOH9cGwgxHzIRaifFvstvp9ooHRxbgBkTPZtExE0k_VaqRGtDptDMq6WyHZbObhm0f4PYs_RlSqk1hDjuJhyJQGXHEiGF1bzuh5PDB4pRmyiJ-JvuSiRi0xg6o-O615DbTJFquzhdJEfBcp93s9lIJj04kTKHu_a1tevPpAOTradOd9lLqP1Ff6H3p0hTrP3zMrkGGhqFnESFIvYmWjUtR10ioa0GhUwWFoZJLoRf7GiiP0rLvTOBp5vv0yf8eMg9ROUhD7RI-9JI3M1RVr1qeFh4-3nxWAV4W3d3cP8ndyd3MfvAXlD3d39w9ya--yAHy7vRqw7148Fpznn7ceffRp_E_hInexXWrFmqC1qAYhKZFdoTk8XFQQhdZLJyedk5quHLvdEWoypNQXjohD-GwHONvZudjZY2tDkZGxCvLXDvDltdxPe_9rVJ9ez13e-PX8m69-__mzP5uvbj4ohfaszpXYUOCCulie97UTd6mTNh53B8cV1QmXEsc1eolVmxx9f5B7sdJbuctbZ1uvAQ2&amp;cbcxt=&amp;username=crmtest.4%40aristocrat.com&amp;mkt=&amp;lc=&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Password')]/@for)]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="date" type="D" value="45943.0859197569"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="712"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (30, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.Apply_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//button[contains(., 'Apply')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="date" type="D" value="45943.0844241782"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (174, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_OutlookLogin.Email_Field&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_type=code%20id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAALkBx4kL8aUiK8hHhj9M8wgAAAAACAAAAAAAQZgAAAAEAACAAAAAhyo155LTATE6PVZg2R8w2CmaNA17O_YzgZlWT82YbhwAAAAAOgAAAAAIAACAAAABhp0WnrKWmhvjxhbNdpfuug5ggiLJABuILbIgEHSwgW2AAAAA9J5WPTzQBKs4G1JwFMwoKE4oPBLiGHSmqQNEPhb6EEEfYq2yw6KZp5_1BfmNElgFcBt294B_FV_Q48u_4n3LPNRJUU8G4B-rG09qTcdc2OaxYCoYoBYpGV6ah79Iwqi5AAAAAlSdLX2YAQsd_KAL10cOVK-kMbReTwBurVbLWHnI2lwNlOh3bDscmCaqxDiG3HI-CqyWH2lh26USS3A1rcgrs0w%26RedirectTo%3Dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;response_mode=form_post&amp;nonce=638959356807559918.OTU2ZWVjMTktNWFlMy00MmJkLTkyMDItMmE4Njg1NjViZmMyMGQwZTlmYTUtNzdlMC00ZTA3LWIwNTAtYWU5NDY5MmI4ZjIz&amp;redirect_uri=https%3A%2F%2Fqa1.sandbox.operations.dynamics.com%2F&amp;max_age=86400&amp;x-client-SKU=ID_NET472&amp;x-client-ver=8.3.0.0&amp;sso_reload=true&quot;).FindElement(&quot;//input[@name='loginfmt']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45943.0865100694"/>
+			<Prp name="line no" type="I" value="712"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (30, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_D65.Apply_Button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&amp;mi=SalesTableListPage&quot;).FindElement(&quot;//button[contains(., 'Apply')]&quot;))"/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45943.0865412847"/>
+			<Prp name="line no" type="I" value="721"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The process &quot;chrome&quot; was closed."/>
+			<Prp name="remarks" type="S" value="The close command was sent to the window with the 'All sales orders -- Finance and Operations - Google Chrome' caption. &#xA;&#xA;Tested object:&#xA;Aliases.browser&#xA;(Sys.Browser(&quot;chrome&quot;))"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45943.0865390972"/>
+			<Prp name="line no" type="I" value="719"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: title contains the substring (case-sensitive) &quot;GREEN VALLEY RANCH RESORT SPA CASINO&quot;."/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.Page_D65.CustomerName_Node.title&lt;b&gt; contains the substring (case-sensitive) &lt;/b&gt;&quot;GREEN VALLEY RANCH RESORT SPA CASINO&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{9C4EF2B7-28EE-4CA9-BF22-668B7824CF29}.{4EBC1BD5-5452-4D69-9820-EA7398F2C41A}'&gt;Aliases.browser.Page_D65.CustomerName_Node&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;title&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;contains the substring (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;GREEN VALLEY RANCH RESORT SPA CASINO&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;GREEN VALLEY RANCH RESORT SPA CASINO&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

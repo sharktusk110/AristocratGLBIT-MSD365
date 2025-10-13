@@ -21,6 +21,9 @@ function Opportunity_Creation(Config) {
  var account=Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch;
  var opportunity=Aliases.browser.Page_NewOpportunityCreation;
 
+ Browsers.Item(btChrome).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
+                                   "Tester\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" --disable-site-isolation-trials";           
+
  Browsers.Item(btChrome).Run("https://test.salesforce.com");
  
  Project.Variables.SF_Login=Sys.Browser().Page("*").URL;
@@ -670,7 +673,7 @@ Sys.Browser("chrome").Close();
 
 function D65_MigrationCheck(Config)
 {
-//quote_number="00141774";
+quote_number="00152520";
 var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
 var firm=Aliases.browser.Page_D65;
 Browsers.Item(btChrome).RunOptions = "-incognito";
@@ -719,7 +722,7 @@ Browsers.Item(btChrome).Run(durl);
   }
   aqObject.CheckProperty(firm.CustomerName_Node, "title", cmpContains, Config[0]);
   
-  Sys.Browser("chrome").Close();
+  Sys.Browser("chrome").Terminate();
   
   Delay(5000);
 }

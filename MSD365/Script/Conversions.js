@@ -21,6 +21,9 @@ function Opportunity_Creation(Config) {
  var account=Aliases.browser.Page_SFAppSearch_AccountSearch.AccountSearch;
  var opportunity=Aliases.browser.Page_NewOpportunityCreation;
 
+ Browsers.Item(btChrome).RunOptions = "--disable-web-security --user-data-dir=\"C:\\Users\\"+
+                                   "Tester\\AppData\\Local\\Google\\Chrome\\User Data\\Default\" --disable-site-isolation-trials";           
+
  Browsers.Item(btChrome).Run("https://test.salesforce.com");
  
  Project.Variables.SF_Login=Sys.Browser().Page("*").URL;

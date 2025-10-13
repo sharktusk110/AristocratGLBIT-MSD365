@@ -588,4 +588,6 @@ Browsers.Item(btChrome).Run(durl);
   aqObject.CheckProperty(firm.CustomerName_Node, "title", cmpContains, Config[0]);
   
   Sys.Browser("chrome").Close();
+  
+  Delay(5000);
 }

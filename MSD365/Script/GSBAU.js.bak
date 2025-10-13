@@ -670,7 +670,7 @@ Sys.Browser("chrome").Close();
 
 function D65_MigrationCheck(Config)
 {
-//quote_number="00141774";
+quote_number="00152520";
 var durl="https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage";
 var firm=Aliases.browser.Page_D65;
 Browsers.Item(btChrome).RunOptions = "-incognito";
@@ -719,5 +719,7 @@ Browsers.Item(btChrome).Run(durl);
   }
   aqObject.CheckProperty(firm.CustomerName_Node, "title", cmpContains, Config[0]);
   
-  Sys.Browser("chrome").Close();
+  Sys.Browser("chrome").Terminate();
+  
+  Delay(5000);
 }
