@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The execution process was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;submitbuttonLogInToSandbox&quot; does not exist."/>
+							</Node>
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45943.0386632176"/>
+						<Prp name="duration" type="I" value="26928"/>
+						<Prp name="durationwithoutchildren" type="I" value="26928"/>
+						<Prp name="name" type="S" value="RR"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADQAMwAyAEQAQgA4ADQALQAyAEMAMgBGAC0ANABCADkAOQAtAEIAOQAwADcALQA1AEMAMQBCAEMAMwA4AEYANQAzAEIARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because title does not contain the substring (case-sensitive) &quot;GREEN VALLEY RANCH RESORT SPA CASINO&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="45943.0299469444"/>
+						<Prp name="duration" type="I" value="753075"/>
+						<Prp name="durationwithoutchildren" type="I" value="753075"/>
+						<Prp name="name" type="S" value="Outright_Sale"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADgAOABDADgARQAwAEIALQAxAEMAOQAwAC0ANAA2ADUARAAtAEIAQwA0ADEALQA5ADgARgA4AEUAMwAyAEYAQQA1ADYARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45943.0389750231"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="name" type="S" value="Nongaming"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45943.0389750231"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="name" type="S" value="Tr"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45943.0389750231"/>
+						<Prp name="duration" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="name" type="S" value="Conversion"/>
+						<Prp name="status" type="I" value="3"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="3"/>
+				<Prp name="starttime" type="D" value="45943.0299469444"/>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="780003"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="2"/>
+				<Prp name="name" type="S" value="MSD365"/>
+			</Node>
+		</Node>
+		<Prp name="host" type="S" value="lash-tstexe-001"/>
+		<Prp name="user" type="S" value="svc-p-azureagent"/>
+		<Prp name="starttime" type="D" value="45943.0299468634"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="stop" type="D" value="45943.038975706"/>
+		<Prp name="key" type="S" value="{B4C198EF-B04B-4EAE-99E4-D495804A3365}"/>
+		<Prp name="testname" type="S" value="MSD365"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="3"/>
+		<Prp name="tests" type="I" value="5"/>
+		<Prp name="name" type="S" value="AristocratGLBIT"/>
+		<Prp name="failedtests" type="I" value="2"/>
+		<Prp name="warningtests" type="I" value="0"/>
+	</Node>
+</Nodes>
